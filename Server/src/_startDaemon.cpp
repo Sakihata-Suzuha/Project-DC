@@ -29,7 +29,7 @@ int _startDaemon()
 						goto err1;
 				}
 				else if(sid > 0){
-						ret = chdir("/home/rakcrta/launch/Project/");
+						ret = chdir("../.");
 						if(ret < 0){
 								perror("[chdir]");
 								goto err2;
