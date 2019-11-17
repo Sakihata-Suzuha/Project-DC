@@ -1,24 +1,44 @@
 #include <stdio.h>
+#include <stdlib.h>
 #include <iostream>
-#include "myFork.h"
+#include <sys/types.h>
+#include <sys/unistd.h>
+#include <signal.h>
+#include "../Log_Module/easylogging++.h"
+#include "../def.h"
+#include "./Process_Manager.h"
 
 pid_t myFork()
 {
-		std::cout << __func__ << ": start..." << std::endl;
+	pid_t funcPid;
+	int ret;
 
-		pid_t pid;
+	funcPid = fork();
+	if(funcPid == -1){
+		perror("[fork]");
+		LOG(WARNING) << "create child process failed...\n";
 
-		pid = fork();
-		if(pid < 0){
-				perror("[fork]");
-				exit(10001);		//todo errCode enum
+		ret = kill(getpid(),SIGUSR1);
+		if(ret == -1){
+			perror("[kill]");
+			LOG(ERROR) << "kill failed...\n";
+
+			abort();
 		}
-		else if(pid == 0){
-				std::cout << "fork succ, child proc start..." << std::endl;
-				return pid;
-		}
-		else if(pid > 0){
-				std::cout << "parent proc fork succ, get child pid: " << pid << std::endl;
-				return pid;
-		}
+	}
+
+	if(funcPid == 0){
+		printf("child process is created...\n");
+		LOG(DEBUG) << "child process is created...\n";
+
+		return funcPid;
+	}
+	else if(funcPid > 0){
+		printf("child process is %d...\n",funcPid);
+		LOG(DEBUG) << "child process is " << funcPid << "...\n";
+
+		return funcPid;
+	}
+
+	return _UNKNOWN_EVENT_;
 }

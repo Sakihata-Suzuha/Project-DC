@@ -107,6 +107,7 @@ int _startDaemon()
 													printf("EPOLLIN event...\n");
 
 													char buf[1024] = "";
+													memset(buf,0,1024);
 													
 													int ret = read(activeEvent.data.fd,buf,sizeof(buf)-1);
 													if(ret < 0){
@@ -115,8 +116,19 @@ int _startDaemon()
 
 													printf("[recv]%s\n",buf);
 
-													send(activeEvent.data.fd,"周阳露牛逼\n\0",sizeof("周阳露牛逼\n\0"),0);
-													send(activeEvent.data.fd,buf,sizeof(buf)-1,0);
+													if(buf[0] == 'G')
+														if(buf[1] == 'E'){
+															LOG(INFO) << "gun\n";
+												LOG(INFO) << "client close , because of err\n";
+												epoll_ctl(epfd,EPOLL_CTL_DEL,activeEvent.data.fd,NULL);
+												close(activeEvent.data.fd);
+												continue;
+														}
+
+													int t1 = send(activeEvent.data.fd,"周阳露牛逼\n\0",sizeof("周阳露牛逼\n\0"),0);
+													LOG(INFO) << t1 << std::endl;
+													int t2 = send(activeEvent.data.fd,buf,sizeof(buf)-1,0);
+													LOG(INFO) << t2 << std::endl;
 													
 													printf("http???\n");
 											}
