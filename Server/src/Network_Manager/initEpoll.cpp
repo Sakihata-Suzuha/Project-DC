@@ -10,7 +10,7 @@ int initEpoll(int* epfd, struct epoll_event* ev, int* lfd)
 
 		*epfd = epoll_create(1);
 
-		ev->events = EPOLLIN;
+		ev->events = EPOLLIN|EPOLLERR;
 		ev->data.fd = *lfd;
 
 		ret = epoll_ctl(*epfd,EPOLL_CTL_ADD,*lfd,ev);

@@ -12,6 +12,7 @@
 #include "./Process_Manager/myFork.h"
 #include "./Network_Manager/regSocket.h"
 #include "./Network_Manager/initEpoll.h"
+#include "easylogging++.h"
 
 int _startDaemon()
 {
@@ -37,7 +38,7 @@ int _startDaemon()
 						else if(ret == 0){
 								umask(0002);
 
-								fd = open("./logs/dup2.test",O_APPEND|O_CREAT|O_RDWR);
+								fd = open("./log/aaaa.test",O_APPEND|O_CREAT|O_RDWR);
 								if(fd < 0){
 										perror("[open]");
 										goto err3;
@@ -95,7 +96,7 @@ int _startDaemon()
 
 													epoll_event tEv;
 													tEv.data.fd = afd;
-													tEv.events = EPOLLIN;
+													tEv.events = EPOLLIN|EPOLLERR|EPOLLRDHUP; 
 													//后续改边沿模式
 													//tEv.events = EPOLLIN|EPOLLET;
 													
@@ -116,6 +117,15 @@ int _startDaemon()
 
 													send(activeEvent.data.fd,"周阳露牛逼\n\0",sizeof("周阳露牛逼\n\0"),0);
 													send(activeEvent.data.fd,buf,sizeof(buf)-1,0);
+													
+													printf("http???\n");
+											}
+											else if(activeEvent.events & EPOLLERR || activeEvent.events & EPOLLRDHUP)
+											{
+												LOG(INFO) << "client close , because of err\n";
+												epoll_ctl(epfd,EPOLL_CTL_DEL,activeEvent.data.fd,NULL);
+												close(activeEvent.data.fd);
+												continue;
 											}
 									}
 								}
