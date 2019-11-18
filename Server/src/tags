@@ -1,0 +1,1455 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+AbstractRegistry	Log_Module/easylogging++.h	/^  AbstractRegistry(AbstractRegistry&& sr) {$/;"	f	class:el::el::ConfigurationType::base::TimestampUnit::FormatFlags::utils::AbstractRegistry
+AbstractRegistry	Log_Module/easylogging++.h	/^  AbstractRegistry(void) {}$/;"	f	class:el::el::ConfigurationType::base::TimestampUnit::FormatFlags::utils::AbstractRegistry
+AbstractRegistry	Log_Module/easylogging++.h	/^class AbstractRegistry : public base::threading::ThreadSafe {$/;"	c	namespace:el::el::ConfigurationType::base::TimestampUnit::FormatFlags::utils
+AllowVerboseIfModuleNotSpecified	Log_Module/easylogging++.h	/^  AllowVerboseIfModuleNotSpecified = 2,$/;"	m	class:el::el::ConfigurationType::LoggingFlag
+And	Log_Module/easylogging++.h	/^static inline base::type::EnumType And(Enum e, base::type::EnumType flag) {$/;"	f	namespace:el::el::ConfigurationType::base::TimestampUnit::FormatFlags::utils::bitwise
+AppName	Log_Module/easylogging++.h	/^  AppName = 1 << 11,$/;"	m	class:el::el::ConfigurationType::base::TimestampUnit::FormatFlags
+AsyncDispatchWorker	Log_Module/easylogging++.cpp	/^AsyncDispatchWorker::AsyncDispatchWorker() {$/;"	f	class:el::base::AsyncDispatchWorker
+AsyncDispatchWorker	Log_Module/easylogging++.h	/^class AsyncDispatchWorker : public base::IWorker, public base::threading::ThreadSafe {$/;"	c	namespace:el::el::ConfigurationType::base::TimestampUnit::base::base
+AsyncLogDispatchCallback	Log_Module/easylogging++.h	/^class AsyncLogDispatchCallback : public LogDispatchCallback {$/;"	c	namespace:el::el::ConfigurationType::base::TimestampUnit::base::base
+AsyncLogItem	Log_Module/easylogging++.h	/^  explicit AsyncLogItem(const LogMessage& logMessage, const LogDispatchData& data, const base::type::string_t& logLine)$/;"	f	class:el::el::ConfigurationType::base::TimestampUnit::base::base::AsyncLogItem
+AsyncLogItem	Log_Module/easylogging++.h	/^class AsyncLogItem {$/;"	c	namespace:el::el::ConfigurationType::base::TimestampUnit::base::base
+AsyncLogQueue	Log_Module/easylogging++.h	/^class AsyncLogQueue : public base::threading::ThreadSafe {$/;"	c	namespace:el::el::ConfigurationType::base::TimestampUnit::base::base
+AutoSpacing	Log_Module/easylogging++.h	/^  AutoSpacing = 8192,$/;"	m	class:el::el::ConfigurationType::LoggingFlag
+CCHECK	Log_Module/easylogging++.h	4420;"	d
+CCHECK	Log_Module/easylogging++.h	4444;"	d
+CCHECK_BOUNDS	Log_Module/easylogging++.h	4428;"	d
+CCHECK_BOUNDS	Log_Module/easylogging++.h	4454;"	d
+CCHECK_EQ	Log_Module/easylogging++.h	4422;"	d
+CCHECK_EQ	Log_Module/easylogging++.h	4448;"	d
+CCHECK_GE	Log_Module/easylogging++.h	4427;"	d
+CCHECK_GE	Log_Module/easylogging++.h	4453;"	d
+CCHECK_GT	Log_Module/easylogging++.h	4425;"	d
+CCHECK_GT	Log_Module/easylogging++.h	4451;"	d
+CCHECK_LE	Log_Module/easylogging++.h	4426;"	d
+CCHECK_LE	Log_Module/easylogging++.h	4452;"	d
+CCHECK_LT	Log_Module/easylogging++.h	4424;"	d
+CCHECK_LT	Log_Module/easylogging++.h	4450;"	d
+CCHECK_NE	Log_Module/easylogging++.h	4423;"	d
+CCHECK_NE	Log_Module/easylogging++.h	4449;"	d
+CCHECK_NOTNULL	Log_Module/easylogging++.h	4429;"	d
+CCHECK_NOTNULL	Log_Module/easylogging++.h	4462;"	d
+CCHECK_STRCASEEQ	Log_Module/easylogging++.h	4430;"	d
+CCHECK_STRCASEEQ	Log_Module/easylogging++.h	4467;"	d
+CCHECK_STRCASENE	Log_Module/easylogging++.h	4431;"	d
+CCHECK_STRCASENE	Log_Module/easylogging++.h	4469;"	d
+CCHECK_STREQ	Log_Module/easylogging++.h	4463;"	d
+CCHECK_STRNE	Log_Module/easylogging++.h	4465;"	d
+CDEBUG	Log_Module/easylogging++.h	3955;"	d
+CDEBUG	Log_Module/easylogging++.h	4000;"	d
+CDEBUG_AFTER_N	Log_Module/easylogging++.h	3976;"	d
+CDEBUG_AFTER_N	Log_Module/easylogging++.h	4125;"	d
+CDEBUG_EVERY_N	Log_Module/easylogging++.h	3969;"	d
+CDEBUG_EVERY_N	Log_Module/easylogging++.h	4082;"	d
+CDEBUG_IF	Log_Module/easylogging++.h	3962;"	d
+CDEBUG_IF	Log_Module/easylogging++.h	4039;"	d
+CDEBUG_N_TIMES	Log_Module/easylogging++.h	3983;"	d
+CDEBUG_N_TIMES	Log_Module/easylogging++.h	4168;"	d
+CERROR	Log_Module/easylogging++.h	3957;"	d
+CERROR	Log_Module/easylogging++.h	4005;"	d
+CERROR_AFTER_N	Log_Module/easylogging++.h	3977;"	d
+CERROR_AFTER_N	Log_Module/easylogging++.h	4131;"	d
+CERROR_EVERY_N	Log_Module/easylogging++.h	3970;"	d
+CERROR_EVERY_N	Log_Module/easylogging++.h	4088;"	d
+CERROR_IF	Log_Module/easylogging++.h	3963;"	d
+CERROR_IF	Log_Module/easylogging++.h	4045;"	d
+CERROR_N_TIMES	Log_Module/easylogging++.h	3984;"	d
+CERROR_N_TIMES	Log_Module/easylogging++.h	4174;"	d
+CFATAL	Log_Module/easylogging++.h	3956;"	d
+CFATAL	Log_Module/easylogging++.h	4010;"	d
+CFATAL_AFTER_N	Log_Module/easylogging++.h	3978;"	d
+CFATAL_AFTER_N	Log_Module/easylogging++.h	4137;"	d
+CFATAL_EVERY_N	Log_Module/easylogging++.h	3971;"	d
+CFATAL_EVERY_N	Log_Module/easylogging++.h	4094;"	d
+CFATAL_IF	Log_Module/easylogging++.h	3964;"	d
+CFATAL_IF	Log_Module/easylogging++.h	4051;"	d
+CFATAL_N_TIMES	Log_Module/easylogging++.h	3985;"	d
+CFATAL_N_TIMES	Log_Module/easylogging++.h	4180;"	d
+CHECK	Log_Module/easylogging++.h	4432;"	d
+CHECK	Log_Module/easylogging++.h	4446;"	d
+CHECK_BOUNDS	Log_Module/easylogging++.h	4440;"	d
+CHECK_BOUNDS	Log_Module/easylogging++.h	4461;"	d
+CHECK_EQ	Log_Module/easylogging++.h	4434;"	d
+CHECK_EQ	Log_Module/easylogging++.h	4455;"	d
+CHECK_GE	Log_Module/easylogging++.h	4439;"	d
+CHECK_GE	Log_Module/easylogging++.h	4460;"	d
+CHECK_GT	Log_Module/easylogging++.h	4437;"	d
+CHECK_GT	Log_Module/easylogging++.h	4458;"	d
+CHECK_LE	Log_Module/easylogging++.h	4438;"	d
+CHECK_LE	Log_Module/easylogging++.h	4459;"	d
+CHECK_LT	Log_Module/easylogging++.h	4436;"	d
+CHECK_LT	Log_Module/easylogging++.h	4457;"	d
+CHECK_NE	Log_Module/easylogging++.h	4435;"	d
+CHECK_NE	Log_Module/easylogging++.h	4456;"	d
+CHECK_NOTNULL	Log_Module/easylogging++.h	4441;"	d
+CHECK_NOTNULL	Log_Module/easylogging++.h	4471;"	d
+CHECK_STRCASEEQ	Log_Module/easylogging++.h	4442;"	d
+CHECK_STRCASEEQ	Log_Module/easylogging++.h	4474;"	d
+CHECK_STRCASENE	Log_Module/easylogging++.h	4443;"	d
+CHECK_STRCASENE	Log_Module/easylogging++.h	4475;"	d
+CHECK_STREQ	Log_Module/easylogging++.h	4472;"	d
+CHECK_STRNE	Log_Module/easylogging++.h	4473;"	d
+CINFO	Log_Module/easylogging++.h	3953;"	d
+CINFO	Log_Module/easylogging++.h	3990;"	d
+CINFO_AFTER_N	Log_Module/easylogging++.h	3974;"	d
+CINFO_AFTER_N	Log_Module/easylogging++.h	4113;"	d
+CINFO_EVERY_N	Log_Module/easylogging++.h	3967;"	d
+CINFO_EVERY_N	Log_Module/easylogging++.h	4070;"	d
+CINFO_IF	Log_Module/easylogging++.h	3960;"	d
+CINFO_IF	Log_Module/easylogging++.h	4027;"	d
+CINFO_N_TIMES	Log_Module/easylogging++.h	3981;"	d
+CINFO_N_TIMES	Log_Module/easylogging++.h	4156;"	d
+CLOG	Log_Module/easylogging++.h	4201;"	d
+CLOG	Log_Module/easylogging++.h	4214;"	d
+CLOG_AFTER_N	Log_Module/easylogging++.h	4209;"	d
+CLOG_AFTER_N	Log_Module/easylogging++.h	4227;"	d
+CLOG_EVERY_N	Log_Module/easylogging++.h	4207;"	d
+CLOG_EVERY_N	Log_Module/easylogging++.h	4223;"	d
+CLOG_IF	Log_Module/easylogging++.h	4204;"	d
+CLOG_IF	Log_Module/easylogging++.h	4218;"	d
+CLOG_N_TIMES	Log_Module/easylogging++.h	4211;"	d
+CLOG_N_TIMES	Log_Module/easylogging++.h	4231;"	d
+CLOG_VERBOSE	Log_Module/easylogging++.h	4202;"	d
+CLOG_VERBOSE_IF	Log_Module/easylogging++.h	4205;"	d
+CPCHECK	Log_Module/easylogging++.h	4421;"	d
+CPCHECK	Log_Module/easylogging++.h	4445;"	d
+CPLOG	Log_Module/easylogging++.h	4271;"	d
+CPLOG	Log_Module/easylogging++.h	4279;"	d
+CPLOG_IF	Log_Module/easylogging++.h	4272;"	d
+CPLOG_IF	Log_Module/easylogging++.h	4281;"	d
+CSYSLOG	Log_Module/easylogging++.h	4292;"	d
+CSYSLOG	Log_Module/easylogging++.h	4313;"	d
+CSYSLOG_AFTER_N	Log_Module/easylogging++.h	4295;"	d
+CSYSLOG_AFTER_N	Log_Module/easylogging++.h	4318;"	d
+CSYSLOG_EVERY_N	Log_Module/easylogging++.h	4294;"	d
+CSYSLOG_EVERY_N	Log_Module/easylogging++.h	4317;"	d
+CSYSLOG_IF	Log_Module/easylogging++.h	4293;"	d
+CSYSLOG_IF	Log_Module/easylogging++.h	4315;"	d
+CSYSLOG_N_TIMES	Log_Module/easylogging++.h	4296;"	d
+CSYSLOG_N_TIMES	Log_Module/easylogging++.h	4319;"	d
+CTRACE	Log_Module/easylogging++.h	3958;"	d
+CTRACE	Log_Module/easylogging++.h	4015;"	d
+CTRACE_AFTER_N	Log_Module/easylogging++.h	3979;"	d
+CTRACE_AFTER_N	Log_Module/easylogging++.h	4143;"	d
+CTRACE_EVERY_N	Log_Module/easylogging++.h	3972;"	d
+CTRACE_EVERY_N	Log_Module/easylogging++.h	4100;"	d
+CTRACE_IF	Log_Module/easylogging++.h	3965;"	d
+CTRACE_IF	Log_Module/easylogging++.h	4057;"	d
+CTRACE_N_TIMES	Log_Module/easylogging++.h	3986;"	d
+CTRACE_N_TIMES	Log_Module/easylogging++.h	4186;"	d
+CVERBOSE	Log_Module/easylogging++.h	3959;"	d
+CVERBOSE	Log_Module/easylogging++.h	4020;"	d
+CVERBOSE_AFTER_N	Log_Module/easylogging++.h	3980;"	d
+CVERBOSE_AFTER_N	Log_Module/easylogging++.h	4149;"	d
+CVERBOSE_EVERY_N	Log_Module/easylogging++.h	3973;"	d
+CVERBOSE_EVERY_N	Log_Module/easylogging++.h	4106;"	d
+CVERBOSE_IF	Log_Module/easylogging++.h	3966;"	d
+CVERBOSE_IF	Log_Module/easylogging++.h	4063;"	d
+CVERBOSE_N_TIMES	Log_Module/easylogging++.h	3987;"	d
+CVERBOSE_N_TIMES	Log_Module/easylogging++.h	4192;"	d
+CVLOG	Log_Module/easylogging++.h	4203;"	d
+CVLOG	Log_Module/easylogging++.h	4216;"	d
+CVLOG_AFTER_N	Log_Module/easylogging++.h	4210;"	d
+CVLOG_AFTER_N	Log_Module/easylogging++.h	4229;"	d
+CVLOG_EVERY_N	Log_Module/easylogging++.h	4208;"	d
+CVLOG_EVERY_N	Log_Module/easylogging++.h	4225;"	d
+CVLOG_IF	Log_Module/easylogging++.h	4206;"	d
+CVLOG_IF	Log_Module/easylogging++.h	4220;"	d
+CVLOG_N_TIMES	Log_Module/easylogging++.h	4212;"	d
+CVLOG_N_TIMES	Log_Module/easylogging++.h	4233;"	d
+CWARNING	Log_Module/easylogging++.h	3954;"	d
+CWARNING	Log_Module/easylogging++.h	3995;"	d
+CWARNING_AFTER_N	Log_Module/easylogging++.h	3975;"	d
+CWARNING_AFTER_N	Log_Module/easylogging++.h	4119;"	d
+CWARNING_EVERY_N	Log_Module/easylogging++.h	3968;"	d
+CWARNING_EVERY_N	Log_Module/easylogging++.h	4076;"	d
+CWARNING_IF	Log_Module/easylogging++.h	3961;"	d
+CWARNING_IF	Log_Module/easylogging++.h	4033;"	d
+CWARNING_N_TIMES	Log_Module/easylogging++.h	3982;"	d
+CWARNING_N_TIMES	Log_Module/easylogging++.h	4162;"	d
+Callback	Log_Module/easylogging++.h	/^  Callback(void) : m_enabled(true) {}$/;"	f	class:el::el::ConfigurationType::base::TimestampUnit::base::Callback
+Callback	Log_Module/easylogging++.h	/^class Callback : protected base::threading::ThreadSafe {$/;"	c	namespace:el::el::ConfigurationType::base::TimestampUnit::base
+Checkpoint	Log_Module/easylogging++.h	/^    Checkpoint = 1, Complete = 2$/;"	m	class:el::el::ConfigurationType::base::TimestampUnit::base::base::PerformanceTrackingData::DataType
+ColoredTerminalOutput	Log_Module/easylogging++.h	/^  ColoredTerminalOutput = 64,$/;"	m	class:el::el::ConfigurationType::LoggingFlag
+CommandLineArgs	Log_Module/easylogging++.h	/^  CommandLineArgs(int argc, char** argv) {$/;"	f	class:el::el::ConfigurationType::base::TimestampUnit::FormatFlags::utils::CommandLineArgs
+CommandLineArgs	Log_Module/easylogging++.h	/^  CommandLineArgs(int argc, const char** argv) {$/;"	f	class:el::el::ConfigurationType::base::TimestampUnit::FormatFlags::utils::CommandLineArgs
+CommandLineArgs	Log_Module/easylogging++.h	/^  CommandLineArgs(void) {$/;"	f	class:el::el::ConfigurationType::base::TimestampUnit::FormatFlags::utils::CommandLineArgs
+CommandLineArgs	Log_Module/easylogging++.h	/^class CommandLineArgs {$/;"	c	namespace:el::el::ConfigurationType::base::TimestampUnit::FormatFlags::utils
+Complete	Log_Module/easylogging++.h	/^    Checkpoint = 1, Complete = 2$/;"	m	class:el::el::ConfigurationType::base::TimestampUnit::base::base::PerformanceTrackingData::DataType
+Configuration	Log_Module/easylogging++.cpp	/^Configuration::Configuration(Level level, ConfigurationType configurationType, const std::string& value) :$/;"	f	class:el::Configuration
+Configuration	Log_Module/easylogging++.cpp	/^Configuration::Configuration(const Configuration& c) :$/;"	f	class:el::Configuration
+Configuration	Log_Module/easylogging++.h	/^class Configuration : public Loggable {$/;"	c	class:el::el::ConfigurationType::base::TimestampUnit
+ConfigurationStringToTypeItem	Log_Module/easylogging++.cpp	/^struct ConfigurationStringToTypeItem {$/;"	s	namespace:el	file:
+ConfigurationType	Log_Module/easylogging++.h	/^enum class ConfigurationType : base::type::EnumType {$/;"	c	namespace:el::el
+ConfigurationTypeHelper	Log_Module/easylogging++.h	/^class ConfigurationTypeHelper : base::StaticClass {$/;"	c	class:el::el::ConfigurationType
+Configurations	Log_Module/easylogging++.cpp	/^Configurations::Configurations(const std::string& configurationFile, bool useDefaultsForRemaining,$/;"	f	class:el::Configurations
+Configurations	Log_Module/easylogging++.cpp	/^Configurations::Configurations(void) :$/;"	f	class:el::Configurations
+Configurations	Log_Module/easylogging++.h	/^class Configurations : public base::utils::RegistryWithPred<Configuration, Configuration::Predicate> {$/;"	c	class:el::el::ConfigurationType::base::TimestampUnit
+CrashHandler	Log_Module/easylogging++.cpp	/^CrashHandler::CrashHandler(bool useDefault) {$/;"	f	class:el::base::debug::CrashHandler
+CrashHandler	Log_Module/easylogging++.h	/^  explicit CrashHandler(const Handler& cHandler) {$/;"	f	class:el::el::ConfigurationType::base::TimestampUnit::base::base::PerformanceTrackingData::base::debug::CrashHandler
+CrashHandler	Log_Module/easylogging++.h	/^class CrashHandler : base::NoCopy {$/;"	c	namespace:el::el::ConfigurationType::base::TimestampUnit::base::base::PerformanceTrackingData::base::debug
+CreateLoggerAutomatically	Log_Module/easylogging++.h	/^  CreateLoggerAutomatically = 4096,$/;"	m	class:el::el::ConfigurationType::LoggingFlag
+CustomFormatSpecifier	Log_Module/easylogging++.h	/^  CustomFormatSpecifier(const char* formatSpecifier, const FormatSpecifierValueResolver& resolver) :$/;"	f	class:el::el::ConfigurationType::base::TimestampUnit::CustomFormatSpecifier
+CustomFormatSpecifier	Log_Module/easylogging++.h	/^class CustomFormatSpecifier {$/;"	c	class:el::el::ConfigurationType::base::TimestampUnit
+DCCHECK	Log_Module/easylogging++.h	4476;"	d
+DCCHECK	Log_Module/easylogging++.h	4500;"	d
+DCCHECK_BOUNDS	Log_Module/easylogging++.h	4483;"	d
+DCCHECK_BOUNDS	Log_Module/easylogging++.h	4507;"	d
+DCCHECK_EQ	Log_Module/easylogging++.h	4477;"	d
+DCCHECK_EQ	Log_Module/easylogging++.h	4501;"	d
+DCCHECK_GE	Log_Module/easylogging++.h	4482;"	d
+DCCHECK_GE	Log_Module/easylogging++.h	4506;"	d
+DCCHECK_GT	Log_Module/easylogging++.h	4480;"	d
+DCCHECK_GT	Log_Module/easylogging++.h	4504;"	d
+DCCHECK_LE	Log_Module/easylogging++.h	4481;"	d
+DCCHECK_LE	Log_Module/easylogging++.h	4505;"	d
+DCCHECK_LT	Log_Module/easylogging++.h	4479;"	d
+DCCHECK_LT	Log_Module/easylogging++.h	4503;"	d
+DCCHECK_NE	Log_Module/easylogging++.h	4478;"	d
+DCCHECK_NE	Log_Module/easylogging++.h	4502;"	d
+DCCHECK_NOTNULL	Log_Module/easylogging++.h	4484;"	d
+DCCHECK_NOTNULL	Log_Module/easylogging++.h	4508;"	d
+DCCHECK_STRCASEEQ	Log_Module/easylogging++.h	4485;"	d
+DCCHECK_STRCASEEQ	Log_Module/easylogging++.h	4511;"	d
+DCCHECK_STRCASENE	Log_Module/easylogging++.h	4486;"	d
+DCCHECK_STRCASENE	Log_Module/easylogging++.h	4512;"	d
+DCCHECK_STREQ	Log_Module/easylogging++.h	4509;"	d
+DCCHECK_STRNE	Log_Module/easylogging++.h	4510;"	d
+DCHECK	Log_Module/easylogging++.h	4488;"	d
+DCHECK	Log_Module/easylogging++.h	4514;"	d
+DCHECK_BOUNDS	Log_Module/easylogging++.h	4521;"	d
+DCHECK_BOUNDS_	Log_Module/easylogging++.h	4495;"	d
+DCHECK_EQ	Log_Module/easylogging++.h	4489;"	d
+DCHECK_EQ	Log_Module/easylogging++.h	4515;"	d
+DCHECK_GE	Log_Module/easylogging++.h	4494;"	d
+DCHECK_GE	Log_Module/easylogging++.h	4520;"	d
+DCHECK_GT	Log_Module/easylogging++.h	4492;"	d
+DCHECK_GT	Log_Module/easylogging++.h	4518;"	d
+DCHECK_LE	Log_Module/easylogging++.h	4493;"	d
+DCHECK_LE	Log_Module/easylogging++.h	4519;"	d
+DCHECK_LT	Log_Module/easylogging++.h	4491;"	d
+DCHECK_LT	Log_Module/easylogging++.h	4517;"	d
+DCHECK_NE	Log_Module/easylogging++.h	4490;"	d
+DCHECK_NE	Log_Module/easylogging++.h	4516;"	d
+DCHECK_NOTNULL	Log_Module/easylogging++.h	4496;"	d
+DCHECK_NOTNULL	Log_Module/easylogging++.h	4522;"	d
+DCHECK_STRCASEEQ	Log_Module/easylogging++.h	4497;"	d
+DCHECK_STRCASEEQ	Log_Module/easylogging++.h	4525;"	d
+DCHECK_STRCASENE	Log_Module/easylogging++.h	4498;"	d
+DCHECK_STRCASENE	Log_Module/easylogging++.h	4526;"	d
+DCHECK_STREQ	Log_Module/easylogging++.h	4523;"	d
+DCHECK_STRNE	Log_Module/easylogging++.h	4524;"	d
+DCLOG	Log_Module/easylogging++.h	4365;"	d
+DCLOG	Log_Module/easylogging++.h	4376;"	d
+DCLOG_AFTER_N	Log_Module/easylogging++.h	4371;"	d
+DCLOG_AFTER_N	Log_Module/easylogging++.h	4385;"	d
+DCLOG_EVERY_N	Log_Module/easylogging++.h	4369;"	d
+DCLOG_EVERY_N	Log_Module/easylogging++.h	4383;"	d
+DCLOG_IF	Log_Module/easylogging++.h	4367;"	d
+DCLOG_IF	Log_Module/easylogging++.h	4380;"	d
+DCLOG_N_TIMES	Log_Module/easylogging++.h	4373;"	d
+DCLOG_N_TIMES	Log_Module/easylogging++.h	4387;"	d
+DCLOG_VERBOSE	Log_Module/easylogging++.h	4377;"	d
+DCPCHECK	Log_Module/easylogging++.h	4487;"	d
+DCPCHECK	Log_Module/easylogging++.h	4513;"	d
+DCPLOG	Log_Module/easylogging++.h	4275;"	d
+DCPLOG	Log_Module/easylogging++.h	4283;"	d
+DCPLOG_IF	Log_Module/easylogging++.h	4276;"	d
+DCPLOG_IF	Log_Module/easylogging++.h	4285;"	d
+DCSYSLOG	Log_Module/easylogging++.h	4302;"	d
+DCSYSLOG	Log_Module/easylogging++.h	4325;"	d
+DCSYSLOG_AFTER_N	Log_Module/easylogging++.h	4305;"	d
+DCSYSLOG_AFTER_N	Log_Module/easylogging++.h	4330;"	d
+DCSYSLOG_EVERY_N	Log_Module/easylogging++.h	4304;"	d
+DCSYSLOG_EVERY_N	Log_Module/easylogging++.h	4328;"	d
+DCSYSLOG_IF	Log_Module/easylogging++.h	4303;"	d
+DCSYSLOG_IF	Log_Module/easylogging++.h	4326;"	d
+DCSYSLOG_N_TIMES	Log_Module/easylogging++.h	4306;"	d
+DCSYSLOG_N_TIMES	Log_Module/easylogging++.h	4332;"	d
+DCVLOG	Log_Module/easylogging++.h	4366;"	d
+DCVLOG	Log_Module/easylogging++.h	4378;"	d
+DCVLOG_AFTER_N	Log_Module/easylogging++.h	4372;"	d
+DCVLOG_AFTER_N	Log_Module/easylogging++.h	4386;"	d
+DCVLOG_EVERY_N	Log_Module/easylogging++.h	4370;"	d
+DCVLOG_EVERY_N	Log_Module/easylogging++.h	4384;"	d
+DCVLOG_IF	Log_Module/easylogging++.h	4368;"	d
+DCVLOG_IF	Log_Module/easylogging++.h	4381;"	d
+DCVLOG_N_TIMES	Log_Module/easylogging++.h	4374;"	d
+DCVLOG_N_TIMES	Log_Module/easylogging++.h	4388;"	d
+DEBUG	Log_Module/easylogging++.h	3947;"	d
+DLOG	Log_Module/easylogging++.h	4394;"	d
+DLOG	Log_Module/easylogging++.h	4405;"	d
+DLOG_AFTER_N	Log_Module/easylogging++.h	4400;"	d
+DLOG_AFTER_N	Log_Module/easylogging++.h	4413;"	d
+DLOG_EVERY_N	Log_Module/easylogging++.h	4398;"	d
+DLOG_EVERY_N	Log_Module/easylogging++.h	4411;"	d
+DLOG_IF	Log_Module/easylogging++.h	4396;"	d
+DLOG_IF	Log_Module/easylogging++.h	4408;"	d
+DLOG_N_TIMES	Log_Module/easylogging++.h	4402;"	d
+DLOG_N_TIMES	Log_Module/easylogging++.h	4415;"	d
+DPCHECK	Log_Module/easylogging++.h	4499;"	d
+DPCHECK	Log_Module/easylogging++.h	4527;"	d
+DPLOG	Log_Module/easylogging++.h	4277;"	d
+DPLOG	Log_Module/easylogging++.h	4289;"	d
+DPLOG_IF	Log_Module/easylogging++.h	4278;"	d
+DPLOG_IF	Log_Module/easylogging++.h	4290;"	d
+DSYSLOG	Log_Module/easylogging++.h	4307;"	d
+DSYSLOG	Log_Module/easylogging++.h	4334;"	d
+DSYSLOG_AFTER_N	Log_Module/easylogging++.h	4310;"	d
+DSYSLOG_AFTER_N	Log_Module/easylogging++.h	4337;"	d
+DSYSLOG_EVERY_N	Log_Module/easylogging++.h	4309;"	d
+DSYSLOG_EVERY_N	Log_Module/easylogging++.h	4336;"	d
+DSYSLOG_IF	Log_Module/easylogging++.h	4308;"	d
+DSYSLOG_IF	Log_Module/easylogging++.h	4335;"	d
+DSYSLOG_N_TIMES	Log_Module/easylogging++.h	4311;"	d
+DSYSLOG_N_TIMES	Log_Module/easylogging++.h	4338;"	d
+DVLOG	Log_Module/easylogging++.h	4395;"	d
+DVLOG	Log_Module/easylogging++.h	4406;"	d
+DVLOG_AFTER_N	Log_Module/easylogging++.h	4401;"	d
+DVLOG_AFTER_N	Log_Module/easylogging++.h	4414;"	d
+DVLOG_EVERY_N	Log_Module/easylogging++.h	4399;"	d
+DVLOG_EVERY_N	Log_Module/easylogging++.h	4412;"	d
+DVLOG_IF	Log_Module/easylogging++.h	4397;"	d
+DVLOG_IF	Log_Module/easylogging++.h	4409;"	d
+DVLOG_N_TIMES	Log_Module/easylogging++.h	4403;"	d
+DVLOG_N_TIMES	Log_Module/easylogging++.h	4416;"	d
+DataType	Log_Module/easylogging++.h	/^  enum class DataType : base::type::EnumType {$/;"	c	class:el::el::ConfigurationType::base::TimestampUnit::base::base::PerformanceTrackingData
+DateTime	Log_Module/easylogging++.h	/^  DateTime = 1 << 1,$/;"	m	class:el::el::ConfigurationType::base::TimestampUnit::FormatFlags
+DateTime	Log_Module/easylogging++.h	/^class DateTime : base::StaticClass {$/;"	c	namespace:el::el::ConfigurationType::base::TimestampUnit::FormatFlags::utils
+Day	Log_Module/easylogging++.h	/^  Microsecond = 0, Millisecond = 1, Second = 2, Minute = 3, Hour = 4, Day = 5$/;"	m	class:el::el::ConfigurationType::base::TimestampUnit
+Debug	Log_Module/easylogging++.h	/^  Debug = 4,$/;"	m	class:el::Level
+DefaultLogBuilder	Log_Module/easylogging++.h	/^class DefaultLogBuilder : public LogBuilder {$/;"	c	namespace:el::el::ConfigurationType::base::TimestampUnit::base::base
+DefaultLogDispatchCallback	Log_Module/easylogging++.h	/^class DefaultLogDispatchCallback : public LogDispatchCallback {$/;"	c	namespace:el::el::ConfigurationType::base::TimestampUnit::base::base
+DefaultPerformanceTrackingCallback	Log_Module/easylogging++.h	/^class DefaultPerformanceTrackingCallback : public PerformanceTrackingCallback {$/;"	c	namespace:el::el::ConfigurationType::base::TimestampUnit::base::base::PerformanceTrackingData::base
+DisableApplicationAbortOnFatalLog	Log_Module/easylogging++.h	/^  DisableApplicationAbortOnFatalLog = 8,$/;"	m	class:el::el::ConfigurationType::LoggingFlag
+DisablePerformanceTrackingCheckpointComparison	Log_Module/easylogging++.h	/^  DisablePerformanceTrackingCheckpointComparison = 256,$/;"	m	class:el::el::ConfigurationType::LoggingFlag
+DisableVModules	Log_Module/easylogging++.h	/^  DisableVModules = 512,$/;"	m	class:el::el::ConfigurationType::LoggingFlag
+DisableVModulesExtensions	Log_Module/easylogging++.h	/^  DisableVModulesExtensions = 1024,$/;"	m	class:el::el::ConfigurationType::LoggingFlag
+DispatchAction	Log_Module/easylogging++.h	/^enum class DispatchAction : base::type::EnumType {$/;"	c	namespace:el::el::ConfigurationType::base::TimestampUnit::base
+EASYLOGGINGPP_H	Log_Module/easylogging++.h	18;"	d
+ELPP	Log_Module/easylogging++.h	2723;"	d
+ELPP_ASSERT	Log_Module/easylogging++.h	155;"	d
+ELPP_ASSERT	Log_Module/easylogging++.h	162;"	d
+ELPP_ASSERT	Log_Module/easylogging++.h	170;"	d
+ELPP_ASYNC_LOGGING	Log_Module/easylogging++.h	271;"	d
+ELPP_ASYNC_LOGGING	Log_Module/easylogging++.h	273;"	d
+ELPP_CLANG_SUPPORTS_THREAD	Log_Module/easylogging++.h	60;"	d
+ELPP_COMPILER_CLANG	Log_Module/easylogging++.h	52;"	d
+ELPP_COMPILER_CLANG	Log_Module/easylogging++.h	54;"	d
+ELPP_COMPILER_GCC	Log_Module/easylogging++.h	24;"	d
+ELPP_COMPILER_GCC	Log_Module/easylogging++.h	26;"	d
+ELPP_COMPILER_INTEL	Log_Module/easylogging++.h	75;"	d
+ELPP_COMPILER_INTEL	Log_Module/easylogging++.h	77;"	d
+ELPP_COMPILER_MSVC	Log_Module/easylogging++.h	38;"	d
+ELPP_COMPILER_MSVC	Log_Module/easylogging++.h	40;"	d
+ELPP_COUNTER	Log_Module/easylogging++.h	3938;"	d
+ELPP_COUNTER	Log_Module/easylogging++.h	3941;"	d
+ELPP_COUNTER_POS	Log_Module/easylogging++.h	3939;"	d
+ELPP_COUNTER_POS	Log_Module/easylogging++.h	3943;"	d
+ELPP_COUT	Log_Module/easylogging++.h	505;"	d
+ELPP_COUT	Log_Module/easylogging++.h	510;"	d
+ELPP_COUT_LINE	Log_Module/easylogging++.h	534;"	d
+ELPP_COUT_LINE	Log_Module/easylogging++.h	536;"	d
+ELPP_CRASH_HANDLER_INIT	Log_Module/easylogging++.h	4534;"	d
+ELPP_CRT_DBG_WARNINGS	Log_Module/easylogging++.h	42;"	d
+ELPP_CURR_FILE_LOGGER_ID	Log_Module/easylogging++.h	4249;"	d
+ELPP_CURR_FILE_LOGGER_ID	Log_Module/easylogging++.h	4251;"	d
+ELPP_CXX0X	Log_Module/easylogging++.h	33;"	d
+ELPP_CXX0X	Log_Module/easylogging++.h	45;"	d
+ELPP_CXX11	Log_Module/easylogging++.h	21;"	d
+ELPP_CXX11	Log_Module/easylogging++.h	47;"	d
+ELPP_CYGWIN	Log_Module/easylogging++.h	70;"	d
+ELPP_CYGWIN	Log_Module/easylogging++.h	72;"	d
+ELPP_DEBUG_LOG	Log_Module/easylogging++.h	308;"	d
+ELPP_DEBUG_LOG	Log_Module/easylogging++.h	310;"	d
+ELPP_DEFAULT_LOGGING_FLAGS	Log_Module/easylogging++.cpp	2058;"	d	file:
+ELPP_ERROR_LOG	Log_Module/easylogging++.h	323;"	d
+ELPP_ERROR_LOG	Log_Module/easylogging++.h	325;"	d
+ELPP_EXPORT	Log_Module/easylogging++.h	229;"	d
+ELPP_EXPORT	Log_Module/easylogging++.h	231;"	d
+ELPP_EXPORT	Log_Module/easylogging++.h	234;"	d
+ELPP_FATAL_LOG	Log_Module/easylogging++.h	328;"	d
+ELPP_FATAL_LOG	Log_Module/easylogging++.h	330;"	d
+ELPP_FINAL	Log_Module/easylogging++.h	/^  virtual void updateDateFormat(std::size_t index, base::type::string_t& currFormat) ELPP_FINAL;$/;"	m	class:el::el::ConfigurationType::base::TimestampUnit::base::LogFormat
+ELPP_FINAL	Log_Module/easylogging++.h	/^  virtual void updateFormatSpec(void) ELPP_FINAL;$/;"	m	class:el::el::ConfigurationType::base::TimestampUnit::base::LogFormat
+ELPP_FINAL	Log_Module/easylogging++.h	264;"	d
+ELPP_FINAL	Log_Module/easylogging++.h	266;"	d
+ELPP_FINAL	Log_Module/easylogging++.h	268;"	d
+ELPP_FUNC	Log_Module/easylogging++.h	281;"	d
+ELPP_FUNC	Log_Module/easylogging++.h	283;"	d
+ELPP_FUNC	Log_Module/easylogging++.h	285;"	d
+ELPP_FUNC	Log_Module/easylogging++.h	287;"	d
+ELPP_FUNC	Log_Module/easylogging++.h	289;"	d
+ELPP_FUNC	Log_Module/easylogging++.h	292;"	d
+ELPP_FUNC	Log_Module/easylogging++.h	294;"	d
+ELPP_GCC_VERSION	Log_Module/easylogging++.h	29;"	d
+ELPP_INFO_LOG	Log_Module/easylogging++.h	313;"	d
+ELPP_INFO_LOG	Log_Module/easylogging++.h	315;"	d
+ELPP_INITIALIZE_SYSLOG	Log_Module/easylogging++.h	3648;"	d
+ELPP_INIT_EASYLOGGINGPP	Log_Module/easylogging++.h	4535;"	d
+ELPP_INTERNAL_DEBUGGING_ENDL	Log_Module/easylogging++.h	147;"	d
+ELPP_INTERNAL_DEBUGGING_MSG	Log_Module/easylogging++.h	150;"	d
+ELPP_INTERNAL_DEBUGGING_OUT_ERROR	Log_Module/easylogging++.h	144;"	d
+ELPP_INTERNAL_DEBUGGING_OUT_INFO	Log_Module/easylogging++.h	141;"	d
+ELPP_INTERNAL_DEBUGGING_WRITE_PERROR	Log_Module/easylogging++.h	173;"	d
+ELPP_INTERNAL_DEBUGGING_WRITE_PERROR	Log_Module/easylogging++.h	177;"	d
+ELPP_INTERNAL_ERROR	Log_Module/easylogging++.h	182;"	d
+ELPP_INTERNAL_ERROR	Log_Module/easylogging++.h	191;"	d
+ELPP_INTERNAL_INFO	Log_Module/easylogging++.h	190;"	d
+ELPP_INTERNAL_INFO	Log_Module/easylogging++.h	198;"	d
+ELPP_INTERNAL_INFO	Log_Module/easylogging++.h	204;"	d
+ELPP_INTERNAL_INFO	Log_Module/easylogging++.h	205;"	d
+ELPP_INTERNAL_INFO_LEVEL	Log_Module/easylogging++.h	195;"	d
+ELPP_ITERATOR_CONTAINER_LOG_FIVE_ARG	Log_Module/easylogging++.h	2920;"	d
+ELPP_ITERATOR_CONTAINER_LOG_FIVE_ARG	Log_Module/easylogging++.h	3146;"	d
+ELPP_ITERATOR_CONTAINER_LOG_FOUR_ARG	Log_Module/easylogging++.h	2915;"	d
+ELPP_ITERATOR_CONTAINER_LOG_FOUR_ARG	Log_Module/easylogging++.h	3145;"	d
+ELPP_ITERATOR_CONTAINER_LOG_ONE_ARG	Log_Module/easylogging++.h	2900;"	d
+ELPP_ITERATOR_CONTAINER_LOG_ONE_ARG	Log_Module/easylogging++.h	3142;"	d
+ELPP_ITERATOR_CONTAINER_LOG_THREE_ARG	Log_Module/easylogging++.h	2910;"	d
+ELPP_ITERATOR_CONTAINER_LOG_THREE_ARG	Log_Module/easylogging++.h	3144;"	d
+ELPP_ITERATOR_CONTAINER_LOG_TWO_ARG	Log_Module/easylogging++.h	2905;"	d
+ELPP_ITERATOR_CONTAINER_LOG_TWO_ARG	Log_Module/easylogging++.h	3143;"	d
+ELPP_LITERAL	Log_Module/easylogging++.h	503;"	d
+ELPP_LITERAL	Log_Module/easylogging++.h	507;"	d
+ELPP_LOGGING_ENABLED	Log_Module/easylogging++.h	303;"	d
+ELPP_LOGGING_ENABLED	Log_Module/easylogging++.h	305;"	d
+ELPP_LOG_PERMS	Log_Module/easylogging++.h	225;"	d
+ELPP_MINGW	Log_Module/easylogging++.h	65;"	d
+ELPP_MINGW	Log_Module/easylogging++.h	67;"	d
+ELPP_MIN_UNIT	Log_Module/easylogging++.h	3908;"	d
+ELPP_MIN_UNIT	Log_Module/easylogging++.h	3910;"	d
+ELPP_OS_AIX	Log_Module/easylogging++.h	108;"	d
+ELPP_OS_AIX	Log_Module/easylogging++.h	110;"	d
+ELPP_OS_ANDROID	Log_Module/easylogging++.h	129;"	d
+ELPP_OS_ANDROID	Log_Module/easylogging++.h	131;"	d
+ELPP_OS_EMSCRIPTEN	Log_Module/easylogging++.h	118;"	d
+ELPP_OS_EMSCRIPTEN	Log_Module/easylogging++.h	120;"	d
+ELPP_OS_FREEBSD	Log_Module/easylogging++.h	100;"	d
+ELPP_OS_FREEBSD	Log_Module/easylogging++.h	98;"	d
+ELPP_OS_LINUX	Log_Module/easylogging++.h	136;"	d
+ELPP_OS_LINUX	Log_Module/easylogging++.h	138;"	d
+ELPP_OS_LINUX	Log_Module/easylogging++.h	88;"	d
+ELPP_OS_LINUX	Log_Module/easylogging++.h	90;"	d
+ELPP_OS_MAC	Log_Module/easylogging++.h	93;"	d
+ELPP_OS_MAC	Log_Module/easylogging++.h	95;"	d
+ELPP_OS_NETBSD	Log_Module/easylogging++.h	113;"	d
+ELPP_OS_NETBSD	Log_Module/easylogging++.h	115;"	d
+ELPP_OS_SOLARIS	Log_Module/easylogging++.h	103;"	d
+ELPP_OS_SOLARIS	Log_Module/easylogging++.h	105;"	d
+ELPP_OS_UNIX	Log_Module/easylogging++.h	124;"	d
+ELPP_OS_UNIX	Log_Module/easylogging++.h	126;"	d
+ELPP_OS_UNIX	Log_Module/easylogging++.h	135;"	d
+ELPP_OS_UNIX	Log_Module/easylogging++.h	137;"	d
+ELPP_OS_WINDOWS	Log_Module/easylogging++.h	82;"	d
+ELPP_OS_WINDOWS	Log_Module/easylogging++.h	84;"	d
+ELPP_SIMPLE_LOG	Log_Module/easylogging++.h	2865;"	d
+ELPP_SIMPLE_LOG	Log_Module/easylogging++.h	3141;"	d
+ELPP_STACKTRACE	Log_Module/easylogging++.h	209;"	d
+ELPP_STACKTRACE	Log_Module/easylogging++.h	216;"	d
+ELPP_STACKTRACE	Log_Module/easylogging++.h	219;"	d
+ELPP_STRLEN	Log_Module/easylogging++.h	504;"	d
+ELPP_STRLEN	Log_Module/easylogging++.h	508;"	d
+ELPP_THREADING_ENABLED	Log_Module/easylogging++.h	276;"	d
+ELPP_THREADING_ENABLED	Log_Module/easylogging++.h	278;"	d
+ELPP_TRACE	Log_Module/easylogging++.h	4255;"	d
+ELPP_TRACE	Log_Module/easylogging++.h	4256;"	d
+ELPP_TRACE_LOG	Log_Module/easylogging++.h	333;"	d
+ELPP_TRACE_LOG	Log_Module/easylogging++.h	335;"	d
+ELPP_UNUSED	Log_Module/easylogging++.h	222;"	d
+ELPP_USE_DEF_CRASH_HANDLER	Log_Module/easylogging++.h	4530;"	d
+ELPP_USE_STD_THREADING	Log_Module/easylogging++.h	254;"	d
+ELPP_USE_STD_THREADING	Log_Module/easylogging++.h	259;"	d
+ELPP_USE_STD_THREADING	Log_Module/easylogging++.h	261;"	d
+ELPP_VARIADIC_FUNC_MSVC	Log_Module/easylogging++.h	3381;"	d
+ELPP_VARIADIC_FUNC_MSVC_RUN	Log_Module/easylogging++.h	3382;"	d
+ELPP_VARIADIC_TEMPLATES_SUPPORTED	Log_Module/easylogging++.h	297;"	d
+ELPP_VARIADIC_TEMPLATES_SUPPORTED	Log_Module/easylogging++.h	299;"	d
+ELPP_VERBOSE_LOG	Log_Module/easylogging++.h	338;"	d
+ELPP_VERBOSE_LOG	Log_Module/easylogging++.h	340;"	d
+ELPP_WARNING_LOG	Log_Module/easylogging++.h	318;"	d
+ELPP_WARNING_LOG	Log_Module/easylogging++.h	320;"	d
+ELPP_WRITE_LOG	Log_Module/easylogging++.h	3393;"	d
+ELPP_WRITE_LOG_AFTER_N	Log_Module/easylogging++.h	3400;"	d
+ELPP_WRITE_LOG_EVERY_N	Log_Module/easylogging++.h	3397;"	d
+ELPP_WRITE_LOG_IF	Log_Module/easylogging++.h	3395;"	d
+ELPP_WRITE_LOG_N_TIMES	Log_Module/easylogging++.h	3403;"	d
+ELPP_WX_ENABLED	Log_Module/easylogging++.h	3130;"	d
+ELPP_WX_HASH_MAP_ENABLED	Log_Module/easylogging++.h	3131;"	d
+ELPP_WX_PTR_ENABLED	Log_Module/easylogging++.h	3129;"	d
+ERROR	Log_Module/easylogging++.h	3948;"	d
+Enabled	Log_Module/easylogging++.h	/^  Enabled = 1,$/;"	m	class:el::el::ConfigurationType
+EnumType	Log_Module/easylogging++.h	/^typedef unsigned int EnumType;$/;"	t	namespace:el::base::type
+Error	Log_Module/easylogging++.h	/^  Error = 16,$/;"	m	class:el::Level
+FATAL	Log_Module/easylogging++.h	3949;"	d
+Fatal	Log_Module/easylogging++.h	/^  Fatal = 8,$/;"	m	class:el::Level
+File	Log_Module/easylogging++.h	/^  File = 1 << 3,$/;"	m	class:el::el::ConfigurationType::base::TimestampUnit::FormatFlags
+File	Log_Module/easylogging++.h	/^class File : base::StaticClass {$/;"	c	namespace:el::el::ConfigurationType::base::TimestampUnit::FormatFlags::utils
+FileBase	Log_Module/easylogging++.h	/^  FileBase = 1 << 14,$/;"	m	class:el::el::ConfigurationType::base::TimestampUnit::FormatFlags
+FileStreamPtr	Log_Module/easylogging++.h	/^typedef std::shared_ptr<base::type::fstream_t> FileStreamPtr;$/;"	t	namespace:el::el::ConfigurationType::base::TimestampUnit::base
+Filename	Log_Module/easylogging++.h	/^  Filename = 16,$/;"	m	class:el::el::ConfigurationType
+FixedTimeFormat	Log_Module/easylogging++.h	/^  FixedTimeFormat = 16384,$/;"	m	class:el::el::ConfigurationType::LoggingFlag
+Format	Log_Module/easylogging++.h	/^  Format = 8,$/;"	m	class:el::el::ConfigurationType
+FormatFlags	Log_Module/easylogging++.h	/^enum class FormatFlags : base::type::EnumType {$/;"	c	class:el::el::ConfigurationType::base::TimestampUnit
+FormatSpecifierValueResolver	Log_Module/easylogging++.h	/^typedef std::function<std::string(const LogMessage*)> FormatSpecifierValueResolver;$/;"	t	class:el::el::ConfigurationType::base::TimestampUnit
+Function	Log_Module/easylogging++.h	/^  Function = 1 << 6,$/;"	m	class:el::el::ConfigurationType::base::TimestampUnit::FormatFlags
+Global	Log_Module/easylogging++.h	/^  Global = 1,$/;"	m	class:el::Level
+Handler	Log_Module/easylogging++.h	/^  typedef void (*Handler)(int);$/;"	t	class:el::el::ConfigurationType::base::TimestampUnit::base::base::PerformanceTrackingData::base::debug::CrashHandler
+Helpers	Log_Module/easylogging++.h	/^class Helpers : base::StaticClass {$/;"	c	class:el::el::ConfigurationType::base::TimestampUnit::base::base::PerformanceTrackingData
+HierarchicalLogging	Log_Module/easylogging++.h	/^  HierarchicalLogging = 2048,$/;"	m	class:el::el::ConfigurationType::LoggingFlag
+HitCounter	Log_Module/easylogging++.h	/^  HitCounter(const HitCounter& hitCounter) :$/;"	f	class:el::el::ConfigurationType::base::TimestampUnit::base::HitCounter
+HitCounter	Log_Module/easylogging++.h	/^  HitCounter(const char* filename, base::type::LineNumber lineNumber) :$/;"	f	class:el::el::ConfigurationType::base::TimestampUnit::base::HitCounter
+HitCounter	Log_Module/easylogging++.h	/^  HitCounter(void) :$/;"	f	class:el::el::ConfigurationType::base::TimestampUnit::base::HitCounter
+HitCounter	Log_Module/easylogging++.h	/^class HitCounter {$/;"	c	namespace:el::el::ConfigurationType::base::TimestampUnit::base
+Host	Log_Module/easylogging++.h	/^  Host = 1 << 8,$/;"	m	class:el::el::ConfigurationType::base::TimestampUnit::FormatFlags
+Hour	Log_Module/easylogging++.h	/^  Microsecond = 0, Millisecond = 1, Second = 2, Minute = 3, Hour = 4, Day = 5$/;"	m	class:el::el::ConfigurationType::base::TimestampUnit
+INFO	Log_Module/easylogging++.h	3945;"	d
+INITIALIZE_EASYLOGGINGPP	Log_Module/easylogging++.h	4544;"	d
+INITIALIZE_NULL_EASYLOGGINGPP	Log_Module/easylogging++.h	4549;"	d
+IWorker	Log_Module/easylogging++.h	/^class IWorker {$/;"	c	namespace:el::el::ConfigurationType::base::TimestampUnit::base::base
+IgnoreSigInt	Log_Module/easylogging++.h	/^  IgnoreSigInt = 32768,$/;"	m	class:el::el::ConfigurationType::LoggingFlag
+ImmediateFlush	Log_Module/easylogging++.h	/^  ImmediateFlush = 16,$/;"	m	class:el::el::ConfigurationType::LoggingFlag
+Info	Log_Module/easylogging++.h	/^  Info = 128,$/;"	m	class:el::Level
+IterableContainer	Log_Module/easylogging++.h	/^  IterableContainer(void) {}$/;"	f	class:el::el::ConfigurationType::base::TimestampUnit::base::base::workarounds::IterableContainer
+IterableContainer	Log_Module/easylogging++.h	/^class IterableContainer {$/;"	c	namespace:el::el::ConfigurationType::base::TimestampUnit::base::base::workarounds
+IterablePriorityQueue	Log_Module/easylogging++.h	/^  IterablePriorityQueue(std::priority_queue<T, Container, Comparator> queue_) {$/;"	f	class:el::el::ConfigurationType::base::TimestampUnit::base::base::workarounds::IterablePriorityQueue
+IterablePriorityQueue	Log_Module/easylogging++.h	/^class IterablePriorityQueue : public IterableContainer<T, Container>,$/;"	c	namespace:el::el::ConfigurationType::base::TimestampUnit::base::base::workarounds
+IterableQueue	Log_Module/easylogging++.h	/^  IterableQueue(std::queue<T, Container> queue_) {$/;"	f	class:el::el::ConfigurationType::base::TimestampUnit::base::base::workarounds::IterableQueue
+IterableQueue	Log_Module/easylogging++.h	/^class IterableQueue : public IterableContainer<T, Container>, public std::queue<T, Container> {$/;"	c	namespace:el::el::ConfigurationType::base::TimestampUnit::base::base::workarounds
+IterableStack	Log_Module/easylogging++.h	/^  IterableStack(std::stack<T, Container> stack_) {$/;"	f	class:el::el::ConfigurationType::base::TimestampUnit::base::base::workarounds::IterableStack
+IterableStack	Log_Module/easylogging++.h	/^class IterableStack : public IterableContainer<T, Container>, public std::stack<T, Container> {$/;"	c	namespace:el::el::ConfigurationType::base::TimestampUnit::base::base::workarounds
+LOG	Log_Module/easylogging++.h	4239;"	d
+LOG	Log_Module/easylogging++.h	4258;"	d
+LOGGER_LEVEL_WRITERS	Log_Module/easylogging++.h	3328;"	d
+LOGGER_LEVEL_WRITERS	Log_Module/easylogging++.h	3377;"	d
+LOGGER_LEVEL_WRITERS_DISABLED	Log_Module/easylogging++.h	3337;"	d
+LOGGER_LEVEL_WRITERS_DISABLED	Log_Module/easylogging++.h	3378;"	d
+LOGGER_LEVEL_WRITERS_SIGNATURES	Log_Module/easylogging++.h	2276;"	d
+LOGGER_LEVEL_WRITERS_SIGNATURES	Log_Module/easylogging++.h	2294;"	d
+LOG_AFTER_N	Log_Module/easylogging++.h	4245;"	d
+LOG_AFTER_N	Log_Module/easylogging++.h	4266;"	d
+LOG_EVERY_N	Log_Module/easylogging++.h	4243;"	d
+LOG_EVERY_N	Log_Module/easylogging++.h	4264;"	d
+LOG_IF	Log_Module/easylogging++.h	4241;"	d
+LOG_IF	Log_Module/easylogging++.h	4261;"	d
+LOG_N_TIMES	Log_Module/easylogging++.h	4247;"	d
+LOG_N_TIMES	Log_Module/easylogging++.h	4268;"	d
+Level	Log_Module/easylogging++.h	/^  Level = 1 << 13,$/;"	m	class:el::el::ConfigurationType::base::TimestampUnit::FormatFlags
+Level	Log_Module/easylogging++.h	/^enum class Level : base::type::EnumType {$/;"	c	namespace:el
+LevelHelper	Log_Module/easylogging++.h	/^class LevelHelper : base::StaticClass {$/;"	c	namespace:el::el
+LevelShort	Log_Module/easylogging++.h	/^  LevelShort = 1 << 15$/;"	m	class:el::el::ConfigurationType::base::TimestampUnit::FormatFlags
+Line	Log_Module/easylogging++.h	/^  Line = 1 << 4,$/;"	m	class:el::el::ConfigurationType::base::TimestampUnit::FormatFlags
+LineNumber	Log_Module/easylogging++.h	/^typedef unsigned long int LineNumber;$/;"	t	namespace:el::base::type
+Location	Log_Module/easylogging++.h	/^  Location = 1 << 5,$/;"	m	class:el::el::ConfigurationType::base::TimestampUnit::FormatFlags
+LogBuilder	Log_Module/easylogging++.h	/^  LogBuilder() : m_termSupportsColor(base::utils::OS::termSupportsColor()) {}$/;"	f	class:el::el::ConfigurationType::base::TimestampUnit::base::LogBuilder
+LogBuilder	Log_Module/easylogging++.h	/^class LogBuilder : base::NoCopy {$/;"	c	namespace:el::el::ConfigurationType::base::TimestampUnit::base
+LogBuilderPtr	Log_Module/easylogging++.h	/^typedef std::shared_ptr<LogBuilder> LogBuilderPtr;$/;"	t	namespace:el::el::ConfigurationType::base::TimestampUnit::base
+LogDetailedCrashReason	Log_Module/easylogging++.h	/^  LogDetailedCrashReason = 4,$/;"	m	class:el::el::ConfigurationType::LoggingFlag
+LogDispatchCallback	Log_Module/easylogging++.h	/^class LogDispatchCallback : public Callback<LogDispatchData> {$/;"	c	namespace:el::el::ConfigurationType::base::TimestampUnit::base
+LogDispatchCallbackPtr	Log_Module/easylogging++.h	/^typedef std::shared_ptr<LogDispatchCallback> LogDispatchCallbackPtr;$/;"	t	namespace:el::base::type
+LogDispatchData	Log_Module/easylogging++.h	/^  LogDispatchData() : m_logMessage(nullptr), m_dispatchAction(base::DispatchAction::None) {}$/;"	f	class:el::el::ConfigurationType::base::TimestampUnit::base::LogDispatchData
+LogDispatchData	Log_Module/easylogging++.h	/^class LogDispatchData {$/;"	c	namespace:el::el::ConfigurationType::base::TimestampUnit::base
+LogDispatcher	Log_Module/easylogging++.h	/^  LogDispatcher(bool proceed, LogMessage* logMessage, base::DispatchAction dispatchAction) :$/;"	f	class:el::el::ConfigurationType::base::TimestampUnit::base::base::LogDispatcher
+LogDispatcher	Log_Module/easylogging++.h	/^class LogDispatcher : base::NoCopy {$/;"	c	namespace:el::el::ConfigurationType::base::TimestampUnit::base::base
+LogFlushThreshold	Log_Module/easylogging++.h	/^  LogFlushThreshold = 256,$/;"	m	class:el::el::ConfigurationType
+LogFormat	Log_Module/easylogging++.cpp	/^LogFormat::LogFormat(Level level, const base::type::string_t& format)$/;"	f	class:el::base::LogFormat
+LogFormat	Log_Module/easylogging++.cpp	/^LogFormat::LogFormat(LogFormat&& logFormat) {$/;"	f	class:el::base::LogFormat
+LogFormat	Log_Module/easylogging++.cpp	/^LogFormat::LogFormat(const LogFormat& logFormat):$/;"	f	class:el::base::LogFormat
+LogFormat	Log_Module/easylogging++.cpp	/^LogFormat::LogFormat(void) :$/;"	f	class:el::base::LogFormat
+LogFormat	Log_Module/easylogging++.h	/^class LogFormat : public Loggable {$/;"	c	namespace:el::el::ConfigurationType::base::TimestampUnit::base
+LogMessage	Log_Module/easylogging++.h	/^  LogMessage = 1 << 9,$/;"	m	class:el::el::ConfigurationType::base::TimestampUnit::FormatFlags
+LogMessage	Log_Module/easylogging++.h	/^  LogMessage(Level level, const std::string& file, base::type::LineNumber line, const std::string& func,$/;"	f	class:el::el::ConfigurationType::base::TimestampUnit::base::LogMessage
+LogMessage	Log_Module/easylogging++.h	/^class LogMessage {$/;"	c	namespace:el::el::ConfigurationType::base::TimestampUnit::base
+LogStreamsReferenceMap	Log_Module/easylogging++.h	/^typedef std::unordered_map<std::string, FileStreamPtr> LogStreamsReferenceMap;$/;"	t	namespace:el::el::ConfigurationType::base::TimestampUnit::base
+Loggable	Log_Module/easylogging++.h	/^class Loggable {$/;"	c	class:el::el::ConfigurationType::base::TimestampUnit
+Logger	Log_Module/easylogging++.cpp	/^Logger::Logger(const Logger& logger) {$/;"	f	class:el::Logger
+Logger	Log_Module/easylogging++.cpp	/^Logger::Logger(const std::string& id, base::LogStreamsReferenceMap* logStreamsReference) :$/;"	f	class:el::Logger
+Logger	Log_Module/easylogging++.cpp	/^Logger::Logger(const std::string& id, const Configurations& configurations,$/;"	f	class:el::Logger
+Logger	Log_Module/easylogging++.h	/^class Logger : public base::threading::ThreadSafe, public Loggable {$/;"	c	namespace:el::el::ConfigurationType::base::TimestampUnit::base
+LoggerId	Log_Module/easylogging++.h	/^  LoggerId = 1 << 2,$/;"	m	class:el::el::ConfigurationType::base::TimestampUnit::FormatFlags
+LoggerRegistrationCallback	Log_Module/easylogging++.h	/^class LoggerRegistrationCallback : public Callback<Logger> {$/;"	c	namespace:el::el::ConfigurationType::base::TimestampUnit::base
+LoggerRegistrationCallbackPtr	Log_Module/easylogging++.h	/^typedef std::shared_ptr<LoggerRegistrationCallback> LoggerRegistrationCallbackPtr;$/;"	t	namespace:el::base::type
+Loggers	Log_Module/easylogging++.h	/^class Loggers : base::StaticClass {$/;"	c	class:el::el::ConfigurationType::base::TimestampUnit::base::base::PerformanceTrackingData
+LoggingFlag	Log_Module/easylogging++.h	/^enum class LoggingFlag : base::type::EnumType {$/;"	c	class:el::el::ConfigurationType
+MAKE_CONTAINERELPP_FRIENDLY	Log_Module/easylogging++.h	3109;"	d
+MAKE_LOGGABLE	Log_Module/easylogging++.h	3628;"	d
+MaxLogFileSize	Log_Module/easylogging++.h	/^  MaxLogFileSize = 128,$/;"	m	class:el::el::ConfigurationType
+MessageBuilder	Log_Module/easylogging++.h	/^  MessageBuilder(void) : m_logger(nullptr), m_containerLogSeperator(ELPP_LITERAL("")) {}$/;"	f	class:el::el::ConfigurationType::base::TimestampUnit::base::base::MessageBuilder
+MessageBuilder	Log_Module/easylogging++.h	/^class MessageBuilder {$/;"	c	namespace:el::el::ConfigurationType::base::TimestampUnit::base::base
+Microsecond	Log_Module/easylogging++.h	/^  Microsecond = 0, Millisecond = 1, Second = 2, Minute = 3, Hour = 4, Day = 5$/;"	m	class:el::el::ConfigurationType::base::TimestampUnit
+Millisecond	Log_Module/easylogging++.h	/^  Microsecond = 0, Millisecond = 1, Second = 2, Minute = 3, Hour = 4, Day = 5$/;"	m	class:el::el::ConfigurationType::base::TimestampUnit
+MillisecondsWidth	Log_Module/easylogging++.h	/^  MillisecondsWidth = SubsecondPrecision,$/;"	m	class:el::el::ConfigurationType
+MillisecondsWidth	Log_Module/easylogging++.h	/^typedef SubsecondPrecision MillisecondsWidth;$/;"	t	class:el::el::ConfigurationType::base::TimestampUnit::FormatFlags
+Minute	Log_Module/easylogging++.h	/^  Microsecond = 0, Millisecond = 1, Second = 2, Minute = 3, Hour = 4, Day = 5$/;"	m	class:el::el::ConfigurationType::base::TimestampUnit
+MultiLoggerSupport	Log_Module/easylogging++.h	/^  MultiLoggerSupport = 128,$/;"	m	class:el::el::ConfigurationType::LoggingFlag
+Mutex	Log_Module/easylogging++.h	/^  Mutex(void) {$/;"	f	class:el::el::ConfigurationType::base::TimestampUnit::FormatFlags::threading::internal::Mutex
+Mutex	Log_Module/easylogging++.h	/^class Mutex : base::NoCopy {$/;"	c	namespace:el::el::ConfigurationType::base::TimestampUnit::FormatFlags::threading::internal
+Mutex	Log_Module/easylogging++.h	/^typedef base::threading::internal::Mutex Mutex;$/;"	t	namespace:el::el::ConfigurationType::base::TimestampUnit::FormatFlags::threading
+NewLineForContainer	Log_Module/easylogging++.h	/^  NewLineForContainer = 1,$/;"	m	class:el::el::ConfigurationType::LoggingFlag
+NoCopy	Log_Module/easylogging++.h	/^  NoCopy(void) {}$/;"	f	class:el::base::NoCopy
+NoCopy	Log_Module/easylogging++.h	/^class NoCopy {$/;"	c	namespace:el::base
+None	Log_Module/easylogging++.h	/^  None = 1, NormalLog = 2, SysLog = 4$/;"	m	class:el::el::ConfigurationType::base::TimestampUnit::base::DispatchAction
+NormalLog	Log_Module/easylogging++.h	/^  None = 1, NormalLog = 2, SysLog = 4$/;"	m	class:el::el::ConfigurationType::base::TimestampUnit::base::DispatchAction
+Not	Log_Module/easylogging++.h	/^static inline base::type::EnumType Not(Enum e, base::type::EnumType flag) {$/;"	f	namespace:el::el::ConfigurationType::base::TimestampUnit::FormatFlags::utils::bitwise
+NullWriter	Log_Module/easylogging++.h	/^  NullWriter(void) {}$/;"	f	class:el::el::ConfigurationType::base::TimestampUnit::base::base::NullWriter
+NullWriter	Log_Module/easylogging++.h	/^class NullWriter : base::NoCopy {$/;"	c	namespace:el::el::ConfigurationType::base::TimestampUnit::base::base
+OS	Log_Module/easylogging++.h	/^class OS : base::StaticClass {$/;"	c	namespace:el::el::ConfigurationType::base::TimestampUnit::FormatFlags::utils
+OStreamMani	Log_Module/easylogging++.h	/^  inline MessageBuilder& operator<<(std::ostream& (*OStreamMani)(std::ostream&)) {$/;"	f	class:el::el::ConfigurationType::base::TimestampUnit::base::base::MessageBuilder
+Or	Log_Module/easylogging++.h	/^static inline base::type::EnumType Or(Enum e, base::type::EnumType flag) {$/;"	f	namespace:el::el::ConfigurationType::base::TimestampUnit::FormatFlags::utils::bitwise
+PCHECK	Log_Module/easylogging++.h	4433;"	d
+PCHECK	Log_Module/easylogging++.h	4447;"	d
+PERFORMANCE_CHECKPOINT	Log_Module/easylogging++.h	3934;"	d
+PERFORMANCE_CHECKPOINT	Log_Module/easylogging++.h	3936;"	d
+PERFORMANCE_CHECKPOINT_WITH_ID	Log_Module/easylogging++.h	3935;"	d
+PERFORMANCE_CHECKPOINT_WITH_ID	Log_Module/easylogging++.h	3937;"	d
+PErrorWriter	Log_Module/easylogging++.h	/^  PErrorWriter(Level level, const char* file, base::type::LineNumber line,$/;"	f	class:el::el::ConfigurationType::base::TimestampUnit::base::base::Writer::PErrorWriter
+PErrorWriter	Log_Module/easylogging++.h	/^class PErrorWriter : public base::Writer {$/;"	c	class:el::el::ConfigurationType::base::TimestampUnit::base::base::Writer
+PLOG	Log_Module/easylogging++.h	4273;"	d
+PLOG	Log_Module/easylogging++.h	4287;"	d
+PLOG_IF	Log_Module/easylogging++.h	4274;"	d
+PLOG_IF	Log_Module/easylogging++.h	4288;"	d
+Parser	Log_Module/easylogging++.h	/^  class Parser : base::StaticClass {$/;"	c	class:el::el::ConfigurationType::base::TimestampUnit::Configurations
+PerformanceTracker	Log_Module/easylogging++.cpp	/^PerformanceTracker::PerformanceTracker(const std::string& blockName,$/;"	f	class:el::base::PerformanceTracker
+PerformanceTracker	Log_Module/easylogging++.h	/^  PerformanceTracker(const PerformanceTracker& t) :$/;"	f	class:el::el::ConfigurationType::base::TimestampUnit::base::base::PerformanceTrackingData::base::PerformanceTracker
+PerformanceTracker	Log_Module/easylogging++.h	/^class PerformanceTracker : public base::threading::ThreadSafe, public Loggable {$/;"	c	namespace:el::el::ConfigurationType::base::TimestampUnit::base::base::PerformanceTrackingData::base
+PerformanceTrackerPtr	Log_Module/easylogging++.h	/^typedef std::unique_ptr<el::base::PerformanceTracker> PerformanceTrackerPtr;$/;"	t	namespace:el::base::type
+PerformanceTracking	Log_Module/easylogging++.h	/^  PerformanceTracking = 64,$/;"	m	class:el::el::ConfigurationType
+PerformanceTrackingCallback	Log_Module/easylogging++.h	/^class PerformanceTrackingCallback : public Callback<PerformanceTrackingData> {$/;"	c	namespace:el::el::ConfigurationType::base::TimestampUnit::base
+PerformanceTrackingCallbackPtr	Log_Module/easylogging++.h	/^typedef std::shared_ptr<PerformanceTrackingCallback> PerformanceTrackingCallbackPtr;$/;"	t	namespace:el::base::type
+PerformanceTrackingData	Log_Module/easylogging++.h	/^  explicit PerformanceTrackingData(DataType dataType) : m_performanceTracker(nullptr),$/;"	f	class:el::el::ConfigurationType::base::TimestampUnit::base::base::PerformanceTrackingData::DataType
+PerformanceTrackingData	Log_Module/easylogging++.h	/^class PerformanceTrackingData {$/;"	c	namespace:el::el::ConfigurationType::base::TimestampUnit::base::base
+PreRollOutCallback	Log_Module/easylogging++.h	/^typedef std::function<void(const char*, std::size_t)> PreRollOutCallback;$/;"	t	class:el::el::ConfigurationType
+Predicate	Log_Module/easylogging++.cpp	/^Configuration::Predicate::Predicate(Level level, ConfigurationType configurationType) :$/;"	f	class:el::Configuration::Predicate
+Predicate	Log_Module/easylogging++.h	/^    Predicate(const char* filename, base::type::LineNumber lineNumber)$/;"	f	class:el::el::ConfigurationType::base::TimestampUnit::base::HitCounter::Predicate
+Predicate	Log_Module/easylogging++.h	/^  class Predicate {$/;"	c	class:el::el::ConfigurationType::base::TimestampUnit::Configuration
+Predicate	Log_Module/easylogging++.h	/^  class Predicate {$/;"	c	class:el::el::ConfigurationType::base::TimestampUnit::base::HitCounter
+RegisteredHitCounters	Log_Module/easylogging++.h	/^class RegisteredHitCounters : public base::utils::RegistryWithPred<base::HitCounter, base::HitCounter::Predicate> {$/;"	c	namespace:el::el::ConfigurationType::base::TimestampUnit::base
+RegisteredLoggers	Log_Module/easylogging++.cpp	/^RegisteredLoggers::RegisteredLoggers(const LogBuilderPtr& defaultLogBuilder) :$/;"	f	class:el::base::RegisteredLoggers
+RegisteredLoggers	Log_Module/easylogging++.h	/^class RegisteredLoggers : public base::utils::Registry<Logger, std::string> {$/;"	c	namespace:el::el::ConfigurationType::base::TimestampUnit::base::base
+Registry	Log_Module/easylogging++.h	/^  Registry(const Registry& sr) : AbstractRegistry<T_Ptr, std::vector<T_Ptr*>>() {$/;"	f	class:el::el::ConfigurationType::base::TimestampUnit::FormatFlags::utils::Registry
+Registry	Log_Module/easylogging++.h	/^  Registry(void) {}$/;"	f	class:el::el::ConfigurationType::base::TimestampUnit::FormatFlags::utils::Registry
+Registry	Log_Module/easylogging++.h	/^class Registry : public AbstractRegistry<T_Ptr, std::unordered_map<T_Key, T_Ptr*>> {$/;"	c	namespace:el::el::ConfigurationType::base::TimestampUnit::FormatFlags::utils
+RegistryWithPred	Log_Module/easylogging++.h	/^  RegistryWithPred(const RegistryWithPred& sr) : AbstractRegistry<T_Ptr, std::vector<T_Ptr*>>() {$/;"	f	class:el::el::ConfigurationType::base::TimestampUnit::FormatFlags::utils::RegistryWithPred
+RegistryWithPred	Log_Module/easylogging++.h	/^  RegistryWithPred(void) {$/;"	f	class:el::el::ConfigurationType::base::TimestampUnit::FormatFlags::utils::RegistryWithPred
+RegistryWithPred	Log_Module/easylogging++.h	/^class RegistryWithPred : public AbstractRegistry<T_Ptr, std::vector<T_Ptr*>> {$/;"	c	namespace:el::el::ConfigurationType::base::TimestampUnit::FormatFlags::utils
+SHARE_EASYLOGGINGPP	Log_Module/easylogging++.h	4556;"	d
+START_EASYLOGGINGPP	Log_Module/easylogging++.h	4565;"	d
+STRCAT	Log_Module/easylogging++.h	239;"	d
+STRCAT	Log_Module/easylogging++.h	244;"	d
+STRCAT	Log_Module/easylogging++.h	249;"	d
+STRCPY	Log_Module/easylogging++.h	240;"	d
+STRCPY	Log_Module/easylogging++.h	245;"	d
+STRCPY	Log_Module/easylogging++.h	250;"	d
+STRERROR	Log_Module/easylogging++.h	238;"	d
+STRERROR	Log_Module/easylogging++.h	243;"	d
+STRERROR	Log_Module/easylogging++.h	248;"	d
+STRTOK	Log_Module/easylogging++.h	237;"	d
+STRTOK	Log_Module/easylogging++.h	242;"	d
+STRTOK	Log_Module/easylogging++.h	247;"	d
+SYSLOG	Log_Module/easylogging++.h	4297;"	d
+SYSLOG	Log_Module/easylogging++.h	4320;"	d
+SYSLOG_AFTER_N	Log_Module/easylogging++.h	4300;"	d
+SYSLOG_AFTER_N	Log_Module/easylogging++.h	4323;"	d
+SYSLOG_EVERY_N	Log_Module/easylogging++.h	4299;"	d
+SYSLOG_EVERY_N	Log_Module/easylogging++.h	4322;"	d
+SYSLOG_IF	Log_Module/easylogging++.h	4298;"	d
+SYSLOG_IF	Log_Module/easylogging++.h	4321;"	d
+SYSLOG_N_TIMES	Log_Module/easylogging++.h	4301;"	d
+SYSLOG_N_TIMES	Log_Module/easylogging++.h	4324;"	d
+ScopedAddFlag	Log_Module/easylogging++.h	/^    ScopedAddFlag(LoggingFlag flag) : m_flag(flag) {$/;"	f	class:el::el::ConfigurationType::base::TimestampUnit::base::base::PerformanceTrackingData::Loggers::ScopedAddFlag
+ScopedAddFlag	Log_Module/easylogging++.h	/^  class ScopedAddFlag {$/;"	c	class:el::el::ConfigurationType::base::TimestampUnit::base::base::PerformanceTrackingData::Loggers
+ScopedLock	Log_Module/easylogging++.h	/^  explicit ScopedLock(M& mutex) {$/;"	f	class:el::el::ConfigurationType::base::TimestampUnit::FormatFlags::threading::internal::ScopedLock
+ScopedLock	Log_Module/easylogging++.h	/^class ScopedLock : base::NoCopy {$/;"	c	namespace:el::el::ConfigurationType::base::TimestampUnit::FormatFlags::threading::internal
+ScopedLock	Log_Module/easylogging++.h	/^typedef base::threading::internal::ScopedLock<base::threading::Mutex> ScopedLock;$/;"	t	namespace:el::el::ConfigurationType::base::TimestampUnit::FormatFlags::threading
+ScopedRemoveFlag	Log_Module/easylogging++.h	/^    ScopedRemoveFlag(LoggingFlag flag) : m_flag(flag) {$/;"	f	class:el::el::ConfigurationType::base::TimestampUnit::base::base::PerformanceTrackingData::Loggers::ScopedRemoveFlag
+ScopedRemoveFlag	Log_Module/easylogging++.h	/^  class ScopedRemoveFlag {$/;"	c	class:el::el::ConfigurationType::base::TimestampUnit::base::base::PerformanceTrackingData::Loggers
+Second	Log_Module/easylogging++.h	/^  Microsecond = 0, Millisecond = 1, Second = 2, Minute = 3, Hour = 4, Day = 5$/;"	m	class:el::el::ConfigurationType::base::TimestampUnit
+StackTrace	Log_Module/easylogging++.h	/^  StackTrace(void) {$/;"	f	class:el::el::ConfigurationType::base::TimestampUnit::base::base::PerformanceTrackingData::base::debug::StackTrace
+StackTrace	Log_Module/easylogging++.h	/^class StackTrace : base::NoCopy {$/;"	c	namespace:el::el::ConfigurationType::base::TimestampUnit::base::base::PerformanceTrackingData::base::debug
+StackTraceEntry	Log_Module/easylogging++.cpp	/^StackTrace::StackTraceEntry::StackTraceEntry(std::size_t index, const std::string& loc, const std::string& demang,$/;"	f	class:el::base::debug::StackTrace::StackTraceEntry
+StackTraceEntry	Log_Module/easylogging++.h	/^    StackTraceEntry(std::size_t index, const std::string& loc) :$/;"	f	class:el::el::ConfigurationType::base::TimestampUnit::base::base::PerformanceTrackingData::base::debug::StackTrace::StackTraceEntry
+StackTraceEntry	Log_Module/easylogging++.h	/^  class StackTraceEntry {$/;"	c	class:el::el::ConfigurationType::base::TimestampUnit::base::base::PerformanceTrackingData::base::debug::StackTrace
+StaticClass	Log_Module/easylogging++.h	/^class StaticClass {$/;"	c	namespace:el::base
+Storage	Log_Module/easylogging++.cpp	/^Storage::Storage(const LogBuilderPtr& defaultLogBuilder, base::IWorker* asyncDispatchWorker) :$/;"	f	class:el::base::Storage
+Storage	Log_Module/easylogging++.h	/^class Storage : base::NoCopy, public base::threading::ThreadSafe {$/;"	c	namespace:el::el::ConfigurationType::base::TimestampUnit::base::base
+StoragePointer	Log_Module/easylogging++.h	/^typedef std::shared_ptr<base::Storage> StoragePointer;$/;"	t	namespace:el::base::type
+Str	Log_Module/easylogging++.h	/^class Str : base::StaticClass {$/;"	c	namespace:el::el::ConfigurationType::base::TimestampUnit::FormatFlags::utils
+StrictLogFileSizeCheck	Log_Module/easylogging++.h	/^  StrictLogFileSizeCheck = 32,$/;"	m	class:el::el::ConfigurationType::LoggingFlag
+StringToLevelItem	Log_Module/easylogging++.cpp	/^struct StringToLevelItem {$/;"	s	namespace:el	file:
+SubsecondPrecision	Log_Module/easylogging++.h	/^  SubsecondPrecision = 32,$/;"	m	class:el::el::ConfigurationType
+SubsecondPrecision	Log_Module/easylogging++.h	/^  SubsecondPrecision(void) {$/;"	f	class:el::el::ConfigurationType::base::TimestampUnit::FormatFlags::SubsecondPrecision
+SubsecondPrecision	Log_Module/easylogging++.h	/^  explicit SubsecondPrecision(int width) {$/;"	f	class:el::el::ConfigurationType::base::TimestampUnit::FormatFlags::SubsecondPrecision
+SubsecondPrecision	Log_Module/easylogging++.h	/^class SubsecondPrecision {$/;"	c	class:el::el::ConfigurationType::base::TimestampUnit::FormatFlags
+SysLog	Log_Module/easylogging++.h	/^  None = 1, NormalLog = 2, SysLog = 4$/;"	m	class:el::el::ConfigurationType::base::TimestampUnit::base::DispatchAction
+SysLogInitializer	Log_Module/easylogging++.h	/^  SysLogInitializer(const char* processIdent, int options = 0, int facility = 0) {$/;"	f	class:el::el::ConfigurationType::base::TimestampUnit::base::base::PerformanceTrackingData::SysLogInitializer
+SysLogInitializer	Log_Module/easylogging++.h	/^class SysLogInitializer {$/;"	c	class:el::el::ConfigurationType::base::TimestampUnit::base::base::PerformanceTrackingData
+TIMED_BLOCK	Log_Module/easylogging++.h	3903;"	d
+TIMED_BLOCK	Log_Module/easylogging++.h	3924;"	d
+TIMED_FUNC	Log_Module/easylogging++.h	3906;"	d
+TIMED_FUNC	Log_Module/easylogging++.h	3933;"	d
+TIMED_FUNC_IF	Log_Module/easylogging++.h	3907;"	d
+TIMED_FUNC_IF	Log_Module/easylogging++.h	3932;"	d
+TIMED_SCOPE	Log_Module/easylogging++.h	3904;"	d
+TIMED_SCOPE	Log_Module/easylogging++.h	3923;"	d
+TIMED_SCOPE_IF	Log_Module/easylogging++.h	3905;"	d
+TIMED_SCOPE_IF	Log_Module/easylogging++.h	3921;"	d
+TRACE	Log_Module/easylogging++.h	3950;"	d
+ThreadId	Log_Module/easylogging++.h	/^  ThreadId = 1 << 12,$/;"	m	class:el::el::ConfigurationType::base::TimestampUnit::FormatFlags
+ThreadSafe	Log_Module/easylogging++.h	/^  ThreadSafe(void) {}$/;"	f	class:el::el::ConfigurationType::base::TimestampUnit::FormatFlags::threading::ThreadSafe
+ThreadSafe	Log_Module/easylogging++.h	/^class ThreadSafe {$/;"	c	namespace:el::el::ConfigurationType::base::TimestampUnit::FormatFlags::threading
+TimestampUnit	Log_Module/easylogging++.h	/^enum class TimestampUnit : base::type::EnumType {$/;"	c	namespace:el::el::ConfigurationType::base
+ToFile	Log_Module/easylogging++.h	/^  ToFile = 2,$/;"	m	class:el::el::ConfigurationType
+ToStandardOutput	Log_Module/easylogging++.h	/^  ToStandardOutput = 4,$/;"	m	class:el::el::ConfigurationType
+Trace	Log_Module/easylogging++.h	/^  Trace = 2,$/;"	m	class:el::Level
+TypedConfigurations	Log_Module/easylogging++.cpp	/^TypedConfigurations::TypedConfigurations(Configurations* configurations,$/;"	f	class:el::base::TypedConfigurations
+TypedConfigurations	Log_Module/easylogging++.cpp	/^TypedConfigurations::TypedConfigurations(const TypedConfigurations& other) {$/;"	f	class:el::base::TypedConfigurations
+TypedConfigurations	Log_Module/easylogging++.h	/^class TypedConfigurations : public base::threading::ThreadSafe {$/;"	c	namespace:el::el::ConfigurationType::base::TimestampUnit::base
+Unknown	Log_Module/easylogging++.h	/^  Unknown = 1010$/;"	m	class:el::Level
+Unknown	Log_Module/easylogging++.h	/^  Unknown = 1010$/;"	m	class:el::el::ConfigurationType
+User	Log_Module/easylogging++.h	/^  User = 1 << 7,$/;"	m	class:el::el::ConfigurationType::base::TimestampUnit::FormatFlags
+Utils	Log_Module/easylogging++.h	/^class Utils {$/;"	c	namespace:el::el::ConfigurationType::base::TimestampUnit::FormatFlags::utils
+VERBOSE	Log_Module/easylogging++.h	3951;"	d
+VLOG	Log_Module/easylogging++.h	4240;"	d
+VLOG	Log_Module/easylogging++.h	4259;"	d
+VLOG_AFTER_N	Log_Module/easylogging++.h	4246;"	d
+VLOG_AFTER_N	Log_Module/easylogging++.h	4267;"	d
+VLOG_EVERY_N	Log_Module/easylogging++.h	4244;"	d
+VLOG_EVERY_N	Log_Module/easylogging++.h	4265;"	d
+VLOG_IF	Log_Module/easylogging++.h	4242;"	d
+VLOG_IF	Log_Module/easylogging++.h	4262;"	d
+VLOG_IS_ON	Log_Module/easylogging++.h	3900;"	d
+VLOG_IS_ON	Log_Module/easylogging++.h	3902;"	d
+VLOG_N_TIMES	Log_Module/easylogging++.h	4248;"	d
+VLOG_N_TIMES	Log_Module/easylogging++.h	4269;"	d
+VRegistry	Log_Module/easylogging++.cpp	/^VRegistry::VRegistry(base::type::VerboseLevel level, base::type::EnumType* pFlags) : m_level(level), m_pFlags(pFlags) {$/;"	f	class:el::base::VRegistry
+VRegistry	Log_Module/easylogging++.h	/^class VRegistry : base::NoCopy, public base::threading::ThreadSafe {$/;"	c	namespace:el::el::ConfigurationType::base::TimestampUnit::base::base
+Verbose	Log_Module/easylogging++.h	/^  Verbose = 64,$/;"	m	class:el::Level
+VerboseLevel	Log_Module/easylogging++.h	/^  VerboseLevel = 1 << 10,$/;"	m	class:el::el::ConfigurationType::base::TimestampUnit::FormatFlags
+VerboseLevel	Log_Module/easylogging++.h	/^typedef unsigned short VerboseLevel;$/;"	t	namespace:el::base::type
+VersionInfo	Log_Module/easylogging++.h	/^class VersionInfo : base::StaticClass {$/;"	c	class:el::el::ConfigurationType::base::TimestampUnit::base::base::PerformanceTrackingData
+WARNING	Log_Module/easylogging++.h	3946;"	d
+Warning	Log_Module/easylogging++.h	/^  Warning = 32,$/;"	m	class:el::Level
+Writer	Log_Module/easylogging++.h	/^  Writer(Level level, const char* file, base::type::LineNumber line,$/;"	f	class:el::el::ConfigurationType::base::TimestampUnit::base::base::Writer
+Writer	Log_Module/easylogging++.h	/^  Writer(LogMessage* msg, base::DispatchAction dispatchAction = base::DispatchAction::NormalLog) :$/;"	f	class:el::el::ConfigurationType::base::TimestampUnit::base::base::Writer
+Writer	Log_Module/easylogging++.h	/^class Writer : base::NoCopy {$/;"	c	namespace:el::el::ConfigurationType::base::TimestampUnit::base::base
+_LOG_CONFIG_PATH_	def.h	13;"	d
+_LOG_OUTPUT_PATH_	def.h	14;"	d
+_SOCKET_BIND_ERROR_	def.h	6;"	d
+_SOCKET_LISTEN_ERROR_	def.h	7;"	d
+_SOCKET_LISTEN_SIZE_	def.h	11;"	d
+_SOCKET_REGISTER_ERROR_	def.h	5;"	d
+_UNKNOWN_EVENT_	def.h	1;"	d
+__initStartDaemon	resrc_init/__initStartDaemon.cpp	/^int __initStartDaemon(daemonCallback)$/;"	f
+_startDaemon	_startDaemon.cpp	/^int _startDaemon()$/;"	f
+abort	Log_Module/easylogging++.cpp	/^static void abort(int status, const std::string& reason) {$/;"	f	namespace:el::base::utils
+addFlag	Log_Module/easylogging++.h	/^  inline void addFlag(LoggingFlag flag) {$/;"	f	class:el::el::ConfigurationType::base::TimestampUnit::base::base::Storage
+addFlag	Log_Module/easylogging++.h	/^  inline void addFlag(base::FormatFlags flag) {$/;"	f	class:el::el::ConfigurationType::base::TimestampUnit::base::LogFormat
+addFlag	Log_Module/easylogging++.h	/^  static inline void addFlag(LoggingFlag flag) {$/;"	f	class:el::el::ConfigurationType::base::TimestampUnit::base::base::PerformanceTrackingData::Loggers
+addFlag	Log_Module/easylogging++.h	/^static inline void addFlag(Enum e, base::type::EnumType* flag) {$/;"	f	namespace:el::el::ConfigurationType::base::TimestampUnit::FormatFlags::utils
+addToBuff	Log_Module/easylogging++.cpp	/^char* Str::addToBuff(const char* str, char* buf, const char* bufLim) {$/;"	f	class:el::base::utils::Str
+allowed	Log_Module/easylogging++.cpp	/^bool VRegistry::allowed(base::type::VerboseLevel vlevel, const char* file) {$/;"	f	class:el::base::VRegistry
+asyncLogQueue	Log_Module/easylogging++.h	/^  inline base::AsyncLogQueue* asyncLogQueue(void) const {$/;"	f	class:el::el::ConfigurationType::base::TimestampUnit::base::base::Storage
+base	Log_Module/easylogging++.cpp	/^namespace base {$/;"	n	namespace:el	file:
+base	Log_Module/easylogging++.h	/^namespace base {$/;"	n	class:el::el::ConfigurationType
+base	Log_Module/easylogging++.h	/^namespace base {$/;"	n	class:el::el::ConfigurationType::base::TimestampUnit
+base	Log_Module/easylogging++.h	/^namespace base {$/;"	n	class:el::el::ConfigurationType::base::TimestampUnit::base::base::PerformanceTrackingData
+base	Log_Module/easylogging++.h	/^namespace base {$/;"	n	namespace:el
+base	Log_Module/easylogging++.h	/^namespace base {$/;"	n	namespace:el::el::ConfigurationType::base::TimestampUnit::base
+begin	Log_Module/easylogging++.h	/^  iterator begin(void) {$/;"	f	class:el::el::ConfigurationType::base::TimestampUnit::base::base::workarounds::IterableContainer
+bitwise	Log_Module/easylogging++.h	/^namespace bitwise {$/;"	n	namespace:el::el::ConfigurationType::base::TimestampUnit::FormatFlags::utils
+blockName	Log_Module/easylogging++.h	/^inline const std::string* PerformanceTrackingData::blockName() const {$/;"	f	class:el::el::ConfigurationType::base::TimestampUnit::base::base::PerformanceTrackingData::PerformanceTrackingData
+brief	Log_Module/easylogging++.h	/^  const char* brief;$/;"	m	struct:el::el::ConfigurationType::base::consts::__anon2
+build	Log_Module/easylogging++.cpp	/^base::type::string_t DefaultLogBuilder::build(const LogMessage* logMessage, bool appendNewLine) const {$/;"	f	class:el::base::DefaultLogBuilder
+build	Log_Module/easylogging++.cpp	/^void TypedConfigurations::build(Configurations* configurations) {$/;"	f	class:el::base::TypedConfigurations
+buildBaseFilename	Log_Module/easylogging++.cpp	/^void File::buildBaseFilename(const std::string& fullPath, char buff[], std::size_t limit, const char* separator) {$/;"	f	class:el::base::utils::File
+buildStrippedFilename	Log_Module/easylogging++.cpp	/^void File::buildStrippedFilename(const char* filename, char buff[], std::size_t limit) {$/;"	f	class:el::base::utils::File
+buildTimeInfo	Log_Module/easylogging++.cpp	/^struct ::tm* DateTime::buildTimeInfo(struct timeval* currTime, struct ::tm* timeInfo) {$/;"	f	class:el::base::utils::DateTime
+cStringCaseEq	Log_Module/easylogging++.cpp	/^bool Str::cStringCaseEq(const char* s1, const char* s2) {$/;"	f	class:el::base::utils::Str
+cStringEq	Log_Module/easylogging++.cpp	/^bool Str::cStringEq(const char* s1, const char* s2) {$/;"	f	class:el::base::utils::Str
+callback	Log_Module/easylogging++.h	/^  static T* callback(const std::string& id, std::unordered_map<std::string, TPtr>* mapT) {$/;"	f	class:el::el::ConfigurationType::base::TimestampUnit::FormatFlags::utils::Utils
+castFromInt	Log_Module/easylogging++.h	/^  static ConfigurationType castFromInt(base::type::EnumType c) {$/;"	f	class:el::el::ConfigurationType::ConfigurationTypeHelper
+castFromInt	Log_Module/easylogging++.h	/^  static Level castFromInt(base::type::EnumType l) {$/;"	f	class:el::el::LevelHelper
+castToInt	Log_Module/easylogging++.h	/^  static base::type::EnumType castToInt(ConfigurationType configurationType) {$/;"	f	class:el::el::ConfigurationType::ConfigurationTypeHelper
+castToInt	Log_Module/easylogging++.h	/^  static base::type::EnumType castToInt(Level level) {$/;"	f	class:el::el::LevelHelper
+char_t	Log_Module/easylogging++.h	/^typedef wchar_t char_t;$/;"	t	namespace:el::base::type
+checkpoint	Log_Module/easylogging++.cpp	/^void PerformanceTracker::checkpoint(const std::string& id, const char* file, base::type::LineNumber line,$/;"	f	class:el::base::PerformanceTracker
+checkpointId	Log_Module/easylogging++.h	/^  inline std::string checkpointId(void) const {$/;"	f	class:el::el::ConfigurationType::base::TimestampUnit::base::base::PerformanceTrackingData::DataType
+clean	Log_Module/easylogging++.cpp	/^bool AsyncDispatchWorker::clean(void) {$/;"	f	class:el::base::AsyncDispatchWorker
+clear	Log_Module/easylogging++.h	/^  inline void clear(void) {$/;"	f	class:el::el::ConfigurationType::base::TimestampUnit::Configurations
+clearBuff	Log_Module/easylogging++.cpp	/^char* Str::clearBuff(char buff[], std::size_t lim) {$/;"	f	class:el::base::utils::Str
+clearModules	Log_Module/easylogging++.h	/^  inline void clearModules(void) {$/;"	f	class:el::el::ConfigurationType::base::TimestampUnit::base::base::VRegistry
+clearVModules	Log_Module/easylogging++.cpp	/^void Loggers::clearVModules(void) {$/;"	f	class:el::Loggers
+commandLineArgs	Log_Module/easylogging++.h	/^  inline const base::utils::CommandLineArgs* commandLineArgs(void) const {$/;"	f	class:el::el::ConfigurationType::base::TimestampUnit::base::base::Storage
+commandLineArgs	Log_Module/easylogging++.h	/^  static inline const el::base::utils::CommandLineArgs* commandLineArgs(void) {$/;"	f	class:el::el::ConfigurationType::base::TimestampUnit::base::base::PerformanceTrackingData::Helpers
+configString	Log_Module/easylogging++.cpp	/^  const char* configString;$/;"	m	struct:el::ConfigurationStringToTypeItem	file:
+configStringToTypeMap	Log_Module/easylogging++.cpp	/^static struct ConfigurationStringToTypeItem configStringToTypeMap[] = {$/;"	m	namespace:el	typeref:struct:el::ConfigurationStringToTypeItem	file:
+configType	Log_Module/easylogging++.cpp	/^  ConfigurationType configType;$/;"	m	struct:el::ConfigurationStringToTypeItem	file:
+configurationFile	Log_Module/easylogging++.h	/^  inline const std::string& configurationFile(void) const {$/;"	f	class:el::el::ConfigurationType::base::TimestampUnit::Configurations
+configurationType	Log_Module/easylogging++.h	/^  inline ConfigurationType configurationType(void) const {$/;"	f	class:el::el::ConfigurationType::base::TimestampUnit::Configuration
+configurations	Log_Module/easylogging++.h	/^  const Configurations* configurations(void) const {$/;"	f	class:el::el::ConfigurationType::base::TimestampUnit::base::TypedConfigurations
+configurations	Log_Module/easylogging++.h	/^  inline Configurations* configurations(void) {$/;"	f	class:el::el::ConfigurationType::base::TimestampUnit::base::Logger
+configure	Log_Module/easylogging++.cpp	/^void Logger::configure(const Configurations& configurations) {$/;"	f	class:el::Logger
+configureFromArg	Log_Module/easylogging++.cpp	/^bool Loggers::configureFromArg(const char* argKey) {$/;"	f	class:el::Loggers
+configureFromGlobal	Log_Module/easylogging++.cpp	/^void Loggers::configureFromGlobal(const char* globalConfigurationFilePath) {$/;"	f	class:el::Loggers
+const_iterator	Log_Module/easylogging++.h	/^  typedef typename Container::const_iterator const_iterator;$/;"	t	class:el::el::ConfigurationType::base::TimestampUnit::FormatFlags::utils::AbstractRegistry
+const_iterator	Log_Module/easylogging++.h	/^  typedef typename Container::const_iterator const_iterator;$/;"	t	class:el::el::ConfigurationType::base::TimestampUnit::base::base::workarounds::IterableContainer
+const_iterator	Log_Module/easylogging++.h	/^  typedef typename Registry<T_Ptr, T_Key>::const_iterator const_iterator;$/;"	t	class:el::el::ConfigurationType::base::TimestampUnit::FormatFlags::utils::Registry
+const_iterator	Log_Module/easylogging++.h	/^  typedef typename RegistryWithPred<T_Ptr, Pred>::const_iterator const_iterator;$/;"	t	class:el::el::ConfigurationType::base::TimestampUnit::FormatFlags::utils::RegistryWithPred
+construct	Log_Module/easylogging++.cpp	/^Writer& Writer::construct(Logger* logger, bool needLock) {$/;"	f	class:el::base::Writer
+construct	Log_Module/easylogging++.cpp	/^Writer& Writer::construct(int count, const char* loggerIds, ...) {$/;"	f	class:el::base::Writer
+consts	Log_Module/easylogging++.cpp	/^namespace consts {$/;"	n	namespace:el::base	file:
+consts	Log_Module/easylogging++.h	/^namespace consts {$/;"	n	namespace:el::el::ConfigurationType::base
+contains	Log_Module/easylogging++.cpp	/^bool Str::contains(const char* str, char c) {$/;"	f	class:el::base::utils::Str
+continueRunning	Log_Module/easylogging++.h	/^  bool continueRunning(void) const {$/;"	f	class:el::el::ConfigurationType::base::TimestampUnit::base::base::AsyncDispatchWorker
+convertAndAddToBuff	Log_Module/easylogging++.cpp	/^char* Str::convertAndAddToBuff(std::size_t n, int len, char* buf, const char* bufLim, bool zeroPadded) {$/;"	f	class:el::base::utils::Str
+convertFromString	Log_Module/easylogging++.cpp	/^ConfigurationType ConfigurationTypeHelper::convertFromString(const char* configStr) {$/;"	f	class:el::ConfigurationTypeHelper
+convertFromString	Log_Module/easylogging++.cpp	/^Level LevelHelper::convertFromString(const char* levelStr) {$/;"	f	class:el::LevelHelper
+convertTemplateToStdString	Log_Module/easylogging++.h	/^  static std::string convertTemplateToStdString(const T& templ) {$/;"	f	class:el::el::ConfigurationType::base::TimestampUnit::base::base::PerformanceTrackingData::Helpers
+convertToColoredOutput	Log_Module/easylogging++.cpp	/^void LogBuilder::convertToColoredOutput(base::type::string_t* logLine, Level level) {$/;"	f	class:el::LogBuilder
+convertToString	Log_Module/easylogging++.cpp	/^const char* ConfigurationTypeHelper::convertToString(ConfigurationType configurationType) {$/;"	f	class:el::ConfigurationTypeHelper
+convertToString	Log_Module/easylogging++.cpp	/^const char* LevelHelper::convertToString(Level level) {$/;"	f	class:el::LevelHelper
+crashAbort	Log_Module/easylogging++.cpp	/^static inline void crashAbort(int sig) {$/;"	f	namespace:el::base::debug
+crashAbort	Log_Module/easylogging++.cpp	/^void Helpers::crashAbort(int sig, const char* sourceFile, unsigned int long line) {$/;"	f	class:el::Helpers
+crashReason	Log_Module/easylogging++.cpp	/^static std::string crashReason(int sig) {$/;"	f	namespace:el::base::debug
+createPath	Log_Module/easylogging++.cpp	/^bool File::createPath(const std::string& path) {$/;"	f	class:el::base::utils::File
+currentHost	Log_Module/easylogging++.cpp	/^std::string OS::currentHost(void) {$/;"	f	class:el::base::utils::OS
+currentUser	Log_Module/easylogging++.cpp	/^std::string OS::currentUser(void) {$/;"	f	class:el::base::utils::OS
+customFormatSpecifiers	Log_Module/easylogging++.h	/^  const std::vector<CustomFormatSpecifier>* customFormatSpecifiers(void) const {$/;"	f	class:el::el::ConfigurationType::base::TimestampUnit::base::base::Storage
+customFormatSpecifiersLock	Log_Module/easylogging++.h	/^  base::threading::Mutex& customFormatSpecifiersLock() {$/;"	f	class:el::el::ConfigurationType::base::TimestampUnit::base::base::Storage
+cv	Log_Module/easylogging++.h	/^  std::condition_variable cv;$/;"	m	class:el::el::ConfigurationType::base::TimestampUnit::base::base::AsyncDispatchWorker
+daemonCallback	resrc_init/resrc_init.h	/^typedef void(*daemonCallback)(void* data);$/;"	t
+data	Log_Module/easylogging++.h	/^  inline LogDispatchData* data(void) {$/;"	f	class:el::el::ConfigurationType::base::TimestampUnit::base::base::AsyncLogItem
+dataType	Log_Module/easylogging++.h	/^  inline PerformanceTrackingData::DataType dataType(void) const {$/;"	f	class:el::el::ConfigurationType::base::TimestampUnit::base::base::PerformanceTrackingData::DataType
+dateTimeFormat	Log_Module/easylogging++.h	/^  inline const std::string& dateTimeFormat(void) const {$/;"	f	class:el::el::ConfigurationType::base::TimestampUnit::base::LogFormat
+debug	Log_Module/easylogging++.cpp	/^namespace debug {$/;"	n	namespace:el::base	file:
+debug	Log_Module/easylogging++.h	/^namespace debug {$/;"	n	namespace:el::el::ConfigurationType::base::TimestampUnit::base::base::PerformanceTrackingData::base
+deepCopy	Log_Module/easylogging++.h	/^  virtual void deepCopy(const AbstractRegistry<T_Ptr, std::vector<T_Ptr*>>& sr) {$/;"	f	class:el::el::ConfigurationType::base::TimestampUnit::FormatFlags::utils::RegistryWithPred
+defaultConfigurations	Log_Module/easylogging++.cpp	/^const Configurations* Loggers::defaultConfigurations(void) {$/;"	f	class:el::Loggers
+defaultConfigurations	Log_Module/easylogging++.h	/^  inline Configurations* defaultConfigurations(void) {$/;"	f	class:el::el::ConfigurationType::base::TimestampUnit::base::base::RegisteredLoggers
+defaultCrashHandler	Log_Module/easylogging++.cpp	/^static inline void defaultCrashHandler(int sig) {$/;"	f	namespace:el::base::debug
+defaultPreRollOutCallback	Log_Module/easylogging++.h	/^static inline void defaultPreRollOutCallback(const char*, std::size_t) {}$/;"	f	namespace:el::el::ConfigurationType::base
+defaultTypedConfigurations	Log_Module/easylogging++.cpp	/^base::TypedConfigurations Loggers::defaultTypedConfigurations(void) {$/;"	f	class:el::Loggers
+detail	Log_Module/easylogging++.h	/^  const char* detail;$/;"	m	struct:el::el::ConfigurationType::base::consts::__anon2
+dispatch	Log_Module/easylogging++.cpp	/^void DefaultLogDispatchCallback::dispatch(base::type::string_t&& logLine) {$/;"	f	class:el::base::DefaultLogDispatchCallback
+dispatch	Log_Module/easylogging++.cpp	/^void LogDispatcher::dispatch(void) {$/;"	f	class:el::base::LogDispatcher
+dispatchAction	Log_Module/easylogging++.h	/^  inline base::DispatchAction dispatchAction(void) const {$/;"	f	class:el::el::ConfigurationType::base::TimestampUnit::base::LogDispatchData
+el	Log_Module/easylogging++.cpp	/^namespace el {$/;"	n	file:
+el	Log_Module/easylogging++.h	/^namespace el {$/;"	n
+el	Log_Module/easylogging++.h	/^namespace el {$/;"	n	namespace:el
+el_getVALength	Log_Module/easylogging++.h	3383;"	d
+el_resolveVALength	Log_Module/easylogging++.h	3392;"	d
+elpptime	Log_Module/easylogging++.h	462;"	d
+elpptime	Log_Module/easylogging++.h	466;"	d
+elpptime_r	Log_Module/easylogging++.h	460;"	d
+elpptime_r	Log_Module/easylogging++.h	464;"	d
+elpptime_s	Log_Module/easylogging++.h	461;"	d
+elpptime_s	Log_Module/easylogging++.h	465;"	d
+empty	Log_Module/easylogging++.cpp	/^bool CommandLineArgs::empty(void) const {$/;"	f	class:el::base::utils::CommandLineArgs
+empty	Log_Module/easylogging++.h	/^  inline bool empty(void) {$/;"	f	class:el::el::ConfigurationType::base::TimestampUnit::base::base::AsyncLogQueue
+emptyQueue	Log_Module/easylogging++.cpp	/^void AsyncDispatchWorker::emptyQueue(void) {$/;"	f	class:el::base::AsyncDispatchWorker
+enabled	Log_Module/easylogging++.cpp	/^bool TypedConfigurations::enabled(Level level) {$/;"	f	class:el::base::TypedConfigurations
+enabled	Log_Module/easylogging++.h	/^  inline bool enabled(Level level) const {$/;"	f	class:el::el::ConfigurationType::base::TimestampUnit::base::Logger
+enabled	Log_Module/easylogging++.h	/^  inline bool enabled(void) const {$/;"	f	class:el::el::ConfigurationType::base::TimestampUnit::base::Callback
+end	Log_Module/easylogging++.h	/^  iterator end(void) {$/;"	f	class:el::el::ConfigurationType::base::TimestampUnit::base::base::workarounds::IterableContainer
+endTime	Log_Module/easylogging++.h	/^inline const struct timeval* PerformanceTrackingData::endTime() const {$/;"	f	class:el::el::ConfigurationType::base::TimestampUnit::base::base::PerformanceTrackingData::PerformanceTrackingData
+endsWith	Log_Module/easylogging++.cpp	/^bool Str::endsWith(const std::string& str, const std::string& end) {$/;"	f	class:el::base::utils::Str
+extractPathFromFilename	Log_Module/easylogging++.cpp	/^std::string File::extractPathFromFilename(const std::string& fullPath, const char* separator) {$/;"	f	class:el::base::utils::File
+file	Log_Module/easylogging++.h	/^  inline const char* file(void) const {$/;"	f	class:el::el::ConfigurationType::base::TimestampUnit::base::base::PerformanceTrackingData::DataType
+file	Log_Module/easylogging++.h	/^  inline const std::string& file(void) const {$/;"	f	class:el::el::ConfigurationType::base::TimestampUnit::base::LogMessage
+fileHandle	Log_Module/easylogging++.cpp	/^base::threading::Mutex& LogDispatchCallback::fileHandle(const LogDispatchData* data) {$/;"	f	class:el::LogDispatchCallback
+fileStream	Log_Module/easylogging++.cpp	/^base::type::fstream_t* TypedConfigurations::fileStream(Level level) {$/;"	f	class:el::base::TypedConfigurations
+filename	Log_Module/easylogging++.cpp	/^const std::string& TypedConfigurations::filename(Level level) {$/;"	f	class:el::base::TypedConfigurations
+filename	Log_Module/easylogging++.h	/^  inline const char* filename(void) const {$/;"	f	class:el::el::ConfigurationType::base::TimestampUnit::base::HitCounter
+firstCheckpoint	Log_Module/easylogging++.h	/^  inline bool firstCheckpoint(void) const {$/;"	f	class:el::el::ConfigurationType::base::TimestampUnit::base::base::PerformanceTrackingData::DataType
+flags	Log_Module/easylogging++.h	/^  inline base::type::EnumType flags(void) const {$/;"	f	class:el::el::ConfigurationType::base::TimestampUnit::base::LogFormat
+flags	Log_Module/easylogging++.h	/^  inline base::type::EnumType flags(void) const {$/;"	f	class:el::el::ConfigurationType::base::TimestampUnit::base::base::Storage
+flush	Log_Module/easylogging++.cpp	/^void Logger::flush(Level level, base::type::fstream_t* fs) {$/;"	f	class:el::Logger
+flush	Log_Module/easylogging++.cpp	/^void Logger::flush(void) {$/;"	f	class:el::Logger
+flushAll	Log_Module/easylogging++.cpp	/^void Loggers::flushAll(void) {$/;"	f	class:el::Loggers
+flushAll	Log_Module/easylogging++.h	/^  inline void flushAll(void) {$/;"	f	class:el::el::ConfigurationType::base::TimestampUnit::base::base::RegisteredLoggers
+forEachConfigType	Log_Module/easylogging++.cpp	/^void ConfigurationTypeHelper::forEachConfigType(base::type::EnumType* startIndex, const std::function<bool(void)>& fn) {$/;"	f	class:el::ConfigurationTypeHelper
+forEachLevel	Log_Module/easylogging++.cpp	/^void LevelHelper::forEachLevel(base::type::EnumType* startIndex, const std::function<bool(void)>& fn) {$/;"	f	class:el::LevelHelper
+format	Log_Module/easylogging++.h	/^  inline const base::type::string_t& format(void) const {$/;"	f	class:el::el::ConfigurationType::base::TimestampUnit::base::LogFormat
+formatSpecifier	Log_Module/easylogging++.h	/^  inline const char* formatSpecifier(void) const {$/;"	f	class:el::el::ConfigurationType::base::TimestampUnit::CustomFormatSpecifier
+formatTime	Log_Module/easylogging++.cpp	/^base::type::string_t DateTime::formatTime(unsigned long long time, base::TimestampUnit timestampUnit) {$/;"	f	class:el::base::utils::DateTime
+formattedTimeTaken	Log_Module/easylogging++.h	/^  inline const base::type::string_t* formattedTimeTaken() const {$/;"	f	class:el::el::ConfigurationType::base::TimestampUnit::base::base::PerformanceTrackingData::DataType
+front	Log_Module/easylogging++.h	/^  inline AsyncLogItem front(void) {$/;"	f	class:el::el::ConfigurationType::base::TimestampUnit::base::base::AsyncLogQueue
+fstream_t	Log_Module/easylogging++.h	/^typedef std::wfstream fstream_t;$/;"	t	namespace:el::base::type
+func	Log_Module/easylogging++.h	/^  inline const char* func(void) const {$/;"	f	class:el::el::ConfigurationType::base::TimestampUnit::base::base::PerformanceTrackingData::DataType
+func	Log_Module/easylogging++.h	/^  inline const std::string& func(void) const {$/;"	f	class:el::el::ConfigurationType::base::TimestampUnit::base::LogMessage
+generateNew	Log_Module/easylogging++.cpp	/^void StackTrace::generateNew(void) {$/;"	f	class:el::base::debug::StackTrace
+get	Log_Module/easylogging++.cpp	/^Logger* RegisteredLoggers::get(const std::string& id, bool forceCreation) {$/;"	f	class:el::base::RegisteredLoggers
+get	Log_Module/easylogging++.h	/^  T_Ptr* get(const T& arg1, const T2 arg2) {$/;"	f	class:el::el::ConfigurationType::base::TimestampUnit::FormatFlags::utils::RegistryWithPred
+get	Log_Module/easylogging++.h	/^  T_Ptr* get(const T_Key& uniqKey) {$/;"	f	class:el::el::ConfigurationType::base::TimestampUnit::FormatFlags::utils::Registry
+get	Log_Module/easylogging++.h	/^  inline Configuration* get(Level level, ConfigurationType configurationType) {$/;"	f	class:el::el::ConfigurationType::base::TimestampUnit::Configurations
+getBashOutput	Log_Module/easylogging++.cpp	/^const std::string OS::getBashOutput(const char* command) {$/;"	f	class:el::base::utils::OS
+getConfigByRef	Log_Module/easylogging++.h	/^  inline Conf_T& getConfigByRef(Level level, std::unordered_map<Level, Conf_T>* confMap, const char* confName) {$/;"	f	class:el::el::ConfigurationType::base::TimestampUnit::base::TypedConfigurations
+getConfigByVal	Log_Module/easylogging++.h	/^  inline Conf_T getConfigByVal(Level level, const std::unordered_map<Level, Conf_T>* confMap, const char* confName) {$/;"	f	class:el::el::ConfigurationType::base::TimestampUnit::base::TypedConfigurations
+getContainer	Log_Module/easylogging++.h	/^  inline Container& getContainer(void) {$/;"	f	class:el::el::ConfigurationType::base::TimestampUnit::base::base::workarounds::IterablePriorityQueue
+getContainer	Log_Module/easylogging++.h	/^  inline Container& getContainer(void) {$/;"	f	class:el::el::ConfigurationType::base::TimestampUnit::base::base::workarounds::IterableQueue
+getContainer	Log_Module/easylogging++.h	/^  inline Container& getContainer(void) {$/;"	f	class:el::el::ConfigurationType::base::TimestampUnit::base::base::workarounds::IterableStack
+getCounter	Log_Module/easylogging++.h	/^  inline const base::HitCounter* getCounter(const char* filename, base::type::LineNumber lineNumber) {$/;"	f	class:el::el::ConfigurationType::base::TimestampUnit::base::RegisteredHitCounters
+getCurrentThreadId	Log_Module/easylogging++.h	/^static inline std::string getCurrentThreadId(void) {$/;"	f	namespace:el::el::ConfigurationType::base::TimestampUnit::FormatFlags::threading
+getCurrentThreadId	Log_Module/easylogging++.h	/^static std::string getCurrentThreadId(void) {$/;"	f	namespace:el::el::ConfigurationType::base::TimestampUnit::FormatFlags::threading
+getDateTime	Log_Module/easylogging++.cpp	/^std::string DateTime::getDateTime(const char* format, const base::SubsecondPrecision* ssPrec) {$/;"	f	class:el::base::utils::DateTime
+getDeviceName	Log_Module/easylogging++.cpp	/^std::string OS::getDeviceName(void) {$/;"	f	class:el::base::utils::OS
+getEnvironmentVariable	Log_Module/easylogging++.cpp	/^std::string OS::getEnvironmentVariable(const char* variableName, const char* defaultVal,$/;"	f	class:el::base::utils::OS
+getFormattedTimeTaken	Log_Module/easylogging++.cpp	/^const base::type::string_t PerformanceTracker::getFormattedTimeTaken(struct timeval startTime) const {$/;"	f	class:el::base::PerformanceTracker
+getFormattedTimeTaken	Log_Module/easylogging++.h	/^  const inline base::type::string_t getFormattedTimeTaken() const {$/;"	f	class:el::el::ConfigurationType::base::TimestampUnit::base::base::PerformanceTrackingData::base::PerformanceTracker
+getLatestStack	Log_Module/easylogging++.h	/^  inline std::vector<StackTraceEntry>& getLatestStack(void) {$/;"	f	class:el::el::ConfigurationType::base::TimestampUnit::base::base::PerformanceTrackingData::base::debug::StackTrace
+getLogger	Log_Module/easylogging++.cpp	/^Logger* Loggers::getLogger(const std::string& identity, bool registerIfNotAvailable) {$/;"	f	class:el::Loggers
+getParamValue	Log_Module/easylogging++.cpp	/^const char* CommandLineArgs::getParamValue(const char* paramKey) const {$/;"	f	class:el::base::utils::CommandLineArgs
+getProperty	Log_Module/easylogging++.cpp	/^std::string OS::getProperty(const char* prop) {$/;"	f	class:el::base::utils::OS
+getSizeOfFile	Log_Module/easylogging++.cpp	/^std::size_t File::getSizeOfFile(base::type::fstream_t* fs) {$/;"	f	class:el::base::utils::File
+getThreadName	Log_Module/easylogging++.h	/^  inline std::string getThreadName(const std::string& threadId) {$/;"	f	class:el::el::ConfigurationType::base::TimestampUnit::base::base::Storage
+getThreadName	Log_Module/easylogging++.h	/^  static inline std::string getThreadName() {$/;"	f	class:el::el::ConfigurationType::base::TimestampUnit::base::base::PerformanceTrackingData::Helpers
+getTimeDifference	Log_Module/easylogging++.cpp	/^unsigned long long DateTime::getTimeDifference(const struct timeval& endTime, const struct timeval& startTime,$/;"	f	class:el::base::utils::DateTime
+getULong	Log_Module/easylogging++.cpp	/^unsigned long TypedConfigurations::getULong(std::string confVal) {$/;"	f	class:el::base::TypedConfigurations
+getWindowsEnvironmentVariable	Log_Module/easylogging++.cpp	/^const char* OS::getWindowsEnvironmentVariable(const char* varname) {$/;"	f	class:el::base::utils::OS
+gettimeofday	Log_Module/easylogging++.cpp	/^void DateTime::gettimeofday(struct timeval* tv) {$/;"	f	class:el::base::utils::DateTime
+handle	Log_Module/easylogging++.cpp	/^void AsyncDispatchWorker::handle(AsyncLogItem* logItem) {$/;"	f	class:el::base::AsyncDispatchWorker
+handle	Log_Module/easylogging++.cpp	/^void AsyncLogDispatchCallback::handle(const LogDispatchData* data) {$/;"	f	class:el::base::AsyncLogDispatchCallback
+handle	Log_Module/easylogging++.cpp	/^void DefaultLogDispatchCallback::handle(const LogDispatchData* data) {$/;"	f	class:el::base::DefaultLogDispatchCallback
+handle	Log_Module/easylogging++.cpp	/^void LogDispatchCallback::handle(const LogDispatchData* data) {$/;"	f	class:el::LogDispatchCallback
+handle	Log_Module/easylogging++.h	/^  void handle(const PerformanceTrackingData* data) {$/;"	f	class:el::el::ConfigurationType::base::TimestampUnit::base::base::PerformanceTrackingData::base::DefaultPerformanceTrackingCallback
+has	Log_Module/easylogging++.h	/^  inline bool has(const std::string& id) {$/;"	f	class:el::el::ConfigurationType::base::TimestampUnit::base::base::RegisteredLoggers
+hasConfiguration	Log_Module/easylogging++.cpp	/^bool Configurations::hasConfiguration(ConfigurationType configurationType) {$/;"	f	class:el::Configurations
+hasConfiguration	Log_Module/easylogging++.cpp	/^bool Configurations::hasConfiguration(Level level, ConfigurationType configurationType) {$/;"	f	class:el::Configurations
+hasCustomFormatSpecifier	Log_Module/easylogging++.cpp	/^bool Storage::hasCustomFormatSpecifier(const char* formatSpecifier) {$/;"	f	class:el::base::Storage
+hasCustomFormatSpecifier	Log_Module/easylogging++.h	/^  static inline bool hasCustomFormatSpecifier(const char* formatSpecifier) {$/;"	f	class:el::el::ConfigurationType::base::TimestampUnit::base::base::PerformanceTrackingData::Helpers
+hasFlag	Log_Module/easylogging++.h	/^  inline bool hasFlag(LoggingFlag flag) const {$/;"	f	class:el::el::ConfigurationType::base::TimestampUnit::base::base::Storage
+hasFlag	Log_Module/easylogging++.h	/^  inline bool hasFlag(base::FormatFlags flag) const {$/;"	f	class:el::el::ConfigurationType::base::TimestampUnit::base::LogFormat
+hasFlag	Log_Module/easylogging++.h	/^  static inline bool hasFlag(LoggingFlag flag) {$/;"	f	class:el::el::ConfigurationType::base::TimestampUnit::base::base::PerformanceTrackingData::Loggers
+hasFlag	Log_Module/easylogging++.h	/^static inline bool hasFlag(Enum e, base::type::EnumType flag) {$/;"	f	namespace:el::el::ConfigurationType::base::TimestampUnit::FormatFlags::utils
+hasLogger	Log_Module/easylogging++.cpp	/^bool Loggers::hasLogger(const std::string& identity) {$/;"	f	class:el::Loggers
+hasParam	Log_Module/easylogging++.cpp	/^bool CommandLineArgs::hasParam(const char* paramKey) const {$/;"	f	class:el::base::utils::CommandLineArgs
+hasParamWithValue	Log_Module/easylogging++.cpp	/^bool CommandLineArgs::hasParamWithValue(const char* paramKey) const {$/;"	f	class:el::base::utils::CommandLineArgs
+hash	Log_Module/easylogging++.h	/^template<> struct hash<el::Level> {$/;"	s	namespace:el::std
+hitCounters	Log_Module/easylogging++.h	/^  inline base::RegisteredHitCounters* hitCounters(void) const {$/;"	f	class:el::el::ConfigurationType::base::TimestampUnit::base::base::Storage
+hitCounts	Log_Module/easylogging++.h	/^  inline std::size_t hitCounts(void) const {$/;"	f	class:el::el::ConfigurationType::base::TimestampUnit::base::HitCounter
+id	Log_Module/easylogging++.h	/^  inline const std::string& id(void) const {$/;"	f	class:el::el::ConfigurationType::base::TimestampUnit::base::Logger
+ignoreComments	Log_Module/easylogging++.cpp	/^void Configurations::Parser::ignoreComments(std::string* line) {$/;"	f	class:el::Configurations::Parser
+increment	Log_Module/easylogging++.h	/^  inline void increment(void) {$/;"	f	class:el::el::ConfigurationType::base::TimestampUnit::base::HitCounter
+init	Log_Module/easylogging++.cpp	/^void SubsecondPrecision::init(int width) {$/;"	f	class:el::base::SubsecondPrecision
+init	Log_Module/easylogging++.h	/^  inline void init(base::PerformanceTracker* performanceTracker, bool firstCheckpoint = false) {$/;"	f	class:el::el::ConfigurationType::base::TimestampUnit::base::base::PerformanceTrackingData::DataType
+initUnflushedCount	Log_Module/easylogging++.cpp	/^void Logger::initUnflushedCount(void) {$/;"	f	class:el::Logger
+initialize	Log_Module/easylogging++.cpp	/^void MessageBuilder::initialize(Logger* logger) {$/;"	f	class:el::base::MessageBuilder
+initializeLogger	Log_Module/easylogging++.cpp	/^void Writer::initializeLogger(const std::string& loggerId, bool lookup, bool needLock) {$/;"	f	class:el::base::Writer
+insertFile	Log_Module/easylogging++.cpp	/^void TypedConfigurations::insertFile(Level level, const std::string& fullFilename) {$/;"	f	class:el::base::TypedConfigurations
+installCallback	Log_Module/easylogging++.h	/^  static bool installCallback(const std::string& id, std::unordered_map<std::string, TPtr>* mapT) {$/;"	f	class:el::el::ConfigurationType::base::TimestampUnit::FormatFlags::utils::Utils
+installCustomFormatSpecifier	Log_Module/easylogging++.cpp	/^void Storage::installCustomFormatSpecifier(const CustomFormatSpecifier& customFormatSpecifier) {$/;"	f	class:el::base::Storage
+installCustomFormatSpecifier	Log_Module/easylogging++.h	/^  static inline void installCustomFormatSpecifier(const CustomFormatSpecifier& customFormatSpecifier) {$/;"	f	class:el::el::ConfigurationType::base::TimestampUnit::base::base::PerformanceTrackingData::Helpers
+installLogDispatchCallback	Log_Module/easylogging++.h	/^  inline bool installLogDispatchCallback(const std::string& id) {$/;"	f	class:el::el::ConfigurationType::base::TimestampUnit::base::base::Storage
+installLogDispatchCallback	Log_Module/easylogging++.h	/^  static inline bool installLogDispatchCallback(const std::string& id) {$/;"	f	class:el::el::ConfigurationType::base::TimestampUnit::base::base::PerformanceTrackingData::Helpers
+installLoggerRegistrationCallback	Log_Module/easylogging++.h	/^  inline bool installLoggerRegistrationCallback(const std::string& id) {$/;"	f	class:el::el::ConfigurationType::base::TimestampUnit::base::base::RegisteredLoggers
+installLoggerRegistrationCallback	Log_Module/easylogging++.h	/^  static inline bool installLoggerRegistrationCallback(const std::string& id) {$/;"	f	class:el::el::ConfigurationType::base::TimestampUnit::base::base::PerformanceTrackingData::Loggers
+installPerformanceTrackingCallback	Log_Module/easylogging++.h	/^  inline bool installPerformanceTrackingCallback(const std::string& id) {$/;"	f	class:el::el::ConfigurationType::base::TimestampUnit::base::base::Storage
+installPerformanceTrackingCallback	Log_Module/easylogging++.h	/^  static inline bool installPerformanceTrackingCallback(const std::string& id) {$/;"	f	class:el::el::ConfigurationType::base::TimestampUnit::base::base::PerformanceTrackingData::Helpers
+installPreRollOutCallback	Log_Module/easylogging++.h	/^  static inline void installPreRollOutCallback(const PreRollOutCallback& callback) {$/;"	f	class:el::el::ConfigurationType::base::TimestampUnit::base::base::PerformanceTrackingData::Helpers
+internal	Log_Module/easylogging++.h	/^namespace internal {$/;"	n	namespace:el::el::ConfigurationType::base::TimestampUnit::FormatFlags::threading
+isComment	Log_Module/easylogging++.cpp	/^bool Configurations::Parser::isComment(const std::string& line) {$/;"	f	class:el::Configurations::Parser
+isConfig	Log_Module/easylogging++.cpp	/^bool Configurations::Parser::isConfig(const std::string& line) {$/;"	f	class:el::Configurations::Parser
+isDigit	Log_Module/easylogging++.h	/^  static inline bool isDigit(char c) {$/;"	f	class:el::el::ConfigurationType::base::TimestampUnit::FormatFlags::utils::Str
+isFlushNeeded	Log_Module/easylogging++.h	/^  inline bool isFlushNeeded(Level level) {$/;"	f	class:el::el::ConfigurationType::base::TimestampUnit::base::Logger
+isLevel	Log_Module/easylogging++.cpp	/^bool Configurations::Parser::isLevel(const std::string& line) {$/;"	f	class:el::Configurations::Parser
+isValidId	Log_Module/easylogging++.cpp	/^bool Logger::isValidId(const std::string& id) {$/;"	f	class:el::Logger
+iterator	Log_Module/easylogging++.h	/^  typedef typename Container::iterator iterator;$/;"	t	class:el::el::ConfigurationType::base::TimestampUnit::FormatFlags::utils::AbstractRegistry
+iterator	Log_Module/easylogging++.h	/^  typedef typename Container::iterator iterator;$/;"	t	class:el::el::ConfigurationType::base::TimestampUnit::base::base::workarounds::IterableContainer
+iterator	Log_Module/easylogging++.h	/^  typedef typename Registry<T_Ptr, T_Key>::iterator iterator;$/;"	t	class:el::el::ConfigurationType::base::TimestampUnit::FormatFlags::utils::Registry
+iterator	Log_Module/easylogging++.h	/^  typedef typename RegistryWithPred<T_Ptr, Pred>::iterator iterator;$/;"	t	class:el::el::ConfigurationType::base::TimestampUnit::FormatFlags::utils::RegistryWithPred
+kAm	Log_Module/easylogging++.cpp	/^static const char* kAm                              =      "AM";$/;"	m	namespace:el::base::consts	file:
+kAppNameFormatSpecifier	Log_Module/easylogging++.cpp	/^static const base::type::char_t* kAppNameFormatSpecifier          =      ELPP_LITERAL("%app");$/;"	m	namespace:el::base::consts	file:
+kConfigurationComment	Log_Module/easylogging++.cpp	/^static const char* kConfigurationComment                   =      "##";$/;"	m	namespace:el::base::consts	file:
+kConfigurationLevel	Log_Module/easylogging++.cpp	/^static const char* kConfigurationLevel                     =      "*";$/;"	m	namespace:el::base::consts	file:
+kConfigurationLoggerId	Log_Module/easylogging++.cpp	/^static const char* kConfigurationLoggerId                  =      "--";$/;"	m	namespace:el::base::consts	file:
+kCrashSignals	Log_Module/easylogging++.h	/^} kCrashSignals[] = {$/;"	m	namespace:el::el::ConfigurationType::base::consts	typeref:struct:el::el::ConfigurationType::base::consts::__anon2
+kCrashSignalsCount	Log_Module/easylogging++.h	/^static const int kCrashSignalsCount                          =      sizeof(kCrashSignals) \/ sizeof(kCrashSignals[0]);$/;"	m	namespace:el::el::ConfigurationType::base::consts
+kCurrentHostFormatSpecifier	Log_Module/easylogging++.cpp	/^static const base::type::char_t* kCurrentHostFormatSpecifier      =      ELPP_LITERAL("%host");$/;"	m	namespace:el::base::consts	file:
+kCurrentUserFormatSpecifier	Log_Module/easylogging++.cpp	/^static const base::type::char_t* kCurrentUserFormatSpecifier      =      ELPP_LITERAL("%user");$/;"	m	namespace:el::base::consts	file:
+kDateTimeFormatSpecifier	Log_Module/easylogging++.cpp	/^static const base::type::char_t* kDateTimeFormatSpecifier         =      ELPP_LITERAL("%datetime");$/;"	m	namespace:el::base::consts	file:
+kDateTimeFormatSpecifierForFilename	Log_Module/easylogging++.cpp	/^static const char* kDateTimeFormatSpecifierForFilename            =      "%datetime";$/;"	m	namespace:el::base::consts	file:
+kDays	Log_Module/easylogging++.cpp	/^static const char* kDays[7]                         =      { "Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday" };$/;"	m	namespace:el::base::consts	file:
+kDaysAbbrev	Log_Module/easylogging++.cpp	/^static const char* kDaysAbbrev[7]                   =      { "Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat" };$/;"	m	namespace:el::base::consts	file:
+kDebugLevelLogValue	Log_Module/easylogging++.cpp	/^static const base::type::char_t* kDebugLevelLogValue    =   ELPP_LITERAL("DEBUG");$/;"	m	namespace:el::base::consts	file:
+kDebugLevelShortLogValue	Log_Module/easylogging++.cpp	/^static const base::type::char_t* kDebugLevelShortLogValue    =   ELPP_LITERAL("D");$/;"	m	namespace:el::base::consts	file:
+kDefaultDateTimeFormat	Log_Module/easylogging++.cpp	/^static const char* kDefaultDateTimeFormat           =      "%Y-%M-%d %H:%m:%s,%g";$/;"	m	namespace:el::base::consts	file:
+kDefaultDateTimeFormatInFilename	Log_Module/easylogging++.cpp	/^static const char* kDefaultDateTimeFormatInFilename =      "%Y-%M-%d_%H-%m";$/;"	m	namespace:el::base::consts	file:
+kDefaultLogFile	Log_Module/easylogging++.cpp	/^static const char* kDefaultLogFile                         =      "\/dev\/null";$/;"	m	namespace:el::base::consts	file:
+kDefaultLogFile	Log_Module/easylogging++.cpp	/^static const char* kDefaultLogFile                         =      "myeasylog.log";$/;"	m	namespace:el::base::consts	file:
+kDefaultLogFile	Log_Module/easylogging++.cpp	/^static const char* kDefaultLogFile                         =      "nul";$/;"	m	namespace:el::base::consts	file:
+kDefaultLogFile	Log_Module/easylogging++.cpp	/^static const char* kDefaultLogFile                         =      ELPP_DEFAULT_LOG_FILE;$/;"	m	namespace:el::base::consts	file:
+kDefaultLogFileParam	Log_Module/easylogging++.cpp	/^static const char* kDefaultLogFileParam                    =      "--default-log-file";$/;"	m	namespace:el::base::consts	file:
+kDefaultLoggerId	Log_Module/easylogging++.h	/^static const char* kDefaultLoggerId                        =      "default";$/;"	m	namespace:el::el::ConfigurationType::base::consts
+kDefaultLoggerId	Log_Module/easylogging++.h	/^static const char* kDefaultLoggerId                        =      ELPP_DEFAULT_LOGGER;$/;"	m	namespace:el::el::ConfigurationType::base::consts
+kDefaultSubsecondPrecision	Log_Module/easylogging++.h	/^static const unsigned int kDefaultSubsecondPrecision       =      3;$/;"	m	namespace:el::el::ConfigurationType::base::consts
+kErrorLevelLogValue	Log_Module/easylogging++.cpp	/^static const base::type::char_t* kErrorLevelLogValue    =   ELPP_LITERAL("ERROR");$/;"	m	namespace:el::base::consts	file:
+kErrorLevelShortLogValue	Log_Module/easylogging++.cpp	/^static const base::type::char_t* kErrorLevelShortLogValue    =   ELPP_LITERAL("E");$/;"	m	namespace:el::base::consts	file:
+kFatalLevelLogValue	Log_Module/easylogging++.cpp	/^static const base::type::char_t* kFatalLevelLogValue    =   ELPP_LITERAL("FATAL");$/;"	m	namespace:el::base::consts	file:
+kFatalLevelShortLogValue	Log_Module/easylogging++.cpp	/^static const base::type::char_t* kFatalLevelShortLogValue    =   ELPP_LITERAL("F");$/;"	m	namespace:el::base::consts	file:
+kFilePathSeperator	Log_Module/easylogging++.h	/^static const char* kFilePathSeperator                      =      "\/";$/;"	m	namespace:el::el::ConfigurationType::base::consts
+kFilePathSeperator	Log_Module/easylogging++.h	/^static const char* kFilePathSeperator                      =      "\\\\";$/;"	m	namespace:el::el::ConfigurationType::base::consts
+kFormatSpecifierChar	Log_Module/easylogging++.h	/^static const char  kFormatSpecifierChar                    =      '%';$/;"	m	namespace:el::el::ConfigurationType::base::consts
+kFormatSpecifierCharValue	Log_Module/easylogging++.h	/^static const char  kFormatSpecifierCharValue               =      'v';$/;"	m	namespace:el::el::ConfigurationType::base::consts
+kInfoLevelLogValue	Log_Module/easylogging++.cpp	/^static const base::type::char_t* kInfoLevelLogValue     =   ELPP_LITERAL("INFO");$/;"	m	namespace:el::base::consts	file:
+kInfoLevelShortLogValue	Log_Module/easylogging++.cpp	/^static const base::type::char_t* kInfoLevelShortLogValue     =   ELPP_LITERAL("I");$/;"	m	namespace:el::base::consts	file:
+kLogFileBaseFormatSpecifier	Log_Module/easylogging++.cpp	/^static const base::type::char_t* kLogFileBaseFormatSpecifier      =      ELPP_LITERAL("%fbase");$/;"	m	namespace:el::base::consts	file:
+kLogFileFormatSpecifier	Log_Module/easylogging++.cpp	/^static const base::type::char_t* kLogFileFormatSpecifier          =      ELPP_LITERAL("%file");$/;"	m	namespace:el::base::consts	file:
+kLogFunctionFormatSpecifier	Log_Module/easylogging++.cpp	/^static const base::type::char_t* kLogFunctionFormatSpecifier      =      ELPP_LITERAL("%func");$/;"	m	namespace:el::base::consts	file:
+kLogLineFormatSpecifier	Log_Module/easylogging++.cpp	/^static const base::type::char_t* kLogLineFormatSpecifier          =      ELPP_LITERAL("%line");$/;"	m	namespace:el::base::consts	file:
+kLogLocationFormatSpecifier	Log_Module/easylogging++.cpp	/^static const base::type::char_t* kLogLocationFormatSpecifier      =      ELPP_LITERAL("%loc");$/;"	m	namespace:el::base::consts	file:
+kLoggerIdFormatSpecifier	Log_Module/easylogging++.cpp	/^static const base::type::char_t* kLoggerIdFormatSpecifier         =      ELPP_LITERAL("%logger");$/;"	m	namespace:el::base::consts	file:
+kLoggingFlagsParam	Log_Module/easylogging++.cpp	/^static const char* kLoggingFlagsParam                      =      "--logging-flags";$/;"	m	namespace:el::base::consts	file:
+kMaxLogPerContainer	Log_Module/easylogging++.h	/^static const unsigned int kMaxLogPerContainer              =      100;$/;"	m	namespace:el::el::ConfigurationType::base::consts
+kMaxLogPerCounter	Log_Module/easylogging++.h	/^static const unsigned int kMaxLogPerCounter                =      100000;$/;"	m	namespace:el::el::ConfigurationType::base::consts
+kMaxStack	Log_Module/easylogging++.h	/^  static const unsigned int kMaxStack = 64;$/;"	m	class:el::el::ConfigurationType::base::TimestampUnit::base::base::PerformanceTrackingData::base::debug::StackTrace
+kMaxValid	Log_Module/easylogging++.h	/^  static const base::type::EnumType kMaxValid = static_cast<base::type::EnumType>(ConfigurationType::MaxLogFileSize);$/;"	m	class:el::el::ConfigurationType::ConfigurationTypeHelper
+kMaxValid	Log_Module/easylogging++.h	/^  static const base::type::EnumType kMaxValid = static_cast<base::type::EnumType>(Level::Info);$/;"	m	class:el::el::LevelHelper
+kMaxVerboseLevel	Log_Module/easylogging++.cpp	/^static const base::type::VerboseLevel kMaxVerboseLevel     =      9;$/;"	m	namespace:el::base::consts	file:
+kMessageFormatSpecifier	Log_Module/easylogging++.cpp	/^static const base::type::char_t* kMessageFormatSpecifier          =      ELPP_LITERAL("%msg");$/;"	m	namespace:el::base::consts	file:
+kMinValid	Log_Module/easylogging++.h	/^  static const base::type::EnumType kMinValid = static_cast<base::type::EnumType>(ConfigurationType::Enabled);$/;"	m	class:el::el::ConfigurationType::ConfigurationTypeHelper
+kMinValid	Log_Module/easylogging++.h	/^  static const base::type::EnumType kMinValid = static_cast<base::type::EnumType>(Level::Trace);$/;"	m	class:el::el::LevelHelper
+kMonths	Log_Module/easylogging++.cpp	/^static const char* kMonths[12]                      =      { "January", "February", "March", "Apri", "May", "June", "July", "August",$/;"	m	namespace:el::base::consts	file:
+kMonthsAbbrev	Log_Module/easylogging++.cpp	/^static const char* kMonthsAbbrev[12]                =      { "Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec" };$/;"	m	namespace:el::base::consts	file:
+kNullPointer	Log_Module/easylogging++.cpp	/^static const char* kNullPointer                            =      "nullptr";$/;"	m	namespace:el::base::consts	file:
+kPerformanceLoggerId	Log_Module/easylogging++.h	/^static const char* kPerformanceLoggerId                    =      "performance";$/;"	m	namespace:el::el::ConfigurationType::base::consts
+kPerformanceLoggerId	Log_Module/easylogging++.h	/^static const char* kPerformanceLoggerId                    =      ELPP_DEFAULT_PERFORMANCE_LOGGER;$/;"	m	namespace:el::el::ConfigurationType::base::consts
+kPerformanceTrackerDefaultLevel	Log_Module/easylogging++.h	/^static const Level kPerformanceTrackerDefaultLevel         =      Level::Info;$/;"	m	namespace:el::el::ConfigurationType::base::consts
+kPm	Log_Module/easylogging++.cpp	/^static const char* kPm                              =      "PM";$/;"	m	namespace:el::base::consts	file:
+kSeverityLevelFormatSpecifier	Log_Module/easylogging++.cpp	/^static const base::type::char_t* kSeverityLevelFormatSpecifier    =      ELPP_LITERAL("%level");$/;"	m	namespace:el::base::consts	file:
+kSeverityLevelShortFormatSpecifier	Log_Module/easylogging++.cpp	/^static const base::type::char_t* kSeverityLevelShortFormatSpecifier    =      ELPP_LITERAL("%levshort");$/;"	m	namespace:el::base::consts	file:
+kSourceFilenameMaxLength	Log_Module/easylogging++.h	/^static const std::size_t kSourceFilenameMaxLength          =      100;$/;"	m	namespace:el::el::ConfigurationType::base::consts
+kSourceLineMaxLength	Log_Module/easylogging++.h	/^static const std::size_t kSourceLineMaxLength              =      10;$/;"	m	namespace:el::el::ConfigurationType::base::consts
+kStackStart	Log_Module/easylogging++.h	/^  static const unsigned int kStackStart = 2;  \/\/ We want to skip c'tor and StackTrace::generateNew()$/;"	m	class:el::el::ConfigurationType::base::TimestampUnit::base::base::PerformanceTrackingData::base::debug::StackTrace
+kSysLogLoggerId	Log_Module/easylogging++.h	/^static const char* kSysLogLoggerId                         =      "syslog";$/;"	m	namespace:el::el::ConfigurationType::base::consts
+kThreadIdFormatSpecifier	Log_Module/easylogging++.cpp	/^static const base::type::char_t* kThreadIdFormatSpecifier         =      ELPP_LITERAL("%thread");$/;"	m	namespace:el::base::consts	file:
+kTimeFormats	Log_Module/easylogging++.h	/^} kTimeFormats[] = {$/;"	m	namespace:el::el::ConfigurationType::base::consts	typeref:struct:el::el::ConfigurationType::base::consts::__anon1
+kTimeFormatsCount	Log_Module/easylogging++.h	/^static const int kTimeFormatsCount                           =      sizeof(kTimeFormats) \/ sizeof(kTimeFormats[0]);$/;"	m	namespace:el::el::ConfigurationType::base::consts
+kTraceLevelLogValue	Log_Module/easylogging++.cpp	/^static const base::type::char_t* kTraceLevelLogValue    =   ELPP_LITERAL("TRACE");$/;"	m	namespace:el::base::consts	file:
+kTraceLevelShortLogValue	Log_Module/easylogging++.cpp	/^static const base::type::char_t* kTraceLevelShortLogValue    =   ELPP_LITERAL("T");$/;"	m	namespace:el::base::consts	file:
+kUnknownHost	Log_Module/easylogging++.cpp	/^static const char* kUnknownHost                            =      "unknown-host";$/;"	m	namespace:el::base::consts	file:
+kUnknownUser	Log_Module/easylogging++.cpp	/^static const char* kUnknownUser                            =      "user";$/;"	m	namespace:el::base::consts	file:
+kValidLoggerIdSymbols	Log_Module/easylogging++.cpp	/^static const char* kValidLoggerIdSymbols                   =$/;"	m	namespace:el::base::consts	file:
+kVerboseLevelFormatSpecifier	Log_Module/easylogging++.cpp	/^static const base::type::char_t* kVerboseLevelFormatSpecifier     =      ELPP_LITERAL("%vlevel");$/;"	m	namespace:el::base::consts	file:
+kVerboseLevelLogValue	Log_Module/easylogging++.cpp	/^static const base::type::char_t* kVerboseLevelLogValue  =$/;"	m	namespace:el::base::consts	file:
+kVerboseLevelShortLogValue	Log_Module/easylogging++.cpp	/^static const base::type::char_t* kVerboseLevelShortLogValue  =   ELPP_LITERAL("V");$/;"	m	namespace:el::base::consts	file:
+kWarningLevelLogValue	Log_Module/easylogging++.cpp	/^static const base::type::char_t* kWarningLevelLogValue  =   ELPP_LITERAL("WARNING");$/;"	m	namespace:el::base::consts	file:
+kWarningLevelShortLogValue	Log_Module/easylogging++.cpp	/^static const base::type::char_t* kWarningLevelShortLogValue  =   ELPP_LITERAL("W");$/;"	m	namespace:el::base::consts	file:
+kYearBase	Log_Module/easylogging++.cpp	/^static const int kYearBase                          =      1900;$/;"	m	namespace:el::base::consts	file:
+lastCheckpointTime	Log_Module/easylogging++.h	/^inline const struct timeval* PerformanceTrackingData::lastCheckpointTime() const {$/;"	f	class:el::el::ConfigurationType::base::TimestampUnit::base::base::PerformanceTrackingData::PerformanceTrackingData
+level	Log_Module/easylogging++.cpp	/^  Level level;$/;"	m	struct:el::StringToLevelItem	file:
+level	Log_Module/easylogging++.h	/^  inline Level level(void) const {$/;"	f	class:el::el::ConfigurationType::base::TimestampUnit::Configuration
+level	Log_Module/easylogging++.h	/^  inline Level level(void) const {$/;"	f	class:el::el::ConfigurationType::base::TimestampUnit::base::LogFormat
+level	Log_Module/easylogging++.h	/^  inline Level level(void) const {$/;"	f	class:el::el::ConfigurationType::base::TimestampUnit::base::LogMessage
+level	Log_Module/easylogging++.h	/^  inline Level level(void) const {$/;"	f	class:el::el::ConfigurationType::base::TimestampUnit::base::base::PerformanceTrackingData::base::PerformanceTracker
+level	Log_Module/easylogging++.h	/^  inline base::type::VerboseLevel level(void) const {$/;"	f	class:el::el::ConfigurationType::base::TimestampUnit::base::base::VRegistry
+levelString	Log_Module/easylogging++.cpp	/^  const char* levelString;$/;"	m	struct:el::StringToLevelItem	file:
+line	Log_Module/easylogging++.h	/^  inline base::type::LineNumber line(void) const {$/;"	f	class:el::el::ConfigurationType::base::TimestampUnit::base::LogMessage
+line	Log_Module/easylogging++.h	/^  inline base::type::LineNumber line(void) const {$/;"	f	class:el::el::ConfigurationType::base::TimestampUnit::base::base::PerformanceTrackingData::DataType
+lineNumber	Log_Module/easylogging++.h	/^  inline base::type::LineNumber lineNumber(void) const {$/;"	f	class:el::el::ConfigurationType::base::TimestampUnit::base::HitCounter
+lock	Log_Module/easylogging++.h	/^  inline void lock(void) {$/;"	f	class:el::el::ConfigurationType::base::TimestampUnit::FormatFlags::threading::internal::Mutex
+log	Log_Module/easylogging++.cpp	/^void Configuration::log(el::base::type::ostream_t& os) const {$/;"	f	class:el::Configuration
+log	Log_Module/easylogging++.h	/^  virtual inline void log(el::base::type::ostream_t& os) const {$/;"	f	class:el::el::ConfigurationType::base::TimestampUnit::base::Logger
+log	Log_Module/easylogging++.h	/^  virtual inline void log(el::base::type::ostream_t& os) const {$/;"	f	class:el::el::ConfigurationType::base::TimestampUnit::base::base::PerformanceTrackingData::base::PerformanceTracker
+log	Log_Module/easylogging++.h	/^  virtual void log(el::base::type::ostream_t& os) const {$/;"	f	class:el::el::ConfigurationType::base::TimestampUnit::base::LogFormat
+log	Log_Module/easylogging++.h	/^inline void Logger::log(Level level, const T& log) {$/;"	f	class:el::el::ConfigurationType::base::TimestampUnit::base::base::Logger
+log	Log_Module/easylogging++.h	/^inline void Logger::log(Level level, const char* s, const T& value, const Args&... args) {$/;"	f	class:el::el::ConfigurationType::base::TimestampUnit::base::base::Logger
+logBuilder	Log_Module/easylogging++.h	/^  inline LogBuilder* logBuilder(void) const {$/;"	f	class:el::el::ConfigurationType::base::TimestampUnit::base::Logger
+logCrashReason	Log_Module/easylogging++.cpp	/^static void logCrashReason(int sig, bool stackTraceIfAvailable, Level level, const char* logger) {$/;"	f	namespace:el::base::debug
+logCrashReason	Log_Module/easylogging++.cpp	/^void Helpers::logCrashReason(int sig, bool stackTraceIfAvailable, Level level, const char* logger) {$/;"	f	class:el::Helpers
+logDispatchCallback	Log_Module/easylogging++.h	/^  inline T* logDispatchCallback(const std::string& id) {$/;"	f	class:el::el::ConfigurationType::base::TimestampUnit::base::base::Storage
+logDispatchCallback	Log_Module/easylogging++.h	/^  static inline T* logDispatchCallback(const std::string& id) {$/;"	f	class:el::el::ConfigurationType::base::TimestampUnit::base::base::PerformanceTrackingData::Helpers
+logFlushThreshold	Log_Module/easylogging++.cpp	/^std::size_t TypedConfigurations::logFlushThreshold(Level level) {$/;"	f	class:el::base::TypedConfigurations
+logFormat	Log_Module/easylogging++.cpp	/^const base::LogFormat& TypedConfigurations::logFormat(Level level) {$/;"	f	class:el::base::TypedConfigurations
+logInit	resrc_init/logInit.cpp	/^int logInit()$/;"	f
+logLine	Log_Module/easylogging++.h	/^  inline base::type::string_t logLine(void) {$/;"	f	class:el::el::ConfigurationType::base::TimestampUnit::base::base::AsyncLogItem
+logMessage	Log_Module/easylogging++.h	/^  inline LogMessage* logMessage(void) {$/;"	f	class:el::el::ConfigurationType::base::TimestampUnit::base::base::AsyncLogItem
+logMessage	Log_Module/easylogging++.h	/^  inline const LogMessage* logMessage(void) const {$/;"	f	class:el::el::ConfigurationType::base::TimestampUnit::base::LogDispatchData
+logStreamsReference	Log_Module/easylogging++.cpp	/^const base::LogStreamsReferenceMap* Loggers::logStreamsReference(void) {$/;"	f	class:el::Loggers
+logStreamsReference	Log_Module/easylogging++.h	/^  inline base::LogStreamsReferenceMap* logStreamsReference(void) {$/;"	f	class:el::el::ConfigurationType::base::TimestampUnit::base::base::RegisteredLoggers
+log_	Log_Module/easylogging++.h	/^void Logger::log_(Level level, int vlevel, const T& log) {$/;"	f	class:el::el::ConfigurationType::base::TimestampUnit::base::base::Logger
+log_	Log_Module/easylogging++.h	/^void Logger::log_(Level level, int vlevel, const char* s, const T& value, const Args&... args) {$/;"	f	class:el::el::ConfigurationType::base::TimestampUnit::base::base::Logger
+logger	Log_Module/easylogging++.h	/^  inline Logger* logger(void) const {$/;"	f	class:el::el::ConfigurationType::base::TimestampUnit::base::LogMessage
+loggerId	Log_Module/easylogging++.h	/^inline const std::string& PerformanceTrackingData::loggerId(void) const {$/;"	f	class:el::el::ConfigurationType::base::TimestampUnit::base::base::PerformanceTrackingData::PerformanceTrackingData
+loggerRegistrationCallback	Log_Module/easylogging++.h	/^  inline T* loggerRegistrationCallback(const std::string& id) {$/;"	f	class:el::el::ConfigurationType::base::TimestampUnit::base::base::RegisteredLoggers
+loggerRegistrationCallback	Log_Module/easylogging++.h	/^  static inline T* loggerRegistrationCallback(const std::string& id) {$/;"	f	class:el::el::ConfigurationType::base::TimestampUnit::base::base::PerformanceTrackingData::Loggers
+ltrim	Log_Module/easylogging++.cpp	/^std::string& Str::ltrim(std::string& str) {$/;"	f	class:el::base::utils::Str
+m_addr	Log_Module/easylogging++.h	/^    std::string m_addr;$/;"	m	class:el::el::ConfigurationType::base::TimestampUnit::base::base::PerformanceTrackingData::base::debug::StackTrace::StackTraceEntry
+m_argc	Log_Module/easylogging++.h	/^  int m_argc;$/;"	m	class:el::el::ConfigurationType::base::TimestampUnit::FormatFlags::utils::CommandLineArgs
+m_argv	Log_Module/easylogging++.h	/^  char** m_argv;$/;"	m	class:el::el::ConfigurationType::base::TimestampUnit::FormatFlags::utils::CommandLineArgs
+m_asyncDispatchWorker	Log_Module/easylogging++.h	/^  base::IWorker* m_asyncDispatchWorker;$/;"	m	class:el::el::ConfigurationType::base::TimestampUnit::base::base::Storage
+m_asyncLogQueue	Log_Module/easylogging++.h	/^  base::AsyncLogQueue* m_asyncLogQueue;$/;"	m	class:el::el::ConfigurationType::base::TimestampUnit::base::base::Storage
+m_blockName	Log_Module/easylogging++.h	/^  std::string m_blockName;$/;"	m	class:el::el::ConfigurationType::base::TimestampUnit::base::base::PerformanceTrackingData::base::PerformanceTracker
+m_checkpointId	Log_Module/easylogging++.h	/^  std::string m_checkpointId;$/;"	m	class:el::el::ConfigurationType::base::TimestampUnit::base::base::PerformanceTrackingData::DataType
+m_commandLineArgs	Log_Module/easylogging++.h	/^  base::utils::CommandLineArgs m_commandLineArgs;$/;"	m	class:el::el::ConfigurationType::base::TimestampUnit::base::base::Storage
+m_configurationFile	Log_Module/easylogging++.h	/^  std::string m_configurationFile;$/;"	m	class:el::el::ConfigurationType::base::TimestampUnit::Configurations
+m_configurationType	Log_Module/easylogging++.h	/^    ConfigurationType m_configurationType;$/;"	m	class:el::el::ConfigurationType::base::TimestampUnit::Configuration::Predicate
+m_configurationType	Log_Module/easylogging++.h	/^  ConfigurationType m_configurationType;$/;"	m	class:el::el::ConfigurationType::base::TimestampUnit::Configuration
+m_configurations	Log_Module/easylogging++.h	/^  Configurations m_configurations;$/;"	m	class:el::el::ConfigurationType::base::TimestampUnit::base::Logger
+m_configurations	Log_Module/easylogging++.h	/^  Configurations* m_configurations;$/;"	m	class:el::el::ConfigurationType::base::TimestampUnit::base::TypedConfigurations
+m_containerLogSeperator	Log_Module/easylogging++.h	/^  const base::type::char_t* m_containerLogSeperator;$/;"	m	class:el::el::ConfigurationType::base::TimestampUnit::base::base::MessageBuilder
+m_continueRunning	Log_Module/easylogging++.h	/^  bool m_continueRunning;$/;"	m	class:el::el::ConfigurationType::base::TimestampUnit::base::base::AsyncDispatchWorker
+m_continueRunningLock	Log_Module/easylogging++.h	/^  base::threading::Mutex m_continueRunningLock;$/;"	m	class:el::el::ConfigurationType::base::TimestampUnit::base::base::AsyncDispatchWorker
+m_currentHost	Log_Module/easylogging++.h	/^  std::string m_currentHost;$/;"	m	class:el::el::ConfigurationType::base::TimestampUnit::base::LogFormat
+m_currentUser	Log_Module/easylogging++.h	/^  std::string m_currentUser;$/;"	m	class:el::el::ConfigurationType::base::TimestampUnit::base::LogFormat
+m_customFormatSpecifiers	Log_Module/easylogging++.h	/^  std::vector<CustomFormatSpecifier> m_customFormatSpecifiers;$/;"	m	class:el::el::ConfigurationType::base::TimestampUnit::base::base::Storage
+m_customFormatSpecifiersLock	Log_Module/easylogging++.h	/^  base::threading::Mutex m_customFormatSpecifiersLock;$/;"	m	class:el::el::ConfigurationType::base::TimestampUnit::base::base::Storage
+m_data	Log_Module/easylogging++.h	/^  const LogDispatchData* m_data;$/;"	m	class:el::el::ConfigurationType::base::TimestampUnit::base::base::DefaultLogDispatchCallback
+m_data	Log_Module/easylogging++.h	/^  const PerformanceTrackingData* m_data;$/;"	m	class:el::el::ConfigurationType::base::TimestampUnit::base::base::PerformanceTrackingData::base::DefaultPerformanceTrackingCallback
+m_dataType	Log_Module/easylogging++.h	/^  PerformanceTrackingData::DataType m_dataType;$/;"	m	class:el::el::ConfigurationType::base::TimestampUnit::base::base::PerformanceTrackingData::DataType
+m_dateTimeFormat	Log_Module/easylogging++.h	/^  std::string m_dateTimeFormat;$/;"	m	class:el::el::ConfigurationType::base::TimestampUnit::base::LogFormat
+m_defaultConfigurations	Log_Module/easylogging++.h	/^  Configurations m_defaultConfigurations;$/;"	m	class:el::el::ConfigurationType::base::TimestampUnit::base::base::RegisteredLoggers
+m_defaultLogBuilder	Log_Module/easylogging++.h	/^  LogBuilderPtr m_defaultLogBuilder;$/;"	m	class:el::el::ConfigurationType::base::TimestampUnit::base::base::RegisteredLoggers
+m_demangled	Log_Module/easylogging++.h	/^    std::string m_demangled;$/;"	m	class:el::el::ConfigurationType::base::TimestampUnit::base::base::PerformanceTrackingData::base::debug::StackTrace::StackTraceEntry
+m_dispatchAction	Log_Module/easylogging++.h	/^  base::DispatchAction m_dispatchAction;$/;"	m	class:el::el::ConfigurationType::base::TimestampUnit::base::LogDispatchData
+m_dispatchAction	Log_Module/easylogging++.h	/^  base::DispatchAction m_dispatchAction;$/;"	m	class:el::el::ConfigurationType::base::TimestampUnit::base::base::LogDispatcher
+m_dispatchData	Log_Module/easylogging++.h	/^  LogDispatchData m_dispatchData;$/;"	m	class:el::el::ConfigurationType::base::TimestampUnit::base::base::AsyncLogItem
+m_enabled	Log_Module/easylogging++.h	/^  bool m_enabled;$/;"	m	class:el::el::ConfigurationType::base::TimestampUnit::base::Callback
+m_enabled	Log_Module/easylogging++.h	/^  bool m_enabled;$/;"	m	class:el::el::ConfigurationType::base::TimestampUnit::base::base::PerformanceTrackingData::base::PerformanceTracker
+m_enabledMap	Log_Module/easylogging++.h	/^  std::unordered_map<Level, bool> m_enabledMap;$/;"	m	class:el::el::ConfigurationType::base::TimestampUnit::base::TypedConfigurations
+m_endTime	Log_Module/easylogging++.h	/^  struct timeval m_startTime, m_endTime, m_lastCheckpointTime;$/;"	m	class:el::el::ConfigurationType::base::TimestampUnit::base::base::PerformanceTrackingData::base::PerformanceTracker	typeref:struct:el::el::ConfigurationType::base::TimestampUnit::base::base::PerformanceTrackingData::base::PerformanceTracker::
+m_file	Log_Module/easylogging++.h	/^  const char* m_file;$/;"	m	class:el::el::ConfigurationType::base::TimestampUnit::base::base::PerformanceTrackingData::DataType
+m_file	Log_Module/easylogging++.h	/^  std::string m_file;$/;"	m	class:el::el::ConfigurationType::base::TimestampUnit::base::LogMessage
+m_fileLocks	Log_Module/easylogging++.h	/^  std::unordered_map<std::string, std::unique_ptr<base::threading::Mutex>> m_fileLocks;$/;"	m	class:el::el::ConfigurationType::base::TimestampUnit::base::LogDispatchCallback
+m_fileLocksMapLock	Log_Module/easylogging++.h	/^  base::threading::Mutex m_fileLocksMapLock;$/;"	m	class:el::el::ConfigurationType::base::TimestampUnit::base::LogDispatchCallback
+m_fileStreamMap	Log_Module/easylogging++.h	/^  std::unordered_map<Level, base::FileStreamPtr> m_fileStreamMap;$/;"	m	class:el::el::ConfigurationType::base::TimestampUnit::base::TypedConfigurations
+m_filename	Log_Module/easylogging++.h	/^    const char* m_filename;$/;"	m	class:el::el::ConfigurationType::base::TimestampUnit::base::HitCounter::Predicate
+m_filename	Log_Module/easylogging++.h	/^  const char* m_filename;$/;"	m	class:el::el::ConfigurationType::base::TimestampUnit::base::HitCounter
+m_filenameMap	Log_Module/easylogging++.h	/^  std::unordered_map<Level, std::string> m_filenameMap;$/;"	m	class:el::el::ConfigurationType::base::TimestampUnit::base::TypedConfigurations
+m_firstCheckpoint	Log_Module/easylogging++.h	/^  bool m_firstCheckpoint;$/;"	m	class:el::el::ConfigurationType::base::TimestampUnit::base::base::PerformanceTrackingData::DataType
+m_flag	Log_Module/easylogging++.h	/^    LoggingFlag m_flag;$/;"	m	class:el::el::ConfigurationType::base::TimestampUnit::base::base::PerformanceTrackingData::Loggers::ScopedAddFlag
+m_flag	Log_Module/easylogging++.h	/^    LoggingFlag m_flag;$/;"	m	class:el::el::ConfigurationType::base::TimestampUnit::base::base::PerformanceTrackingData::Loggers::ScopedRemoveFlag
+m_flags	Log_Module/easylogging++.h	/^  base::type::EnumType m_flags;$/;"	m	class:el::el::ConfigurationType::base::TimestampUnit::base::LogFormat
+m_flags	Log_Module/easylogging++.h	/^  base::type::EnumType m_flags;$/;"	m	class:el::el::ConfigurationType::base::TimestampUnit::base::base::Storage
+m_format	Log_Module/easylogging++.h	/^  base::type::string_t m_format;$/;"	m	class:el::el::ConfigurationType::base::TimestampUnit::base::LogFormat
+m_formatSpecifier	Log_Module/easylogging++.h	/^  const char* m_formatSpecifier;$/;"	m	class:el::el::ConfigurationType::base::TimestampUnit::CustomFormatSpecifier
+m_formattedTimeTaken	Log_Module/easylogging++.h	/^  base::type::string_t m_formattedTimeTaken;$/;"	m	class:el::el::ConfigurationType::base::TimestampUnit::base::base::PerformanceTrackingData::DataType
+m_func	Log_Module/easylogging++.h	/^  const char* m_func;$/;"	m	class:el::el::ConfigurationType::base::TimestampUnit::base::base::PerformanceTrackingData::DataType
+m_func	Log_Module/easylogging++.h	/^  std::string m_func;$/;"	m	class:el::el::ConfigurationType::base::TimestampUnit::base::LogMessage
+m_handler	Log_Module/easylogging++.h	/^  Handler m_handler;$/;"	m	class:el::el::ConfigurationType::base::TimestampUnit::base::base::PerformanceTrackingData::base::debug::CrashHandler
+m_hasChecked	Log_Module/easylogging++.h	/^  bool m_hasChecked;$/;"	m	class:el::el::ConfigurationType::base::TimestampUnit::base::base::PerformanceTrackingData::base::PerformanceTracker
+m_hex	Log_Module/easylogging++.h	/^    std::string m_hex;$/;"	m	class:el::el::ConfigurationType::base::TimestampUnit::base::base::PerformanceTrackingData::base::debug::StackTrace::StackTraceEntry
+m_hitCounts	Log_Module/easylogging++.h	/^  std::size_t m_hitCounts;$/;"	m	class:el::el::ConfigurationType::base::TimestampUnit::base::HitCounter
+m_id	Log_Module/easylogging++.h	/^  std::string m_id;$/;"	m	class:el::el::ConfigurationType::base::TimestampUnit::base::Logger
+m_index	Log_Module/easylogging++.h	/^    std::size_t m_index;$/;"	m	class:el::el::ConfigurationType::base::TimestampUnit::base::base::PerformanceTrackingData::base::debug::StackTrace::StackTraceEntry
+m_isConfigured	Log_Module/easylogging++.h	/^  bool m_isConfigured;$/;"	m	class:el::el::ConfigurationType::base::TimestampUnit::base::Logger
+m_isFromFile	Log_Module/easylogging++.h	/^  bool m_isFromFile;$/;"	m	class:el::el::ConfigurationType::base::TimestampUnit::Configurations
+m_lastCheckpointId	Log_Module/easylogging++.h	/^  std::string m_lastCheckpointId;$/;"	m	class:el::el::ConfigurationType::base::TimestampUnit::base::base::PerformanceTrackingData::base::PerformanceTracker
+m_lastCheckpointTime	Log_Module/easylogging++.h	/^  struct timeval m_startTime, m_endTime, m_lastCheckpointTime;$/;"	m	class:el::el::ConfigurationType::base::TimestampUnit::base::base::PerformanceTrackingData::base::PerformanceTracker	typeref:struct:el::el::ConfigurationType::base::TimestampUnit::base::base::PerformanceTrackingData::base::PerformanceTracker::
+m_level	Log_Module/easylogging++.h	/^    Level m_level;$/;"	m	class:el::el::ConfigurationType::base::TimestampUnit::Configuration::Predicate
+m_level	Log_Module/easylogging++.h	/^  Level m_level;$/;"	m	class:el::el::ConfigurationType::base::TimestampUnit::Configuration
+m_level	Log_Module/easylogging++.h	/^  Level m_level;$/;"	m	class:el::el::ConfigurationType::base::TimestampUnit::base::LogFormat
+m_level	Log_Module/easylogging++.h	/^  Level m_level;$/;"	m	class:el::el::ConfigurationType::base::TimestampUnit::base::LogMessage
+m_level	Log_Module/easylogging++.h	/^  Level m_level;$/;"	m	class:el::el::ConfigurationType::base::TimestampUnit::base::base::PerformanceTrackingData::base::PerformanceTracker
+m_level	Log_Module/easylogging++.h	/^  base::type::VerboseLevel m_level;$/;"	m	class:el::el::ConfigurationType::base::TimestampUnit::base::base::VRegistry
+m_line	Log_Module/easylogging++.h	/^  base::type::LineNumber m_line;$/;"	m	class:el::el::ConfigurationType::base::TimestampUnit::base::LogMessage
+m_line	Log_Module/easylogging++.h	/^  base::type::LineNumber m_line;$/;"	m	class:el::el::ConfigurationType::base::TimestampUnit::base::base::PerformanceTrackingData::DataType
+m_lineNumber	Log_Module/easylogging++.h	/^    base::type::LineNumber m_lineNumber;$/;"	m	class:el::el::ConfigurationType::base::TimestampUnit::base::HitCounter::Predicate
+m_lineNumber	Log_Module/easylogging++.h	/^  base::type::LineNumber m_lineNumber;$/;"	m	class:el::el::ConfigurationType::base::TimestampUnit::base::HitCounter
+m_list	Log_Module/easylogging++.h	/^  Container m_list;$/;"	m	class:el::el::ConfigurationType::base::TimestampUnit::FormatFlags::utils::AbstractRegistry
+m_location	Log_Module/easylogging++.h	/^    std::string m_location;$/;"	m	class:el::el::ConfigurationType::base::TimestampUnit::base::base::PerformanceTrackingData::base::debug::StackTrace::StackTraceEntry
+m_logBuilder	Log_Module/easylogging++.h	/^  LogBuilderPtr m_logBuilder;$/;"	m	class:el::el::ConfigurationType::base::TimestampUnit::base::Logger
+m_logDispatchCallbacks	Log_Module/easylogging++.h	/^  std::unordered_map<std::string, base::type::LogDispatchCallbackPtr> m_logDispatchCallbacks;$/;"	m	class:el::el::ConfigurationType::base::TimestampUnit::base::base::Storage
+m_logFlushThresholdMap	Log_Module/easylogging++.h	/^  std::unordered_map<Level, std::size_t> m_logFlushThresholdMap;$/;"	m	class:el::el::ConfigurationType::base::TimestampUnit::base::TypedConfigurations
+m_logFormatMap	Log_Module/easylogging++.h	/^  std::unordered_map<Level, base::LogFormat> m_logFormatMap;$/;"	m	class:el::el::ConfigurationType::base::TimestampUnit::base::TypedConfigurations
+m_logLine	Log_Module/easylogging++.h	/^  base::type::string_t m_logLine;$/;"	m	class:el::el::ConfigurationType::base::TimestampUnit::base::base::AsyncLogItem
+m_logMessage	Log_Module/easylogging++.h	/^  LogMessage m_logMessage;$/;"	m	class:el::el::ConfigurationType::base::TimestampUnit::base::base::AsyncLogItem
+m_logMessage	Log_Module/easylogging++.h	/^  LogMessage* m_logMessage;$/;"	m	class:el::el::ConfigurationType::base::TimestampUnit::base::LogDispatchData
+m_logMessage	Log_Module/easylogging++.h	/^  LogMessage* m_logMessage;$/;"	m	class:el::el::ConfigurationType::base::TimestampUnit::base::base::LogDispatcher
+m_logStreamsReference	Log_Module/easylogging++.h	/^  base::LogStreamsReferenceMap m_logStreamsReference;$/;"	m	class:el::el::ConfigurationType::base::TimestampUnit::base::base::RegisteredLoggers
+m_logStreamsReference	Log_Module/easylogging++.h	/^  base::LogStreamsReferenceMap* m_logStreamsReference;$/;"	m	class:el::el::ConfigurationType::base::TimestampUnit::base::Logger
+m_logStreamsReference	Log_Module/easylogging++.h	/^  base::LogStreamsReferenceMap* m_logStreamsReference;$/;"	m	class:el::el::ConfigurationType::base::TimestampUnit::base::TypedConfigurations
+m_logger	Log_Module/easylogging++.h	/^  Logger* m_logger;$/;"	m	class:el::el::ConfigurationType::base::TimestampUnit::base::LogMessage
+m_logger	Log_Module/easylogging++.h	/^  Logger* m_logger;$/;"	m	class:el::el::ConfigurationType::base::TimestampUnit::base::base::MessageBuilder
+m_loggerId	Log_Module/easylogging++.h	/^  std::string m_loggerId;$/;"	m	class:el::el::ConfigurationType::base::TimestampUnit::base::base::PerformanceTrackingData::base::PerformanceTracker
+m_loggerRegistrationCallbacks	Log_Module/easylogging++.h	/^  std::unordered_map<std::string, base::type::LoggerRegistrationCallbackPtr> m_loggerRegistrationCallbacks;$/;"	m	class:el::el::ConfigurationType::base::TimestampUnit::base::base::RegisteredLoggers
+m_loggingLevel	Log_Module/easylogging++.h	/^  Level m_loggingLevel;$/;"	m	class:el::el::ConfigurationType::base::TimestampUnit::base::base::Storage
+m_maxLogFileSizeMap	Log_Module/easylogging++.h	/^  std::unordered_map<Level, std::size_t> m_maxLogFileSizeMap;$/;"	m	class:el::el::ConfigurationType::base::TimestampUnit::base::TypedConfigurations
+m_message	Log_Module/easylogging++.h	/^  base::type::string_t m_message;$/;"	m	class:el::el::ConfigurationType::base::TimestampUnit::base::LogMessage
+m_modules	Log_Module/easylogging++.h	/^  std::unordered_map<std::string, base::type::VerboseLevel> m_modules;$/;"	m	class:el::el::ConfigurationType::base::TimestampUnit::base::base::VRegistry
+m_mutex	Log_Module/easylogging++.h	/^  M* m_mutex;$/;"	m	class:el::el::ConfigurationType::base::TimestampUnit::FormatFlags::threading::internal::ScopedLock
+m_mutex	Log_Module/easylogging++.h	/^  base::threading::Mutex m_mutex;$/;"	m	class:el::el::ConfigurationType::base::TimestampUnit::FormatFlags::threading::ThreadSafe
+m_offset	Log_Module/easylogging++.h	/^  unsigned int m_offset;$/;"	m	class:el::el::ConfigurationType::base::TimestampUnit::FormatFlags::SubsecondPrecision
+m_pFlags	Log_Module/easylogging++.h	/^  base::type::EnumType* m_pFlags;$/;"	m	class:el::el::ConfigurationType::base::TimestampUnit::base::base::VRegistry
+m_params	Log_Module/easylogging++.h	/^  std::vector<std::string> m_params;$/;"	m	class:el::el::ConfigurationType::base::TimestampUnit::FormatFlags::utils::CommandLineArgs
+m_paramsWithValue	Log_Module/easylogging++.h	/^  std::unordered_map<std::string, std::string> m_paramsWithValue;$/;"	m	class:el::el::ConfigurationType::base::TimestampUnit::FormatFlags::utils::CommandLineArgs
+m_parentApplicationName	Log_Module/easylogging++.h	/^  std::string m_parentApplicationName;$/;"	m	class:el::el::ConfigurationType::base::TimestampUnit::base::Logger
+m_performanceTracker	Log_Module/easylogging++.h	/^  base::PerformanceTracker* m_performanceTracker;$/;"	m	class:el::el::ConfigurationType::base::TimestampUnit::base::base::PerformanceTrackingData::DataType
+m_performanceTrackingCallbacks	Log_Module/easylogging++.h	/^  std::unordered_map<std::string, base::type::PerformanceTrackingCallbackPtr> m_performanceTrackingCallbacks;$/;"	m	class:el::el::ConfigurationType::base::TimestampUnit::base::base::Storage
+m_performanceTrackingMap	Log_Module/easylogging++.h	/^  std::unordered_map<Level, bool> m_performanceTrackingMap;$/;"	m	class:el::el::ConfigurationType::base::TimestampUnit::base::TypedConfigurations
+m_preRollOutCallback	Log_Module/easylogging++.h	/^  PreRollOutCallback m_preRollOutCallback;$/;"	m	class:el::el::ConfigurationType::base::TimestampUnit::base::base::Storage
+m_proceed	Log_Module/easylogging++.h	/^  bool m_proceed;$/;"	m	class:el::el::ConfigurationType::base::TimestampUnit::base::base::LogDispatcher
+m_queue	Log_Module/easylogging++.h	/^  std::queue<AsyncLogItem> m_queue;$/;"	m	class:el::el::ConfigurationType::base::TimestampUnit::base::base::AsyncLogQueue
+m_registeredHitCounters	Log_Module/easylogging++.h	/^  base::RegisteredHitCounters* m_registeredHitCounters;$/;"	m	class:el::el::ConfigurationType::base::TimestampUnit::base::base::Storage
+m_registeredLoggers	Log_Module/easylogging++.h	/^  base::RegisteredLoggers* m_registeredLoggers;$/;"	m	class:el::el::ConfigurationType::base::TimestampUnit::base::base::Storage
+m_resolver	Log_Module/easylogging++.h	/^  FormatSpecifierValueResolver m_resolver;$/;"	m	class:el::el::ConfigurationType::base::TimestampUnit::CustomFormatSpecifier
+m_scopedLog	Log_Module/easylogging++.h	/^  bool m_scopedLog;$/;"	m	class:el::el::ConfigurationType::base::TimestampUnit::base::base::PerformanceTrackingData::base::PerformanceTracker
+m_stack	Log_Module/easylogging++.h	/^  std::vector<StackTraceEntry> m_stack;$/;"	m	class:el::el::ConfigurationType::base::TimestampUnit::base::base::PerformanceTrackingData::base::debug::StackTrace
+m_startTime	Log_Module/easylogging++.h	/^  struct timeval m_startTime, m_endTime, m_lastCheckpointTime;$/;"	m	class:el::el::ConfigurationType::base::TimestampUnit::base::base::PerformanceTrackingData::base::PerformanceTracker	typeref:struct:el::el::ConfigurationType::base::TimestampUnit::base::base::PerformanceTrackingData::base::PerformanceTracker::timeval
+m_stream	Log_Module/easylogging++.h	/^  base::type::stringstream_t m_stream;$/;"	m	class:el::el::ConfigurationType::base::TimestampUnit::base::Logger
+m_subsecondPrecisionMap	Log_Module/easylogging++.h	/^  std::unordered_map<Level, base::SubsecondPrecision> m_subsecondPrecisionMap;$/;"	m	class:el::el::ConfigurationType::base::TimestampUnit::base::TypedConfigurations
+m_termSupportsColor	Log_Module/easylogging++.h	/^  bool m_termSupportsColor;$/;"	m	class:el::el::ConfigurationType::base::TimestampUnit::base::LogBuilder
+m_threadNames	Log_Module/easylogging++.h	/^  std::unordered_map<std::string, std::string> m_threadNames;$/;"	m	class:el::el::ConfigurationType::base::TimestampUnit::base::base::Storage
+m_threadNamesLock	Log_Module/easylogging++.h	/^  base::threading::Mutex m_threadNamesLock;$/;"	m	class:el::el::ConfigurationType::base::TimestampUnit::base::base::Storage
+m_timestampUnit	Log_Module/easylogging++.h	/^  base::TimestampUnit m_timestampUnit;$/;"	m	class:el::el::ConfigurationType::base::TimestampUnit::base::base::PerformanceTrackingData::base::PerformanceTracker
+m_toFileMap	Log_Module/easylogging++.h	/^  std::unordered_map<Level, bool> m_toFileMap;$/;"	m	class:el::el::ConfigurationType::base::TimestampUnit::base::TypedConfigurations
+m_toStandardOutputMap	Log_Module/easylogging++.h	/^  std::unordered_map<Level, bool> m_toStandardOutputMap;$/;"	m	class:el::el::ConfigurationType::base::TimestampUnit::base::TypedConfigurations
+m_typedConfigurations	Log_Module/easylogging++.h	/^  base::TypedConfigurations* m_typedConfigurations;$/;"	m	class:el::el::ConfigurationType::base::TimestampUnit::base::Logger
+m_underlyingMutex	Log_Module/easylogging++.h	/^  CRITICAL_SECTION m_underlyingMutex;$/;"	m	class:el::el::ConfigurationType::base::TimestampUnit::FormatFlags::threading::internal::Mutex
+m_underlyingMutex	Log_Module/easylogging++.h	/^  pthread_mutex_t m_underlyingMutex;$/;"	m	class:el::el::ConfigurationType::base::TimestampUnit::FormatFlags::threading::internal::Mutex
+m_unflushedCount	Log_Module/easylogging++.h	/^  std::unordered_map<Level, unsigned int> m_unflushedCount;$/;"	m	class:el::el::ConfigurationType::base::TimestampUnit::base::Logger
+m_userFormat	Log_Module/easylogging++.h	/^  base::type::string_t m_userFormat;$/;"	m	class:el::el::ConfigurationType::base::TimestampUnit::base::LogFormat
+m_vRegistry	Log_Module/easylogging++.h	/^  base::VRegistry* m_vRegistry;$/;"	m	class:el::el::ConfigurationType::base::TimestampUnit::base::base::Storage
+m_value	Log_Module/easylogging++.h	/^  std::string m_value;$/;"	m	class:el::el::ConfigurationType::base::TimestampUnit::Configuration
+m_verboseLevel	Log_Module/easylogging++.h	/^  base::type::VerboseLevel m_verboseLevel;$/;"	m	class:el::el::ConfigurationType::base::TimestampUnit::base::LogMessage
+m_width	Log_Module/easylogging++.h	/^  int m_width;$/;"	m	class:el::el::ConfigurationType::base::TimestampUnit::FormatFlags::SubsecondPrecision
+main	main.cpp	/^int main(int argc, char* argv[])$/;"	f
+maxLogFileSize	Log_Module/easylogging++.cpp	/^std::size_t TypedConfigurations::maxLogFileSize(Level level) {$/;"	f	class:el::base::TypedConfigurations
+message	Log_Module/easylogging++.h	/^  inline const base::type::string_t& message(void) const {$/;"	f	class:el::el::ConfigurationType::base::TimestampUnit::base::LogMessage
+millisecondsWidth	Log_Module/easylogging++.cpp	/^const base::MillisecondsWidth& TypedConfigurations::millisecondsWidth(Level level) {$/;"	f	class:el::base::TypedConfigurations
+modules	Log_Module/easylogging++.h	/^  inline const std::unordered_map<std::string, base::type::VerboseLevel>& modules(void) const {$/;"	f	class:el::el::ConfigurationType::base::TimestampUnit::base::base::VRegistry
+msleep	Log_Module/easylogging++.cpp	/^static void msleep(int ms) {$/;"	f	namespace:el::base::threading
+myFork	Process_Manager/myFork.cpp	/^pid_t myFork()$/;"	f
+myWaitpid_wnohang	Process_Manager/myWaitpid_wnohang.cpp	/^pid_t myWaitpid_wnohang(pid_t pid,int* wstatus)$/;"	f
+name	Log_Module/easylogging++.h	/^  const char* name;$/;"	m	struct:el::el::ConfigurationType::base::consts::__anon2
+newFileStream	Log_Module/easylogging++.cpp	/^base::type::fstream_t* File::newFileStream(const std::string& filename) {$/;"	f	class:el::base::utils::File
+next	Log_Module/easylogging++.h	/^  inline AsyncLogItem next(void) {$/;"	f	class:el::el::ConfigurationType::base::TimestampUnit::base::base::AsyncLogQueue
+numb	Log_Module/easylogging++.h	/^  int numb;$/;"	m	struct:el::el::ConfigurationType::base::consts::__anon2
+operator !=	Log_Module/easylogging++.h	/^  bool operator!=(const AbstractRegistry<T_Ptr, Container>& other) {$/;"	f	class:el::el::ConfigurationType::base::TimestampUnit::FormatFlags::utils::AbstractRegistry
+operator ()	Log_Module/easylogging++.cpp	/^bool Configuration::Predicate::operator()(const Configuration* conf) const {$/;"	f	class:el::Configuration::Predicate
+operator ()	Log_Module/easylogging++.h	/^    inline bool operator()(const HitCounter* counter) {$/;"	f	class:el::el::ConfigurationType::base::TimestampUnit::base::HitCounter::Predicate
+operator ()	Log_Module/easylogging++.h	/^  std::size_t operator()(const el::Level& l) const {$/;"	f	struct:el::std::hash
+operator <<	Log_Module/easylogging++.cpp	/^MessageBuilder& MessageBuilder::operator<<(const wchar_t* msg) {$/;"	f	class:el::base::MessageBuilder
+operator <<	Log_Module/easylogging++.cpp	/^base::type::ostream_t& operator<<(base::type::ostream_t& os, const CommandLineArgs& c) {$/;"	f	namespace:el::base::utils
+operator <<	Log_Module/easylogging++.cpp	/^std::ostream& operator<<(std::ostream& os, const StackTrace& st) {$/;"	f	namespace:el::base::debug
+operator <<	Log_Module/easylogging++.cpp	/^std::ostream& operator<<(std::ostream& ss, const StackTrace::StackTraceEntry& si) {$/;"	f	namespace:el::base::debug
+operator <<	Log_Module/easylogging++.h	/^  MessageBuilder& operator<<(const QHash<K, V>& hash_) {$/;"	f	class:el::el::ConfigurationType::base::TimestampUnit::base::base::MessageBuilder
+operator <<	Log_Module/easylogging++.h	/^  MessageBuilder& operator<<(const QMap<K, V>& map_) {$/;"	f	class:el::el::ConfigurationType::base::TimestampUnit::base::base::MessageBuilder
+operator <<	Log_Module/easylogging++.h	/^  MessageBuilder& operator<<(const QPair<First, Second>& pair_) {$/;"	f	class:el::el::ConfigurationType::base::TimestampUnit::base::base::MessageBuilder
+operator <<	Log_Module/easylogging++.h	/^  MessageBuilder& operator<<(const std::bitset<Size>& bitset_) {$/;"	f	class:el::el::ConfigurationType::base::TimestampUnit::base::base::MessageBuilder
+operator <<	Log_Module/easylogging++.h	/^  MessageBuilder& operator<<(const std::pair<First, Second>& pair_) {$/;"	f	class:el::el::ConfigurationType::base::TimestampUnit::base::base::MessageBuilder
+operator <<	Log_Module/easylogging++.h	/^  friend base::type::ostream_t& operator<<(base::type::ostream_t& os, const RegistryWithPred& sr) {$/;"	f	class:el::el::ConfigurationType::base::TimestampUnit::FormatFlags::utils::RegistryWithPred
+operator <<	Log_Module/easylogging++.h	/^  friend inline el::base::type::ostream_t& operator<<(el::base::type::ostream_t& os, const Loggable& loggable) {$/;"	f	class:el::el::ConfigurationType::base::TimestampUnit::Loggable
+operator <<	Log_Module/easylogging++.h	/^  inline MessageBuilder& operator<<(QChar msg) {$/;"	f	class:el::el::ConfigurationType::base::TimestampUnit::base::base::MessageBuilder
+operator <<	Log_Module/easylogging++.h	/^  inline MessageBuilder& operator<<(const QByteArray& msg) {$/;"	f	class:el::el::ConfigurationType::base::TimestampUnit::base::base::MessageBuilder
+operator <<	Log_Module/easylogging++.h	/^  inline MessageBuilder& operator<<(const QLatin1String& msg) {$/;"	f	class:el::el::ConfigurationType::base::TimestampUnit::base::base::MessageBuilder
+operator <<	Log_Module/easylogging++.h	/^  inline MessageBuilder& operator<<(const QMultiHash<K, V>& multiHash_) {$/;"	f	class:el::el::ConfigurationType::base::TimestampUnit::base::base::MessageBuilder
+operator <<	Log_Module/easylogging++.h	/^  inline MessageBuilder& operator<<(const QMultiMap<K, V>& map_) {$/;"	f	class:el::el::ConfigurationType::base::TimestampUnit::base::base::MessageBuilder
+operator <<	Log_Module/easylogging++.h	/^  inline MessageBuilder& operator<<(const QString& msg) {$/;"	f	class:el::el::ConfigurationType::base::TimestampUnit::base::base::MessageBuilder
+operator <<	Log_Module/easylogging++.h	/^  inline MessageBuilder& operator<<(const QStringRef& msg) {$/;"	f	class:el::el::ConfigurationType::base::TimestampUnit::base::base::MessageBuilder
+operator <<	Log_Module/easylogging++.h	/^  inline MessageBuilder& operator<<(const std::array<T, Size>& array) {$/;"	f	class:el::el::ConfigurationType::base::TimestampUnit::base::base::MessageBuilder
+operator <<	Log_Module/easylogging++.h	/^  inline MessageBuilder& operator<<(const std::priority_queue<T, Container, Comparator>& priorityQueue_) {$/;"	f	class:el::el::ConfigurationType::base::TimestampUnit::base::base::MessageBuilder
+operator <<	Log_Module/easylogging++.h	/^  inline MessageBuilder& operator<<(const std::queue<T, Container>& queue_) {$/;"	f	class:el::el::ConfigurationType::base::TimestampUnit::base::base::MessageBuilder
+operator <<	Log_Module/easylogging++.h	/^  inline MessageBuilder& operator<<(const std::stack<T, Container>& stack_) {$/;"	f	class:el::el::ConfigurationType::base::TimestampUnit::base::base::MessageBuilder
+operator <<	Log_Module/easylogging++.h	/^  inline MessageBuilder& operator<<(const std::string& msg) {$/;"	f	class:el::el::ConfigurationType::base::TimestampUnit::base::base::MessageBuilder
+operator <<	Log_Module/easylogging++.h	/^  inline MessageBuilder& operator<<(const std::wstring& msg) {$/;"	f	class:el::el::ConfigurationType::base::TimestampUnit::base::base::MessageBuilder
+operator <<	Log_Module/easylogging++.h	/^  inline MessageBuilder& operator<<(qint64 msg) {$/;"	f	class:el::el::ConfigurationType::base::TimestampUnit::base::base::MessageBuilder
+operator <<	Log_Module/easylogging++.h	/^  inline MessageBuilder& operator<<(quint64 msg) {$/;"	f	class:el::el::ConfigurationType::base::TimestampUnit::base::base::MessageBuilder
+operator <<	Log_Module/easylogging++.h	/^  inline NullWriter& operator<<(const T&) {$/;"	f	class:el::el::ConfigurationType::base::TimestampUnit::base::base::NullWriter
+operator <<	Log_Module/easylogging++.h	/^  inline NullWriter& operator<<(std::ostream& (*)(std::ostream&)) {$/;"	f	class:el::el::ConfigurationType::base::TimestampUnit::base::base::NullWriter
+operator <<	Log_Module/easylogging++.h	/^  inline Writer& operator<<(const T& log) {$/;"	f	class:el::el::ConfigurationType::base::TimestampUnit::base::base::Writer
+operator =	Log_Module/easylogging++.cpp	/^Configuration& Configuration::operator=(const Configuration& c) {$/;"	f	class:el::Configuration
+operator =	Log_Module/easylogging++.cpp	/^LogFormat& LogFormat::operator=(const LogFormat& logFormat) {$/;"	f	class:el::base::LogFormat
+operator =	Log_Module/easylogging++.cpp	/^Logger& Logger::operator=(const Logger& logger) {$/;"	f	class:el::Logger
+operator =	Log_Module/easylogging++.h	/^  AbstractRegistry& operator=(AbstractRegistry&& sr) {$/;"	f	class:el::el::ConfigurationType::base::TimestampUnit::FormatFlags::utils::AbstractRegistry
+operator =	Log_Module/easylogging++.h	/^  HitCounter& operator=(const HitCounter& hitCounter) {$/;"	f	class:el::el::ConfigurationType::base::TimestampUnit::base::HitCounter
+operator =	Log_Module/easylogging++.h	/^  Registry& operator=(const Registry& sr) {$/;"	f	class:el::el::ConfigurationType::base::TimestampUnit::FormatFlags::utils::Registry
+operator =	Log_Module/easylogging++.h	/^  RegistryWithPred& operator=(const RegistryWithPred& sr) {$/;"	f	class:el::el::ConfigurationType::base::TimestampUnit::FormatFlags::utils::RegistryWithPred
+operator ==	Log_Module/easylogging++.cpp	/^bool LogFormat::operator==(const LogFormat& other) {$/;"	f	class:el::base::LogFormat
+operator ==	Log_Module/easylogging++.h	/^  bool operator==(const AbstractRegistry<T_Ptr, Container>& other) {$/;"	f	class:el::el::ConfigurationType::base::TimestampUnit::FormatFlags::utils::AbstractRegistry
+operator ==	Log_Module/easylogging++.h	/^  bool operator==(const SubsecondPrecision& ssPrec) {$/;"	f	class:el::el::ConfigurationType::base::TimestampUnit::FormatFlags::SubsecondPrecision
+operator ==	Log_Module/easylogging++.h	/^  inline bool operator==(const char* formatSpecifier) {$/;"	f	class:el::el::ConfigurationType::base::TimestampUnit::CustomFormatSpecifier
+operator bool	Log_Module/easylogging++.h	/^  inline operator bool() {$/;"	f	class:el::el::ConfigurationType::base::TimestampUnit::base::base::NullWriter
+ostream_t	Log_Module/easylogging++.h	/^typedef std::wostream ostream_t;$/;"	t	namespace:el::base::type
+parentApplicationName	Log_Module/easylogging++.h	/^  inline const std::string& parentApplicationName(void) const {$/;"	f	class:el::el::ConfigurationType::base::TimestampUnit::base::Logger
+parseFormat	Log_Module/easylogging++.cpp	/^char* DateTime::parseFormat(char* buf, std::size_t bufSz, const char* format, const struct tm* tInfo,$/;"	f	class:el::base::utils::DateTime
+parseFromFile	Log_Module/easylogging++.cpp	/^bool Configurations::Parser::parseFromFile(const std::string& configurationFile, Configurations* sender,$/;"	f	class:el::Configurations::Parser
+parseFromFile	Log_Module/easylogging++.cpp	/^bool Configurations::parseFromFile(const std::string& configurationFile, Configurations* base) {$/;"	f	class:el::Configurations
+parseFromFormat	Log_Module/easylogging++.cpp	/^void LogFormat::parseFromFormat(const base::type::string_t& userFormat) {$/;"	f	class:el::base::LogFormat
+parseFromText	Log_Module/easylogging++.cpp	/^bool Configurations::Parser::parseFromText(const std::string& configurationsString, Configurations* sender,$/;"	f	class:el::Configurations::Parser
+parseFromText	Log_Module/easylogging++.cpp	/^bool Configurations::parseFromText(const std::string& configurationsString, Configurations* base) {$/;"	f	class:el::Configurations
+parseLine	Log_Module/easylogging++.cpp	/^bool Configurations::Parser::parseLine(std::string* line, std::string* currConfigStr, std::string* currLevelStr,$/;"	f	class:el::Configurations::Parser
+pathExists	Log_Module/easylogging++.cpp	/^bool File::pathExists(const char* path, bool considerFile) {$/;"	f	class:el::base::utils::File
+performanceTracker	Log_Module/easylogging++.h	/^  inline const base::PerformanceTracker* performanceTracker(void) const {$/;"	f	class:el::el::ConfigurationType::base::TimestampUnit::base::base::PerformanceTrackingData::DataType
+performanceTracking	Log_Module/easylogging++.cpp	/^bool TypedConfigurations::performanceTracking(Level level) {$/;"	f	class:el::base::TypedConfigurations
+performanceTrackingCallback	Log_Module/easylogging++.h	/^  inline T* performanceTrackingCallback(const std::string& id) {$/;"	f	class:el::el::ConfigurationType::base::TimestampUnit::base::base::Storage
+performanceTrackingCallback	Log_Module/easylogging++.h	/^  static inline T* performanceTrackingCallback(const std::string& id) {$/;"	f	class:el::el::ConfigurationType::base::TimestampUnit::base::base::PerformanceTrackingData::Helpers
+pop	Log_Module/easylogging++.h	/^  inline void pop(void) {$/;"	f	class:el::el::ConfigurationType::base::TimestampUnit::base::base::AsyncLogQueue
+populateAllLoggerIds	Log_Module/easylogging++.cpp	/^std::vector<std::string>* Loggers::populateAllLoggerIds(std::vector<std::string>* targetList) {$/;"	f	class:el::Loggers
+preRollOutCallback	Log_Module/easylogging++.h	/^  inline PreRollOutCallback& preRollOutCallback(void) {$/;"	f	class:el::el::ConfigurationType::base::TimestampUnit::base::base::Storage
+processDispatch	Log_Module/easylogging++.cpp	/^void Writer::processDispatch() {$/;"	f	class:el::base::Writer
+push	Log_Module/easylogging++.h	/^  inline void push(const AsyncLogItem& item) {$/;"	f	class:el::el::ConfigurationType::base::TimestampUnit::base::base::AsyncLogQueue
+reconfigure	Log_Module/easylogging++.cpp	/^void Logger::reconfigure(void) {$/;"	f	class:el::Logger
+reconfigureAllLoggers	Log_Module/easylogging++.cpp	/^void Loggers::reconfigureAllLoggers(Level level, ConfigurationType configurationType,$/;"	f	class:el::Loggers
+reconfigureAllLoggers	Log_Module/easylogging++.cpp	/^void Loggers::reconfigureAllLoggers(const Configurations& configurations) {$/;"	f	class:el::Loggers
+reconfigureAllLoggers	Log_Module/easylogging++.h	/^  static inline void reconfigureAllLoggers(ConfigurationType configurationType, const std::string& value) {$/;"	f	class:el::el::ConfigurationType::base::TimestampUnit::base::base::PerformanceTrackingData::Loggers
+reconfigureLogger	Log_Module/easylogging++.cpp	/^Logger* Loggers::reconfigureLogger(Logger* logger, const Configurations& configurations) {$/;"	f	class:el::Loggers
+reconfigureLogger	Log_Module/easylogging++.cpp	/^Logger* Loggers::reconfigureLogger(const std::string& identity, ConfigurationType configurationType,$/;"	f	class:el::Loggers
+reconfigureLogger	Log_Module/easylogging++.cpp	/^Logger* Loggers::reconfigureLogger(const std::string& identity, const Configurations& configurations) {$/;"	f	class:el::Loggers
+registerListenSocket	Network_Manager/registerListenSocket.cpp	/^int registerListenSocket()$/;"	f
+registeredLoggers	Log_Module/easylogging++.h	/^  inline base::RegisteredLoggers* registeredLoggers(void) const {$/;"	f	class:el::el::ConfigurationType::base::TimestampUnit::base::base::Storage
+reinitDeepCopy	Log_Module/easylogging++.h	/^  void reinitDeepCopy(const AbstractRegistry<T_Ptr, Container>& sr) {$/;"	f	class:el::el::ConfigurationType::base::TimestampUnit::FormatFlags::utils::AbstractRegistry
+releaseDate	Log_Module/easylogging++.cpp	/^const std::string VersionInfo::releaseDate(void) {$/;"	f	class:el::VersionInfo
+remove	Log_Module/easylogging++.cpp	/^bool RegisteredLoggers::remove(const std::string& id) {$/;"	f	class:el::base::RegisteredLoggers
+removeFlag	Log_Module/easylogging++.h	/^  inline void removeFlag(LoggingFlag flag) {$/;"	f	class:el::el::ConfigurationType::base::TimestampUnit::base::base::Storage
+removeFlag	Log_Module/easylogging++.h	/^  static inline void removeFlag(LoggingFlag flag) {$/;"	f	class:el::el::ConfigurationType::base::TimestampUnit::base::base::PerformanceTrackingData::Loggers
+removeFlag	Log_Module/easylogging++.h	/^static inline void removeFlag(Enum e, base::type::EnumType* flag) {$/;"	f	namespace:el::el::ConfigurationType::base::TimestampUnit::FormatFlags::utils
+replaceAll	Log_Module/easylogging++.cpp	/^std::string& Str::replaceAll(std::string& str, char replaceWhat, char replaceWith) {$/;"	f	class:el::base::utils::Str
+replaceAll	Log_Module/easylogging++.cpp	/^std::string& Str::replaceAll(std::string& str, const std::string& replaceWhat,$/;"	f	class:el::base::utils::Str
+replaceFirstWithEscape	Log_Module/easylogging++.cpp	/^void Str::replaceFirstWithEscape(base::type::string_t& str, const base::type::string_t& replaceWhat,$/;"	f	class:el::base::utils::Str
+reserveCustomFormatSpecifiers	Log_Module/easylogging++.h	/^  static inline void reserveCustomFormatSpecifiers(std::size_t size) {$/;"	f	class:el::el::ConfigurationType::base::TimestampUnit::base::base::PerformanceTrackingData::Helpers
+resetLocation	Log_Module/easylogging++.h	/^  inline void resetLocation(const char* filename, base::type::LineNumber lineNumber) {$/;"	f	class:el::el::ConfigurationType::base::TimestampUnit::base::HitCounter
+resolveFilename	Log_Module/easylogging++.cpp	/^std::string TypedConfigurations::resolveFilename(const std::string& filename) {$/;"	f	class:el::base::TypedConfigurations
+resolveLoggerFormatSpec	Log_Module/easylogging++.cpp	/^void Logger::resolveLoggerFormatSpec(void) const {$/;"	f	class:el::Logger
+resolver	Log_Module/easylogging++.h	/^  inline const FormatSpecifierValueResolver& resolver(void) const {$/;"	f	class:el::el::ConfigurationType::base::TimestampUnit::CustomFormatSpecifier
+rtrim	Log_Module/easylogging++.cpp	/^std::string& Str::rtrim(std::string& str) {$/;"	f	class:el::base::utils::Str
+run	Log_Module/easylogging++.cpp	/^void AsyncDispatchWorker::run(void) {$/;"	f	class:el::base::AsyncDispatchWorker
+safeDelete	Log_Module/easylogging++.h	/^safeDelete(T*& pointer) {$/;"	f	namespace:el::el::ConfigurationType::base::TimestampUnit::FormatFlags::utils
+set	Log_Module/easylogging++.cpp	/^void Configurations::set(Configuration* conf) {$/;"	f	class:el::Configurations
+set	Log_Module/easylogging++.cpp	/^void Configurations::set(Level level, ConfigurationType configurationType, const std::string& value) {$/;"	f	class:el::Configurations
+setApplicationArguments	Log_Module/easylogging++.cpp	/^void Storage::setApplicationArguments(int argc, char** argv) {$/;"	f	class:el::base::Storage
+setApplicationArguments	Log_Module/easylogging++.h	/^  inline void setApplicationArguments(int argc, const char** argv) {$/;"	f	class:el::el::ConfigurationType::base::TimestampUnit::base::base::Storage
+setArgs	Log_Module/easylogging++.cpp	/^void CommandLineArgs::setArgs(int argc, char** argv) {$/;"	f	class:el::base::utils::CommandLineArgs
+setArgs	Log_Module/easylogging++.h	/^  inline void setArgs(int argc, const char** argv) {$/;"	f	class:el::el::ConfigurationType::base::TimestampUnit::FormatFlags::utils::CommandLineArgs
+setArgs	Log_Module/easylogging++.h	/^  static inline void setArgs(int argc, char** argv) {$/;"	f	class:el::el::ConfigurationType::base::TimestampUnit::base::base::PerformanceTrackingData::Helpers
+setArgs	Log_Module/easylogging++.h	/^  static inline void setArgs(int argc, const char** argv) {$/;"	f	class:el::el::ConfigurationType::base::TimestampUnit::base::base::PerformanceTrackingData::Helpers
+setContinueRunning	Log_Module/easylogging++.h	/^  void setContinueRunning(bool value) {$/;"	f	class:el::el::ConfigurationType::base::TimestampUnit::base::base::AsyncDispatchWorker
+setCrashHandler	Log_Module/easylogging++.h	/^  static inline void setCrashHandler(const el::base::debug::CrashHandler::Handler& crashHandler) {$/;"	f	class:el::el::ConfigurationType::base::TimestampUnit::base::base::PerformanceTrackingData::Helpers
+setDefaultConfigurations	Log_Module/easylogging++.cpp	/^void Loggers::setDefaultConfigurations(const Configurations& configurations, bool reconfigureExistingLoggers) {$/;"	f	class:el::Loggers
+setDefaultConfigurations	Log_Module/easylogging++.h	/^  inline void setDefaultConfigurations(const Configurations& configurations) {$/;"	f	class:el::el::ConfigurationType::base::TimestampUnit::base::base::RegisteredLoggers
+setDefaultLogBuilder	Log_Module/easylogging++.cpp	/^void Loggers::setDefaultLogBuilder(el::LogBuilderPtr& logBuilderPtr) {$/;"	f	class:el::Loggers
+setDefaultLogBuilder	Log_Module/easylogging++.h	/^  inline void setDefaultLogBuilder(LogBuilderPtr& logBuilderPtr) {$/;"	f	class:el::el::ConfigurationType::base::TimestampUnit::base::base::RegisteredLoggers
+setDispatchAction	Log_Module/easylogging++.h	/^  inline void setDispatchAction(base::DispatchAction dispatchAction) {$/;"	f	class:el::el::ConfigurationType::base::TimestampUnit::base::LogDispatchData
+setEnabled	Log_Module/easylogging++.h	/^  inline void setEnabled(bool enabled) {$/;"	f	class:el::el::ConfigurationType::base::TimestampUnit::base::Callback
+setFlags	Log_Module/easylogging++.h	/^  inline void setFlags(base::type::EnumType flags) {$/;"	f	class:el::el::ConfigurationType::base::TimestampUnit::base::base::Storage
+setFromArgs	Log_Module/easylogging++.cpp	/^void VRegistry::setFromArgs(const base::utils::CommandLineArgs* commandLineArgs) {$/;"	f	class:el::base::VRegistry
+setFromBase	Log_Module/easylogging++.cpp	/^void Configurations::setFromBase(Configurations* base) {$/;"	f	class:el::Configurations
+setGlobally	Log_Module/easylogging++.cpp	/^void Configurations::setGlobally(ConfigurationType configurationType, const std::string& value,$/;"	f	class:el::Configurations
+setGlobally	Log_Module/easylogging++.h	/^  inline void setGlobally(ConfigurationType configurationType, const std::string& value) {$/;"	f	class:el::el::ConfigurationType::base::TimestampUnit::Configurations
+setHandler	Log_Module/easylogging++.cpp	/^void CrashHandler::setHandler(const Handler& cHandler) {$/;"	f	class:el::base::debug::CrashHandler
+setLevel	Log_Module/easylogging++.cpp	/^void VRegistry::setLevel(base::type::VerboseLevel level) {$/;"	f	class:el::base::VRegistry
+setLogBuilder	Log_Module/easylogging++.h	/^  inline void setLogBuilder(const LogBuilderPtr& logBuilder) {$/;"	f	class:el::el::ConfigurationType::base::TimestampUnit::base::Logger
+setLogMessage	Log_Module/easylogging++.h	/^  inline void setLogMessage(LogMessage* logMessage) {$/;"	f	class:el::el::ConfigurationType::base::TimestampUnit::base::LogDispatchData
+setLoggingLevel	Log_Module/easylogging++.h	/^  inline void setLoggingLevel(Level level) {$/;"	f	class:el::el::ConfigurationType::base::TimestampUnit::base::base::Storage
+setLoggingLevel	Log_Module/easylogging++.h	/^  static void setLoggingLevel(Level level) {$/;"	f	class:el::el::ConfigurationType::base::TimestampUnit::base::base::PerformanceTrackingData::Loggers
+setModules	Log_Module/easylogging++.cpp	/^void VRegistry::setModules(const char* modules) {$/;"	f	class:el::base::VRegistry
+setParentApplicationName	Log_Module/easylogging++.h	/^  inline void setParentApplicationName(const std::string& parentApplicationName) {$/;"	f	class:el::el::ConfigurationType::base::TimestampUnit::base::Logger
+setPreRollOutCallback	Log_Module/easylogging++.h	/^  inline void setPreRollOutCallback(const PreRollOutCallback& callback) {$/;"	f	class:el::el::ConfigurationType::base::TimestampUnit::base::base::Storage
+setRemainingToDefault	Log_Module/easylogging++.cpp	/^void Configurations::setRemainingToDefault(void) {$/;"	f	class:el::Configurations
+setStorage	Log_Module/easylogging++.h	/^  static inline void setStorage(base::type::StoragePointer storage) {$/;"	f	class:el::el::ConfigurationType::base::TimestampUnit::base::base::PerformanceTrackingData::Helpers
+setThreadName	Log_Module/easylogging++.h	/^  inline void setThreadName(const std::string& name) {$/;"	f	class:el::el::ConfigurationType::base::TimestampUnit::base::base::Storage
+setThreadName	Log_Module/easylogging++.h	/^  static inline void setThreadName(const std::string& name) {$/;"	f	class:el::el::ConfigurationType::base::TimestampUnit::base::base::PerformanceTrackingData::Helpers
+setToDefault	Log_Module/easylogging++.cpp	/^void Configurations::setToDefault(void) {$/;"	f	class:el::Configurations
+setVModules	Log_Module/easylogging++.cpp	/^void Loggers::setVModules(const char* modules) {$/;"	f	class:el::Loggers
+setValue	Log_Module/easylogging++.h	/^  inline void setValue(const std::string& value) {$/;"	f	class:el::el::ConfigurationType::base::TimestampUnit::Configuration
+setValue	Log_Module/easylogging++.h	/^  void setValue(Level level, const Conf_T& value, std::unordered_map<Level, Conf_T>* confMap,$/;"	f	class:el::el::ConfigurationType::base::TimestampUnit::base::TypedConfigurations
+setVerboseLevel	Log_Module/easylogging++.cpp	/^void Loggers::setVerboseLevel(base::type::VerboseLevel level) {$/;"	f	class:el::Loggers
+size	Log_Module/easylogging++.cpp	/^std::size_t CommandLineArgs::size(void) const {$/;"	f	class:el::base::utils::CommandLineArgs
+start	Log_Module/easylogging++.cpp	/^void AsyncDispatchWorker::start(void) {$/;"	f	class:el::base::AsyncDispatchWorker
+startTime	Log_Module/easylogging++.h	/^inline const struct timeval* PerformanceTrackingData::startTime() const {$/;"	f	class:el::el::ConfigurationType::base::TimestampUnit::base::base::PerformanceTrackingData::PerformanceTrackingData
+startsWith	Log_Module/easylogging++.cpp	/^bool Str::startsWith(const std::string& str, const std::string& start) {$/;"	f	class:el::base::utils::Str
+std	Log_Module/easylogging++.h	/^namespace std {$/;"	n	namespace:el
+storage	Log_Module/easylogging++.h	/^  static inline base::type::StoragePointer storage() {$/;"	f	class:el::el::ConfigurationType::base::TimestampUnit::base::base::PerformanceTrackingData::Helpers
+stream	Log_Module/easylogging++.h	/^  inline base::type::stringstream_t& stream(void) {$/;"	f	class:el::el::ConfigurationType::base::TimestampUnit::base::Logger
+stringToLevelMap	Log_Module/easylogging++.cpp	/^static struct StringToLevelItem stringToLevelMap[] = {$/;"	m	namespace:el	typeref:struct:el::StringToLevelItem	file:
+string_t	Log_Module/easylogging++.h	/^typedef std::wstring string_t;$/;"	t	namespace:el::base::type
+stringstream_t	Log_Module/easylogging++.h	/^typedef std::wstringstream stringstream_t;$/;"	t	namespace:el::base::type
+subsecondPrecision	Log_Module/easylogging++.cpp	/^const base::SubsecondPrecision& TypedConfigurations::subsecondPrecision(Level level) {$/;"	f	class:el::base::TypedConfigurations
+termSupportsColor	Log_Module/easylogging++.cpp	/^bool OS::termSupportsColor(void) {$/;"	f	class:el::base::utils::OS
+threading	Log_Module/easylogging++.cpp	/^namespace threading {$/;"	n	namespace:el::base	file:
+threading	Log_Module/easylogging++.h	/^namespace threading {$/;"	n	class:el::el::ConfigurationType::base::TimestampUnit::FormatFlags
+timevalToString	Log_Module/easylogging++.cpp	/^std::string DateTime::timevalToString(struct timeval tval, const char* format,$/;"	f	class:el::base::utils::DateTime
+toFile	Log_Module/easylogging++.cpp	/^bool TypedConfigurations::toFile(Level level) {$/;"	f	class:el::base::TypedConfigurations
+toStandardOutput	Log_Module/easylogging++.cpp	/^bool TypedConfigurations::toStandardOutput(Level level) {$/;"	f	class:el::base::TypedConfigurations
+toUpper	Log_Module/easylogging++.cpp	/^std::string& Str::toUpper(std::string& str) {$/;"	f	class:el::base::utils::Str
+triggerDispatch	Log_Module/easylogging++.cpp	/^void Writer::triggerDispatch(void) {$/;"	f	class:el::base::Writer
+trim	Log_Module/easylogging++.cpp	/^std::string& Str::trim(std::string& str) {$/;"	f	class:el::base::utils::Str
+try_lock	Log_Module/easylogging++.h	/^  inline bool try_lock(void) {$/;"	f	class:el::el::ConfigurationType::base::TimestampUnit::FormatFlags::threading::internal::Mutex
+type	Log_Module/easylogging++.h	/^namespace type {$/;"	n	namespace:el::base
+typedConfigurations	Log_Module/easylogging++.h	/^  inline base::TypedConfigurations* typedConfigurations(void) {$/;"	f	class:el::el::ConfigurationType::base::TimestampUnit::base::Logger
+uninstallCallback	Log_Module/easylogging++.h	/^  static void uninstallCallback(const std::string& id, std::unordered_map<std::string, TPtr>* mapT) {$/;"	f	class:el::el::ConfigurationType::base::TimestampUnit::FormatFlags::utils::Utils
+uninstallCustomFormatSpecifier	Log_Module/easylogging++.cpp	/^bool Storage::uninstallCustomFormatSpecifier(const char* formatSpecifier) {$/;"	f	class:el::base::Storage
+uninstallCustomFormatSpecifier	Log_Module/easylogging++.h	/^  static inline bool uninstallCustomFormatSpecifier(const char* formatSpecifier) {$/;"	f	class:el::el::ConfigurationType::base::TimestampUnit::base::base::PerformanceTrackingData::Helpers
+uninstallLogDispatchCallback	Log_Module/easylogging++.h	/^  inline void uninstallLogDispatchCallback(const std::string& id) {$/;"	f	class:el::el::ConfigurationType::base::TimestampUnit::base::base::Storage
+uninstallLogDispatchCallback	Log_Module/easylogging++.h	/^  static inline void uninstallLogDispatchCallback(const std::string& id) {$/;"	f	class:el::el::ConfigurationType::base::TimestampUnit::base::base::PerformanceTrackingData::Helpers
+uninstallLoggerRegistrationCallback	Log_Module/easylogging++.h	/^  inline void uninstallLoggerRegistrationCallback(const std::string& id) {$/;"	f	class:el::el::ConfigurationType::base::TimestampUnit::base::base::RegisteredLoggers
+uninstallLoggerRegistrationCallback	Log_Module/easylogging++.h	/^  static inline void uninstallLoggerRegistrationCallback(const std::string& id) {$/;"	f	class:el::el::ConfigurationType::base::TimestampUnit::base::base::PerformanceTrackingData::Loggers
+uninstallPerformanceTrackingCallback	Log_Module/easylogging++.h	/^  inline void uninstallPerformanceTrackingCallback(const std::string& id) {$/;"	f	class:el::el::ConfigurationType::base::TimestampUnit::base::base::Storage
+uninstallPerformanceTrackingCallback	Log_Module/easylogging++.h	/^  static inline void uninstallPerformanceTrackingCallback(const std::string& id) {$/;"	f	class:el::el::ConfigurationType::base::TimestampUnit::base::base::PerformanceTrackingData::Helpers
+uninstallPreRollOutCallback	Log_Module/easylogging++.h	/^  static inline void uninstallPreRollOutCallback(void) {$/;"	f	class:el::el::ConfigurationType::base::TimestampUnit::base::base::PerformanceTrackingData::Helpers
+unit	Log_Module/easylogging++.h	/^  const base::type::char_t* unit;$/;"	m	struct:el::el::ConfigurationType::base::consts::__anon1
+unlock	Log_Module/easylogging++.h	/^  inline void unlock(void) {$/;"	f	class:el::el::ConfigurationType::base::TimestampUnit::FormatFlags::threading::internal::Mutex
+unregister	Log_Module/easylogging++.h	/^  inline void unregister(Logger*& logger) {$/;"	f	class:el::el::ConfigurationType::base::TimestampUnit::base::base::RegisteredLoggers
+unregister	Log_Module/easylogging++.h	/^  void unregister(const T_Key& uniqKey) {$/;"	f	class:el::el::ConfigurationType::base::TimestampUnit::FormatFlags::utils::Registry
+unregisterLogger	Log_Module/easylogging++.cpp	/^bool Loggers::unregisterLogger(const std::string& identity) {$/;"	f	class:el::Loggers
+unsafeFlushAll	Log_Module/easylogging++.cpp	/^void RegisteredLoggers::unsafeFlushAll(void) {$/;"	f	class:el::base::RegisteredLoggers
+unsafeGetConfigByRef	Log_Module/easylogging++.h	/^  Conf_T& unsafeGetConfigByRef(Level level, std::unordered_map<Level, Conf_T>* confMap, const char* confName) {$/;"	f	class:el::el::ConfigurationType::base::TimestampUnit::base::TypedConfigurations
+unsafeGetConfigByVal	Log_Module/easylogging++.h	/^  Conf_T unsafeGetConfigByVal(Level level, const std::unordered_map<Level, Conf_T>* confMap, const char* confName) {$/;"	f	class:el::el::ConfigurationType::base::TimestampUnit::base::TypedConfigurations
+unsafeSet	Log_Module/easylogging++.cpp	/^void Configurations::unsafeSet(Level level, ConfigurationType configurationType, const std::string& value) {$/;"	f	class:el::Configurations
+unsafeSetGlobally	Log_Module/easylogging++.cpp	/^void Configurations::unsafeSetGlobally(ConfigurationType configurationType, const std::string& value,$/;"	f	class:el::Configurations
+unsafeSetIfNotExist	Log_Module/easylogging++.cpp	/^void Configurations::unsafeSetIfNotExist(Level level, ConfigurationType configurationType, const std::string& value) {$/;"	f	class:el::Configurations
+unsafeValidateFileRolling	Log_Module/easylogging++.cpp	/^bool TypedConfigurations::unsafeValidateFileRolling(Level level, const PreRollOutCallback& preRollOutCallback) {$/;"	f	class:el::base::TypedConfigurations
+unsetPreRollOutCallback	Log_Module/easylogging++.h	/^  inline void unsetPreRollOutCallback(void) {$/;"	f	class:el::el::ConfigurationType::base::TimestampUnit::base::base::Storage
+updateDateFormat	Log_Module/easylogging++.cpp	/^void LogFormat::updateDateFormat(std::size_t index, base::type::string_t& currFormat) {$/;"	f	class:el::base::LogFormat
+updateFormatSpec	Log_Module/easylogging++.cpp	/^void LogFormat::updateFormatSpec(void) {$/;"	f	class:el::base::LogFormat
+userFormat	Log_Module/easylogging++.h	/^  inline const base::type::string_t& userFormat(void) const {$/;"	f	class:el::el::ConfigurationType::base::TimestampUnit::base::LogFormat
+utils	Log_Module/easylogging++.cpp	/^namespace utils {$/;"	n	namespace:el::base	file:
+utils	Log_Module/easylogging++.h	/^namespace utils {$/;"	n	class:el::el::ConfigurationType::base::TimestampUnit::FormatFlags
+vModulesEnabled	Log_Module/easylogging++.h	/^  inline bool vModulesEnabled(void) {$/;"	f	class:el::el::ConfigurationType::base::TimestampUnit::base::base::VRegistry
+vRegistry	Log_Module/easylogging++.h	/^  inline base::VRegistry* vRegistry(void) const {$/;"	f	class:el::el::ConfigurationType::base::TimestampUnit::base::base::Storage
+validateAfterN	Log_Module/easylogging++.cpp	/^bool RegisteredHitCounters::validateAfterN(const char* filename, base::type::LineNumber lineNumber, std::size_t n) {$/;"	f	class:el::base::RegisteredHitCounters
+validateAfterNCounter	Log_Module/easylogging++.h	/^  inline bool validateAfterNCounter(const char* filename, base::type::LineNumber lineNumber, std::size_t n) {$/;"	f	class:el::el::ConfigurationType::base::TimestampUnit::base::base::Storage
+validateEveryN	Log_Module/easylogging++.cpp	/^bool RegisteredHitCounters::validateEveryN(const char* filename, base::type::LineNumber lineNumber, std::size_t n) {$/;"	f	class:el::base::RegisteredHitCounters
+validateEveryNCounter	Log_Module/easylogging++.h	/^  inline bool validateEveryNCounter(const char* filename, base::type::LineNumber lineNumber, std::size_t occasion) {$/;"	f	class:el::el::ConfigurationType::base::TimestampUnit::base::base::Storage
+validateFileRolling	Log_Module/easylogging++.h	/^  inline bool validateFileRolling(Level level, const PreRollOutCallback& preRollOutCallback) {$/;"	f	class:el::el::ConfigurationType::base::TimestampUnit::base::TypedConfigurations
+validateFileRolling	Log_Module/easylogging++.h	/^  static inline void validateFileRolling(Logger* logger, Level level) {$/;"	f	class:el::el::ConfigurationType::base::TimestampUnit::base::base::PerformanceTrackingData::Helpers
+validateHitCounts	Log_Module/easylogging++.h	/^  inline void validateHitCounts(std::size_t n) {$/;"	f	class:el::el::ConfigurationType::base::TimestampUnit::base::HitCounter
+validateNTimes	Log_Module/easylogging++.cpp	/^bool RegisteredHitCounters::validateNTimes(const char* filename, base::type::LineNumber lineNumber, std::size_t n) {$/;"	f	class:el::base::RegisteredHitCounters
+validateNTimesCounter	Log_Module/easylogging++.h	/^  inline bool validateNTimesCounter(const char* filename, base::type::LineNumber lineNumber, std::size_t n) {$/;"	f	class:el::el::ConfigurationType::base::TimestampUnit::base::base::Storage
+value	Log_Module/easylogging++.h	/^  double value;$/;"	m	struct:el::el::ConfigurationType::base::consts::__anon1
+value	Log_Module/easylogging++.h	/^  inline const std::string& value(void) const {$/;"	f	class:el::el::ConfigurationType::base::TimestampUnit::Configuration
+verbose	Log_Module/easylogging++.h	/^inline void Logger::verbose(int vlevel, const T& log) {$/;"	f	class:el::el::ConfigurationType::base::TimestampUnit::base::base::Logger
+verbose	Log_Module/easylogging++.h	/^inline void Logger::verbose(int vlevel, const char* s, const T& value, const Args&... args) {$/;"	f	class:el::el::ConfigurationType::base::TimestampUnit::base::base::Logger
+verbose	Log_Module/easylogging++.h	/^inline void Logger::verbose(int, const T&) {$/;"	f	class:el::el::ConfigurationType::base::TimestampUnit::base::base::Logger
+verbose	Log_Module/easylogging++.h	/^inline void Logger::verbose(int, const char*, const T&, const Args&...) {$/;"	f	class:el::el::ConfigurationType::base::TimestampUnit::base::base::Logger
+verboseLevel	Log_Module/easylogging++.cpp	/^base::type::VerboseLevel Loggers::verboseLevel(void) {$/;"	f	class:el::Loggers
+verboseLevel	Log_Module/easylogging++.h	/^  inline base::type::VerboseLevel verboseLevel(void) const {$/;"	f	class:el::el::ConfigurationType::base::TimestampUnit::base::LogMessage
+version	Log_Module/easylogging++.cpp	/^const std::string VersionInfo::version(void) {$/;"	f	class:el::VersionInfo
+wcharPtrToCharPtr	Log_Module/easylogging++.cpp	/^char* Str::wcharPtrToCharPtr(const wchar_t* line) {$/;"	f	class:el::base::utils::Str
+wildCardMatch	Log_Module/easylogging++.cpp	/^bool Str::wildCardMatch(const char* str, const char* pattern) {$/;"	f	class:el::base::utils::Str
+workarounds	Log_Module/easylogging++.h	/^namespace workarounds {$/;"	n	namespace:el::el::ConfigurationType::base::TimestampUnit::base::base
+writeIterator	Log_Module/easylogging++.h	/^  MessageBuilder& writeIterator(Iterator begin_, Iterator end_, std::size_t size_) {$/;"	f	class:el::el::ConfigurationType::base::TimestampUnit::base::base::MessageBuilder
+~AbstractRegistry	Log_Module/easylogging++.h	/^  virtual ~AbstractRegistry(void) {$/;"	f	class:el::el::ConfigurationType::base::TimestampUnit::FormatFlags::utils::AbstractRegistry
+~AsyncDispatchWorker	Log_Module/easylogging++.cpp	/^AsyncDispatchWorker::~AsyncDispatchWorker() {$/;"	f	class:el::base::AsyncDispatchWorker
+~AsyncLogItem	Log_Module/easylogging++.h	/^  virtual ~AsyncLogItem() {}$/;"	f	class:el::el::ConfigurationType::base::TimestampUnit::base::base::AsyncLogItem
+~AsyncLogQueue	Log_Module/easylogging++.h	/^  virtual ~AsyncLogQueue() {$/;"	f	class:el::el::ConfigurationType::base::TimestampUnit::base::base::AsyncLogQueue
+~CommandLineArgs	Log_Module/easylogging++.h	/^  virtual ~CommandLineArgs(void) {}$/;"	f	class:el::el::ConfigurationType::base::TimestampUnit::FormatFlags::utils::CommandLineArgs
+~Configuration	Log_Module/easylogging++.h	/^  virtual ~Configuration(void) {$/;"	f	class:el::el::ConfigurationType::base::TimestampUnit::Configuration
+~Configurations	Log_Module/easylogging++.h	/^  virtual ~Configurations(void) {$/;"	f	class:el::el::ConfigurationType::base::TimestampUnit::Configurations
+~HitCounter	Log_Module/easylogging++.h	/^  virtual ~HitCounter(void) {$/;"	f	class:el::el::ConfigurationType::base::TimestampUnit::base::HitCounter
+~IWorker	Log_Module/easylogging++.h	/^  virtual ~IWorker() {}$/;"	f	class:el::el::ConfigurationType::base::TimestampUnit::base::base::IWorker
+~IterableContainer	Log_Module/easylogging++.h	/^  virtual ~IterableContainer(void) {}$/;"	f	class:el::el::ConfigurationType::base::TimestampUnit::base::base::workarounds::IterableContainer
+~LogBuilder	Log_Module/easylogging++.h	/^  virtual ~LogBuilder(void) {$/;"	f	class:el::el::ConfigurationType::base::TimestampUnit::base::LogBuilder
+~LogFormat	Log_Module/easylogging++.h	/^  virtual ~LogFormat(void) {}$/;"	f	class:el::el::ConfigurationType::base::TimestampUnit::base::LogFormat
+~Loggable	Log_Module/easylogging++.h	/^  virtual ~Loggable(void) {}$/;"	f	class:el::el::ConfigurationType::base::TimestampUnit::Loggable
+~Logger	Log_Module/easylogging++.h	/^  virtual ~Logger(void) {$/;"	f	class:el::el::ConfigurationType::base::TimestampUnit::base::Logger
+~Mutex	Log_Module/easylogging++.h	/^  virtual ~Mutex(void) {$/;"	f	class:el::el::ConfigurationType::base::TimestampUnit::FormatFlags::threading::internal::Mutex
+~PErrorWriter	Log_Module/easylogging++.cpp	/^PErrorWriter::~PErrorWriter(void) {$/;"	f	class:el::base::PErrorWriter
+~PerformanceTracker	Log_Module/easylogging++.cpp	/^PerformanceTracker::~PerformanceTracker(void) {$/;"	f	class:el::base::PerformanceTracker
+~RegisteredLoggers	Log_Module/easylogging++.h	/^  virtual ~RegisteredLoggers(void) {$/;"	f	class:el::el::ConfigurationType::base::TimestampUnit::base::base::RegisteredLoggers
+~Registry	Log_Module/easylogging++.h	/^  virtual ~Registry(void) {$/;"	f	class:el::el::ConfigurationType::base::TimestampUnit::FormatFlags::utils::Registry
+~RegistryWithPred	Log_Module/easylogging++.h	/^  virtual ~RegistryWithPred(void) {$/;"	f	class:el::el::ConfigurationType::base::TimestampUnit::FormatFlags::utils::RegistryWithPred
+~ScopedAddFlag	Log_Module/easylogging++.h	/^    ~ScopedAddFlag(void) {$/;"	f	class:el::el::ConfigurationType::base::TimestampUnit::base::base::PerformanceTrackingData::Loggers::ScopedAddFlag
+~ScopedLock	Log_Module/easylogging++.h	/^  virtual ~ScopedLock(void) {$/;"	f	class:el::el::ConfigurationType::base::TimestampUnit::FormatFlags::threading::internal::ScopedLock
+~ScopedRemoveFlag	Log_Module/easylogging++.h	/^    ~ScopedRemoveFlag(void) {$/;"	f	class:el::el::ConfigurationType::base::TimestampUnit::base::base::PerformanceTrackingData::Loggers::ScopedRemoveFlag
+~StackTrace	Log_Module/easylogging++.h	/^  virtual ~StackTrace(void) {$/;"	f	class:el::el::ConfigurationType::base::TimestampUnit::base::base::PerformanceTrackingData::base::debug::StackTrace
+~Storage	Log_Module/easylogging++.cpp	/^Storage::~Storage(void) {$/;"	f	class:el::base::Storage
+~SysLogInitializer	Log_Module/easylogging++.h	/^  virtual ~SysLogInitializer(void) {$/;"	f	class:el::el::ConfigurationType::base::TimestampUnit::base::base::PerformanceTrackingData::SysLogInitializer
+~ThreadSafe	Log_Module/easylogging++.h	/^  virtual ~ThreadSafe(void) {}$/;"	f	class:el::el::ConfigurationType::base::TimestampUnit::FormatFlags::threading::ThreadSafe
+~TypedConfigurations	Log_Module/easylogging++.h	/^  virtual ~TypedConfigurations(void) {$/;"	f	class:el::el::ConfigurationType::base::TimestampUnit::base::TypedConfigurations
+~Writer	Log_Module/easylogging++.h	/^  virtual ~Writer(void) {$/;"	f	class:el::el::ConfigurationType::base::TimestampUnit::base::base::Writer

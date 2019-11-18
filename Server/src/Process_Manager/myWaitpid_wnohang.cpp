@@ -7,6 +7,14 @@
 
 pid_t myWaitpid_wnohang(pid_t pid,int* wstatus)
 {
+	if(wstatus == nullptr){
+		printf("%s wstatus nullptr...\n",__func__);
+		LOG(WARNING) << __func__ << " wstatus nullptr...\n";
+
+		int* t = nullptr;
+		wstatus = t;
+	}
+
 	pid_t retPid;
 	int ret;
 

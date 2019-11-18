@@ -1,30 +1,40 @@
 #include <stdio.h>
+#include <stdlib.h>
 #include <iostream>
-#include <sys/types.h>
-#include <unistd.h>
-#include "Process_Manager/myFork.h"
-#include "Process_Manager/myWaitpid.h"
-#include "_startDaemon.h"
-#include "easylogging++.h"
+#include "./resrc_init/resrc_init.h"
+#include "./Log_Module/easylogging++.h"
+#include "./Process_Manager/Process_Manager.h"
+#include "./Network_Manager/Network_Manager.h"
+#include "./def.h"
 
 using namespace std;
 using namespace el;
 
-INITIALIZE_EASYLOGGINGPP 
+void core(void* data)
+{
+	// test begin
+	int lfd = registerListenSocket();
+	myWaitpid_wnohang(getpid(),nullptr);
+
+	for(int i = 0; i < 6; ++i)
+	{
+		sleep(8);
+
+		LOG(DEBUG) << "test successed...\n";
+	}
+	// test end
+}
 
 int main(int argc, char* argv[])
 {
-	Loggers::addFlag(LoggingFlag::StrictLogFileSizeCheck);
-	Configurations conf("../bin/myLogConfig.conf");
-	Loggers::reconfigureAllLoggers(conf);
+	printf("\n\n");
 
-	LOG(INFO) << "test777887382949347777777" << endl;
+	int ret;
 
-		int ret;
-
-		ret = _startDaemon();
-
-		for(;;);
-
-		return 0;
+	ret = logInit();
+	ret = __initStartDaemon(core);
+	if(ret < 0){
+		printf("initStartDaemon error!!!\n");
+		LOG(FATAL) << "initStartDaemon error!!!\n";
+	}
 }

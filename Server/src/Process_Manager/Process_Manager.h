@@ -9,4 +9,4 @@ extern pid_t myFork();
 /*
  *
 */
-extern pid_t mywaitpid_wnohang(pid_t pid,int* wstatus);
+extern pid_t myWaitpid_wnohang(pid_t pid,int* wstatus);

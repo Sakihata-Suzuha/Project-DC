@@ -34,8 +34,8 @@ pid_t myFork()
 		return funcPid;
 	}
 	else if(funcPid > 0){
-		printf("child process is %d...\n",funcPid);
-		LOG(DEBUG) << "child process is " << funcPid << "...\n";
+		printf("parent print: child process is %d...\n",funcPid);
+		LOG(DEBUG) << "parent print: child process is " << funcPid << "...\n";
 
 		return funcPid;
 	}
