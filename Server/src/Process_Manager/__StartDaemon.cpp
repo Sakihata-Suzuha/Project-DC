@@ -4,17 +4,17 @@
 #include <unistd.h>
 #include <sys/stat.h>
 #include <fcntl.h>
-#include "./resrc_init.h"
+#include "./Process_Manager.h"
 #include "../Process_Manager/Process_Manager.h"
 #include "../Log_Module/easylogging++.h"
 #include "../def.h"
 
-int __initStartDaemon(daemonCallback callback)
+int __StartDaemon(daemonCallback callback)
 {
 	int ret;
+	int fd;
 	pid_t pid;
 	pid_t sid;
-	int fd;
 
 	pid = myFork();
 	if(pid > 0){

@@ -738,15 +738,19 @@ Warning	Log_Module/easylogging++.h	/^  Warning = 32,$/;"	m	class:el::Level
 Writer	Log_Module/easylogging++.h	/^  Writer(Level level, const char* file, base::type::LineNumber line,$/;"	f	class:el::el::ConfigurationType::base::TimestampUnit::base::base::Writer
 Writer	Log_Module/easylogging++.h	/^  Writer(LogMessage* msg, base::DispatchAction dispatchAction = base::DispatchAction::NormalLog) :$/;"	f	class:el::el::ConfigurationType::base::TimestampUnit::base::base::Writer
 Writer	Log_Module/easylogging++.h	/^class Writer : base::NoCopy {$/;"	c	namespace:el::el::ConfigurationType::base::TimestampUnit::base::base
-_LOG_CONFIG_PATH_	def.h	13;"	d
-_LOG_OUTPUT_PATH_	def.h	14;"	d
-_SOCKET_BIND_ERROR_	def.h	6;"	d
-_SOCKET_LISTEN_ERROR_	def.h	7;"	d
-_SOCKET_LISTEN_SIZE_	def.h	11;"	d
-_SOCKET_REGISTER_ERROR_	def.h	5;"	d
+_EPOLL_CREATE_ERROR_	def.h	12;"	d
+_EPOLL_CTL_ERROR_	def.h	13;"	d
+_EPOLL_EVENT_SIZE_	def.h	19;"	d
+_EPOLL_WAIT_ERROR_	def.h	14;"	d
+_LOG_CONFIG_PATH_	def.h	21;"	d
+_LOG_FDOUTPUT_FILE_	def.h	22;"	d
+_PROCESS_SETSID_ERROR_	def.h	5;"	d
+_SOCKET_BIND_ERROR_	def.h	10;"	d
+_SOCKET_LISTEN_ERROR_	def.h	11;"	d
+_SOCKET_LISTEN_SIZE_	def.h	18;"	d
+_SOCKET_REGISTER_ERROR_	def.h	9;"	d
 _UNKNOWN_EVENT_	def.h	1;"	d
-__initStartDaemon	resrc_init/__initStartDaemon.cpp	/^int __initStartDaemon(daemonCallback)$/;"	f
-_startDaemon	_startDaemon.cpp	/^int _startDaemon()$/;"	f
+__StartDaemon	Process_Manager/__StartDaemon.cpp	/^int __StartDaemon(daemonCallback callback)$/;"	f
 abort	Log_Module/easylogging++.cpp	/^static void abort(int status, const std::string& reason) {$/;"	f	namespace:el::base::utils
 addFlag	Log_Module/easylogging++.h	/^  inline void addFlag(LoggingFlag flag) {$/;"	f	class:el::el::ConfigurationType::base::TimestampUnit::base::base::Storage
 addFlag	Log_Module/easylogging++.h	/^  inline void addFlag(base::FormatFlags flag) {$/;"	f	class:el::el::ConfigurationType::base::TimestampUnit::base::LogFormat
@@ -814,6 +818,7 @@ convertTemplateToStdString	Log_Module/easylogging++.h	/^  static std::string con
 convertToColoredOutput	Log_Module/easylogging++.cpp	/^void LogBuilder::convertToColoredOutput(base::type::string_t* logLine, Level level) {$/;"	f	class:el::LogBuilder
 convertToString	Log_Module/easylogging++.cpp	/^const char* ConfigurationTypeHelper::convertToString(ConfigurationType configurationType) {$/;"	f	class:el::ConfigurationTypeHelper
 convertToString	Log_Module/easylogging++.cpp	/^const char* LevelHelper::convertToString(Level level) {$/;"	f	class:el::LevelHelper
+core	main.cpp	/^void core(void* data)$/;"	f
 crashAbort	Log_Module/easylogging++.cpp	/^static inline void crashAbort(int sig) {$/;"	f	namespace:el::base::debug
 crashAbort	Log_Module/easylogging++.cpp	/^void Helpers::crashAbort(int sig, const char* sourceFile, unsigned int long line) {$/;"	f	class:el::Helpers
 crashReason	Log_Module/easylogging++.cpp	/^static std::string crashReason(int sig) {$/;"	f	namespace:el::base::debug
@@ -823,7 +828,7 @@ currentUser	Log_Module/easylogging++.cpp	/^std::string OS::currentUser(void) {$/
 customFormatSpecifiers	Log_Module/easylogging++.h	/^  const std::vector<CustomFormatSpecifier>* customFormatSpecifiers(void) const {$/;"	f	class:el::el::ConfigurationType::base::TimestampUnit::base::base::Storage
 customFormatSpecifiersLock	Log_Module/easylogging++.h	/^  base::threading::Mutex& customFormatSpecifiersLock() {$/;"	f	class:el::el::ConfigurationType::base::TimestampUnit::base::base::Storage
 cv	Log_Module/easylogging++.h	/^  std::condition_variable cv;$/;"	m	class:el::el::ConfigurationType::base::TimestampUnit::base::base::AsyncDispatchWorker
-daemonCallback	resrc_init/resrc_init.h	/^typedef void(*daemonCallback)(void* data);$/;"	t
+daemonCallback	Process_Manager/Process_Manager.h	/^typedef void(*daemonCallback)(void* data);$/;"	t
 data	Log_Module/easylogging++.h	/^  inline LogDispatchData* data(void) {$/;"	f	class:el::el::ConfigurationType::base::TimestampUnit::base::base::AsyncLogItem
 dataType	Log_Module/easylogging++.h	/^  inline PerformanceTrackingData::DataType dataType(void) const {$/;"	f	class:el::el::ConfigurationType::base::TimestampUnit::base::base::PerformanceTrackingData::DataType
 dateTimeFormat	Log_Module/easylogging++.h	/^  inline const std::string& dateTimeFormat(void) const {$/;"	f	class:el::el::ConfigurationType::base::TimestampUnit::base::LogFormat
@@ -980,8 +985,8 @@ kDebugLevelLogValue	Log_Module/easylogging++.cpp	/^static const base::type::char
 kDebugLevelShortLogValue	Log_Module/easylogging++.cpp	/^static const base::type::char_t* kDebugLevelShortLogValue    =   ELPP_LITERAL("D");$/;"	m	namespace:el::base::consts	file:
 kDefaultDateTimeFormat	Log_Module/easylogging++.cpp	/^static const char* kDefaultDateTimeFormat           =      "%Y-%M-%d %H:%m:%s,%g";$/;"	m	namespace:el::base::consts	file:
 kDefaultDateTimeFormatInFilename	Log_Module/easylogging++.cpp	/^static const char* kDefaultDateTimeFormatInFilename =      "%Y-%M-%d_%H-%m";$/;"	m	namespace:el::base::consts	file:
+kDefaultLogFile	Log_Module/easylogging++.cpp	/^static const char* kDefaultLogFile                         =      ".\/log\/wtf.log";$/;"	m	namespace:el::base::consts	file:
 kDefaultLogFile	Log_Module/easylogging++.cpp	/^static const char* kDefaultLogFile                         =      "\/dev\/null";$/;"	m	namespace:el::base::consts	file:
-kDefaultLogFile	Log_Module/easylogging++.cpp	/^static const char* kDefaultLogFile                         =      "myeasylog.log";$/;"	m	namespace:el::base::consts	file:
 kDefaultLogFile	Log_Module/easylogging++.cpp	/^static const char* kDefaultLogFile                         =      "nul";$/;"	m	namespace:el::base::consts	file:
 kDefaultLogFile	Log_Module/easylogging++.cpp	/^static const char* kDefaultLogFile                         =      ELPP_DEFAULT_LOG_FILE;$/;"	m	namespace:el::base::consts	file:
 kDefaultLogFileParam	Log_Module/easylogging++.cpp	/^static const char* kDefaultLogFileParam                    =      "--default-log-file";$/;"	m	namespace:el::base::consts	file:

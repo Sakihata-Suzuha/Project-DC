@@ -1,22 +1,27 @@
-[INFO|2019-11-19 00:40:17,0149]|create daemon complete, start task run...
+[INFO|2019-11-20 01:44:01,8206]|create daemon complete, start task run...
 
-myWaitpid_wnohang wstatus nullptr...
-[WARNING|2019-11-19 00:40:17,0150]|myWaitpid_wnohang wstatus nullptr...
+[INFO|2019-11-20 01:44:01,8206]|-------- init epoll successed --------
 
-[waitpid]: No child processes
-[WARNING|2019-11-19 00:40:17,0150]|waitpid failed, warning zombie process...
+[INFO|2019-11-20 01:44:34,4855]|new connect...
+[INFO|2019-11-20 01:44:34,4857]|>>113.87.46.36:6660<<
 
-[DEBUG|2019-11-19 00:40:25,0151]|test successed...
+recv: 111111111111111111111111111
 
-[DEBUG|2019-11-19 00:40:33,0153]|test successed...
+[DEBUG|2019-11-20 01:44:42,3799]|111111111111111111111111111
 
-[DEBUG|2019-11-19 00:40:41,0155]|test successed...
 
-[DEBUG|2019-11-19 00:40:49,0156]|test successed...
+recv: 222222222222222222222
 
-[DEBUG|2019-11-19 00:40:57,0158]|test successed...
+[DEBUG|2019-11-20 01:44:44,6116]|222222222222222222222
 
-[DEBUG|2019-11-19 00:41:05,0160]|test successed...
 
-[WARNING|2019-11-19 00:41:05,0161]|daemon termination!!! is this the result you want???
+recv: 33333333333333333
+
+[DEBUG|2019-11-20 01:44:47,4272]|33333333333333333
+
+
+recv: 44444444444444444444444444444
+
+[DEBUG|2019-11-20 01:44:53,0429]|44444444444444444444444444444
+
 
