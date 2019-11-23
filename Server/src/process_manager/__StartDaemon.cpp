@@ -4,9 +4,8 @@
 #include <unistd.h>
 #include <sys/stat.h>
 #include <fcntl.h>
-#include "./Process_Manager.h"
-#include "../Process_Manager/Process_Manager.h"
-#include "../Log_Module/easylogging++.h"
+#include "./process_manager.h"
+#include "../module/easylogging++.h"
 #include "../def.h"
 
 int __StartDaemon(daemonCallback callback)

@@ -5,12 +5,15 @@
 #include <sys/epoll.h>
 #include <sys/socket.h>
 #include <arpa/inet.h>
+#include <pthread.h>
+#include <fcntl.h>
 #include <iostream>
-#include "./resrc_init/resrc_init.h"
-#include "./Log_Module/easylogging++.h"
-#include "./Process_Manager/Process_Manager.h"
-#include "./Network_Manager/Network_Manager.h"
+#include "./module/easylogging++.h"
+#include "./process_manager/process_manager.h"
+#include "./network_manager/network_manager.h"
 #include "./def.h"
+#include "./resource_init/resource_init.h"
+#include "./pthread_manager/pthread_manager.h"
 
 using namespace std;
 using namespace el;
@@ -78,12 +81,25 @@ void core(void* data)
 
 				epoll_event ev;
 				ev.data.fd = afd;
-				ev.events = EPOLLIN|EPOLLRDHUP|EPOLLERR|EPOLLET;
+				ev.events = EPOLLIN|EPOLLRDHUP|EPOLLERR|EPOLLET|EPOLLONESHOT;
+
+				int flag = fcntl(ev.data.fd,F_GETFL);
+				flag |= O_NONBLOCK;
+				fcntl(ev.data.fd,F_SETFL,flag);
 
 				ret = epoll_ctl(epfd,EPOLL_CTL_ADD,afd,&ev);
 				if(ret == -1){
 					LOG(ERROR) << "afd add epolltree failed...\n";
 				}
+
+				char buf[] = "hello...\n";
+				ret = send(ev.data.fd,buf,sizeof(buf),MSG_NOSIGNAL);
+				if(ret == -1){
+					perror("[send]");
+					LOG(ERROR) << "send data error!!!\n";
+				}
+
+				LOG(INFO) << "add new connect succ...\n";
 			}
 			else if(active.events & EPOLLRDHUP || active.events & EPOLLERR){
 				LOG(INFO) << "client abnormal exit...\n";
@@ -92,26 +108,10 @@ void core(void* data)
 				close(active.data.fd);
 			}
 			else if(active.events & EPOLLIN){
-				char buf[BUFSIZ] = "";
-				ret = recv(active.data.fd,buf,sizeof(buf),0);
-				if(ret == -1){
-					perror("[recv]");
-					LOG(WARNING) << "recv data error!!!\n";
-
-					continue;
-				}
-				else if(ret == 0){
-					LOG(INFO) << "recv data is 0 byte?\n";
-				}
-
-				printf("recv: %s\n",buf);
-				// test head
-				string str("copy that: ");
-				string wtf(buf);
-				str += wtf;
-				LOG(DEBUG) << wtf<< "\n";
-				ret = send(active.data.fd,str.c_str(),sizeof(str.c_str()),MSG_NOSIGNAL);
-				// test end
+				threadArg arg;
+				arg.iRootEpfd = epfd;
+				arg.iActiveFd = active.data.fd;
+				epollin_task(&arg);
 			}
 			else {
 				LOG(WARNING) << "_UNKNOWN_EVENT_!!!!!!\n";

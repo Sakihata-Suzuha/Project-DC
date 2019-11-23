@@ -1,9 +1,9 @@
 #include <stdio.h>
 #include <sys/types.h>
 #include <sys/wait.h>
-#include "../Log_Module/easylogging++.h"
+#include "../module/easylogging++.h"
 #include "../def.h"
-#include "./Process_Manager.h"
+#include "./process_manager.h"
 
 pid_t myWaitpid_wnohang(pid_t pid,int* wstatus)
 {

@@ -4,9 +4,9 @@
 #include <sys/types.h>
 #include <sys/unistd.h>
 #include <signal.h>
-#include "../Log_Module/easylogging++.h"
+#include "../module/easylogging++.h"
 #include "../def.h"
-#include "./Process_Manager.h"
+#include "./process_manager.h"
 
 pid_t myFork()
 {

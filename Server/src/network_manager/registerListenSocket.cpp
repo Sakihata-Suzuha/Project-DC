@@ -5,9 +5,9 @@
 #include <sys/types.h>
 #include <sys/socket.h>
 #include <arpa/inet.h>
-#include "../Log_Module/easylogging++.h"
+#include "../module/easylogging++.h"
 #include "../def.h"
-#include "./Network_Manager.h"
+#include "./network_manager.h"
 
 int registerListenSocket()
 {
