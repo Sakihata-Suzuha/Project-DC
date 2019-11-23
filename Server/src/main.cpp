@@ -108,7 +108,7 @@ void core(void* data)
 				close(active.data.fd);
 			}
 			else if(active.events & EPOLLIN){
-				threadArg arg;
+				taskArg arg;
 				arg.iRootEpfd = epfd;
 				arg.iActiveFd = active.data.fd;
 				epollin_task(&arg);
@@ -125,6 +125,7 @@ int main(int argc, char* argv[])
 	int ret;
 
 	ret = logInit();
+	
 	ret = __StartDaemon(core);
 	if(ret < 0){
 		printf("init daemon error!!!\n");

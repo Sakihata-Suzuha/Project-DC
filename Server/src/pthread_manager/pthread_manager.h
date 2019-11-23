@@ -1,7 +1,7 @@
 /*
  *
 */
-class threadArg {
+class taskArg {
 public:
 	int iRootEpfd;
 	int iActiveFd;
@@ -10,4 +10,5 @@ public:
 /*
  *
 */
-extern int epollin_task(threadArg* arg);
+extern void* pthreadTask_myTest(void* arg);
+extern int epollin_task(taskArg* arg);

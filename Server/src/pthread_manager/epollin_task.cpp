@@ -4,7 +4,9 @@
 #include <sys/types.h>
 #include <sys/socket.h>
 #include <sys/epoll.h>
+#include <iostream>
 #include <string>
+#include <thread>
 #include "./pthread_manager.h"
 #include "../module/easylogging++.h"
 #include "../def.h"
@@ -12,7 +14,7 @@
 void* startRoutine_epollTask(void* arg)
 {
 	// test begin
-	threadArg data = *((threadArg*)arg);
+	taskArg data = *((taskArg*)arg);
 	pthread_t ppid = pthread_self();
 	//	char buf[_BUFFER_SIZE_];
 	char buf[4];
@@ -29,6 +31,8 @@ void* startRoutine_epollTask(void* arg)
 			if(errno == EAGAIN){
 				LOG(DEBUG) << "EAGAIN\n";
 
+				//一通操作没卵用？
+				//依旧单线程顺序读取
 				epoll_event event;
 				event.data.fd = data.iActiveFd;
 				event.events = EPOLLIN|EPOLLRDHUP|EPOLLERR|EPOLLET|EPOLLONESHOT;
@@ -39,6 +43,7 @@ void* startRoutine_epollTask(void* arg)
 				else{
 					LOG(ERROR) << "epoll_ctl succ???";
 				}
+				//end
 
 				break;
 			}
@@ -56,15 +61,13 @@ void* startRoutine_epollTask(void* arg)
 			//buf[ret] = '\0';
 			LOG(DEBUG) << "recv get: " << buf << "\n";
 			str = str + buf;
-			// test begin
 			LOG(DEBUG) << ppid << " to sleep...\n";
 			sleep(2);
 			LOG(DEBUG) << ppid << " sleep end...\n";
-			// test end
 		}
 	}
 
-	LOG(INFO) << ppid << __func__ << " get: " << str << "\n";
+	LOG(INFO) << ppid << " " << __func__ << " get: " << str << "\n";
 
 	ret = send(data.iActiveFd,str.c_str(),sizeof(str.c_str()),MSG_NOSIGNAL);
 	LOG(DEBUG) << "ret: " << ret << "\n";
@@ -72,11 +75,15 @@ void* startRoutine_epollTask(void* arg)
 		perror("[send]");
 		LOG(ERROR) << "send data error!!!\n";
 	}
-	// test end
 }
 
-int epollin_task(threadArg* arg)
+int epollin_task(taskArg* arg)
 {
-	pthread_t threadid;
-	pthread_create(&threadid,NULL,startRoutine_epollTask,(void*)arg);
+	// todo 判断客户端请求的数据头类型，执行相应的线程任务;
+	
+	//pthread_t threadid;
+	//pthread_create(&threadid,NULL,startRoutine_epollTask,(void*)arg);
+
+	std::thread test(startRoutine_epollTask,arg);
+	test.detach();
 }

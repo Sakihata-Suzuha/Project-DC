@@ -1,4 +1,7 @@
-[2019-11-23 23:24:48,5078|INFO|src/process_manager/__StartDaemon.cpp:54|]>create daemon complete, start task run...
+[2019-11-24 01:13:20,9910|INFO|src/process_manager/__StartDaemon.cpp:54|]>create daemon complete, start task run...
 
-[2019-11-23 23:24:48,5079|INFO|src/main.cpp:58|]>-------- init epoll successed --------
+[bind]: Address already in use
+[2019-11-24 01:13:20,9910|ERROR|src/network_manager/registerListenSocket.cpp:34|]>socket bind failed...
+
+[2019-11-24 01:13:20,9911|ERROR|src/main.cpp:35|]>registerListenSocket error!!!
 

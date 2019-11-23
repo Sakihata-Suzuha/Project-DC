@@ -13,7 +13,7 @@ int logInit()
 	Loggers::reconfigureAllLoggers(logConf);
 	Loggers::addFlag(LoggingFlag::StrictLogFileSizeCheck);
 
-	printf("\n----------------\n");
+	printf("\n----------------\n\n");
 	LOG(DEBUG) << __func__ << " successed...\n";
 
 	return 0;
