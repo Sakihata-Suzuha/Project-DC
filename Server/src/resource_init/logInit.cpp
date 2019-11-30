@@ -1,17 +1,15 @@
-#include "../module/easylogging++.h"
-#include "../def.h"
 #include "./resource_init.h"
-
-using namespace el;
+#include "../def.h"
+#include "../module/easylogging++.h"
 
 INITIALIZE_EASYLOGGINGPP
 #define ELPP_THREAD_SAFE
 
 int logInit()
 {
-	Configurations logConf(_LOG_CONFIG_PATH_);
-	Loggers::reconfigureAllLoggers(logConf);
-	Loggers::addFlag(LoggingFlag::StrictLogFileSizeCheck);
+	el::Configurations logConf(_LOG_CONFIG_PATH_);
+	el::Loggers::reconfigureAllLoggers(logConf);
+	el::Loggers::addFlag(el::LoggingFlag::StrictLogFileSizeCheck);
 
 	printf("\n----------------\n\n");
 	LOG(DEBUG) << __func__ << " successed...\n";

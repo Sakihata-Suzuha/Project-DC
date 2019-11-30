@@ -1,3 +1,4 @@
+#include "./network_manager.h"
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -5,9 +6,8 @@
 #include <sys/types.h>
 #include <sys/socket.h>
 #include <arpa/inet.h>
-#include "../module/easylogging++.h"
 #include "../def.h"
-#include "./network_manager.h"
+#include "../module/easylogging++.h"
 
 int registerListenSocket()
 {

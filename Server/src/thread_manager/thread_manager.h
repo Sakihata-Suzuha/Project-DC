@@ -1,3 +1,6 @@
+#ifndef __THREAD_MANAGER_H__
+#define __THREAD_MANAGER_H__
+
 /*
  *
 */
@@ -12,3 +15,5 @@ public:
 */
 extern void* pthreadTask_myTest(void* arg);
 extern int epollin_task(taskArg* arg);
+
+#endif

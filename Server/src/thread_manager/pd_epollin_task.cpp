@@ -7,7 +7,7 @@
 #include <iostream>
 #include <string>
 #include <thread>
-#include "./pthread_manager.h"
+#include "./thread_manager.h"
 #include "../module/easylogging++.h"
 #include "../def.h"
 

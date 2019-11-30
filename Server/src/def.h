@@ -1,3 +1,7 @@
+#ifndef __DEF_H__
+#define __DEF_H__
+
+
 #define _UNKNOWN_EVENT_				-9999
 
 ////////////////////////////////////////////////////////////////
@@ -21,3 +25,6 @@
 
 #define _LOG_CONFIG_PATH_			"./config/myLogConfig.conf"
 #define _LOG_FDOUTPUT_FILE_			"./log/fdPrint.log"
+
+
+#endif

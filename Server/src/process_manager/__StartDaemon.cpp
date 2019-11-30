@@ -1,12 +1,12 @@
+#include "./process_manager.h"
 #include <stdio.h>
 #include <stdlib.h>
-#include <sys/types.h>
 #include <unistd.h>
+#include <sys/types.h>
 #include <sys/stat.h>
 #include <fcntl.h>
-#include "./process_manager.h"
-#include "../module/easylogging++.h"
 #include "../def.h"
+#include "../module/easylogging++.h"
 
 int __StartDaemon(daemonCallback callback)
 {

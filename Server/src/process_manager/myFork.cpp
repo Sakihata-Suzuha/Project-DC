@@ -1,12 +1,12 @@
+#include "./process_manager.h"
 #include <stdio.h>
 #include <stdlib.h>
-#include <iostream>
 #include <sys/types.h>
 #include <sys/unistd.h>
 #include <signal.h>
-#include "../module/easylogging++.h"
+#include <iostream>
 #include "../def.h"
-#include "./process_manager.h"
+#include "../module/easylogging++.h"
 
 pid_t myFork()
 {

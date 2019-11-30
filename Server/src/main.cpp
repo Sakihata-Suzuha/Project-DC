@@ -5,15 +5,14 @@
 #include <sys/epoll.h>
 #include <sys/socket.h>
 #include <arpa/inet.h>
-#include <pthread.h>
 #include <fcntl.h>
 #include <iostream>
-#include "./module/easylogging++.h"
+#include "./def.h"
 #include "./process_manager/process_manager.h"
 #include "./network_manager/network_manager.h"
-#include "./def.h"
+#include "./module/easylogging++.h"
 #include "./resource_init/resource_init.h"
-#include "./pthread_manager/pthread_manager.h"
+#include "./thread_manager/thread_manager.h"
 
 using namespace std;
 using namespace el;
@@ -108,6 +107,9 @@ void core(void* data)
 				close(active.data.fd);
 			}
 			else if(active.events & EPOLLIN){
+				/*
+				 * todo
+				*/
 				taskArg arg;
 				arg.iRootEpfd = epfd;
 				arg.iActiveFd = active.data.fd;
