@@ -39,7 +39,7 @@ static const ::PROTOBUF_NAMESPACE_ID::EnumDescriptor* file_level_enum_descriptor
 static constexpr ::PROTOBUF_NAMESPACE_ID::ServiceDescriptor const** file_level_service_descriptors_Test_2eproto = nullptr;
 
 const ::PROTOBUF_NAMESPACE_ID::uint32 TableStruct_Test_2eproto::offsets[] PROTOBUF_SECTION_VARIABLE(protodesc_cold) = {
-  ~0u,  // no _has_bits_
+  PROTOBUF_FIELD_OFFSET(::pbTest::Test, _has_bits_),
   PROTOBUF_FIELD_OFFSET(::pbTest::Test, _internal_metadata_),
   ~0u,  // no _extensions_
   ~0u,  // no _oneof_case_
@@ -47,9 +47,12 @@ const ::PROTOBUF_NAMESPACE_ID::uint32 TableStruct_Test_2eproto::offsets[] PROTOB
   PROTOBUF_FIELD_OFFSET(::pbTest::Test, id_),
   PROTOBUF_FIELD_OFFSET(::pbTest::Test, str_),
   PROTOBUF_FIELD_OFFSET(::pbTest::Test, type_),
+  1,
+  0,
+  2,
 };
 static const ::PROTOBUF_NAMESPACE_ID::internal::MigrationSchema schemas[] PROTOBUF_SECTION_VARIABLE(protodesc_cold) = {
-  { 0, -1, sizeof(::pbTest::Test)},
+  { 0, 8, sizeof(::pbTest::Test)},
 };
 
 static ::PROTOBUF_NAMESPACE_ID::Message const * const file_default_instances[] = {
@@ -59,8 +62,7 @@ static ::PROTOBUF_NAMESPACE_ID::Message const * const file_default_instances[] =
 const char descriptor_table_protodef_Test_2eproto[] PROTOBUF_SECTION_VARIABLE(protodesc_cold) =
   "\n\nTest.proto\022\006pbTest\"_\n\004Test\022\n\n\002id\030\001 \001(\005"
   "\022\013\n\003str\030\002 \001(\t\022\037\n\004type\030\003 \001(\0162\021.pbTest.Tes"
-  "t.Type\"\035\n\004Type\022\013\n\007unknown\020\000\022\010\n\004text\020\001b\006p"
-  "roto3"
+  "t.Type\"\035\n\004Type\022\013\n\007unknown\020\000\022\010\n\004text\020\001"
   ;
 static const ::PROTOBUF_NAMESPACE_ID::internal::DescriptorTable*const descriptor_table_Test_2eproto_deps[1] = {
 };
@@ -70,7 +72,7 @@ static ::PROTOBUF_NAMESPACE_ID::internal::SCCInfoBase*const descriptor_table_Tes
 static ::PROTOBUF_NAMESPACE_ID::internal::once_flag descriptor_table_Test_2eproto_once;
 static bool descriptor_table_Test_2eproto_initialized = false;
 const ::PROTOBUF_NAMESPACE_ID::internal::DescriptorTable descriptor_table_Test_2eproto = {
-  &descriptor_table_Test_2eproto_initialized, descriptor_table_protodef_Test_2eproto, "Test.proto", 125,
+  &descriptor_table_Test_2eproto_initialized, descriptor_table_protodef_Test_2eproto, "Test.proto", 117,
   &descriptor_table_Test_2eproto_once, descriptor_table_Test_2eproto_sccs, descriptor_table_Test_2eproto_deps, 1, 0,
   schemas, file_default_instances, TableStruct_Test_2eproto::offsets,
   file_level_metadata_Test_2eproto, 1, file_level_enum_descriptors_Test_2eproto, file_level_service_descriptors_Test_2eproto,
@@ -107,6 +109,16 @@ void Test::InitAsDefaultInstance() {
 }
 class Test::_Internal {
  public:
+  using HasBits = decltype(std::declval<Test>()._has_bits_);
+  static void set_has_id(HasBits* has_bits) {
+    (*has_bits)[0] |= 2u;
+  }
+  static void set_has_str(HasBits* has_bits) {
+    (*has_bits)[0] |= 1u;
+  }
+  static void set_has_type(HasBits* has_bits) {
+    (*has_bits)[0] |= 4u;
+  }
 };
 
 Test::Test()
@@ -116,10 +128,11 @@ Test::Test()
 }
 Test::Test(const Test& from)
   : ::PROTOBUF_NAMESPACE_ID::Message(),
-      _internal_metadata_(nullptr) {
+      _internal_metadata_(nullptr),
+      _has_bits_(from._has_bits_) {
   _internal_metadata_.MergeFrom(from._internal_metadata_);
   str_.UnsafeSetDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
-  if (!from._internal_str().empty()) {
+  if (from._internal_has_str()) {
     str_.AssignWithDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), from.str_);
   }
   ::memcpy(&id_, &from.id_,
@@ -160,40 +173,52 @@ void Test::Clear() {
   // Prevent compiler warnings about cached_has_bits being unused
   (void) cached_has_bits;
 
-  str_.ClearToEmptyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
-  ::memset(&id_, 0, static_cast<size_t>(
-      reinterpret_cast<char*>(&type_) -
-      reinterpret_cast<char*>(&id_)) + sizeof(type_));
+  cached_has_bits = _has_bits_[0];
+  if (cached_has_bits & 0x00000001u) {
+    str_.ClearNonDefaultToEmptyNoArena();
+  }
+  if (cached_has_bits & 0x00000006u) {
+    ::memset(&id_, 0, static_cast<size_t>(
+        reinterpret_cast<char*>(&type_) -
+        reinterpret_cast<char*>(&id_)) + sizeof(type_));
+  }
+  _has_bits_.Clear();
   _internal_metadata_.Clear();
 }
 
 const char* Test::_InternalParse(const char* ptr, ::PROTOBUF_NAMESPACE_ID::internal::ParseContext* ctx) {
 #define CHK_(x) if (PROTOBUF_PREDICT_FALSE(!(x))) goto failure
+  _Internal::HasBits has_bits{};
   while (!ctx->Done(&ptr)) {
     ::PROTOBUF_NAMESPACE_ID::uint32 tag;
     ptr = ::PROTOBUF_NAMESPACE_ID::internal::ReadTag(ptr, &tag);
     CHK_(ptr);
     switch (tag >> 3) {
-      // int32 id = 1;
+      // optional int32 id = 1;
       case 1:
         if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 8)) {
+          _Internal::set_has_id(&has_bits);
           id_ = ::PROTOBUF_NAMESPACE_ID::internal::ReadVarint(&ptr);
           CHK_(ptr);
         } else goto handle_unusual;
         continue;
-      // string str = 2;
+      // optional string str = 2;
       case 2:
         if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 18)) {
-          ptr = ::PROTOBUF_NAMESPACE_ID::internal::InlineGreedyStringParserUTF8(_internal_mutable_str(), ptr, ctx, "pbTest.Test.str");
+          ptr = ::PROTOBUF_NAMESPACE_ID::internal::InlineGreedyStringParserUTF8Verify(_internal_mutable_str(), ptr, ctx, "pbTest.Test.str");
           CHK_(ptr);
         } else goto handle_unusual;
         continue;
-      // .pbTest.Test.Type type = 3;
+      // optional .pbTest.Test.Type type = 3;
       case 3:
         if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 24)) {
           ::PROTOBUF_NAMESPACE_ID::uint64 val = ::PROTOBUF_NAMESPACE_ID::internal::ReadVarint(&ptr);
           CHK_(ptr);
-          _internal_set_type(static_cast<::pbTest::Test_Type>(val));
+          if (PROTOBUF_PREDICT_TRUE(::pbTest::Test_Type_IsValid(val))) {
+            _internal_set_type(static_cast<::pbTest::Test_Type>(val));
+          } else {
+            ::PROTOBUF_NAMESPACE_ID::internal::WriteVarint(3, val, mutable_unknown_fields());
+          }
         } else goto handle_unusual;
         continue;
       default: {
@@ -209,6 +234,7 @@ const char* Test::_InternalParse(const char* ptr, ::PROTOBUF_NAMESPACE_ID::inter
     }  // switch
   }  // while
 success:
+  _has_bits_.Or(has_bits);
   return ptr;
 failure:
   ptr = nullptr;
@@ -222,24 +248,25 @@ failure:
   ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
   (void) cached_has_bits;
 
-  // int32 id = 1;
-  if (this->id() != 0) {
+  cached_has_bits = _has_bits_[0];
+  // optional int32 id = 1;
+  if (cached_has_bits & 0x00000002u) {
     target = stream->EnsureSpace(target);
     target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::WriteInt32ToArray(1, this->_internal_id(), target);
   }
 
-  // string str = 2;
-  if (this->str().size() > 0) {
-    ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::VerifyUtf8String(
+  // optional string str = 2;
+  if (cached_has_bits & 0x00000001u) {
+    ::PROTOBUF_NAMESPACE_ID::internal::WireFormat::VerifyUTF8StringNamedField(
       this->_internal_str().data(), static_cast<int>(this->_internal_str().length()),
-      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::SERIALIZE,
+      ::PROTOBUF_NAMESPACE_ID::internal::WireFormat::SERIALIZE,
       "pbTest.Test.str");
     target = stream->WriteStringMaybeAliased(
         2, this->_internal_str(), target);
   }
 
-  // .pbTest.Test.Type type = 3;
-  if (this->type() != 0) {
+  // optional .pbTest.Test.Type type = 3;
+  if (cached_has_bits & 0x00000004u) {
     target = stream->EnsureSpace(target);
     target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::WriteEnumToArray(
       3, this->_internal_type(), target);
@@ -261,26 +288,29 @@ size_t Test::ByteSizeLong() const {
   // Prevent compiler warnings about cached_has_bits being unused
   (void) cached_has_bits;
 
-  // string str = 2;
-  if (this->str().size() > 0) {
-    total_size += 1 +
-      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::StringSize(
-        this->_internal_str());
-  }
+  cached_has_bits = _has_bits_[0];
+  if (cached_has_bits & 0x00000007u) {
+    // optional string str = 2;
+    if (cached_has_bits & 0x00000001u) {
+      total_size += 1 +
+        ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::StringSize(
+          this->_internal_str());
+    }
 
-  // int32 id = 1;
-  if (this->id() != 0) {
-    total_size += 1 +
-      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::Int32Size(
-        this->_internal_id());
-  }
+    // optional int32 id = 1;
+    if (cached_has_bits & 0x00000002u) {
+      total_size += 1 +
+        ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::Int32Size(
+          this->_internal_id());
+    }
 
-  // .pbTest.Test.Type type = 3;
-  if (this->type() != 0) {
-    total_size += 1 +
-      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::EnumSize(this->_internal_type());
-  }
+    // optional .pbTest.Test.Type type = 3;
+    if (cached_has_bits & 0x00000004u) {
+      total_size += 1 +
+        ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::EnumSize(this->_internal_type());
+    }
 
+  }
   if (PROTOBUF_PREDICT_FALSE(_internal_metadata_.have_unknown_fields())) {
     return ::PROTOBUF_NAMESPACE_ID::internal::ComputeUnknownFieldsSize(
         _internal_metadata_, total_size, &_cached_size_);
@@ -312,15 +342,19 @@ void Test::MergeFrom(const Test& from) {
   ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
   (void) cached_has_bits;
 
-  if (from.str().size() > 0) {
-
-    str_.AssignWithDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), from.str_);
-  }
-  if (from.id() != 0) {
-    _internal_set_id(from._internal_id());
-  }
-  if (from.type() != 0) {
-    _internal_set_type(from._internal_type());
+  cached_has_bits = from._has_bits_[0];
+  if (cached_has_bits & 0x00000007u) {
+    if (cached_has_bits & 0x00000001u) {
+      _has_bits_[0] |= 0x00000001u;
+      str_.AssignWithDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), from.str_);
+    }
+    if (cached_has_bits & 0x00000002u) {
+      id_ = from.id_;
+    }
+    if (cached_has_bits & 0x00000004u) {
+      type_ = from.type_;
+    }
+    _has_bits_[0] |= cached_has_bits;
   }
 }
 
@@ -345,6 +379,7 @@ bool Test::IsInitialized() const {
 void Test::InternalSwap(Test* other) {
   using std::swap;
   _internal_metadata_.Swap(&other->_internal_metadata_);
+  swap(_has_bits_[0], other->_has_bits_[0]);
   str_.Swap(&other->str_, &::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(),
     GetArenaNoVirtual());
   swap(id_, other->id_);

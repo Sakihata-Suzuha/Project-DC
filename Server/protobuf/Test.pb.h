@@ -67,9 +67,7 @@ namespace pbTest {
 
 enum Test_Type : int {
   Test_Type_unknown = 0,
-  Test_Type_text = 1,
-  Test_Type_Test_Type_INT_MIN_SENTINEL_DO_NOT_USE_ = std::numeric_limits<::PROTOBUF_NAMESPACE_ID::int32>::min(),
-  Test_Type_Test_Type_INT_MAX_SENTINEL_DO_NOT_USE_ = std::numeric_limits<::PROTOBUF_NAMESPACE_ID::int32>::max()
+  Test_Type_text = 1
 };
 bool Test_Type_IsValid(int value);
 constexpr Test_Type Test_Type_Type_MIN = Test_Type_unknown;
@@ -115,6 +113,13 @@ class Test :
       CopyFrom(from);
     }
     return *this;
+  }
+
+  inline const ::PROTOBUF_NAMESPACE_ID::UnknownFieldSet& unknown_fields() const {
+    return _internal_metadata_.unknown_fields();
+  }
+  inline ::PROTOBUF_NAMESPACE_ID::UnknownFieldSet* mutable_unknown_fields() {
+    return _internal_metadata_.mutable_unknown_fields();
   }
 
   static const ::PROTOBUF_NAMESPACE_ID::Descriptor* descriptor() {
@@ -232,7 +237,11 @@ class Test :
     kIdFieldNumber = 1,
     kTypeFieldNumber = 3,
   };
-  // string str = 2;
+  // optional string str = 2;
+  bool has_str() const;
+  private:
+  bool _internal_has_str() const;
+  public:
   void clear_str();
   const std::string& str() const;
   void set_str(const std::string& value);
@@ -248,7 +257,11 @@ class Test :
   std::string* _internal_mutable_str();
   public:
 
-  // int32 id = 1;
+  // optional int32 id = 1;
+  bool has_id() const;
+  private:
+  bool _internal_has_id() const;
+  public:
   void clear_id();
   ::PROTOBUF_NAMESPACE_ID::int32 id() const;
   void set_id(::PROTOBUF_NAMESPACE_ID::int32 value);
@@ -257,7 +270,11 @@ class Test :
   void _internal_set_id(::PROTOBUF_NAMESPACE_ID::int32 value);
   public:
 
-  // .pbTest.Test.Type type = 3;
+  // optional .pbTest.Test.Type type = 3;
+  bool has_type() const;
+  private:
+  bool _internal_has_type() const;
+  public:
   void clear_type();
   ::pbTest::Test_Type type() const;
   void set_type(::pbTest::Test_Type value);
@@ -271,10 +288,11 @@ class Test :
   class _Internal;
 
   ::PROTOBUF_NAMESPACE_ID::internal::InternalMetadataWithArena _internal_metadata_;
+  ::PROTOBUF_NAMESPACE_ID::internal::HasBits<1> _has_bits_;
+  mutable ::PROTOBUF_NAMESPACE_ID::internal::CachedSize _cached_size_;
   ::PROTOBUF_NAMESPACE_ID::internal::ArenaStringPtr str_;
   ::PROTOBUF_NAMESPACE_ID::int32 id_;
   int type_;
-  mutable ::PROTOBUF_NAMESPACE_ID::internal::CachedSize _cached_size_;
   friend struct ::TableStruct_Test_2eproto;
 };
 // ===================================================================
@@ -288,9 +306,17 @@ class Test :
 #endif  // __GNUC__
 // Test
 
-// int32 id = 1;
+// optional int32 id = 1;
+inline bool Test::_internal_has_id() const {
+  bool value = (_has_bits_[0] & 0x00000002u) != 0;
+  return value;
+}
+inline bool Test::has_id() const {
+  return _internal_has_id();
+}
 inline void Test::clear_id() {
   id_ = 0;
+  _has_bits_[0] &= ~0x00000002u;
 }
 inline ::PROTOBUF_NAMESPACE_ID::int32 Test::_internal_id() const {
   return id_;
@@ -300,7 +326,7 @@ inline ::PROTOBUF_NAMESPACE_ID::int32 Test::id() const {
   return _internal_id();
 }
 inline void Test::_internal_set_id(::PROTOBUF_NAMESPACE_ID::int32 value) {
-  
+  _has_bits_[0] |= 0x00000002u;
   id_ = value;
 }
 inline void Test::set_id(::PROTOBUF_NAMESPACE_ID::int32 value) {
@@ -308,9 +334,17 @@ inline void Test::set_id(::PROTOBUF_NAMESPACE_ID::int32 value) {
   // @@protoc_insertion_point(field_set:pbTest.Test.id)
 }
 
-// string str = 2;
+// optional string str = 2;
+inline bool Test::_internal_has_str() const {
+  bool value = (_has_bits_[0] & 0x00000001u) != 0;
+  return value;
+}
+inline bool Test::has_str() const {
+  return _internal_has_str();
+}
 inline void Test::clear_str() {
   str_.ClearToEmptyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+  _has_bits_[0] &= ~0x00000001u;
 }
 inline const std::string& Test::str() const {
   // @@protoc_insertion_point(field_get:pbTest.Test.str)
@@ -328,49 +362,60 @@ inline const std::string& Test::_internal_str() const {
   return str_.GetNoArena();
 }
 inline void Test::_internal_set_str(const std::string& value) {
-  
+  _has_bits_[0] |= 0x00000001u;
   str_.SetNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), value);
 }
 inline void Test::set_str(std::string&& value) {
-  
+  _has_bits_[0] |= 0x00000001u;
   str_.SetNoArena(
     &::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), ::std::move(value));
   // @@protoc_insertion_point(field_set_rvalue:pbTest.Test.str)
 }
 inline void Test::set_str(const char* value) {
   GOOGLE_DCHECK(value != nullptr);
-  
+  _has_bits_[0] |= 0x00000001u;
   str_.SetNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), ::std::string(value));
   // @@protoc_insertion_point(field_set_char:pbTest.Test.str)
 }
 inline void Test::set_str(const char* value, size_t size) {
-  
+  _has_bits_[0] |= 0x00000001u;
   str_.SetNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(),
       ::std::string(reinterpret_cast<const char*>(value), size));
   // @@protoc_insertion_point(field_set_pointer:pbTest.Test.str)
 }
 inline std::string* Test::_internal_mutable_str() {
-  
+  _has_bits_[0] |= 0x00000001u;
   return str_.MutableNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
 }
 inline std::string* Test::release_str() {
   // @@protoc_insertion_point(field_release:pbTest.Test.str)
-  
-  return str_.ReleaseNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+  if (!has_str()) {
+    return nullptr;
+  }
+  _has_bits_[0] &= ~0x00000001u;
+  return str_.ReleaseNonDefaultNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
 }
 inline void Test::set_allocated_str(std::string* str) {
   if (str != nullptr) {
-    
+    _has_bits_[0] |= 0x00000001u;
   } else {
-    
+    _has_bits_[0] &= ~0x00000001u;
   }
   str_.SetAllocatedNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), str);
   // @@protoc_insertion_point(field_set_allocated:pbTest.Test.str)
 }
 
-// .pbTest.Test.Type type = 3;
+// optional .pbTest.Test.Type type = 3;
+inline bool Test::_internal_has_type() const {
+  bool value = (_has_bits_[0] & 0x00000004u) != 0;
+  return value;
+}
+inline bool Test::has_type() const {
+  return _internal_has_type();
+}
 inline void Test::clear_type() {
   type_ = 0;
+  _has_bits_[0] &= ~0x00000004u;
 }
 inline ::pbTest::Test_Type Test::_internal_type() const {
   return static_cast< ::pbTest::Test_Type >(type_);
@@ -380,7 +425,8 @@ inline ::pbTest::Test_Type Test::type() const {
   return _internal_type();
 }
 inline void Test::_internal_set_type(::pbTest::Test_Type value) {
-  
+  assert(::pbTest::Test_Type_IsValid(value));
+  _has_bits_[0] |= 0x00000004u;
   type_ = value;
 }
 inline void Test::set_type(::pbTest::Test_Type value) {

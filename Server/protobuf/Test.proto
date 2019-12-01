@@ -1,14 +1,14 @@
-syntax = "proto3";
+syntax = "proto2";
 
 package pbTest;
 
 message Test {
-    int32  id   = 1;
-    string str  = 2;
+    optional int32  id   = 1;
+    optional string str  = 2;
 
         enum Type {
             unknown = 0;
             text = 1;
         }
-    Type   type = 3;
+    optional Type   type = 3;
 };
