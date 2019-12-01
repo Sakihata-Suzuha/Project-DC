@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+package pbTest;
+
+message Test {
+    int32  id   = 1;
+    string str  = 2;
+
+        enum Type {
+            unknown = 0;
+            text = 1;
+        }
+    Type   type = 3;
+};

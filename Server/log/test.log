@@ -10,3 +10,94 @@
 
 [2019-11-30 20:36:38,0536|INFO|src/main.cpp:57|]>-------- init epoll successed --------
 
+[2019-12-01 11:08:54,0490|INFO|src/main.cpp:71|]>new connect...
+[2019-12-01 11:08:54,0491|INFO|src/main.cpp:79|]>>>27.38.32.127:37098<<
+
+[2019-12-01 11:08:54,0492|INFO|src/main.cpp:101|]>add new connect succ...
+
+[2019-12-01 11:09:24,7348|INFO|src/main.cpp:104|]>client abnormal exit...
+
+[2019-12-01 11:09:48,9056|INFO|src/main.cpp:71|]>new connect...
+[2019-12-01 11:09:48,9057|INFO|src/main.cpp:79|]>>>27.38.32.127:36806<<
+
+[2019-12-01 11:09:48,9057|INFO|src/main.cpp:101|]>add new connect succ...
+
+[2019-12-01 11:10:22,0998|DEBUG|src/thread_manager/pd_epollin_task.cpp:26|]>139755005126400 start task operation...
+
+[2019-12-01 11:10:22,0999|DEBUG|src/thread_manager/pd_epollin_task.cpp:62|]>recv get: Cyk
+
+[2019-12-01 11:10:22,0999|DEBUG|src/thread_manager/pd_epollin_task.cpp:64|]>139755005126400 to sleep...
+
+[2019-12-01 11:10:24,1000|DEBUG|src/thread_manager/pd_epollin_task.cpp:66|]>139755005126400 sleep end...
+
+[2019-12-01 11:10:24,1001|DEBUG|src/thread_manager/pd_epollin_task.cpp:62|]>recv get: a B
+
+[2019-12-01 11:10:24,1001|DEBUG|src/thread_manager/pd_epollin_task.cpp:64|]>139755005126400 to sleep...
+
+[2019-12-01 11:10:26,1002|DEBUG|src/thread_manager/pd_epollin_task.cpp:66|]>139755005126400 sleep end...
+
+[2019-12-01 11:10:26,1003|DEBUG|src/thread_manager/pd_epollin_task.cpp:62|]>recv get: lya
+
+[2019-12-01 11:10:26,1003|DEBUG|src/thread_manager/pd_epollin_task.cpp:64|]>139755005126400 to sleep...
+
+[2019-12-01 11:10:28,1005|DEBUG|src/thread_manager/pd_epollin_task.cpp:66|]>139755005126400 sleep end...
+
+[2019-12-01 11:10:28,1006|DEBUG|src/thread_manager/pd_epollin_task.cpp:62|]>recv get: t!
+
+
+[2019-12-01 11:10:28,1006|DEBUG|src/thread_manager/pd_epollin_task.cpp:64|]>139755005126400 to sleep...
+
+[2019-12-01 11:10:30,1007|DEBUG|src/thread_manager/pd_epollin_task.cpp:66|]>139755005126400 sleep end...
+
+[2019-12-01 11:10:30,1008|DEBUG|src/thread_manager/pd_epollin_task.cpp:32|]>EAGAIN
+
+[2019-12-01 11:10:30,1008|ERROR|src/thread_manager/pd_epollin_task.cpp:44|]>epoll_ctl succ???
+[2019-12-01 11:10:30,1008|INFO|src/thread_manager/pd_epollin_task.cpp:70|]>139755005126400 startRoutine_epollTask get: >Cyka Blyat!
+
+
+[2019-12-01 11:10:30,1009|DEBUG|src/thread_manager/pd_epollin_task.cpp:73|]>ret: 8
+
+[2019-12-01 11:11:40,9203|INFO|src/main.cpp:104|]>client abnormal exit...
+
+[2019-12-01 11:14:32,1989|INFO|src/main.cpp:71|]>new connect...
+[2019-12-01 11:14:32,1991|INFO|src/main.cpp:79|]>>>27.38.32.127:36914<<
+
+[2019-12-01 11:14:32,1991|INFO|src/main.cpp:101|]>add new connect succ...
+
+[2019-12-01 11:14:40,2957|DEBUG|src/thread_manager/pd_epollin_task.cpp:26|]>139755005126400 start task operation...
+
+[2019-12-01 11:14:40,2959|DEBUG|src/thread_manager/pd_epollin_task.cpp:62|]>recv get: Cyk
+
+[2019-12-01 11:14:40,2959|DEBUG|src/thread_manager/pd_epollin_task.cpp:64|]>139755005126400 to sleep...
+
+[2019-12-01 11:14:42,2961|DEBUG|src/thread_manager/pd_epollin_task.cpp:66|]>139755005126400 sleep end...
+
+[2019-12-01 11:14:42,2962|DEBUG|src/thread_manager/pd_epollin_task.cpp:62|]>recv get: a B
+
+[2019-12-01 11:14:42,2963|DEBUG|src/thread_manager/pd_epollin_task.cpp:64|]>139755005126400 to sleep...
+
+[2019-12-01 11:14:44,2964|DEBUG|src/thread_manager/pd_epollin_task.cpp:66|]>139755005126400 sleep end...
+
+[2019-12-01 11:14:44,2966|DEBUG|src/thread_manager/pd_epollin_task.cpp:62|]>recv get: lya
+
+[2019-12-01 11:14:44,2966|DEBUG|src/thread_manager/pd_epollin_task.cpp:64|]>139755005126400 to sleep...
+
+[2019-12-01 11:14:46,2967|DEBUG|src/thread_manager/pd_epollin_task.cpp:66|]>139755005126400 sleep end...
+
+[2019-12-01 11:14:46,2969|DEBUG|src/thread_manager/pd_epollin_task.cpp:62|]>recv get: t!
+
+
+[2019-12-01 11:14:46,2969|DEBUG|src/thread_manager/pd_epollin_task.cpp:64|]>139755005126400 to sleep...
+
+[2019-12-01 11:14:48,2971|DEBUG|src/thread_manager/pd_epollin_task.cpp:66|]>139755005126400 sleep end...
+
+[2019-12-01 11:14:48,2972|DEBUG|src/thread_manager/pd_epollin_task.cpp:32|]>EAGAIN
+
+[2019-12-01 11:14:48,2973|ERROR|src/thread_manager/pd_epollin_task.cpp:44|]>epoll_ctl succ???
+[2019-12-01 11:14:48,2973|INFO|src/thread_manager/pd_epollin_task.cpp:70|]>139755005126400 startRoutine_epollTask get: >Cyka Blyat!
+
+
+[2019-12-01 11:14:48,2973|DEBUG|src/thread_manager/pd_epollin_task.cpp:73|]>ret: 8
+
+[2019-12-01 11:15:06,0941|INFO|src/main.cpp:104|]>client abnormal exit...
+
