@@ -17,7 +17,7 @@ TARGET=./bin/launchService
 
 OBJS=$(OBJ_MAIN) $(OBJ_PM) $(OBJ_NM) $(OBJ_3M) $(OBJ_RI) $(OBJ_TM)
 $(TARGET):$(OBJS)
-	g++ $^ -o $@ -lpthread 	#pthread?
+	g++ $^ -o $@ -lprotobuf -lpthread 	#use pthread?
 
 ./obj/%.o:./src/%.cpp
 	g++ $(CFLAG) $< -o $@

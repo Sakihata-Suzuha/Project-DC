@@ -10,40 +10,30 @@
 #include "./thread_manager.h"
 #include "../module/easylogging++.h"
 #include "../def.h"
+#include "../module/addressbook.pb.h"
 
-void* startRoutine_epollTask(void* arg)
+using namespace tutorial;
+
+void* pthreadTask_myTest(void* arg)
 {
-	// test begin
-	taskArg data = *((taskArg*)arg);
-	pthread_t ppid = pthread_self();
-	//	char buf[_BUFFER_SIZE_];
-	char buf[4];
-	std::string str = ">";
-	int ret;
+	// todo if
+	
+	LOG(INFO) << std::this_thread::get_id() << " task begin...\n";
 
-	memset(buf,'\0',sizeof(buf));
+	taskArg tArg = *((taskArg*)arg);
+	int ret = -1;
+	int bufSize = 128;
+	char buf[128];
+	std::string pbbuf;
+	Person person;
 
-	LOG(DEBUG) << ppid << " start task operation...\n";
+	memset(buf,'\0',bufSize);
 
 	for(;;){
-		ret = recv(data.iActiveFd,buf,sizeof(buf)-1,0);
+		ret = recv(tArg.iActiveFd,buf,bufSize,0);
 		if(ret < 0){
 			if(errno == EAGAIN){
 				LOG(DEBUG) << "EAGAIN\n";
-
-				//一通操作没卵用？
-				//依旧单线程顺序读取
-				epoll_event event;
-				event.data.fd = data.iActiveFd;
-				event.events = EPOLLIN|EPOLLRDHUP|EPOLLERR|EPOLLET|EPOLLONESHOT;
-				ret = epoll_ctl(data.iRootEpfd,EPOLL_CTL_MOD,data.iActiveFd,&event);
-				if(ret == -1){
-					LOG(ERROR) << "epoll_ctl error!!!";
-				}
-				else{
-					LOG(ERROR) << "epoll_ctl succ???";
-				}
-				//end
 
 				break;
 			}
@@ -58,32 +48,33 @@ void* startRoutine_epollTask(void* arg)
 			break;
 		}
 		else if(ret > 0){
-			//buf[ret] = '\0';
-			LOG(DEBUG) << "recv get: " << buf << "\n";
-			str = str + buf;
-			LOG(DEBUG) << ppid << " to sleep...\n";
-			sleep(2);
-			LOG(DEBUG) << ppid << " sleep end...\n";
 		}
 	}
 
-	LOG(INFO) << ppid << " " << __func__ << " get: " << str << "\n";
+	pbbuf = buf;
+	person.ParseFromString(pbbuf);
 
-	ret = send(data.iActiveFd,str.c_str(),sizeof(str.c_str()),MSG_NOSIGNAL);
-	LOG(DEBUG) << "ret: " << ret << "\n";
+	LOG(DEBUG) << "name  : " << person.name() << std::endl;
+	LOG(DEBUG) << "id    : " << person.id() << std::endl;
+	LOG(DEBUG) << "email : " << person.email() << std::endl;
+
+	person.set_name("bbbb");
+	person.set_id(2222);
+	person.set_email("bbbb@2222.com");
+
+	std::string sendBuf;
+	person.SerializeToString(&sendBuf);
+	ret = send(tArg.iActiveFd,sendBuf.c_str(),sizeof(sendBuf.c_str()),MSG_NOSIGNAL);
 	if(ret == -1){
 		perror("[send]");
-		LOG(ERROR) << "send data error!!!\n";
+		LOG(ERROR) << "send person error!!!\n";
 	}
 }
 
 int epollin_task(taskArg* arg)
 {
 	// todo 判断客户端请求的数据头类型，执行相应的线程任务;
-	
-	//pthread_t threadid;
-	//pthread_create(&threadid,NULL,startRoutine_epollTask,(void*)arg);
-
-	std::thread test(startRoutine_epollTask,arg);
+	//test:	
+	std::thread test(pthreadTask_myTest,arg);
 	test.detach();
 }
