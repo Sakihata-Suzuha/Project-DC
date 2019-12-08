@@ -12,7 +12,7 @@ OBJ_3M=$(patsubst ./src/module/%.cc, ./obj/%.o, $(SRC_3M))
 OBJ_RI=$(patsubst ./src/resource_init/%.cpp, ./obj/%.o, $(SRC_RI))
 OBJ_TM=$(patsubst ./src/thread_manager/%.cpp, ./obj/%.o, $(SRC_TM))
 
-CFLAG=-c -g 	#-g?
+CFLAG=-c -g 	#-g Valgrind
 TARGET=./bin/launchService
 
 OBJS=$(OBJ_MAIN) $(OBJ_PM) $(OBJ_NM) $(OBJ_3M) $(OBJ_RI) $(OBJ_TM)
