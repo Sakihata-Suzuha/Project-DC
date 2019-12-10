@@ -133,3 +133,10 @@
 
 [2019-12-09 00:19:43,7293|DEBUG|src/thread_manager/pd_epollin_task.cpp:59|]>email : aaaa@1111.com
 
+[2019-12-10 15:01:27,0850|INFO|src/process_manager/__StartDaemon.cpp:54|]>create daemon complete, start task run...
+
+[bind]: Address already in use
+[2019-12-10 15:01:27,0851|ERROR|src/network_manager/registerListenSocket.cpp:34|]>socket bind failed...
+
+[2019-12-10 15:01:27,0851|ERROR|src/main.cpp:34|]>registerListenSocket error!!!
+

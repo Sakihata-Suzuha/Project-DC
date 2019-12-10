@@ -11,13 +11,14 @@
 #include "../module/easylogging++.h"
 #include "../def.h"
 #include "../module/addressbook.pb.h"
+#include "../module/msgTest.pb.h"
 
 using namespace tutorial;
 
 void* pthreadTask_myTest(void* arg)
 {
 	// todo if
-	
+
 	LOG(INFO) << std::this_thread::get_id() << " task begin...\n";
 
 	taskArg tArg = *((taskArg*)arg);
@@ -57,10 +58,23 @@ void* pthreadTask_myTest(void* arg)
 	LOG(DEBUG) << "name  : " << person.name() << std::endl;
 	LOG(DEBUG) << "id    : " << person.id() << std::endl;
 	LOG(DEBUG) << "email : " << person.email() << std::endl;
+	/*
+	   person.set_name("bbbb");
+	   person.set_id(2222);
+	   person.set_email("bbbb@2222.com");
 
-	person.set_name("bbbb");
-	person.set_id(2222);
-	person.set_email("bbbb@2222.com");
+	   std::string sendBuf;
+	   person.SerializeToString(&sendBuf);
+	   ret = send(tArg.iActiveFd,sendBuf.c_str(),sizeof(sendBuf.c_str()),MSG_NOSIGNAL);
+	   if(ret == -1){
+	   perror("[send]");
+	   LOG(ERROR) << "send person error!!!\n";
+	   }
+	   */
+
+	tcpTest::test01 fk;
+	fk.set_desc("motherfucker!!!");
+	fk.set_idrn(777);
 
 	std::string sendBuf;
 	person.SerializeToString(&sendBuf);
