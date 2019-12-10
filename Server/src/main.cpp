@@ -1,3 +1,4 @@
+#include <google/protobuf/stubs/port.h>
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -13,6 +14,7 @@
 #include "./module/easylogging++.h"
 #include "./resource_init/resource_init.h"
 #include "./thread_manager/thread_manager.h"
+#include "./module/msgTest.pb.h"
 
 using namespace std;
 using namespace el;
@@ -81,6 +83,7 @@ void core(void* data)
 				epoll_event ev;
 				ev.data.fd = afd;
 				ev.events = EPOLLIN|EPOLLRDHUP|EPOLLERR|EPOLLET|EPOLLONESHOT;
+				//ev.events = EPOLLIN|EPOLLRDHUP|EPOLLERR|EPOLLET;
 
 				int flag = fcntl(ev.data.fd,F_GETFL);
 				flag |= O_NONBLOCK;
@@ -91,8 +94,13 @@ void core(void* data)
 					LOG(ERROR) << "afd add epolltree failed...\n";
 				}
 
-				char buf[] = "hello...\n";
-				ret = send(ev.data.fd,buf,sizeof(buf),MSG_NOSIGNAL);
+				tcpTest::test01 hello;
+				hello.set_desc("hello");
+				hello.set_idrn(1234);
+
+				string buf;
+				hello.SerializeToString(&buf);
+				ret = send(ev.data.fd,buf.c_str(),strlen(buf.c_str()),MSG_NOSIGNAL);
 				if(ret == -1){
 					perror("[send]");
 					LOG(ERROR) << "send data error!!!\n";
@@ -107,9 +115,10 @@ void core(void* data)
 				close(active.data.fd);
 			}
 			else if(active.events & EPOLLIN){
+				LOG(DEBUG) << "EPOLLIN event...\n";
 				/*
 				 * todo
-				*/
+				 */
 				taskArg arg;
 				arg.iRootEpfd = epfd;
 				arg.iActiveFd = active.data.fd;
@@ -127,7 +136,7 @@ int main(int argc, char* argv[])
 	int ret;
 
 	ret = logInit();
-	
+
 	ret = __StartDaemon(core);
 	if(ret < 0){
 		printf("init daemon error!!!\n");
