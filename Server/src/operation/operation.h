@@ -4,5 +4,6 @@
 /*
  * todo
 */
+extern bool recvSocketData(void* arg, char* buf);
 
 #endif //__OPERATION_H__

@@ -11,10 +11,13 @@
 #include "./thread_manager.h"
 #include "../module/easylogging++.h"
 #include "../def.h"
-#include "../module/addressbook.pb.h"
-#include "../module/msgTest.pb.h"
+#include "../proto_src/msgTest.pb.h"
+#include "../proto_src/transeTest.pb.h"
 
-using namespace tutorial;
+using namespace msgTest;
+using namespace transeTest;
+
+int i = 0;
 
 void* pthreadTask_myTest(void* arg)
 {
@@ -26,7 +29,6 @@ void* pthreadTask_myTest(void* arg)
 	int ret = -1;
 	int bufSize = 128;
 	char buf[128];
-	Person person;
 
 	memset(buf,'\0',bufSize);
 
@@ -64,19 +66,25 @@ void* pthreadTask_myTest(void* arg)
 			break;
 		}
 		else if(ret > 0){
+//			LOG(DEBUG) << "goto sleep...\n";
 		}
 	}
 
-	std::string pbbuf(buf);
-	if(person.ParseFromString(pbbuf))
-		LOG(INFO) << "Parse succ...\n";
-	else
-		LOG(INFO) << "Parse error...\n";
+	std::string msgbuf(buf);
+	std::string transebuf(buf);
 
-	LOG(DEBUG) << "name  : " << person.name() << std::endl;
-	LOG(DEBUG) << "id    : " << person.id() << std::endl;
-	LOG(DEBUG) << "email : " << person.email() << std::endl;
+	testBody_a st1;
+	testBody_b st2;
 
+	st1.ParseFromString(msgbuf);
+	st2.ParseFromString(transebuf);
+
+	LOG(INFO) << "idrn: " << st1.idrn() << std::endl;
+	LOG(INFO) << "desc: " << st1.desc() << std::endl;
+	LOG(DEBUG) << "------------------------------\n";
+	LOG(INFO) << "id: " << st2.id() << std::endl;
+	LOG(INFO) << "num: " << st2.double_test() << std::endl;
+	
 	/*
 	   person.set_name("bbbb");
 	   person.set_id(2222);
@@ -91,27 +99,14 @@ void* pthreadTask_myTest(void* arg)
 	   }
 	   */
 
-	tcpTest::test01 fk;
-	fk.set_desc("motherfucker!!!");
-	fk.set_idrn(5678);
 
-	std::string sendBuf;
-	fk.SerializeToString(&sendBuf);
-	ret = send(tArg.iActiveFd,sendBuf.c_str(),strlen(sendBuf.c_str()),MSG_NOSIGNAL);
-	if(ret == -1){
-		perror("[send]");
-		LOG(ERROR) << "send message error!!!\n";
-	}
-
-	LOG(DEBUG) << "send message succ...\n";
+	LOG(INFO) << "[" << ++i << "] " << std::this_thread::get_id() << " task end...\n";
 }
 
 int epollin_task(taskArg* arg)
 {
 	// todo 判断客户端请求的数据头类型，执行相应的线程任务;
 	//test:	
-	//	std::thread pTask(pthreadTask_myTest,arg);
-	//	pTask.join();
-	pthread_t threadid;
-	pthread_create(&threadid,NULL,pthreadTask_myTest,(void*)arg);
+		std::thread pTask(pthreadTask_myTest,arg);
+		pTask.detach();
 }

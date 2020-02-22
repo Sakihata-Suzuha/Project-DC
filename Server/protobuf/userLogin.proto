@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+import "root.proto";
+
+package userLogin;
+
+message request {
+	root.AccessType type = 1;
+
+	uint64 uuid = 2;
+	string identifier = 3;
+	string pwd = 4;
+}
+
+message response {
+	uint64 errCode = 1;
+	string errDesc = 2;
+}

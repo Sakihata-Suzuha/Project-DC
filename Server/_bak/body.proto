@@ -1,0 +1,12 @@
+syntax = "proto3"
+
+import "./access/access.proto"
+
+package body;
+
+message Body {
+	enum type {
+		blank = 0;
+		access = 100001;
+	}
+}

@@ -1,0 +1,20 @@
+syntax = "proto3";
+
+package access;
+
+message request {
+	enum Type{
+		blank = 0;
+		login = 1;
+		logout = 2;
+		detach = 3;
+	}
+
+	uint64 uid = 1;
+	string pwd = 2;
+}
+
+message response {
+	int64 errCode = 1;
+	string errDesc = 2;
+}

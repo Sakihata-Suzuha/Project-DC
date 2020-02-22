@@ -1,4 +1,3 @@
-#include <google/protobuf/stubs/port.h>
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -7,6 +6,7 @@
 #include <sys/socket.h>
 #include <arpa/inet.h>
 #include <fcntl.h>
+#include <google/protobuf/stubs/port.h>
 #include <iostream>
 #include "./def.h"
 #include "./process_manager/process_manager.h"
@@ -14,10 +14,11 @@
 #include "./module/easylogging++.h"
 #include "./resource_init/resource_init.h"
 #include "./thread_manager/thread_manager.h"
-#include "./module/msgTest.pb.h"
+#include "./proto_src/msgTest.pb.h"
 
 using namespace std;
 using namespace el;
+using namespace msgTest;
 
 void core(void* data)
 {
@@ -59,7 +60,7 @@ void core(void* data)
 	LOG(INFO) << "-------- init epoll successed --------\n";
 
 	for(;;){
-		evfds = epoll_wait(epfd,events,_EPOLL_EVENT_SIZE_,1024);
+		evfds = epoll_wait(epfd,events,_EPOLL_EVENT_SIZE_,1000);
 		if(evfds == -1){
 			LOG(ERROR) << "epoll wait error!!!\n";
 
@@ -93,10 +94,10 @@ void core(void* data)
 				if(ret == -1){
 					LOG(ERROR) << "afd add epolltree failed...\n";
 				}
-
-				tcpTest::test01 hello;
-				hello.set_desc("hello");
-				hello.set_idrn(1234);
+				/////////////////////////////////////////////////////////////////////////////////////////
+				testBody_a hello;
+				hello.set_idrn(1024);
+				hello.set_desc("server no hello...");
 
 				string buf;
 				hello.SerializeToString(&buf);
@@ -105,7 +106,7 @@ void core(void* data)
 					perror("[send]");
 					LOG(ERROR) << "send data error!!!\n";
 				}
-
+				/////////////////////////////////////////////////////////////////////////////////////////////
 				LOG(INFO) << "add new connect succ...\n";
 			}
 			else if(active.events & EPOLLRDHUP || active.events & EPOLLERR){
@@ -116,8 +117,9 @@ void core(void* data)
 			}
 			else if(active.events & EPOLLIN){
 				LOG(DEBUG) << "EPOLLIN event...\n";
+
 				/*
-				 * todo
+				 * todo 可扩展参数
 				 */
 				taskArg arg;
 				arg.iRootEpfd = epfd;

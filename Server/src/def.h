@@ -22,6 +22,7 @@
 #define _SOCKET_LISTEN_SIZE_       1024 
 #define _EPOLL_EVENT_SIZE_         1024 
 #define _BUFFER_SIZE_              2048
+#define _SOCKET_BUFFER_SIZE_       1500
 
 #define _LOG_CONFIG_PATH_          "./config/myLogConfig.conf"
 #define _LOG_FDOUTPUT_FILE_        "./log/fdPrint.log"

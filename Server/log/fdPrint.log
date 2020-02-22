@@ -1,0 +1,3711 @@
+[2020-02-12 12:24:02,3350|INFO|src/process_manager/__StartDaemon.cpp:54|]>create daemon complete, start task run...
+
+[2020-02-12 12:24:02,3351|INFO|src/main.cpp:60|]>-------- init epoll successed --------
+
+[2020-02-12 13:46:42,3251|INFO|src/main.cpp:74|]>new connect...
+[2020-02-12 13:46:42,3253|INFO|src/main.cpp:82|]>>>120.78.225.124:49748<<
+
+[2020-02-12 13:46:42,3254|INFO|src/main.cpp:110|]>add new connect succ...
+
+[2020-02-12 13:46:42,3606|DEBUG|src/main.cpp:119|]>EPOLLIN event...
+
+[2020-02-12 13:46:42,3606|INFO|src/thread_manager/epollin_task.cpp:19|]>139989942007616 epollin_task begin...
+
+[2020-02-12 13:46:42,3607|DEBUG|src/operation/recvSocketData.cpp:25|]>EAGAIN...
+
+[2020-02-12 13:46:42,3607|INFO|src/operation/recvSocketData.cpp:55|]>recvSocketData succ...
+
+[2020-02-12 13:46:42,3608|INFO|src/thread_manager/epollin_task.cpp:34|]>idrn: 0
+
+[2020-02-12 13:46:42,3608|INFO|src/thread_manager/epollin_task.cpp:35|]>desc: 
+
+[2020-02-12 13:46:42,3608|INFO|src/thread_manager/epollin_task.cpp:36|]>id: 0
+
+[2020-02-12 13:46:42,3609|INFO|src/thread_manager/epollin_task.cpp:37|]>num: 0
+
+[2020-02-12 13:46:42,3609|DEBUG|src/thread_manager/epollin_task.cpp:51|]>------------------------------
+
+[2020-02-12 13:46:42,3610|INFO|src/thread_manager/epollin_task.cpp:55|]>uuid: 0
+
+[2020-02-12 13:46:42,3610|INFO|src/thread_manager/epollin_task.cpp:56|]>identifier: 
+
+[2020-02-12 13:46:42,3610|INFO|src/thread_manager/epollin_task.cpp:57|]>pwd: 
+
+[2020-02-12 13:46:42,3610|INFO|src/thread_manager/epollin_task.cpp:66|]>139989942007616 epollin_task end...
+
+[2020-02-12 13:46:47,3239|INFO|src/main.cpp:113|]>client abnormal exit...
+
+[2020-02-12 18:57:14,4966|INFO|src/main.cpp:74|]>new connect...
+[2020-02-12 18:57:14,4967|INFO|src/main.cpp:82|]>>>27.38.32.158:14825<<
+
+[2020-02-12 18:57:14,4968|INFO|src/main.cpp:110|]>add new connect succ...
+
+[2020-02-12 18:57:29,5905|DEBUG|src/main.cpp:119|]>EPOLLIN event...
+
+[2020-02-12 18:57:29,5906|INFO|src/thread_manager/epollin_task.cpp:19|]>139989942007616 epollin_task begin...
+
+[2020-02-12 18:57:29,5907|DEBUG|src/operation/recvSocketData.cpp:25|]>EAGAIN...
+
+[2020-02-12 18:57:29,5907|INFO|src/operation/recvSocketData.cpp:55|]>recvSocketData succ...
+
+[2020-02-12 18:57:29,5908|INFO|src/thread_manager/epollin_task.cpp:34|]>idrn: 1001
+
+[2020-02-12 18:57:29,5908|INFO|src/thread_manager/epollin_task.cpp:35|]>desc: 
+
+[2020-02-12 18:57:29,5908|INFO|src/thread_manager/epollin_task.cpp:36|]>id: 1001
+
+[2020-02-12 18:57:29,5909|INFO|src/thread_manager/epollin_task.cpp:37|]>num: 0
+
+[2020-02-12 18:57:29,5909|INFO|src/thread_manager/epollin_task.cpp:49|]>t1 yes! 1001
+
+[2020-02-12 18:57:29,5910|DEBUG|src/thread_manager/epollin_task.cpp:51|]>------------------------------
+
+[2020-02-12 18:57:29,5910|INFO|src/thread_manager/epollin_task.cpp:53|]>t2 yes! 1001
+
+[2020-02-12 18:57:29,5910|INFO|src/thread_manager/epollin_task.cpp:55|]>uuid: 1234
+
+[2020-02-12 18:57:29,5910|INFO|src/thread_manager/epollin_task.cpp:56|]>identifier: test
+
+[2020-02-12 18:57:29,5911|INFO|src/thread_manager/epollin_task.cpp:57|]>pwd: password
+
+[2020-02-12 18:57:29,5911|INFO|src/thread_manager/epollin_task.cpp:66|]>139989942007616 epollin_task end...
+
+[2020-02-12 18:57:51,0917|INFO|src/main.cpp:113|]>client abnormal exit...
+
+[2020-02-14 02:44:37,8557|INFO|src/main.cpp:74|]>new connect...
+[2020-02-14 02:44:37,8558|INFO|src/main.cpp:82|]>>>195.154.92.15:64577<<
+
+[2020-02-14 02:44:37,8559|INFO|src/main.cpp:110|]>add new connect succ...
+
+[2020-02-14 02:44:37,8565|DEBUG|src/main.cpp:119|]>EPOLLIN event...
+
+[2020-02-14 02:44:37,8565|INFO|src/thread_manager/epollin_task.cpp:19|]>139989942007616 epollin_task begin...
+
+[2020-02-14 02:44:37,8565|DEBUG|src/operation/recvSocketData.cpp:25|]>EAGAIN...
+
+[2020-02-14 02:44:37,8565|INFO|src/operation/recvSocketData.cpp:55|]>recvSocketData succ...
+
+[2020-02-14 02:44:37,8566|INFO|src/thread_manager/epollin_task.cpp:34|]>idrn: 0
+
+[2020-02-14 02:44:37,8566|INFO|src/thread_manager/epollin_task.cpp:35|]>desc: 
+
+[2020-02-14 02:44:37,8566|INFO|src/thread_manager/epollin_task.cpp:36|]>id: 0
+
+[2020-02-14 02:44:37,8566|INFO|src/thread_manager/epollin_task.cpp:37|]>num: 0
+
+[2020-02-14 02:44:37,8566|DEBUG|src/thread_manager/epollin_task.cpp:51|]>------------------------------
+
+[2020-02-14 02:44:37,8566|INFO|src/thread_manager/epollin_task.cpp:55|]>uuid: 0
+
+[2020-02-14 02:44:37,8566|INFO|src/thread_manager/epollin_task.cpp:56|]>identifier: 
+
+[2020-02-14 02:44:37,8567|INFO|src/thread_manager/epollin_task.cpp:57|]>pwd: 
+
+[2020-02-14 02:44:37,8567|INFO|src/thread_manager/epollin_task.cpp:66|]>139989942007616 epollin_task end...
+
+[2020-02-14 02:44:38,1055|INFO|src/main.cpp:113|]>client abnormal exit...
+
+[2020-02-14 23:44:01,0001|INFO|src/main.cpp:74|]>new connect...
+[2020-02-14 23:44:01,0002|INFO|src/main.cpp:82|]>>>195.154.92.15:64114<<
+
+[2020-02-14 23:44:01,0003|INFO|src/main.cpp:110|]>add new connect succ...
+
+[2020-02-14 23:44:01,0003|DEBUG|src/main.cpp:119|]>EPOLLIN event...
+
+[2020-02-14 23:44:01,0003|INFO|src/thread_manager/epollin_task.cpp:19|]>139989942007616 epollin_task begin...
+
+[2020-02-14 23:44:01,0003|DEBUG|src/operation/recvSocketData.cpp:25|]>EAGAIN...
+
+[2020-02-14 23:44:01,0003|INFO|src/operation/recvSocketData.cpp:55|]>recvSocketData succ...
+
+[2020-02-14 23:44:01,0003|INFO|src/thread_manager/epollin_task.cpp:34|]>idrn: 0
+
+[2020-02-14 23:44:01,0004|INFO|src/thread_manager/epollin_task.cpp:35|]>desc: 
+
+[2020-02-14 23:44:01,0004|INFO|src/thread_manager/epollin_task.cpp:36|]>id: 0
+
+[2020-02-14 23:44:01,0004|INFO|src/thread_manager/epollin_task.cpp:37|]>num: 0
+
+[2020-02-14 23:44:01,0004|DEBUG|src/thread_manager/epollin_task.cpp:51|]>------------------------------
+
+[2020-02-14 23:44:01,0004|INFO|src/thread_manager/epollin_task.cpp:55|]>uuid: 0
+
+[2020-02-14 23:44:01,0004|INFO|src/thread_manager/epollin_task.cpp:56|]>identifier: 
+
+[2020-02-14 23:44:01,0004|INFO|src/thread_manager/epollin_task.cpp:57|]>pwd: 
+
+[2020-02-14 23:44:01,0005|INFO|src/thread_manager/epollin_task.cpp:66|]>139989942007616 epollin_task end...
+
+[2020-02-14 23:44:01,9651|INFO|src/main.cpp:113|]>client abnormal exit...
+
+[2020-02-17 21:33:31,7712|INFO|src/main.cpp:74|]>new connect...
+[2020-02-17 21:33:31,7713|INFO|src/main.cpp:82|]>>>119.23.174.205:50774<<
+
+[2020-02-17 21:33:31,7713|INFO|src/main.cpp:110|]>add new connect succ...
+
+[2020-02-17 21:33:31,7765|DEBUG|src/main.cpp:119|]>EPOLLIN event...
+
+[2020-02-17 21:33:31,7766|INFO|src/thread_manager/epollin_task.cpp:19|]>139989942007616 epollin_task begin...
+
+[2020-02-17 21:33:31,7766|DEBUG|src/operation/recvSocketData.cpp:25|]>EAGAIN...
+
+[2020-02-17 21:33:31,7766|INFO|src/operation/recvSocketData.cpp:55|]>recvSocketData succ...
+
+[2020-02-17 21:33:31,7766|INFO|src/thread_manager/epollin_task.cpp:34|]>idrn: 0
+
+[2020-02-17 21:33:31,7766|INFO|src/thread_manager/epollin_task.cpp:35|]>desc: 
+
+[2020-02-17 21:33:31,7766|INFO|src/thread_manager/epollin_task.cpp:36|]>id: 0
+
+[2020-02-17 21:33:31,7767|INFO|src/thread_manager/epollin_task.cpp:37|]>num: 0
+
+[2020-02-17 21:33:31,7767|DEBUG|src/thread_manager/epollin_task.cpp:51|]>------------------------------
+
+[2020-02-17 21:33:31,7767|INFO|src/thread_manager/epollin_task.cpp:55|]>uuid: 0
+
+[2020-02-17 21:33:31,7767|INFO|src/thread_manager/epollin_task.cpp:56|]>identifier: 
+
+[2020-02-17 21:33:31,7767|INFO|src/thread_manager/epollin_task.cpp:57|]>pwd: 
+
+[2020-02-17 21:33:31,7767|INFO|src/thread_manager/epollin_task.cpp:66|]>139989942007616 epollin_task end...
+
+[2020-02-17 21:33:36,7704|INFO|src/main.cpp:113|]>client abnormal exit...
+
+[2020-02-17 23:58:57,6437|INFO|src/main.cpp:74|]>new connect...
+[2020-02-17 23:58:57,6438|INFO|src/main.cpp:82|]>>>195.154.92.15:63607<<
+
+[2020-02-17 23:58:57,6438|INFO|src/main.cpp:110|]>add new connect succ...
+
+[2020-02-17 23:58:57,6439|DEBUG|src/main.cpp:119|]>EPOLLIN event...
+
+[2020-02-17 23:58:57,6439|INFO|src/thread_manager/epollin_task.cpp:19|]>139989942007616 epollin_task begin...
+
+[2020-02-17 23:58:57,6439|DEBUG|src/operation/recvSocketData.cpp:25|]>EAGAIN...
+
+[2020-02-17 23:58:57,6440|INFO|src/operation/recvSocketData.cpp:55|]>recvSocketData succ...
+
+[2020-02-17 23:58:57,6440|INFO|src/thread_manager/epollin_task.cpp:34|]>idrn: 0
+
+[2020-02-17 23:58:57,6440|INFO|src/thread_manager/epollin_task.cpp:35|]>desc: 
+
+[2020-02-17 23:58:57,6440|INFO|src/thread_manager/epollin_task.cpp:36|]>id: 0
+
+[2020-02-17 23:58:57,6440|INFO|src/thread_manager/epollin_task.cpp:37|]>num: 0
+
+[2020-02-17 23:58:57,6440|DEBUG|src/thread_manager/epollin_task.cpp:51|]>------------------------------
+
+[2020-02-17 23:58:57,6440|INFO|src/thread_manager/epollin_task.cpp:55|]>uuid: 0
+
+[2020-02-17 23:58:57,6440|INFO|src/thread_manager/epollin_task.cpp:56|]>identifier: 
+
+[2020-02-17 23:58:57,6441|INFO|src/thread_manager/epollin_task.cpp:57|]>pwd: 
+
+[2020-02-17 23:58:57,6441|INFO|src/thread_manager/epollin_task.cpp:66|]>139989942007616 epollin_task end...
+
+[2020-02-17 23:59:00,9101|INFO|src/main.cpp:113|]>client abnormal exit...
+
+[2020-02-18 08:03:46,6275|INFO|src/main.cpp:74|]>new connect...
+[2020-02-18 08:03:46,6276|INFO|src/main.cpp:82|]>>>195.154.92.15:63224<<
+
+[2020-02-18 08:03:46,6276|INFO|src/main.cpp:110|]>add new connect succ...
+
+[2020-02-18 08:03:46,6276|DEBUG|src/main.cpp:119|]>EPOLLIN event...
+
+[2020-02-18 08:03:46,6277|INFO|src/thread_manager/epollin_task.cpp:19|]>139989942007616 epollin_task begin...
+
+[2020-02-18 08:03:46,6277|DEBUG|src/operation/recvSocketData.cpp:25|]>EAGAIN...
+
+[2020-02-18 08:03:46,6277|INFO|src/operation/recvSocketData.cpp:55|]>recvSocketData succ...
+
+[2020-02-18 08:03:46,6277|INFO|src/thread_manager/epollin_task.cpp:34|]>idrn: 0
+
+[2020-02-18 08:03:46,6277|INFO|src/thread_manager/epollin_task.cpp:35|]>desc: 
+
+[2020-02-18 08:03:46,6278|INFO|src/thread_manager/epollin_task.cpp:36|]>id: 0
+
+[2020-02-18 08:03:46,6278|INFO|src/thread_manager/epollin_task.cpp:37|]>num: 0
+
+[2020-02-18 08:03:46,6278|DEBUG|src/thread_manager/epollin_task.cpp:51|]>------------------------------
+
+[2020-02-18 08:03:46,6278|INFO|src/thread_manager/epollin_task.cpp:55|]>uuid: 0
+
+[2020-02-18 08:03:46,6278|INFO|src/thread_manager/epollin_task.cpp:56|]>identifier: 
+
+[2020-02-18 08:03:46,6278|INFO|src/thread_manager/epollin_task.cpp:57|]>pwd: 
+
+[2020-02-18 08:03:46,6279|INFO|src/thread_manager/epollin_task.cpp:66|]>139989942007616 epollin_task end...
+
+[2020-02-18 08:03:46,8474|INFO|src/main.cpp:113|]>client abnormal exit...
+
+[2020-02-18 20:39:30,4000|INFO|src/main.cpp:74|]>new connect...
+[2020-02-18 20:39:30,4001|INFO|src/main.cpp:82|]>>>198.108.67.48:9638<<
+
+[2020-02-18 20:39:30,4001|INFO|src/main.cpp:110|]>add new connect succ...
+
+[2020-02-18 20:39:30,4934|DEBUG|src/main.cpp:119|]>EPOLLIN event...
+
+[2020-02-18 20:39:30,4935|INFO|src/thread_manager/epollin_task.cpp:19|]>139989942007616 epollin_task begin...
+
+[2020-02-18 20:39:30,4935|DEBUG|src/operation/recvSocketData.cpp:25|]>EAGAIN...
+
+[2020-02-18 20:39:30,4935|INFO|src/operation/recvSocketData.cpp:55|]>recvSocketData succ...
+
+[2020-02-18 20:39:30,4936|INFO|src/thread_manager/epollin_task.cpp:34|]>idrn: 0
+
+[2020-02-18 20:39:30,4936|INFO|src/thread_manager/epollin_task.cpp:35|]>desc: 
+
+[2020-02-18 20:39:30,4936|INFO|src/thread_manager/epollin_task.cpp:36|]>id: 0
+
+[2020-02-18 20:39:30,4936|INFO|src/thread_manager/epollin_task.cpp:37|]>num: 0
+
+[2020-02-18 20:39:30,4936|DEBUG|src/thread_manager/epollin_task.cpp:51|]>------------------------------
+
+[2020-02-18 20:39:30,4936|INFO|src/thread_manager/epollin_task.cpp:55|]>uuid: 0
+
+[2020-02-18 20:39:30,4937|INFO|src/thread_manager/epollin_task.cpp:56|]>identifier: 
+
+[2020-02-18 20:39:30,4937|INFO|src/thread_manager/epollin_task.cpp:57|]>pwd: 
+
+[2020-02-18 20:39:30,4937|INFO|src/thread_manager/epollin_task.cpp:66|]>139989942007616 epollin_task end...
+
+[2020-02-18 20:39:30,7278|INFO|src/main.cpp:113|]>client abnormal exit...
+
+[2020-02-19 14:23:11,7952|INFO|src/main.cpp:74|]>new connect...
+[2020-02-19 14:23:11,7953|INFO|src/main.cpp:82|]>>>47.97.16.6:33432<<
+
+[2020-02-19 14:23:11,7954|INFO|src/main.cpp:110|]>add new connect succ...
+
+[2020-02-19 14:23:11,8211|DEBUG|src/main.cpp:119|]>EPOLLIN event...
+
+[2020-02-19 14:23:11,8212|INFO|src/thread_manager/epollin_task.cpp:19|]>139989942007616 epollin_task begin...
+
+[2020-02-19 14:23:11,8212|DEBUG|src/operation/recvSocketData.cpp:25|]>EAGAIN...
+
+[2020-02-19 14:23:11,8212|INFO|src/operation/recvSocketData.cpp:55|]>recvSocketData succ...
+
+[2020-02-19 14:23:11,8212|INFO|src/thread_manager/epollin_task.cpp:34|]>idrn: 0
+
+[2020-02-19 14:23:11,8213|INFO|src/thread_manager/epollin_task.cpp:35|]>desc: 
+
+[2020-02-19 14:23:11,8213|INFO|src/thread_manager/epollin_task.cpp:36|]>id: 0
+
+[2020-02-19 14:23:11,8213|INFO|src/thread_manager/epollin_task.cpp:37|]>num: 0
+
+[2020-02-19 14:23:11,8213|DEBUG|src/thread_manager/epollin_task.cpp:51|]>------------------------------
+
+[2020-02-19 14:23:11,8213|INFO|src/thread_manager/epollin_task.cpp:55|]>uuid: 0
+
+[2020-02-19 14:23:11,8213|INFO|src/thread_manager/epollin_task.cpp:56|]>identifier: 
+
+[2020-02-19 14:23:11,8213|INFO|src/thread_manager/epollin_task.cpp:57|]>pwd: 
+
+[2020-02-19 14:23:11,8213|INFO|src/thread_manager/epollin_task.cpp:66|]>139989942007616 epollin_task end...
+
+[2020-02-19 14:23:16,7880|INFO|src/main.cpp:113|]>client abnormal exit...
+
+[2020-02-20 04:59:36,6824|INFO|src/main.cpp:74|]>new connect...
+[2020-02-20 04:59:36,6825|INFO|src/main.cpp:82|]>>>199.195.253.241:53344<<
+
+[2020-02-20 04:59:36,6825|INFO|src/main.cpp:110|]>add new connect succ...
+
+[2020-02-20 04:59:39,6236|DEBUG|src/main.cpp:119|]>EPOLLIN event...
+
+[2020-02-20 04:59:39,6237|INFO|src/thread_manager/epollin_task.cpp:19|]>139989942007616 epollin_task begin...
+
+[2020-02-20 04:59:39,6238|DEBUG|src/operation/recvSocketData.cpp:25|]>EAGAIN...
+
+[2020-02-20 04:59:39,6238|INFO|src/operation/recvSocketData.cpp:55|]>recvSocketData succ...
+
+[2020-02-20 04:59:39,6238|INFO|src/thread_manager/epollin_task.cpp:34|]>idrn: 0
+
+[2020-02-20 04:59:39,6238|INFO|src/thread_manager/epollin_task.cpp:35|]>desc: 
+
+[2020-02-20 04:59:39,6238|INFO|src/thread_manager/epollin_task.cpp:36|]>id: 0
+
+[2020-02-20 04:59:39,6238|INFO|src/thread_manager/epollin_task.cpp:37|]>num: 0
+
+[2020-02-20 04:59:39,6239|DEBUG|src/thread_manager/epollin_task.cpp:51|]>------------------------------
+
+[2020-02-20 04:59:39,6239|INFO|src/thread_manager/epollin_task.cpp:55|]>uuid: 0
+
+[2020-02-20 04:59:39,6239|INFO|src/thread_manager/epollin_task.cpp:56|]>identifier: 
+
+[2020-02-20 04:59:39,6239|INFO|src/thread_manager/epollin_task.cpp:57|]>pwd: 
+
+[2020-02-20 04:59:39,6239|INFO|src/thread_manager/epollin_task.cpp:66|]>139989942007616 epollin_task end...
+
+[2020-02-20 04:59:42,8925|INFO|src/main.cpp:74|]>new connect...
+[2020-02-20 04:59:42,8926|INFO|src/main.cpp:82|]>>>199.195.253.241:53564<<
+
+[2020-02-20 04:59:42,8927|INFO|src/main.cpp:110|]>add new connect succ...
+
+[2020-02-20 04:59:42,8933|DEBUG|src/main.cpp:119|]>EPOLLIN event...
+
+[2020-02-20 04:59:42,8934|INFO|src/thread_manager/epollin_task.cpp:19|]>139989942007616 epollin_task begin...
+
+[2020-02-20 04:59:42,8934|DEBUG|src/operation/recvSocketData.cpp:25|]>EAGAIN...
+
+[2020-02-20 04:59:42,8934|INFO|src/operation/recvSocketData.cpp:55|]>recvSocketData succ...
+
+[2020-02-20 04:59:42,8934|INFO|src/thread_manager/epollin_task.cpp:34|]>idrn: 0
+
+[2020-02-20 04:59:42,8934|INFO|src/thread_manager/epollin_task.cpp:35|]>desc: 
+
+[2020-02-20 04:59:42,8934|INFO|src/thread_manager/epollin_task.cpp:36|]>id: 0
+
+[2020-02-20 04:59:42,8935|INFO|src/thread_manager/epollin_task.cpp:37|]>num: 0
+
+[2020-02-20 04:59:42,8935|DEBUG|src/thread_manager/epollin_task.cpp:51|]>------------------------------
+
+[2020-02-20 04:59:42,8935|INFO|src/thread_manager/epollin_task.cpp:55|]>uuid: 0
+
+[2020-02-20 04:59:42,8935|INFO|src/thread_manager/epollin_task.cpp:56|]>identifier: 
+
+[2020-02-20 04:59:42,8935|INFO|src/thread_manager/epollin_task.cpp:57|]>pwd: 
+
+[2020-02-20 04:59:42,8935|INFO|src/thread_manager/epollin_task.cpp:66|]>139989942007616 epollin_task end...
+
+[2020-02-20 05:00:26,3234|INFO|src/main.cpp:113|]>client abnormal exit...
+
+[2020-02-20 05:00:26,3719|INFO|src/main.cpp:113|]>client abnormal exit...
+
+[2020-02-21 21:41:51,3718|INFO|src/main.cpp:74|]>new connect...
+[2020-02-21 21:41:51,3719|INFO|src/main.cpp:82|]>>>122.97.206.20:60614<<
+
+[2020-02-21 21:41:51,3719|INFO|src/main.cpp:110|]>add new connect succ...
+
+[2020-02-21 21:41:51,4323|INFO|src/main.cpp:113|]>client abnormal exit...
+
+[2020-02-22 06:38:36,9954|INFO|src/main.cpp:74|]>new connect...
+[2020-02-22 06:38:36,9956|INFO|src/main.cpp:82|]>>>45.141.86.190:64125<<
+
+[2020-02-22 06:38:36,9956|INFO|src/main.cpp:110|]>add new connect succ...
+
+[2020-02-22 06:38:36,9956|DEBUG|src/main.cpp:119|]>EPOLLIN event...
+
+[2020-02-22 06:38:36,9956|INFO|src/thread_manager/epollin_task.cpp:19|]>139989942007616 epollin_task begin...
+
+[2020-02-22 06:38:36,9957|DEBUG|src/operation/recvSocketData.cpp:25|]>EAGAIN...
+
+[2020-02-22 06:38:36,9957|INFO|src/operation/recvSocketData.cpp:55|]>recvSocketData succ...
+
+[2020-02-22 06:38:36,9957|INFO|src/thread_manager/epollin_task.cpp:34|]>idrn: 0
+
+[2020-02-22 06:38:36,9957|INFO|src/thread_manager/epollin_task.cpp:35|]>desc: 
+
+[2020-02-22 06:38:36,9957|INFO|src/thread_manager/epollin_task.cpp:36|]>id: 0
+
+[2020-02-22 06:38:36,9958|INFO|src/thread_manager/epollin_task.cpp:37|]>num: 0
+
+[2020-02-22 06:38:36,9958|DEBUG|src/thread_manager/epollin_task.cpp:51|]>------------------------------
+
+[2020-02-22 06:38:36,9958|INFO|src/thread_manager/epollin_task.cpp:55|]>uuid: 0
+
+[2020-02-22 06:38:36,9958|INFO|src/thread_manager/epollin_task.cpp:56|]>identifier: 
+
+[2020-02-22 06:38:36,9958|INFO|src/thread_manager/epollin_task.cpp:57|]>pwd: 
+
+[2020-02-22 06:38:36,9959|INFO|src/thread_manager/epollin_task.cpp:66|]>139989942007616 epollin_task end...
+
+[2020-02-22 06:38:37,2330|INFO|src/main.cpp:113|]>client abnormal exit...
+
+[2020-02-22 11:48:45,7280|INFO|src/main.cpp:74|]>new connect...
+[2020-02-22 11:48:45,7281|INFO|src/main.cpp:82|]>>>91.241.19.173:62340<<
+
+[2020-02-22 11:48:45,7282|INFO|src/main.cpp:110|]>add new connect succ...
+
+[2020-02-22 11:48:45,7282|DEBUG|src/main.cpp:119|]>EPOLLIN event...
+
+[2020-02-22 11:48:45,7282|INFO|src/thread_manager/epollin_task.cpp:19|]>139989942007616 epollin_task begin...
+
+[2020-02-22 11:48:45,7283|DEBUG|src/operation/recvSocketData.cpp:25|]>EAGAIN...
+
+[2020-02-22 11:48:45,7283|INFO|src/operation/recvSocketData.cpp:55|]>recvSocketData succ...
+
+[2020-02-22 11:48:45,7283|INFO|src/thread_manager/epollin_task.cpp:34|]>idrn: 0
+
+[2020-02-22 11:48:45,7283|INFO|src/thread_manager/epollin_task.cpp:35|]>desc: 
+
+[2020-02-22 11:48:45,7283|INFO|src/thread_manager/epollin_task.cpp:36|]>id: 0
+
+[2020-02-22 11:48:45,7283|INFO|src/thread_manager/epollin_task.cpp:37|]>num: 0
+
+[2020-02-22 11:48:45,7283|DEBUG|src/thread_manager/epollin_task.cpp:51|]>------------------------------
+
+[2020-02-22 11:48:45,7284|INFO|src/thread_manager/epollin_task.cpp:55|]>uuid: 0
+
+[2020-02-22 11:48:45,7284|INFO|src/thread_manager/epollin_task.cpp:56|]>identifier: 
+
+[2020-02-22 11:48:45,7284|INFO|src/thread_manager/epollin_task.cpp:57|]>pwd: 
+
+[2020-02-22 11:48:45,7284|INFO|src/thread_manager/epollin_task.cpp:66|]>139989942007616 epollin_task end...
+
+[2020-02-22 11:48:45,9497|INFO|src/main.cpp:113|]>client abnormal exit...
+
+[2020-02-22 12:10:22,4255|INFO|src/main.cpp:74|]>new connect...
+[2020-02-22 12:10:22,4256|INFO|src/main.cpp:82|]>>>45.141.87.2:62478<<
+
+[2020-02-22 12:10:22,4257|INFO|src/main.cpp:110|]>add new connect succ...
+
+[2020-02-22 12:10:22,4257|DEBUG|src/main.cpp:119|]>EPOLLIN event...
+
+[2020-02-22 12:10:22,4257|INFO|src/thread_manager/epollin_task.cpp:19|]>139989942007616 epollin_task begin...
+
+[2020-02-22 12:10:22,4257|DEBUG|src/operation/recvSocketData.cpp:25|]>EAGAIN...
+
+[2020-02-22 12:10:22,4257|INFO|src/operation/recvSocketData.cpp:55|]>recvSocketData succ...
+
+[2020-02-22 12:10:22,4258|INFO|src/thread_manager/epollin_task.cpp:34|]>idrn: 0
+
+[2020-02-22 12:10:22,4258|INFO|src/thread_manager/epollin_task.cpp:35|]>desc: 
+
+[2020-02-22 12:10:22,4258|INFO|src/thread_manager/epollin_task.cpp:36|]>id: 0
+
+[2020-02-22 12:10:22,4258|INFO|src/thread_manager/epollin_task.cpp:37|]>num: 0
+
+[2020-02-22 12:10:22,4258|DEBUG|src/thread_manager/epollin_task.cpp:51|]>------------------------------
+
+[2020-02-22 12:10:22,4258|INFO|src/thread_manager/epollin_task.cpp:55|]>uuid: 0
+
+[2020-02-22 12:10:22,4259|INFO|src/thread_manager/epollin_task.cpp:56|]>identifier: 
+
+[2020-02-22 12:10:22,4259|INFO|src/thread_manager/epollin_task.cpp:57|]>pwd: 
+
+[2020-02-22 12:10:22,4259|INFO|src/thread_manager/epollin_task.cpp:66|]>139989942007616 epollin_task end...
+
+[2020-02-22 12:10:22,6773|INFO|src/main.cpp:113|]>client abnormal exit...
+
+[2020-02-22 20:43:03,3168|INFO|src/main.cpp:74|]>new connect...
+[2020-02-22 20:43:03,3169|INFO|src/main.cpp:82|]>>>47.103.33.128:44098<<
+
+[2020-02-22 20:43:03,3170|INFO|src/main.cpp:110|]>add new connect succ...
+
+[2020-02-22 20:43:09,3172|DEBUG|src/main.cpp:119|]>EPOLLIN event...
+
+[2020-02-22 20:43:09,3173|INFO|src/thread_manager/epollin_task.cpp:19|]>139989942007616 epollin_task begin...
+
+[2020-02-22 20:43:09,3173|DEBUG|src/operation/recvSocketData.cpp:25|]>EAGAIN...
+
+[2020-02-22 20:43:09,3173|INFO|src/operation/recvSocketData.cpp:55|]>recvSocketData succ...
+
+[2020-02-22 20:43:09,3173|INFO|src/thread_manager/epollin_task.cpp:34|]>idrn: 0
+
+[2020-02-22 20:43:09,3173|INFO|src/thread_manager/epollin_task.cpp:35|]>desc: 
+
+[2020-02-22 20:43:09,3173|INFO|src/thread_manager/epollin_task.cpp:36|]>id: 0
+
+[2020-02-22 20:43:09,3174|INFO|src/thread_manager/epollin_task.cpp:37|]>num: 0
+
+[2020-02-22 20:43:09,3174|DEBUG|src/thread_manager/epollin_task.cpp:51|]>------------------------------
+
+[2020-02-22 20:43:09,3174|INFO|src/thread_manager/epollin_task.cpp:55|]>uuid: 0
+
+[2020-02-22 20:43:09,3174|INFO|src/thread_manager/epollin_task.cpp:56|]>identifier: 
+
+[2020-02-22 20:43:09,3174|INFO|src/thread_manager/epollin_task.cpp:57|]>pwd: 
+
+[2020-02-22 20:43:09,3174|INFO|src/thread_manager/epollin_task.cpp:66|]>139989942007616 epollin_task end...
+
+[2020-02-22 20:43:14,3172|INFO|src/main.cpp:113|]>client abnormal exit...
+
+[2020-02-22 20:43:14,3502|INFO|src/main.cpp:74|]>new connect...
+[2020-02-22 20:43:14,3503|INFO|src/main.cpp:82|]>>>47.103.33.128:36694<<
+
+[2020-02-22 20:43:14,3503|INFO|src/main.cpp:110|]>add new connect succ...
+
+[2020-02-22 20:43:14,3503|DEBUG|src/main.cpp:119|]>EPOLLIN event...
+
+[2020-02-22 20:43:14,3503|INFO|src/thread_manager/epollin_task.cpp:19|]>139989942007616 epollin_task begin...
+
+[2020-02-22 20:43:14,3504|DEBUG|src/operation/recvSocketData.cpp:25|]>EAGAIN...
+
+[2020-02-22 20:43:14,3504|INFO|src/operation/recvSocketData.cpp:55|]>recvSocketData succ...
+
+[2020-02-22 20:43:14,3504|INFO|src/thread_manager/epollin_task.cpp:34|]>idrn: 0
+
+[2020-02-22 20:43:14,3504|INFO|src/thread_manager/epollin_task.cpp:35|]>desc: 
+
+[2020-02-22 20:43:14,3504|INFO|src/thread_manager/epollin_task.cpp:36|]>id: 0
+
+[2020-02-22 20:43:14,3505|INFO|src/thread_manager/epollin_task.cpp:37|]>num: 0
+
+[2020-02-22 20:43:14,3505|DEBUG|src/thread_manager/epollin_task.cpp:51|]>------------------------------
+
+[2020-02-22 20:43:14,3505|INFO|src/thread_manager/epollin_task.cpp:55|]>uuid: 0
+
+[2020-02-22 20:43:14,3505|INFO|src/thread_manager/epollin_task.cpp:56|]>identifier: 
+
+[2020-02-22 20:43:14,3505|INFO|src/thread_manager/epollin_task.cpp:57|]>pwd: 
+
+[2020-02-22 20:43:14,3505|INFO|src/thread_manager/epollin_task.cpp:66|]>139989942007616 epollin_task end...
+
+[2020-02-22 20:43:19,3506|INFO|src/main.cpp:113|]>client abnormal exit...
+
+[2020-02-22 20:43:19,3781|INFO|src/main.cpp:74|]>new connect...
+[2020-02-22 20:43:19,3782|INFO|src/main.cpp:82|]>>>47.103.33.128:41220<<
+
+[2020-02-22 20:43:19,3782|INFO|src/main.cpp:110|]>add new connect succ...
+
+[2020-02-22 20:43:19,3783|DEBUG|src/main.cpp:119|]>EPOLLIN event...
+
+[2020-02-22 20:43:19,3783|INFO|src/thread_manager/epollin_task.cpp:19|]>139989942007616 epollin_task begin...
+
+[2020-02-22 20:43:19,3783|DEBUG|src/operation/recvSocketData.cpp:25|]>EAGAIN...
+
+[2020-02-22 20:43:19,3783|INFO|src/operation/recvSocketData.cpp:55|]>recvSocketData succ...
+
+[2020-02-22 20:43:19,3784|INFO|src/thread_manager/epollin_task.cpp:34|]>idrn: 0
+
+[2020-02-22 20:43:19,3784|INFO|src/thread_manager/epollin_task.cpp:35|]>desc: 
+
+[2020-02-22 20:43:19,3784|INFO|src/thread_manager/epollin_task.cpp:36|]>id: 0
+
+[2020-02-22 20:43:19,3784|INFO|src/thread_manager/epollin_task.cpp:37|]>num: 0
+
+[2020-02-22 20:43:19,3784|DEBUG|src/thread_manager/epollin_task.cpp:51|]>------------------------------
+
+[2020-02-22 20:43:19,3784|INFO|src/thread_manager/epollin_task.cpp:55|]>uuid: 0
+
+[2020-02-22 20:43:19,3785|INFO|src/thread_manager/epollin_task.cpp:56|]>identifier: 
+
+[2020-02-22 20:43:19,3785|INFO|src/thread_manager/epollin_task.cpp:57|]>pwd: 
+
+[2020-02-22 20:43:19,3785|INFO|src/thread_manager/epollin_task.cpp:66|]>139989942007616 epollin_task end...
+
+[2020-02-22 20:43:24,3788|INFO|src/main.cpp:113|]>client abnormal exit...
+
+[2020-02-22 20:43:24,4091|INFO|src/main.cpp:74|]>new connect...
+[2020-02-22 20:43:24,4092|INFO|src/main.cpp:82|]>>>47.103.33.128:49596<<
+
+[2020-02-22 20:43:24,4093|INFO|src/main.cpp:110|]>add new connect succ...
+
+[2020-02-22 20:43:24,4093|DEBUG|src/main.cpp:119|]>EPOLLIN event...
+
+[2020-02-22 20:43:24,4093|INFO|src/thread_manager/epollin_task.cpp:19|]>139989942007616 epollin_task begin...
+
+[2020-02-22 20:43:24,4093|DEBUG|src/operation/recvSocketData.cpp:25|]>EAGAIN...
+
+[2020-02-22 20:43:24,4094|INFO|src/operation/recvSocketData.cpp:55|]>recvSocketData succ...
+
+[2020-02-22 20:43:24,4094|INFO|src/thread_manager/epollin_task.cpp:34|]>idrn: 0
+
+[2020-02-22 20:43:24,4094|INFO|src/thread_manager/epollin_task.cpp:35|]>desc: 
+
+[2020-02-22 20:43:24,4094|INFO|src/thread_manager/epollin_task.cpp:36|]>id: 0
+
+[2020-02-22 20:43:24,4094|INFO|src/thread_manager/epollin_task.cpp:37|]>num: 0
+
+[2020-02-22 20:43:24,4094|DEBUG|src/thread_manager/epollin_task.cpp:51|]>------------------------------
+
+[2020-02-22 20:43:24,4095|INFO|src/thread_manager/epollin_task.cpp:55|]>uuid: 0
+
+[2020-02-22 20:43:24,4095|INFO|src/thread_manager/epollin_task.cpp:56|]>identifier: 
+
+[2020-02-22 20:43:24,4095|INFO|src/thread_manager/epollin_task.cpp:57|]>pwd: 
+
+[2020-02-22 20:43:24,4095|INFO|src/thread_manager/epollin_task.cpp:66|]>139989942007616 epollin_task end...
+
+[2020-02-22 20:43:29,4093|INFO|src/main.cpp:113|]>client abnormal exit...
+
+[2020-02-22 20:43:29,4352|INFO|src/main.cpp:74|]>new connect...
+[2020-02-22 20:43:29,4353|INFO|src/main.cpp:82|]>>>47.103.33.128:52402<<
+
+[2020-02-22 20:43:29,4354|INFO|src/main.cpp:110|]>add new connect succ...
+
+[2020-02-22 20:43:29,4359|DEBUG|src/main.cpp:119|]>EPOLLIN event...
+
+[2020-02-22 20:43:29,4360|INFO|src/thread_manager/epollin_task.cpp:19|]>139989942007616 epollin_task begin...
+
+[2020-02-22 20:43:29,4360|DEBUG|src/operation/recvSocketData.cpp:25|]>EAGAIN...
+
+[2020-02-22 20:43:29,4360|INFO|src/operation/recvSocketData.cpp:55|]>recvSocketData succ...
+
+[2020-02-22 20:43:29,4360|INFO|src/thread_manager/epollin_task.cpp:34|]>idrn: 0
+
+[2020-02-22 20:43:29,4360|INFO|src/thread_manager/epollin_task.cpp:35|]>desc: 
+
+[2020-02-22 20:43:29,4360|INFO|src/thread_manager/epollin_task.cpp:36|]>id: 0
+
+[2020-02-22 20:43:29,4361|INFO|src/thread_manager/epollin_task.cpp:37|]>num: 0
+
+[2020-02-22 20:43:29,4361|DEBUG|src/thread_manager/epollin_task.cpp:51|]>------------------------------
+
+[2020-02-22 20:43:29,4361|INFO|src/thread_manager/epollin_task.cpp:55|]>uuid: 0
+
+[2020-02-22 20:43:29,4361|INFO|src/thread_manager/epollin_task.cpp:56|]>identifier: 
+
+[2020-02-22 20:43:29,4361|INFO|src/thread_manager/epollin_task.cpp:57|]>pwd: 
+
+[2020-02-22 20:43:29,4361|INFO|src/thread_manager/epollin_task.cpp:66|]>139989942007616 epollin_task end...
+
+[2020-02-22 20:43:34,4362|INFO|src/main.cpp:113|]>client abnormal exit...
+
+[2020-02-22 20:43:34,4680|INFO|src/main.cpp:74|]>new connect...
+[2020-02-22 20:43:34,4681|INFO|src/main.cpp:82|]>>>47.103.33.128:34300<<
+
+[2020-02-22 20:43:34,4681|INFO|src/main.cpp:110|]>add new connect succ...
+
+[2020-02-22 20:43:34,4682|DEBUG|src/main.cpp:119|]>EPOLLIN event...
+
+[2020-02-22 20:43:34,4682|INFO|src/thread_manager/epollin_task.cpp:19|]>139989942007616 epollin_task begin...
+
+[2020-02-22 20:43:34,4682|DEBUG|src/operation/recvSocketData.cpp:25|]>EAGAIN...
+
+[2020-02-22 20:43:34,4682|INFO|src/operation/recvSocketData.cpp:55|]>recvSocketData succ...
+
+[2020-02-22 20:43:34,4682|INFO|src/thread_manager/epollin_task.cpp:34|]>idrn: 0
+
+[2020-02-22 20:43:34,4682|INFO|src/thread_manager/epollin_task.cpp:35|]>desc: 
+
+[2020-02-22 20:43:34,4683|INFO|src/thread_manager/epollin_task.cpp:36|]>id: 0
+
+[2020-02-22 20:43:34,4683|INFO|src/thread_manager/epollin_task.cpp:37|]>num: 0
+
+[2020-02-22 20:43:34,4683|DEBUG|src/thread_manager/epollin_task.cpp:51|]>------------------------------
+
+[2020-02-22 20:43:34,4683|INFO|src/thread_manager/epollin_task.cpp:55|]>uuid: 0
+
+[2020-02-22 20:43:34,4683|INFO|src/thread_manager/epollin_task.cpp:56|]>identifier: 
+
+[2020-02-22 20:43:34,4683|INFO|src/thread_manager/epollin_task.cpp:57|]>pwd: 
+
+[2020-02-22 20:43:34,4683|INFO|src/thread_manager/epollin_task.cpp:66|]>139989942007616 epollin_task end...
+
+[2020-02-22 20:43:39,4681|INFO|src/main.cpp:113|]>client abnormal exit...
+
+[2020-02-22 20:43:39,4959|INFO|src/main.cpp:74|]>new connect...
+[2020-02-22 20:43:39,4960|INFO|src/main.cpp:82|]>>>47.103.33.128:41148<<
+
+[2020-02-22 20:43:39,4961|INFO|src/main.cpp:110|]>add new connect succ...
+
+[2020-02-22 20:43:39,4961|DEBUG|src/main.cpp:119|]>EPOLLIN event...
+
+[2020-02-22 20:43:39,4961|INFO|src/thread_manager/epollin_task.cpp:19|]>139989942007616 epollin_task begin...
+
+[2020-02-22 20:43:39,4961|DEBUG|src/operation/recvSocketData.cpp:25|]>EAGAIN...
+
+[2020-02-22 20:43:39,4961|INFO|src/operation/recvSocketData.cpp:55|]>recvSocketData succ...
+
+[2020-02-22 20:43:39,4961|INFO|src/thread_manager/epollin_task.cpp:34|]>idrn: 0
+
+[2020-02-22 20:43:39,4961|INFO|src/thread_manager/epollin_task.cpp:35|]>desc: 
+
+[2020-02-22 20:43:39,4962|INFO|src/thread_manager/epollin_task.cpp:36|]>id: 0
+
+[2020-02-22 20:43:39,4962|INFO|src/thread_manager/epollin_task.cpp:37|]>num: 0
+
+[2020-02-22 20:43:39,4962|DEBUG|src/thread_manager/epollin_task.cpp:51|]>------------------------------
+
+[2020-02-22 20:43:39,4962|INFO|src/thread_manager/epollin_task.cpp:55|]>uuid: 0
+
+[2020-02-22 20:43:39,4962|INFO|src/thread_manager/epollin_task.cpp:56|]>identifier: 
+
+[2020-02-22 20:43:39,4962|INFO|src/thread_manager/epollin_task.cpp:57|]>pwd: 
+
+[2020-02-22 20:43:39,4962|INFO|src/thread_manager/epollin_task.cpp:66|]>139989942007616 epollin_task end...
+
+[2020-02-22 20:43:44,4960|INFO|src/main.cpp:113|]>client abnormal exit...
+
+[2020-02-22 20:43:44,5266|INFO|src/main.cpp:74|]>new connect...
+[2020-02-22 20:43:44,5267|INFO|src/main.cpp:82|]>>>47.103.33.128:46264<<
+
+[2020-02-22 20:43:44,5267|INFO|src/main.cpp:110|]>add new connect succ...
+
+[2020-02-22 20:43:44,5268|DEBUG|src/main.cpp:119|]>EPOLLIN event...
+
+[2020-02-22 20:43:44,5268|INFO|src/thread_manager/epollin_task.cpp:19|]>139989942007616 epollin_task begin...
+
+[2020-02-22 20:43:44,5268|DEBUG|src/operation/recvSocketData.cpp:25|]>EAGAIN...
+
+[2020-02-22 20:43:44,5268|INFO|src/operation/recvSocketData.cpp:55|]>recvSocketData succ...
+
+[2020-02-22 20:43:44,5268|INFO|src/thread_manager/epollin_task.cpp:34|]>idrn: 0
+
+[2020-02-22 20:43:44,5268|INFO|src/thread_manager/epollin_task.cpp:35|]>desc: 
+
+[2020-02-22 20:43:44,5268|INFO|src/thread_manager/epollin_task.cpp:36|]>id: 0
+
+[2020-02-22 20:43:44,5269|INFO|src/thread_manager/epollin_task.cpp:37|]>num: 0
+
+[2020-02-22 20:43:44,5269|DEBUG|src/thread_manager/epollin_task.cpp:51|]>------------------------------
+
+[2020-02-22 20:43:44,5269|INFO|src/thread_manager/epollin_task.cpp:55|]>uuid: 0
+
+[2020-02-22 20:43:44,5269|INFO|src/thread_manager/epollin_task.cpp:56|]>identifier: 
+
+[2020-02-22 20:43:44,5269|INFO|src/thread_manager/epollin_task.cpp:57|]>pwd: 
+
+[2020-02-22 20:43:44,5269|INFO|src/thread_manager/epollin_task.cpp:66|]>139989942007616 epollin_task end...
+
+[2020-02-22 20:43:52,0277|INFO|src/main.cpp:113|]>client abnormal exit...
+
+[2020-02-22 20:43:52,0571|INFO|src/main.cpp:74|]>new connect...
+[2020-02-22 20:43:52,0571|INFO|src/main.cpp:82|]>>>47.103.33.128:54106<<
+
+[2020-02-22 20:43:52,0572|INFO|src/main.cpp:110|]>add new connect succ...
+
+[2020-02-22 20:43:52,0572|DEBUG|src/main.cpp:119|]>EPOLLIN event...
+
+[2020-02-22 20:43:52,0572|INFO|src/thread_manager/epollin_task.cpp:19|]>139989942007616 epollin_task begin...
+
+[2020-02-22 20:43:52,0572|DEBUG|src/operation/recvSocketData.cpp:25|]>EAGAIN...
+
+[2020-02-22 20:43:52,0573|INFO|src/operation/recvSocketData.cpp:55|]>recvSocketData succ...
+
+[2020-02-22 20:43:52,0573|INFO|src/thread_manager/epollin_task.cpp:34|]>idrn: 0
+
+[2020-02-22 20:43:52,0573|INFO|src/thread_manager/epollin_task.cpp:35|]>desc: 
+
+[2020-02-22 20:43:52,0573|INFO|src/thread_manager/epollin_task.cpp:36|]>id: 0
+
+[2020-02-22 20:43:52,0574|INFO|src/thread_manager/epollin_task.cpp:37|]>num: 0
+
+[2020-02-22 20:43:52,0574|DEBUG|src/thread_manager/epollin_task.cpp:51|]>------------------------------
+
+[2020-02-22 20:43:52,0574|INFO|src/thread_manager/epollin_task.cpp:55|]>uuid: 0
+
+[2020-02-22 20:43:52,0574|INFO|src/thread_manager/epollin_task.cpp:56|]>identifier: 
+
+[2020-02-22 20:43:52,0574|INFO|src/thread_manager/epollin_task.cpp:57|]>pwd: 
+
+[2020-02-22 20:43:52,0574|INFO|src/thread_manager/epollin_task.cpp:66|]>139989942007616 epollin_task end...
+
+[2020-02-22 20:43:59,5577|INFO|src/main.cpp:113|]>client abnormal exit...
+
+[2020-02-22 20:43:59,5890|INFO|src/main.cpp:74|]>new connect...
+[2020-02-22 20:43:59,5891|INFO|src/main.cpp:82|]>>>47.103.33.128:34476<<
+
+[2020-02-22 20:43:59,5891|INFO|src/main.cpp:110|]>add new connect succ...
+
+[2020-02-22 20:43:59,5892|DEBUG|src/main.cpp:119|]>EPOLLIN event...
+
+[2020-02-22 20:43:59,5892|INFO|src/thread_manager/epollin_task.cpp:19|]>139989942007616 epollin_task begin...
+
+[2020-02-22 20:43:59,5892|DEBUG|src/operation/recvSocketData.cpp:25|]>EAGAIN...
+
+[2020-02-22 20:43:59,5892|INFO|src/operation/recvSocketData.cpp:55|]>recvSocketData succ...
+
+[2020-02-22 20:43:59,5892|INFO|src/thread_manager/epollin_task.cpp:34|]>idrn: 0
+
+[2020-02-22 20:43:59,5893|INFO|src/thread_manager/epollin_task.cpp:35|]>desc: 
+
+[2020-02-22 20:43:59,5893|INFO|src/thread_manager/epollin_task.cpp:36|]>id: 0
+
+[2020-02-22 20:43:59,5893|INFO|src/thread_manager/epollin_task.cpp:37|]>num: 0
+
+[2020-02-22 20:43:59,5893|DEBUG|src/thread_manager/epollin_task.cpp:51|]>------------------------------
+
+[2020-02-22 20:43:59,5893|INFO|src/thread_manager/epollin_task.cpp:55|]>uuid: 0
+
+[2020-02-22 20:43:59,5893|INFO|src/thread_manager/epollin_task.cpp:56|]>identifier: 
+
+[2020-02-22 20:43:59,5893|INFO|src/thread_manager/epollin_task.cpp:57|]>pwd: 
+
+[2020-02-22 20:43:59,5893|INFO|src/thread_manager/epollin_task.cpp:66|]>139989942007616 epollin_task end...
+
+[2020-02-22 20:44:04,5894|INFO|src/main.cpp:113|]>client abnormal exit...
+
+[2020-02-22 20:44:04,6175|INFO|src/main.cpp:74|]>new connect...
+[2020-02-22 20:44:04,6176|INFO|src/main.cpp:82|]>>>47.103.33.128:38286<<
+
+[2020-02-22 20:44:04,6176|INFO|src/main.cpp:110|]>add new connect succ...
+
+[2020-02-22 20:44:04,6176|DEBUG|src/main.cpp:119|]>EPOLLIN event...
+
+[2020-02-22 20:44:04,6176|INFO|src/thread_manager/epollin_task.cpp:19|]>139989942007616 epollin_task begin...
+
+[2020-02-22 20:44:04,6177|DEBUG|src/operation/recvSocketData.cpp:25|]>EAGAIN...
+
+[2020-02-22 20:44:04,6177|INFO|src/operation/recvSocketData.cpp:55|]>recvSocketData succ...
+
+[2020-02-22 20:44:04,6177|INFO|src/thread_manager/epollin_task.cpp:34|]>idrn: 0
+
+[2020-02-22 20:44:04,6177|INFO|src/thread_manager/epollin_task.cpp:35|]>desc: 
+
+[2020-02-22 20:44:04,6178|INFO|src/thread_manager/epollin_task.cpp:36|]>id: 0
+
+[2020-02-22 20:44:04,6178|INFO|src/thread_manager/epollin_task.cpp:37|]>num: 0
+
+[2020-02-22 20:44:04,6178|DEBUG|src/thread_manager/epollin_task.cpp:51|]>------------------------------
+
+[2020-02-22 20:44:04,6178|INFO|src/thread_manager/epollin_task.cpp:55|]>uuid: 0
+
+[2020-02-22 20:44:04,6178|INFO|src/thread_manager/epollin_task.cpp:56|]>identifier: 
+
+[2020-02-22 20:44:04,6179|INFO|src/thread_manager/epollin_task.cpp:57|]>pwd: 
+
+[2020-02-22 20:44:04,6179|INFO|src/thread_manager/epollin_task.cpp:66|]>139989942007616 epollin_task end...
+
+[2020-02-22 20:44:09,6183|INFO|src/main.cpp:113|]>client abnormal exit...
+
+[2020-02-22 20:44:09,6521|INFO|src/main.cpp:74|]>new connect...
+[2020-02-22 20:44:09,6522|INFO|src/main.cpp:82|]>>>47.103.33.128:48382<<
+
+[2020-02-22 20:44:09,6522|INFO|src/main.cpp:110|]>add new connect succ...
+
+[2020-02-22 20:44:09,6523|DEBUG|src/main.cpp:119|]>EPOLLIN event...
+
+[2020-02-22 20:44:09,6523|INFO|src/thread_manager/epollin_task.cpp:19|]>139989942007616 epollin_task begin...
+
+[2020-02-22 20:44:09,6523|DEBUG|src/operation/recvSocketData.cpp:25|]>EAGAIN...
+
+[2020-02-22 20:44:09,6523|INFO|src/operation/recvSocketData.cpp:55|]>recvSocketData succ...
+
+[2020-02-22 20:44:09,6524|INFO|src/thread_manager/epollin_task.cpp:34|]>idrn: 0
+
+[2020-02-22 20:44:09,6524|INFO|src/thread_manager/epollin_task.cpp:35|]>desc: 
+
+[2020-02-22 20:44:09,6524|INFO|src/thread_manager/epollin_task.cpp:36|]>id: 0
+
+[2020-02-22 20:44:09,6524|INFO|src/thread_manager/epollin_task.cpp:37|]>num: 0
+
+[2020-02-22 20:44:09,6524|DEBUG|src/thread_manager/epollin_task.cpp:51|]>------------------------------
+
+[2020-02-22 20:44:09,6524|INFO|src/thread_manager/epollin_task.cpp:55|]>uuid: 0
+
+[2020-02-22 20:44:09,6524|INFO|src/thread_manager/epollin_task.cpp:56|]>identifier: 
+
+[2020-02-22 20:44:09,6525|INFO|src/thread_manager/epollin_task.cpp:57|]>pwd: 
+
+[2020-02-22 20:44:09,6525|INFO|src/thread_manager/epollin_task.cpp:66|]>139989942007616 epollin_task end...
+
+[2020-02-22 20:44:14,6530|INFO|src/main.cpp:113|]>client abnormal exit...
+
+[2020-02-22 20:44:14,6795|INFO|src/main.cpp:74|]>new connect...
+[2020-02-22 20:44:14,6796|INFO|src/main.cpp:82|]>>>47.103.33.128:56914<<
+
+[2020-02-22 20:44:14,6796|INFO|src/main.cpp:110|]>add new connect succ...
+
+[2020-02-22 20:44:14,6797|DEBUG|src/main.cpp:119|]>EPOLLIN event...
+
+[2020-02-22 20:44:14,6797|INFO|src/thread_manager/epollin_task.cpp:19|]>139989942007616 epollin_task begin...
+
+[2020-02-22 20:44:14,6797|DEBUG|src/operation/recvSocketData.cpp:25|]>EAGAIN...
+
+[2020-02-22 20:44:14,6797|INFO|src/operation/recvSocketData.cpp:55|]>recvSocketData succ...
+
+[2020-02-22 20:44:14,6798|INFO|src/thread_manager/epollin_task.cpp:34|]>idrn: 0
+
+[2020-02-22 20:44:14,6798|INFO|src/thread_manager/epollin_task.cpp:35|]>desc: 
+
+[2020-02-22 20:44:14,6798|INFO|src/thread_manager/epollin_task.cpp:36|]>id: 0
+
+[2020-02-22 20:44:14,6798|INFO|src/thread_manager/epollin_task.cpp:37|]>num: 0
+
+[2020-02-22 20:44:14,6798|DEBUG|src/thread_manager/epollin_task.cpp:51|]>------------------------------
+
+[2020-02-22 20:44:14,6798|INFO|src/thread_manager/epollin_task.cpp:55|]>uuid: 0
+
+[2020-02-22 20:44:14,6798|INFO|src/thread_manager/epollin_task.cpp:56|]>identifier: 
+
+[2020-02-22 20:44:14,6798|INFO|src/thread_manager/epollin_task.cpp:57|]>pwd: 
+
+[2020-02-22 20:44:14,6799|INFO|src/thread_manager/epollin_task.cpp:66|]>139989942007616 epollin_task end...
+
+[2020-02-22 20:44:19,6802|INFO|src/main.cpp:113|]>client abnormal exit...
+
+[2020-02-22 20:44:19,7109|INFO|src/main.cpp:74|]>new connect...
+[2020-02-22 20:44:19,7110|INFO|src/main.cpp:82|]>>>47.103.33.128:59024<<
+
+[2020-02-22 20:44:19,7110|INFO|src/main.cpp:110|]>add new connect succ...
+
+[2020-02-22 20:44:19,7111|DEBUG|src/main.cpp:119|]>EPOLLIN event...
+
+[2020-02-22 20:44:19,7111|INFO|src/thread_manager/epollin_task.cpp:19|]>139989942007616 epollin_task begin...
+
+[2020-02-22 20:44:19,7111|DEBUG|src/operation/recvSocketData.cpp:25|]>EAGAIN...
+
+[2020-02-22 20:44:19,7111|INFO|src/operation/recvSocketData.cpp:55|]>recvSocketData succ...
+
+[2020-02-22 20:44:19,7111|INFO|src/thread_manager/epollin_task.cpp:34|]>idrn: 0
+
+[2020-02-22 20:44:19,7111|INFO|src/thread_manager/epollin_task.cpp:35|]>desc: 
+
+[2020-02-22 20:44:19,7111|INFO|src/thread_manager/epollin_task.cpp:36|]>id: 0
+
+[2020-02-22 20:44:19,7112|INFO|src/thread_manager/epollin_task.cpp:37|]>num: 0
+
+[2020-02-22 20:44:19,7112|DEBUG|src/thread_manager/epollin_task.cpp:51|]>------------------------------
+
+[2020-02-22 20:44:19,7112|INFO|src/thread_manager/epollin_task.cpp:55|]>uuid: 0
+
+[2020-02-22 20:44:19,7112|INFO|src/thread_manager/epollin_task.cpp:56|]>identifier: 
+
+[2020-02-22 20:44:19,7112|INFO|src/thread_manager/epollin_task.cpp:57|]>pwd: 
+
+[2020-02-22 20:44:19,7112|INFO|src/thread_manager/epollin_task.cpp:66|]>139989942007616 epollin_task end...
+
+[2020-02-22 20:44:24,7114|INFO|src/main.cpp:113|]>client abnormal exit...
+
+[2020-02-22 20:44:24,7438|INFO|src/main.cpp:74|]>new connect...
+[2020-02-22 20:44:24,7439|INFO|src/main.cpp:82|]>>>47.103.33.128:40036<<
+
+[2020-02-22 20:44:24,7439|INFO|src/main.cpp:110|]>add new connect succ...
+
+[2020-02-22 20:44:24,7439|DEBUG|src/main.cpp:119|]>EPOLLIN event...
+
+[2020-02-22 20:44:24,7440|INFO|src/thread_manager/epollin_task.cpp:19|]>139989942007616 epollin_task begin...
+
+[2020-02-22 20:44:24,7440|DEBUG|src/operation/recvSocketData.cpp:25|]>EAGAIN...
+
+[2020-02-22 20:44:24,7440|INFO|src/operation/recvSocketData.cpp:55|]>recvSocketData succ...
+
+[2020-02-22 20:44:24,7440|INFO|src/thread_manager/epollin_task.cpp:34|]>idrn: 0
+
+[2020-02-22 20:44:24,7440|INFO|src/thread_manager/epollin_task.cpp:35|]>desc: 
+
+[2020-02-22 20:44:24,7440|INFO|src/thread_manager/epollin_task.cpp:36|]>id: 0
+
+[2020-02-22 20:44:24,7441|INFO|src/thread_manager/epollin_task.cpp:37|]>num: 0
+
+[2020-02-22 20:44:24,7441|DEBUG|src/thread_manager/epollin_task.cpp:51|]>------------------------------
+
+[2020-02-22 20:44:24,7441|INFO|src/thread_manager/epollin_task.cpp:55|]>uuid: 0
+
+[2020-02-22 20:44:24,7441|INFO|src/thread_manager/epollin_task.cpp:56|]>identifier: 
+
+[2020-02-22 20:44:24,7441|INFO|src/thread_manager/epollin_task.cpp:57|]>pwd: 
+
+[2020-02-22 20:44:24,7441|INFO|src/thread_manager/epollin_task.cpp:66|]>139989942007616 epollin_task end...
+
+[2020-02-22 20:44:29,7439|INFO|src/main.cpp:113|]>client abnormal exit...
+
+[2020-02-22 20:44:29,7724|INFO|src/main.cpp:74|]>new connect...
+[2020-02-22 20:44:29,7725|INFO|src/main.cpp:82|]>>>47.103.33.128:47312<<
+
+[2020-02-22 20:44:29,7726|INFO|src/main.cpp:110|]>add new connect succ...
+
+[2020-02-22 20:44:29,7726|DEBUG|src/main.cpp:119|]>EPOLLIN event...
+
+[2020-02-22 20:44:29,7726|INFO|src/thread_manager/epollin_task.cpp:19|]>139989942007616 epollin_task begin...
+
+[2020-02-22 20:44:29,7726|DEBUG|src/operation/recvSocketData.cpp:25|]>EAGAIN...
+
+[2020-02-22 20:44:29,7727|INFO|src/operation/recvSocketData.cpp:55|]>recvSocketData succ...
+
+[2020-02-22 20:44:29,7727|INFO|src/thread_manager/epollin_task.cpp:34|]>idrn: 0
+
+[2020-02-22 20:44:29,7727|INFO|src/thread_manager/epollin_task.cpp:35|]>desc: 
+
+[2020-02-22 20:44:29,7727|INFO|src/thread_manager/epollin_task.cpp:36|]>id: 0
+
+[2020-02-22 20:44:29,7727|INFO|src/thread_manager/epollin_task.cpp:37|]>num: 0
+
+[2020-02-22 20:44:29,7727|DEBUG|src/thread_manager/epollin_task.cpp:51|]>------------------------------
+
+[2020-02-22 20:44:29,7727|INFO|src/thread_manager/epollin_task.cpp:55|]>uuid: 0
+
+[2020-02-22 20:44:29,7728|INFO|src/thread_manager/epollin_task.cpp:56|]>identifier: 
+
+[2020-02-22 20:44:29,7728|INFO|src/thread_manager/epollin_task.cpp:57|]>pwd: 
+
+[2020-02-22 20:44:29,7728|INFO|src/thread_manager/epollin_task.cpp:66|]>139989942007616 epollin_task end...
+
+[2020-02-22 20:44:34,7727|INFO|src/main.cpp:113|]>client abnormal exit...
+
+[2020-02-22 20:44:34,8079|INFO|src/main.cpp:74|]>new connect...
+[2020-02-22 20:44:34,8081|INFO|src/main.cpp:82|]>>>47.103.33.128:59430<<
+
+[2020-02-22 20:44:34,8082|INFO|src/main.cpp:110|]>add new connect succ...
+
+[2020-02-22 20:44:34,8082|DEBUG|src/main.cpp:119|]>EPOLLIN event...
+
+[2020-02-22 20:44:34,8083|INFO|src/thread_manager/epollin_task.cpp:19|]>139989942007616 epollin_task begin...
+
+[2020-02-22 20:44:34,8083|DEBUG|src/operation/recvSocketData.cpp:25|]>EAGAIN...
+
+[2020-02-22 20:44:34,8083|INFO|src/operation/recvSocketData.cpp:55|]>recvSocketData succ...
+
+[2020-02-22 20:44:34,8084|INFO|src/thread_manager/epollin_task.cpp:34|]>idrn: 0
+
+[2020-02-22 20:44:34,8084|INFO|src/thread_manager/epollin_task.cpp:35|]>desc: 
+
+[2020-02-22 20:44:34,8084|INFO|src/thread_manager/epollin_task.cpp:36|]>id: 0
+
+[2020-02-22 20:44:34,8084|INFO|src/thread_manager/epollin_task.cpp:37|]>num: 0
+
+[2020-02-22 20:44:34,8085|DEBUG|src/thread_manager/epollin_task.cpp:51|]>------------------------------
+
+[2020-02-22 20:44:34,8085|INFO|src/thread_manager/epollin_task.cpp:55|]>uuid: 0
+
+[2020-02-22 20:44:34,8085|INFO|src/thread_manager/epollin_task.cpp:56|]>identifier: 
+
+[2020-02-22 20:44:34,8085|INFO|src/thread_manager/epollin_task.cpp:57|]>pwd: 
+
+[2020-02-22 20:44:34,8086|INFO|src/thread_manager/epollin_task.cpp:66|]>139989942007616 epollin_task end...
+
+[2020-02-22 20:44:39,8087|INFO|src/main.cpp:113|]>client abnormal exit...
+
+[2020-02-22 20:44:39,8400|INFO|src/main.cpp:74|]>new connect...
+[2020-02-22 20:44:39,8401|INFO|src/main.cpp:82|]>>>47.103.33.128:41226<<
+
+[2020-02-22 20:44:39,8401|INFO|src/main.cpp:110|]>add new connect succ...
+
+[2020-02-22 20:44:39,8402|DEBUG|src/main.cpp:119|]>EPOLLIN event...
+
+[2020-02-22 20:44:39,8402|INFO|src/thread_manager/epollin_task.cpp:19|]>139989942007616 epollin_task begin...
+
+[2020-02-22 20:44:39,8402|DEBUG|src/operation/recvSocketData.cpp:25|]>EAGAIN...
+
+[2020-02-22 20:44:39,8403|INFO|src/operation/recvSocketData.cpp:55|]>recvSocketData succ...
+
+[2020-02-22 20:44:39,8403|INFO|src/thread_manager/epollin_task.cpp:34|]>idrn: 0
+
+[2020-02-22 20:44:39,8403|INFO|src/thread_manager/epollin_task.cpp:35|]>desc: 
+
+[2020-02-22 20:44:39,8403|INFO|src/thread_manager/epollin_task.cpp:36|]>id: 0
+
+[2020-02-22 20:44:39,8403|INFO|src/thread_manager/epollin_task.cpp:37|]>num: 0
+
+[2020-02-22 20:44:39,8403|DEBUG|src/thread_manager/epollin_task.cpp:51|]>------------------------------
+
+[2020-02-22 20:44:39,8403|INFO|src/thread_manager/epollin_task.cpp:55|]>uuid: 0
+
+[2020-02-22 20:44:39,8404|INFO|src/thread_manager/epollin_task.cpp:56|]>identifier: 
+
+[2020-02-22 20:44:39,8404|INFO|src/thread_manager/epollin_task.cpp:57|]>pwd: 
+
+[2020-02-22 20:44:39,8404|INFO|src/thread_manager/epollin_task.cpp:66|]>139989942007616 epollin_task end...
+
+[2020-02-22 20:44:44,8398|INFO|src/main.cpp:113|]>client abnormal exit...
+
+[2020-02-22 20:44:44,8690|INFO|src/main.cpp:74|]>new connect...
+[2020-02-22 20:44:44,8690|INFO|src/main.cpp:82|]>>>47.103.33.128:50152<<
+
+[2020-02-22 20:44:44,8691|INFO|src/main.cpp:110|]>add new connect succ...
+
+[2020-02-22 20:44:44,8691|DEBUG|src/main.cpp:119|]>EPOLLIN event...
+
+[2020-02-22 20:44:44,8691|INFO|src/thread_manager/epollin_task.cpp:19|]>139989942007616 epollin_task begin...
+
+[2020-02-22 20:44:44,8692|DEBUG|src/operation/recvSocketData.cpp:25|]>EAGAIN...
+
+[2020-02-22 20:44:44,8692|INFO|src/operation/recvSocketData.cpp:55|]>recvSocketData succ...
+
+[2020-02-22 20:44:44,8692|INFO|src/thread_manager/epollin_task.cpp:34|]>idrn: 0
+
+[2020-02-22 20:44:44,8692|INFO|src/thread_manager/epollin_task.cpp:35|]>desc: 
+
+[2020-02-22 20:44:44,8692|INFO|src/thread_manager/epollin_task.cpp:36|]>id: 0
+
+[2020-02-22 20:44:44,8693|INFO|src/thread_manager/epollin_task.cpp:37|]>num: 0
+
+[2020-02-22 20:44:44,8693|DEBUG|src/thread_manager/epollin_task.cpp:51|]>------------------------------
+
+[2020-02-22 20:44:44,8693|INFO|src/thread_manager/epollin_task.cpp:55|]>uuid: 0
+
+[2020-02-22 20:44:44,8693|INFO|src/thread_manager/epollin_task.cpp:56|]>identifier: 
+
+[2020-02-22 20:44:44,8693|INFO|src/thread_manager/epollin_task.cpp:57|]>pwd: 
+
+[2020-02-22 20:44:44,8694|INFO|src/thread_manager/epollin_task.cpp:66|]>139989942007616 epollin_task end...
+
+[2020-02-22 20:44:49,8693|INFO|src/main.cpp:113|]>client abnormal exit...
+
+[2020-02-22 20:44:49,8982|INFO|src/main.cpp:74|]>new connect...
+[2020-02-22 20:44:49,8983|INFO|src/main.cpp:82|]>>>47.103.33.128:52870<<
+
+[2020-02-22 20:44:49,8984|INFO|src/main.cpp:110|]>add new connect succ...
+
+[2020-02-22 20:44:49,8984|DEBUG|src/main.cpp:119|]>EPOLLIN event...
+
+[2020-02-22 20:44:49,8984|INFO|src/thread_manager/epollin_task.cpp:19|]>139989942007616 epollin_task begin...
+
+[2020-02-22 20:44:49,8985|DEBUG|src/operation/recvSocketData.cpp:25|]>EAGAIN...
+
+[2020-02-22 20:44:49,8985|INFO|src/operation/recvSocketData.cpp:55|]>recvSocketData succ...
+
+[2020-02-22 20:44:49,8985|INFO|src/thread_manager/epollin_task.cpp:34|]>idrn: 0
+
+[2020-02-22 20:44:49,8985|INFO|src/thread_manager/epollin_task.cpp:35|]>desc: 
+
+[2020-02-22 20:44:49,8985|INFO|src/thread_manager/epollin_task.cpp:36|]>id: 0
+
+[2020-02-22 20:44:49,8986|INFO|src/thread_manager/epollin_task.cpp:37|]>num: 0
+
+[2020-02-22 20:44:49,8986|DEBUG|src/thread_manager/epollin_task.cpp:51|]>------------------------------
+
+[2020-02-22 20:44:49,8986|INFO|src/thread_manager/epollin_task.cpp:55|]>uuid: 0
+
+[2020-02-22 20:44:49,8986|INFO|src/thread_manager/epollin_task.cpp:56|]>identifier: 
+
+[2020-02-22 20:44:49,8986|INFO|src/thread_manager/epollin_task.cpp:57|]>pwd: 
+
+[2020-02-22 20:44:49,8987|INFO|src/thread_manager/epollin_task.cpp:66|]>139989942007616 epollin_task end...
+
+[2020-02-22 20:44:54,8984|INFO|src/main.cpp:113|]>client abnormal exit...
+
+[2020-02-22 20:44:54,9274|INFO|src/main.cpp:74|]>new connect...
+[2020-02-22 20:44:54,9275|INFO|src/main.cpp:82|]>>>47.103.33.128:54622<<
+
+[2020-02-22 20:44:54,9276|INFO|src/main.cpp:110|]>add new connect succ...
+
+[2020-02-22 20:44:54,9277|DEBUG|src/main.cpp:119|]>EPOLLIN event...
+
+[2020-02-22 20:44:54,9277|INFO|src/thread_manager/epollin_task.cpp:19|]>139989942007616 epollin_task begin...
+
+[2020-02-22 20:44:54,9277|DEBUG|src/operation/recvSocketData.cpp:25|]>EAGAIN...
+
+[2020-02-22 20:44:54,9277|INFO|src/operation/recvSocketData.cpp:55|]>recvSocketData succ...
+
+[2020-02-22 20:44:54,9278|INFO|src/thread_manager/epollin_task.cpp:34|]>idrn: 0
+
+[2020-02-22 20:44:54,9278|INFO|src/thread_manager/epollin_task.cpp:35|]>desc: 
+
+[2020-02-22 20:44:54,9278|INFO|src/thread_manager/epollin_task.cpp:36|]>id: 0
+
+[2020-02-22 20:44:54,9278|INFO|src/thread_manager/epollin_task.cpp:37|]>num: 0
+
+[2020-02-22 20:44:54,9278|DEBUG|src/thread_manager/epollin_task.cpp:51|]>------------------------------
+
+[2020-02-22 20:44:54,9278|INFO|src/thread_manager/epollin_task.cpp:55|]>uuid: 0
+
+[2020-02-22 20:44:54,9279|INFO|src/thread_manager/epollin_task.cpp:56|]>identifier: 
+
+[2020-02-22 20:44:54,9279|INFO|src/thread_manager/epollin_task.cpp:57|]>pwd: 
+
+[2020-02-22 20:44:54,9279|INFO|src/thread_manager/epollin_task.cpp:66|]>139989942007616 epollin_task end...
+
+[2020-02-22 20:45:02,4276|INFO|src/main.cpp:113|]>client abnormal exit...
+
+[2020-02-22 20:45:02,4557|INFO|src/main.cpp:74|]>new connect...
+[2020-02-22 20:45:02,4558|INFO|src/main.cpp:82|]>>>47.103.33.128:59510<<
+
+[2020-02-22 20:45:02,4559|INFO|src/main.cpp:110|]>add new connect succ...
+
+[2020-02-22 20:45:02,4559|DEBUG|src/main.cpp:119|]>EPOLLIN event...
+
+[2020-02-22 20:45:02,4559|INFO|src/thread_manager/epollin_task.cpp:19|]>139989942007616 epollin_task begin...
+
+[2020-02-22 20:45:02,4559|DEBUG|src/operation/recvSocketData.cpp:25|]>EAGAIN...
+
+[2020-02-22 20:45:02,4559|INFO|src/operation/recvSocketData.cpp:55|]>recvSocketData succ...
+
+[2020-02-22 20:45:02,4560|INFO|src/thread_manager/epollin_task.cpp:34|]>idrn: 0
+
+[2020-02-22 20:45:02,4560|INFO|src/thread_manager/epollin_task.cpp:35|]>desc: 
+
+[2020-02-22 20:45:02,4560|INFO|src/thread_manager/epollin_task.cpp:36|]>id: 0
+
+[2020-02-22 20:45:02,4560|INFO|src/thread_manager/epollin_task.cpp:37|]>num: 0
+
+[2020-02-22 20:45:02,4560|DEBUG|src/thread_manager/epollin_task.cpp:51|]>------------------------------
+
+[2020-02-22 20:45:02,4560|INFO|src/thread_manager/epollin_task.cpp:55|]>uuid: 0
+
+[2020-02-22 20:45:02,4560|INFO|src/thread_manager/epollin_task.cpp:56|]>identifier: 
+
+[2020-02-22 20:45:02,4560|INFO|src/thread_manager/epollin_task.cpp:57|]>pwd: 
+
+[2020-02-22 20:45:02,4561|INFO|src/thread_manager/epollin_task.cpp:66|]>139989942007616 epollin_task end...
+
+[2020-02-22 20:45:07,4565|INFO|src/main.cpp:113|]>client abnormal exit...
+
+[2020-02-22 20:45:07,4864|INFO|src/main.cpp:74|]>new connect...
+[2020-02-22 20:45:07,4865|INFO|src/main.cpp:82|]>>>47.103.33.128:38256<<
+
+[2020-02-22 20:45:07,4866|INFO|src/main.cpp:110|]>add new connect succ...
+
+[2020-02-22 20:45:07,4866|DEBUG|src/main.cpp:119|]>EPOLLIN event...
+
+[2020-02-22 20:45:07,4866|INFO|src/thread_manager/epollin_task.cpp:19|]>139989942007616 epollin_task begin...
+
+[2020-02-22 20:45:07,4867|DEBUG|src/operation/recvSocketData.cpp:25|]>EAGAIN...
+
+[2020-02-22 20:45:07,4867|INFO|src/operation/recvSocketData.cpp:55|]>recvSocketData succ...
+
+[2020-02-22 20:45:07,4867|INFO|src/thread_manager/epollin_task.cpp:34|]>idrn: 0
+
+[2020-02-22 20:45:07,4867|INFO|src/thread_manager/epollin_task.cpp:35|]>desc: 
+
+[2020-02-22 20:45:07,4867|INFO|src/thread_manager/epollin_task.cpp:36|]>id: 0
+
+[2020-02-22 20:45:07,4867|INFO|src/thread_manager/epollin_task.cpp:37|]>num: 0
+
+[2020-02-22 20:45:07,4867|DEBUG|src/thread_manager/epollin_task.cpp:51|]>------------------------------
+
+[2020-02-22 20:45:07,4868|INFO|src/thread_manager/epollin_task.cpp:55|]>uuid: 0
+
+[2020-02-22 20:45:07,4868|INFO|src/thread_manager/epollin_task.cpp:56|]>identifier: 
+
+[2020-02-22 20:45:07,4868|INFO|src/thread_manager/epollin_task.cpp:57|]>pwd: 
+
+[2020-02-22 20:45:07,4868|INFO|src/thread_manager/epollin_task.cpp:66|]>139989942007616 epollin_task end...
+
+[2020-02-22 20:45:12,4875|INFO|src/main.cpp:113|]>client abnormal exit...
+
+[2020-02-22 20:45:12,5206|INFO|src/main.cpp:74|]>new connect...
+[2020-02-22 20:45:12,5207|INFO|src/main.cpp:82|]>>>47.103.33.128:52632<<
+
+[2020-02-22 20:45:12,5208|INFO|src/main.cpp:110|]>add new connect succ...
+
+[2020-02-22 20:45:12,5208|DEBUG|src/main.cpp:119|]>EPOLLIN event...
+
+[2020-02-22 20:45:12,5208|INFO|src/thread_manager/epollin_task.cpp:19|]>139989942007616 epollin_task begin...
+
+[2020-02-22 20:45:12,5208|DEBUG|src/operation/recvSocketData.cpp:25|]>EAGAIN...
+
+[2020-02-22 20:45:12,5208|INFO|src/operation/recvSocketData.cpp:55|]>recvSocketData succ...
+
+[2020-02-22 20:45:12,5208|INFO|src/thread_manager/epollin_task.cpp:34|]>idrn: 0
+
+[2020-02-22 20:45:12,5208|INFO|src/thread_manager/epollin_task.cpp:35|]>desc: 
+
+[2020-02-22 20:45:12,5209|INFO|src/thread_manager/epollin_task.cpp:36|]>id: 0
+
+[2020-02-22 20:45:12,5209|INFO|src/thread_manager/epollin_task.cpp:37|]>num: 0
+
+[2020-02-22 20:45:12,5209|DEBUG|src/thread_manager/epollin_task.cpp:51|]>------------------------------
+
+[2020-02-22 20:45:12,5209|INFO|src/thread_manager/epollin_task.cpp:55|]>uuid: 0
+
+[2020-02-22 20:45:12,5209|INFO|src/thread_manager/epollin_task.cpp:56|]>identifier: 
+
+[2020-02-22 20:45:12,5209|INFO|src/thread_manager/epollin_task.cpp:57|]>pwd: 
+
+[2020-02-22 20:45:12,5209|INFO|src/thread_manager/epollin_task.cpp:66|]>139989942007616 epollin_task end...
+
+[2020-02-22 20:45:17,5215|INFO|src/main.cpp:113|]>client abnormal exit...
+
+[2020-02-22 20:45:17,5542|INFO|src/main.cpp:74|]>new connect...
+[2020-02-22 20:45:17,5543|INFO|src/main.cpp:82|]>>>47.103.33.128:60930<<
+
+[2020-02-22 20:45:17,5543|INFO|src/main.cpp:110|]>add new connect succ...
+
+[2020-02-22 20:45:17,5544|DEBUG|src/main.cpp:119|]>EPOLLIN event...
+
+[2020-02-22 20:45:17,5544|INFO|src/thread_manager/epollin_task.cpp:19|]>139989942007616 epollin_task begin...
+
+[2020-02-22 20:45:17,5544|DEBUG|src/operation/recvSocketData.cpp:25|]>EAGAIN...
+
+[2020-02-22 20:45:17,5544|INFO|src/operation/recvSocketData.cpp:55|]>recvSocketData succ...
+
+[2020-02-22 20:45:17,5545|INFO|src/thread_manager/epollin_task.cpp:34|]>idrn: 0
+
+[2020-02-22 20:45:17,5545|INFO|src/thread_manager/epollin_task.cpp:35|]>desc: 
+
+[2020-02-22 20:45:17,5545|INFO|src/thread_manager/epollin_task.cpp:36|]>id: 0
+
+[2020-02-22 20:45:17,5545|INFO|src/thread_manager/epollin_task.cpp:37|]>num: 0
+
+[2020-02-22 20:45:17,5545|DEBUG|src/thread_manager/epollin_task.cpp:51|]>------------------------------
+
+[2020-02-22 20:45:17,5545|INFO|src/thread_manager/epollin_task.cpp:55|]>uuid: 0
+
+[2020-02-22 20:45:17,5546|INFO|src/thread_manager/epollin_task.cpp:56|]>identifier: 
+
+[2020-02-22 20:45:17,5546|INFO|src/thread_manager/epollin_task.cpp:57|]>pwd: 
+
+[2020-02-22 20:45:17,5546|INFO|src/thread_manager/epollin_task.cpp:66|]>139989942007616 epollin_task end...
+
+[2020-02-22 20:45:22,5556|INFO|src/main.cpp:113|]>client abnormal exit...
+
+[2020-02-22 20:45:22,5819|INFO|src/main.cpp:74|]>new connect...
+[2020-02-22 20:45:22,5820|INFO|src/main.cpp:82|]>>>47.103.33.128:38662<<
+
+[2020-02-22 20:45:22,5821|INFO|src/main.cpp:110|]>add new connect succ...
+
+[2020-02-22 20:45:22,5821|DEBUG|src/main.cpp:119|]>EPOLLIN event...
+
+[2020-02-22 20:45:22,5821|INFO|src/thread_manager/epollin_task.cpp:19|]>139989942007616 epollin_task begin...
+
+[2020-02-22 20:45:22,5821|DEBUG|src/operation/recvSocketData.cpp:25|]>EAGAIN...
+
+[2020-02-22 20:45:22,5821|INFO|src/operation/recvSocketData.cpp:55|]>recvSocketData succ...
+
+[2020-02-22 20:45:22,5821|INFO|src/thread_manager/epollin_task.cpp:34|]>idrn: 0
+
+[2020-02-22 20:45:22,5822|INFO|src/thread_manager/epollin_task.cpp:35|]>desc: 
+
+[2020-02-22 20:45:22,5822|INFO|src/thread_manager/epollin_task.cpp:36|]>id: 0
+
+[2020-02-22 20:45:22,5822|INFO|src/thread_manager/epollin_task.cpp:37|]>num: 0
+
+[2020-02-22 20:45:22,5822|DEBUG|src/thread_manager/epollin_task.cpp:51|]>------------------------------
+
+[2020-02-22 20:45:22,5822|INFO|src/thread_manager/epollin_task.cpp:55|]>uuid: 0
+
+[2020-02-22 20:45:22,5822|INFO|src/thread_manager/epollin_task.cpp:56|]>identifier: 
+
+[2020-02-22 20:45:22,5822|INFO|src/thread_manager/epollin_task.cpp:57|]>pwd: 
+
+[2020-02-22 20:45:22,5823|INFO|src/thread_manager/epollin_task.cpp:66|]>139989942007616 epollin_task end...
+
+[2020-02-22 20:45:27,5832|INFO|src/main.cpp:113|]>client abnormal exit...
+
+[2020-02-22 20:45:27,6167|INFO|src/main.cpp:74|]>new connect...
+[2020-02-22 20:45:27,6168|INFO|src/main.cpp:82|]>>>47.103.33.128:58528<<
+
+[2020-02-22 20:45:27,6168|INFO|src/main.cpp:110|]>add new connect succ...
+
+[2020-02-22 20:45:27,6169|DEBUG|src/main.cpp:119|]>EPOLLIN event...
+
+[2020-02-22 20:45:27,6169|INFO|src/thread_manager/epollin_task.cpp:19|]>139989942007616 epollin_task begin...
+
+[2020-02-22 20:45:27,6169|DEBUG|src/operation/recvSocketData.cpp:25|]>EAGAIN...
+
+[2020-02-22 20:45:27,6169|INFO|src/operation/recvSocketData.cpp:55|]>recvSocketData succ...
+
+[2020-02-22 20:45:27,6169|INFO|src/thread_manager/epollin_task.cpp:34|]>idrn: 0
+
+[2020-02-22 20:45:27,6169|INFO|src/thread_manager/epollin_task.cpp:35|]>desc: 
+
+[2020-02-22 20:45:27,6170|INFO|src/thread_manager/epollin_task.cpp:36|]>id: 0
+
+[2020-02-22 20:45:27,6170|INFO|src/thread_manager/epollin_task.cpp:37|]>num: 0
+
+[2020-02-22 20:45:27,6170|DEBUG|src/thread_manager/epollin_task.cpp:51|]>------------------------------
+
+[2020-02-22 20:45:27,6170|INFO|src/thread_manager/epollin_task.cpp:55|]>uuid: 0
+
+[2020-02-22 20:45:27,6170|INFO|src/thread_manager/epollin_task.cpp:56|]>identifier: 
+
+[2020-02-22 20:45:27,6170|INFO|src/thread_manager/epollin_task.cpp:57|]>pwd: 
+
+[2020-02-22 20:45:27,6170|INFO|src/thread_manager/epollin_task.cpp:66|]>139989942007616 epollin_task end...
+
+[2020-02-22 20:45:32,6179|INFO|src/main.cpp:113|]>client abnormal exit...
+
+[2020-02-22 20:45:32,6450|INFO|src/main.cpp:74|]>new connect...
+[2020-02-22 20:45:32,6451|INFO|src/main.cpp:82|]>>>47.103.33.128:41644<<
+
+[2020-02-22 20:45:32,6451|INFO|src/main.cpp:110|]>add new connect succ...
+
+[2020-02-22 20:45:32,6452|DEBUG|src/main.cpp:119|]>EPOLLIN event...
+
+[2020-02-22 20:45:32,6452|INFO|src/thread_manager/epollin_task.cpp:19|]>139989942007616 epollin_task begin...
+
+[2020-02-22 20:45:32,6452|DEBUG|src/operation/recvSocketData.cpp:25|]>EAGAIN...
+
+[2020-02-22 20:45:32,6452|INFO|src/operation/recvSocketData.cpp:55|]>recvSocketData succ...
+
+[2020-02-22 20:45:32,6452|INFO|src/thread_manager/epollin_task.cpp:34|]>idrn: 0
+
+[2020-02-22 20:45:32,6452|INFO|src/thread_manager/epollin_task.cpp:35|]>desc: 
+
+[2020-02-22 20:45:32,6453|INFO|src/thread_manager/epollin_task.cpp:36|]>id: 0
+
+[2020-02-22 20:45:32,6453|INFO|src/thread_manager/epollin_task.cpp:37|]>num: 0
+
+[2020-02-22 20:45:32,6453|DEBUG|src/thread_manager/epollin_task.cpp:51|]>------------------------------
+
+[2020-02-22 20:45:32,6453|INFO|src/thread_manager/epollin_task.cpp:55|]>uuid: 0
+
+[2020-02-22 20:45:32,6453|INFO|src/thread_manager/epollin_task.cpp:56|]>identifier: 
+
+[2020-02-22 20:45:32,6453|INFO|src/thread_manager/epollin_task.cpp:57|]>pwd: 
+
+[2020-02-22 20:45:32,6453|INFO|src/thread_manager/epollin_task.cpp:66|]>139989942007616 epollin_task end...
+
+[2020-02-22 20:45:37,6459|INFO|src/main.cpp:113|]>client abnormal exit...
+
+[2020-02-22 20:45:37,6798|INFO|src/main.cpp:74|]>new connect...
+[2020-02-22 20:45:37,6799|INFO|src/main.cpp:82|]>>>47.103.33.128:49026<<
+
+[2020-02-22 20:45:37,6800|INFO|src/main.cpp:110|]>add new connect succ...
+
+[2020-02-22 20:45:37,6800|DEBUG|src/main.cpp:119|]>EPOLLIN event...
+
+[2020-02-22 20:45:37,6800|INFO|src/thread_manager/epollin_task.cpp:19|]>139989942007616 epollin_task begin...
+
+[2020-02-22 20:45:37,6800|DEBUG|src/operation/recvSocketData.cpp:25|]>EAGAIN...
+
+[2020-02-22 20:45:37,6800|INFO|src/operation/recvSocketData.cpp:55|]>recvSocketData succ...
+
+[2020-02-22 20:45:37,6800|INFO|src/thread_manager/epollin_task.cpp:34|]>idrn: 0
+
+[2020-02-22 20:45:37,6801|INFO|src/thread_manager/epollin_task.cpp:35|]>desc: 
+
+[2020-02-22 20:45:37,6801|INFO|src/thread_manager/epollin_task.cpp:36|]>id: 0
+
+[2020-02-22 20:45:37,6801|INFO|src/thread_manager/epollin_task.cpp:37|]>num: 0
+
+[2020-02-22 20:45:37,6801|DEBUG|src/thread_manager/epollin_task.cpp:51|]>------------------------------
+
+[2020-02-22 20:45:37,6801|INFO|src/thread_manager/epollin_task.cpp:55|]>uuid: 0
+
+[2020-02-22 20:45:37,6801|INFO|src/thread_manager/epollin_task.cpp:56|]>identifier: 
+
+[2020-02-22 20:45:37,6801|INFO|src/thread_manager/epollin_task.cpp:57|]>pwd: 
+
+[2020-02-22 20:45:37,6802|INFO|src/thread_manager/epollin_task.cpp:66|]>139989942007616 epollin_task end...
+
+[2020-02-22 20:45:42,6803|INFO|src/main.cpp:113|]>client abnormal exit...
+
+[2020-02-22 20:45:42,7058|INFO|src/main.cpp:74|]>new connect...
+[2020-02-22 20:45:42,7059|INFO|src/main.cpp:82|]>>>47.103.33.128:60974<<
+
+[2020-02-22 20:45:42,7059|INFO|src/main.cpp:110|]>add new connect succ...
+
+[2020-02-22 20:45:42,7059|DEBUG|src/main.cpp:119|]>EPOLLIN event...
+
+[2020-02-22 20:45:42,7059|INFO|src/thread_manager/epollin_task.cpp:19|]>139989942007616 epollin_task begin...
+
+[2020-02-22 20:45:42,7060|DEBUG|src/operation/recvSocketData.cpp:25|]>EAGAIN...
+
+[2020-02-22 20:45:42,7060|INFO|src/operation/recvSocketData.cpp:55|]>recvSocketData succ...
+
+[2020-02-22 20:45:42,7060|INFO|src/thread_manager/epollin_task.cpp:34|]>idrn: 0
+
+[2020-02-22 20:45:42,7060|INFO|src/thread_manager/epollin_task.cpp:35|]>desc: 
+
+[2020-02-22 20:45:42,7060|INFO|src/thread_manager/epollin_task.cpp:36|]>id: 0
+
+[2020-02-22 20:45:42,7060|INFO|src/thread_manager/epollin_task.cpp:37|]>num: 0
+
+[2020-02-22 20:45:42,7060|DEBUG|src/thread_manager/epollin_task.cpp:51|]>------------------------------
+
+[2020-02-22 20:45:42,7060|INFO|src/thread_manager/epollin_task.cpp:55|]>uuid: 0
+
+[2020-02-22 20:45:42,7061|INFO|src/thread_manager/epollin_task.cpp:56|]>identifier: 
+
+[2020-02-22 20:45:42,7061|INFO|src/thread_manager/epollin_task.cpp:57|]>pwd: 
+
+[2020-02-22 20:45:42,7061|INFO|src/thread_manager/epollin_task.cpp:66|]>139989942007616 epollin_task end...
+
+[2020-02-22 20:45:47,7062|INFO|src/main.cpp:113|]>client abnormal exit...
+
+[2020-02-22 20:45:47,7394|INFO|src/main.cpp:74|]>new connect...
+[2020-02-22 20:45:47,7395|INFO|src/main.cpp:82|]>>>47.103.33.128:36262<<
+
+[2020-02-22 20:45:47,7396|INFO|src/main.cpp:110|]>add new connect succ...
+
+[2020-02-22 20:45:47,7396|DEBUG|src/main.cpp:119|]>EPOLLIN event...
+
+[2020-02-22 20:45:47,7397|INFO|src/thread_manager/epollin_task.cpp:19|]>139989942007616 epollin_task begin...
+
+[2020-02-22 20:45:47,7397|DEBUG|src/operation/recvSocketData.cpp:25|]>EAGAIN...
+
+[2020-02-22 20:45:47,7397|INFO|src/operation/recvSocketData.cpp:55|]>recvSocketData succ...
+
+[2020-02-22 20:45:47,7397|INFO|src/thread_manager/epollin_task.cpp:34|]>idrn: 0
+
+[2020-02-22 20:45:47,7397|INFO|src/thread_manager/epollin_task.cpp:35|]>desc: 
+
+[2020-02-22 20:45:47,7398|INFO|src/thread_manager/epollin_task.cpp:36|]>id: 0
+
+[2020-02-22 20:45:47,7398|INFO|src/thread_manager/epollin_task.cpp:37|]>num: 0
+
+[2020-02-22 20:45:47,7398|DEBUG|src/thread_manager/epollin_task.cpp:51|]>------------------------------
+
+[2020-02-22 20:45:47,7398|INFO|src/thread_manager/epollin_task.cpp:55|]>uuid: 0
+
+[2020-02-22 20:45:47,7398|INFO|src/thread_manager/epollin_task.cpp:56|]>identifier: 
+
+[2020-02-22 20:45:47,7398|INFO|src/thread_manager/epollin_task.cpp:57|]>pwd: 
+
+[2020-02-22 20:45:47,7398|INFO|src/thread_manager/epollin_task.cpp:66|]>139989942007616 epollin_task end...
+
+[2020-02-22 20:45:52,7401|INFO|src/main.cpp:113|]>client abnormal exit...
+
+[2020-02-22 20:45:52,7687|INFO|src/main.cpp:74|]>new connect...
+[2020-02-22 20:45:52,7687|INFO|src/main.cpp:82|]>>>47.103.33.128:41108<<
+
+[2020-02-22 20:45:52,7688|INFO|src/main.cpp:110|]>add new connect succ...
+
+[2020-02-22 20:45:52,7688|DEBUG|src/main.cpp:119|]>EPOLLIN event...
+
+[2020-02-22 20:45:52,7688|INFO|src/thread_manager/epollin_task.cpp:19|]>139989942007616 epollin_task begin...
+
+[2020-02-22 20:45:52,7688|DEBUG|src/operation/recvSocketData.cpp:25|]>EAGAIN...
+
+[2020-02-22 20:45:52,7689|INFO|src/operation/recvSocketData.cpp:55|]>recvSocketData succ...
+
+[2020-02-22 20:45:52,7689|INFO|src/thread_manager/epollin_task.cpp:34|]>idrn: 0
+
+[2020-02-22 20:45:52,7689|INFO|src/thread_manager/epollin_task.cpp:35|]>desc: 
+
+[2020-02-22 20:45:52,7689|INFO|src/thread_manager/epollin_task.cpp:36|]>id: 0
+
+[2020-02-22 20:45:52,7689|INFO|src/thread_manager/epollin_task.cpp:37|]>num: 0
+
+[2020-02-22 20:45:52,7689|DEBUG|src/thread_manager/epollin_task.cpp:51|]>------------------------------
+
+[2020-02-22 20:45:52,7690|INFO|src/thread_manager/epollin_task.cpp:55|]>uuid: 0
+
+[2020-02-22 20:45:52,7690|INFO|src/thread_manager/epollin_task.cpp:56|]>identifier: 
+
+[2020-02-22 20:45:52,7690|INFO|src/thread_manager/epollin_task.cpp:57|]>pwd: 
+
+[2020-02-22 20:45:52,7690|INFO|src/thread_manager/epollin_task.cpp:66|]>139989942007616 epollin_task end...
+
+[2020-02-22 20:45:57,7691|INFO|src/main.cpp:113|]>client abnormal exit...
+
+[2020-02-22 20:45:57,7990|INFO|src/main.cpp:74|]>new connect...
+[2020-02-22 20:45:57,7990|INFO|src/main.cpp:82|]>>>47.103.33.128:45774<<
+
+[2020-02-22 20:45:57,7991|INFO|src/main.cpp:110|]>add new connect succ...
+
+[2020-02-22 20:45:57,7991|DEBUG|src/main.cpp:119|]>EPOLLIN event...
+
+[2020-02-22 20:45:57,7991|INFO|src/thread_manager/epollin_task.cpp:19|]>139989942007616 epollin_task begin...
+
+[2020-02-22 20:45:57,7992|DEBUG|src/operation/recvSocketData.cpp:25|]>EAGAIN...
+
+[2020-02-22 20:45:57,7992|INFO|src/operation/recvSocketData.cpp:55|]>recvSocketData succ...
+
+[2020-02-22 20:45:57,7992|INFO|src/thread_manager/epollin_task.cpp:34|]>idrn: 0
+
+[2020-02-22 20:45:57,7992|INFO|src/thread_manager/epollin_task.cpp:35|]>desc: 
+
+[2020-02-22 20:45:57,7992|INFO|src/thread_manager/epollin_task.cpp:36|]>id: 0
+
+[2020-02-22 20:45:57,7992|INFO|src/thread_manager/epollin_task.cpp:37|]>num: 0
+
+[2020-02-22 20:45:57,7993|DEBUG|src/thread_manager/epollin_task.cpp:51|]>------------------------------
+
+[2020-02-22 20:45:57,7993|INFO|src/thread_manager/epollin_task.cpp:55|]>uuid: 0
+
+[2020-02-22 20:45:57,7993|INFO|src/thread_manager/epollin_task.cpp:56|]>identifier: 
+
+[2020-02-22 20:45:57,7993|INFO|src/thread_manager/epollin_task.cpp:57|]>pwd: 
+
+[2020-02-22 20:45:57,7993|INFO|src/thread_manager/epollin_task.cpp:66|]>139989942007616 epollin_task end...
+
+[2020-02-22 20:46:02,7999|INFO|src/main.cpp:113|]>client abnormal exit...
+
+[2020-02-22 20:46:02,8341|INFO|src/main.cpp:74|]>new connect...
+[2020-02-22 20:46:02,8342|INFO|src/main.cpp:82|]>>>47.103.33.128:52064<<
+
+[2020-02-22 20:46:02,8342|INFO|src/main.cpp:110|]>add new connect succ...
+
+[2020-02-22 20:46:02,8342|DEBUG|src/main.cpp:119|]>EPOLLIN event...
+
+[2020-02-22 20:46:02,8343|INFO|src/thread_manager/epollin_task.cpp:19|]>139989942007616 epollin_task begin...
+
+[2020-02-22 20:46:02,8343|DEBUG|src/operation/recvSocketData.cpp:25|]>EAGAIN...
+
+[2020-02-22 20:46:02,8343|INFO|src/operation/recvSocketData.cpp:55|]>recvSocketData succ...
+
+[2020-02-22 20:46:02,8343|INFO|src/thread_manager/epollin_task.cpp:34|]>idrn: 0
+
+[2020-02-22 20:46:02,8343|INFO|src/thread_manager/epollin_task.cpp:35|]>desc: 
+
+[2020-02-22 20:46:02,8343|INFO|src/thread_manager/epollin_task.cpp:36|]>id: 0
+
+[2020-02-22 20:46:02,8344|INFO|src/thread_manager/epollin_task.cpp:37|]>num: 0
+
+[2020-02-22 20:46:02,8344|DEBUG|src/thread_manager/epollin_task.cpp:51|]>------------------------------
+
+[2020-02-22 20:46:02,8344|INFO|src/thread_manager/epollin_task.cpp:55|]>uuid: 0
+
+[2020-02-22 20:46:02,8344|INFO|src/thread_manager/epollin_task.cpp:56|]>identifier: 
+
+[2020-02-22 20:46:02,8344|INFO|src/thread_manager/epollin_task.cpp:57|]>pwd: 
+
+[2020-02-22 20:46:02,8345|INFO|src/thread_manager/epollin_task.cpp:66|]>139989942007616 epollin_task end...
+
+[2020-02-22 20:46:07,8349|INFO|src/main.cpp:113|]>client abnormal exit...
+
+[2020-02-22 20:46:07,8696|INFO|src/main.cpp:74|]>new connect...
+[2020-02-22 20:46:07,8697|INFO|src/main.cpp:82|]>>>47.103.33.128:56634<<
+
+[2020-02-22 20:46:07,8698|INFO|src/main.cpp:110|]>add new connect succ...
+
+[2020-02-22 20:46:07,8698|DEBUG|src/main.cpp:119|]>EPOLLIN event...
+
+[2020-02-22 20:46:07,8698|INFO|src/thread_manager/epollin_task.cpp:19|]>139989942007616 epollin_task begin...
+
+[2020-02-22 20:46:07,8698|DEBUG|src/operation/recvSocketData.cpp:25|]>EAGAIN...
+
+[2020-02-22 20:46:07,8699|INFO|src/operation/recvSocketData.cpp:55|]>recvSocketData succ...
+
+[2020-02-22 20:46:07,8699|INFO|src/thread_manager/epollin_task.cpp:34|]>idrn: 0
+
+[2020-02-22 20:46:07,8699|INFO|src/thread_manager/epollin_task.cpp:35|]>desc: 
+
+[2020-02-22 20:46:07,8699|INFO|src/thread_manager/epollin_task.cpp:36|]>id: 0
+
+[2020-02-22 20:46:07,8699|INFO|src/thread_manager/epollin_task.cpp:37|]>num: 0
+
+[2020-02-22 20:46:07,8699|DEBUG|src/thread_manager/epollin_task.cpp:51|]>------------------------------
+
+[2020-02-22 20:46:07,8700|INFO|src/thread_manager/epollin_task.cpp:55|]>uuid: 0
+
+[2020-02-22 20:46:07,8700|INFO|src/thread_manager/epollin_task.cpp:56|]>identifier: 
+
+[2020-02-22 20:46:07,8700|INFO|src/thread_manager/epollin_task.cpp:57|]>pwd: 
+
+[2020-02-22 20:46:07,8700|INFO|src/thread_manager/epollin_task.cpp:66|]>139989942007616 epollin_task end...
+
+[2020-02-22 20:46:12,8696|INFO|src/main.cpp:113|]>client abnormal exit...
+
+[2020-02-22 20:46:12,8957|INFO|src/main.cpp:74|]>new connect...
+[2020-02-22 20:46:12,8958|INFO|src/main.cpp:82|]>>>47.103.33.128:33734<<
+
+[2020-02-22 20:46:12,8958|INFO|src/main.cpp:110|]>add new connect succ...
+
+[2020-02-22 20:46:12,8958|DEBUG|src/main.cpp:119|]>EPOLLIN event...
+
+[2020-02-22 20:46:12,8958|INFO|src/thread_manager/epollin_task.cpp:19|]>139989942007616 epollin_task begin...
+
+[2020-02-22 20:46:12,8959|DEBUG|src/operation/recvSocketData.cpp:25|]>EAGAIN...
+
+[2020-02-22 20:46:12,8959|INFO|src/operation/recvSocketData.cpp:55|]>recvSocketData succ...
+
+[2020-02-22 20:46:12,8959|INFO|src/thread_manager/epollin_task.cpp:34|]>idrn: 0
+
+[2020-02-22 20:46:12,8959|INFO|src/thread_manager/epollin_task.cpp:35|]>desc: 
+
+[2020-02-22 20:46:12,8959|INFO|src/thread_manager/epollin_task.cpp:36|]>id: 0
+
+[2020-02-22 20:46:12,8959|INFO|src/thread_manager/epollin_task.cpp:37|]>num: 0
+
+[2020-02-22 20:46:12,8960|DEBUG|src/thread_manager/epollin_task.cpp:51|]>------------------------------
+
+[2020-02-22 20:46:12,8960|INFO|src/thread_manager/epollin_task.cpp:55|]>uuid: 0
+
+[2020-02-22 20:46:12,8960|INFO|src/thread_manager/epollin_task.cpp:56|]>identifier: 
+
+[2020-02-22 20:46:12,8960|INFO|src/thread_manager/epollin_task.cpp:57|]>pwd: 
+
+[2020-02-22 20:46:12,8960|INFO|src/thread_manager/epollin_task.cpp:66|]>139989942007616 epollin_task end...
+
+[2020-02-22 20:46:23,8963|INFO|src/main.cpp:113|]>client abnormal exit...
+
+[2020-02-22 20:46:23,9276|INFO|src/main.cpp:74|]>new connect...
+[2020-02-22 20:46:23,9278|INFO|src/main.cpp:82|]>>>47.103.33.128:42208<<
+
+[2020-02-22 20:46:23,9278|INFO|src/main.cpp:110|]>add new connect succ...
+
+[2020-02-22 20:46:23,9278|DEBUG|src/main.cpp:119|]>EPOLLIN event...
+
+[2020-02-22 20:46:23,9278|INFO|src/thread_manager/epollin_task.cpp:19|]>139989942007616 epollin_task begin...
+
+[2020-02-22 20:46:23,9279|DEBUG|src/operation/recvSocketData.cpp:25|]>EAGAIN...
+
+[2020-02-22 20:46:23,9279|INFO|src/operation/recvSocketData.cpp:55|]>recvSocketData succ...
+
+[2020-02-22 20:46:23,9279|INFO|src/thread_manager/epollin_task.cpp:34|]>idrn: 0
+
+[2020-02-22 20:46:23,9279|INFO|src/thread_manager/epollin_task.cpp:35|]>desc: 
+
+[2020-02-22 20:46:23,9279|INFO|src/thread_manager/epollin_task.cpp:36|]>id: 0
+
+[2020-02-22 20:46:23,9279|INFO|src/thread_manager/epollin_task.cpp:37|]>num: 0
+
+[2020-02-22 20:46:23,9280|DEBUG|src/thread_manager/epollin_task.cpp:51|]>------------------------------
+
+[2020-02-22 20:46:23,9280|INFO|src/thread_manager/epollin_task.cpp:55|]>uuid: 0
+
+[2020-02-22 20:46:23,9280|INFO|src/thread_manager/epollin_task.cpp:56|]>identifier: 
+
+[2020-02-22 20:46:23,9280|INFO|src/thread_manager/epollin_task.cpp:57|]>pwd: 
+
+[2020-02-22 20:46:23,9280|INFO|src/thread_manager/epollin_task.cpp:66|]>139989942007616 epollin_task end...
+
+[2020-02-22 20:46:28,9277|INFO|src/main.cpp:113|]>client abnormal exit...
+
+[2020-02-22 20:46:28,9585|INFO|src/main.cpp:74|]>new connect...
+[2020-02-22 20:46:28,9586|INFO|src/main.cpp:82|]>>>47.103.33.128:44776<<
+
+[2020-02-22 20:46:28,9587|INFO|src/main.cpp:110|]>add new connect succ...
+
+[2020-02-22 20:46:28,9588|DEBUG|src/main.cpp:119|]>EPOLLIN event...
+
+[2020-02-22 20:46:28,9588|INFO|src/thread_manager/epollin_task.cpp:19|]>139989942007616 epollin_task begin...
+
+[2020-02-22 20:46:28,9588|DEBUG|src/operation/recvSocketData.cpp:25|]>EAGAIN...
+
+[2020-02-22 20:46:28,9589|INFO|src/operation/recvSocketData.cpp:55|]>recvSocketData succ...
+
+[2020-02-22 20:46:28,9589|INFO|src/thread_manager/epollin_task.cpp:34|]>idrn: 0
+
+[2020-02-22 20:46:28,9589|INFO|src/thread_manager/epollin_task.cpp:35|]>desc: 
+
+[2020-02-22 20:46:28,9590|INFO|src/thread_manager/epollin_task.cpp:36|]>id: 0
+
+[2020-02-22 20:46:28,9590|INFO|src/thread_manager/epollin_task.cpp:37|]>num: 0
+
+[2020-02-22 20:46:28,9590|DEBUG|src/thread_manager/epollin_task.cpp:51|]>------------------------------
+
+[2020-02-22 20:46:28,9590|INFO|src/thread_manager/epollin_task.cpp:55|]>uuid: 0
+
+[2020-02-22 20:46:28,9591|INFO|src/thread_manager/epollin_task.cpp:56|]>identifier: 
+
+[2020-02-22 20:46:28,9591|INFO|src/thread_manager/epollin_task.cpp:57|]>pwd: 
+
+[2020-02-22 20:46:28,9591|INFO|src/thread_manager/epollin_task.cpp:66|]>139989942007616 epollin_task end...
+
+[2020-02-22 20:46:33,9591|INFO|src/main.cpp:113|]>client abnormal exit...
+
+[2020-02-22 20:46:33,9889|INFO|src/main.cpp:74|]>new connect...
+[2020-02-22 20:46:33,9890|INFO|src/main.cpp:82|]>>>47.103.33.128:47588<<
+
+[2020-02-22 20:46:33,9890|INFO|src/main.cpp:110|]>add new connect succ...
+
+[2020-02-22 20:46:33,9890|DEBUG|src/main.cpp:119|]>EPOLLIN event...
+
+[2020-02-22 20:46:33,9891|INFO|src/thread_manager/epollin_task.cpp:19|]>139989942007616 epollin_task begin...
+
+[2020-02-22 20:46:33,9891|DEBUG|src/operation/recvSocketData.cpp:25|]>EAGAIN...
+
+[2020-02-22 20:46:33,9891|INFO|src/operation/recvSocketData.cpp:55|]>recvSocketData succ...
+
+[2020-02-22 20:46:33,9891|INFO|src/thread_manager/epollin_task.cpp:34|]>idrn: 0
+
+[2020-02-22 20:46:33,9892|INFO|src/thread_manager/epollin_task.cpp:35|]>desc: 
+
+[2020-02-22 20:46:33,9892|INFO|src/thread_manager/epollin_task.cpp:36|]>id: 0
+
+[2020-02-22 20:46:33,9892|INFO|src/thread_manager/epollin_task.cpp:37|]>num: 0
+
+[2020-02-22 20:46:33,9892|DEBUG|src/thread_manager/epollin_task.cpp:51|]>------------------------------
+
+[2020-02-22 20:46:33,9892|INFO|src/thread_manager/epollin_task.cpp:55|]>uuid: 0
+
+[2020-02-22 20:46:33,9892|INFO|src/thread_manager/epollin_task.cpp:56|]>identifier: 
+
+[2020-02-22 20:46:33,9892|INFO|src/thread_manager/epollin_task.cpp:57|]>pwd: 
+
+[2020-02-22 20:46:33,9892|INFO|src/thread_manager/epollin_task.cpp:66|]>139989942007616 epollin_task end...
+
+[2020-02-22 20:46:38,9883|INFO|src/main.cpp:113|]>client abnormal exit...
+
+[2020-02-22 20:46:39,0165|INFO|src/main.cpp:74|]>new connect...
+[2020-02-22 20:46:39,0166|INFO|src/main.cpp:82|]>>>47.103.33.128:52572<<
+
+[2020-02-22 20:46:39,0167|INFO|src/main.cpp:110|]>add new connect succ...
+
+[2020-02-22 20:46:39,0167|DEBUG|src/main.cpp:119|]>EPOLLIN event...
+
+[2020-02-22 20:46:39,0167|INFO|src/thread_manager/epollin_task.cpp:19|]>139989942007616 epollin_task begin...
+
+[2020-02-22 20:46:39,0167|DEBUG|src/operation/recvSocketData.cpp:25|]>EAGAIN...
+
+[2020-02-22 20:46:39,0167|INFO|src/operation/recvSocketData.cpp:55|]>recvSocketData succ...
+
+[2020-02-22 20:46:39,0167|INFO|src/thread_manager/epollin_task.cpp:34|]>idrn: 0
+
+[2020-02-22 20:46:39,0167|INFO|src/thread_manager/epollin_task.cpp:35|]>desc: 
+
+[2020-02-22 20:46:39,0168|INFO|src/thread_manager/epollin_task.cpp:36|]>id: 0
+
+[2020-02-22 20:46:39,0168|INFO|src/thread_manager/epollin_task.cpp:37|]>num: 0
+
+[2020-02-22 20:46:39,0168|DEBUG|src/thread_manager/epollin_task.cpp:51|]>------------------------------
+
+[2020-02-22 20:46:39,0168|INFO|src/thread_manager/epollin_task.cpp:55|]>uuid: 0
+
+[2020-02-22 20:46:39,0168|INFO|src/thread_manager/epollin_task.cpp:56|]>identifier: 
+
+[2020-02-22 20:46:39,0168|INFO|src/thread_manager/epollin_task.cpp:57|]>pwd: 
+
+[2020-02-22 20:46:39,0168|INFO|src/thread_manager/epollin_task.cpp:66|]>139989942007616 epollin_task end...
+
+[2020-02-22 20:46:44,0176|INFO|src/main.cpp:113|]>client abnormal exit...
+
+[2020-02-22 20:46:44,0471|INFO|src/main.cpp:74|]>new connect...
+[2020-02-22 20:46:44,0472|INFO|src/main.cpp:82|]>>>47.103.33.128:33626<<
+
+[2020-02-22 20:46:44,0473|INFO|src/main.cpp:110|]>add new connect succ...
+
+[2020-02-22 20:46:44,0473|DEBUG|src/main.cpp:119|]>EPOLLIN event...
+
+[2020-02-22 20:46:44,0473|INFO|src/thread_manager/epollin_task.cpp:19|]>139989942007616 epollin_task begin...
+
+[2020-02-22 20:46:44,0473|DEBUG|src/operation/recvSocketData.cpp:25|]>EAGAIN...
+
+[2020-02-22 20:46:44,0473|INFO|src/operation/recvSocketData.cpp:55|]>recvSocketData succ...
+
+[2020-02-22 20:46:44,0474|INFO|src/thread_manager/epollin_task.cpp:34|]>idrn: 0
+
+[2020-02-22 20:46:44,0474|INFO|src/thread_manager/epollin_task.cpp:35|]>desc: 
+
+[2020-02-22 20:46:44,0474|INFO|src/thread_manager/epollin_task.cpp:36|]>id: 0
+
+[2020-02-22 20:46:44,0474|INFO|src/thread_manager/epollin_task.cpp:37|]>num: 0
+
+[2020-02-22 20:46:44,0474|DEBUG|src/thread_manager/epollin_task.cpp:51|]>------------------------------
+
+[2020-02-22 20:46:44,0474|INFO|src/thread_manager/epollin_task.cpp:55|]>uuid: 0
+
+[2020-02-22 20:46:44,0475|INFO|src/thread_manager/epollin_task.cpp:56|]>identifier: 
+
+[2020-02-22 20:46:44,0475|INFO|src/thread_manager/epollin_task.cpp:57|]>pwd: 
+
+[2020-02-22 20:46:44,0475|INFO|src/thread_manager/epollin_task.cpp:66|]>139989942007616 epollin_task end...
+
+[2020-02-22 20:46:49,0481|INFO|src/main.cpp:113|]>client abnormal exit...
+
+[2020-02-22 20:46:49,0753|INFO|src/main.cpp:74|]>new connect...
+[2020-02-22 20:46:49,0754|INFO|src/main.cpp:82|]>>>47.103.33.128:35576<<
+
+[2020-02-22 20:46:49,0755|INFO|src/main.cpp:110|]>add new connect succ...
+
+[2020-02-22 20:46:49,0755|DEBUG|src/main.cpp:119|]>EPOLLIN event...
+
+[2020-02-22 20:46:49,0755|INFO|src/thread_manager/epollin_task.cpp:19|]>139989942007616 epollin_task begin...
+
+[2020-02-22 20:46:49,0756|DEBUG|src/operation/recvSocketData.cpp:25|]>EAGAIN...
+
+[2020-02-22 20:46:49,0756|INFO|src/operation/recvSocketData.cpp:55|]>recvSocketData succ...
+
+[2020-02-22 20:46:49,0756|INFO|src/thread_manager/epollin_task.cpp:34|]>idrn: 0
+
+[2020-02-22 20:46:49,0756|INFO|src/thread_manager/epollin_task.cpp:35|]>desc: 
+
+[2020-02-22 20:46:49,0756|INFO|src/thread_manager/epollin_task.cpp:36|]>id: 0
+
+[2020-02-22 20:46:49,0756|INFO|src/thread_manager/epollin_task.cpp:37|]>num: 0
+
+[2020-02-22 20:46:49,0756|DEBUG|src/thread_manager/epollin_task.cpp:51|]>------------------------------
+
+[2020-02-22 20:46:49,0757|INFO|src/thread_manager/epollin_task.cpp:55|]>uuid: 0
+
+[2020-02-22 20:46:49,0757|INFO|src/thread_manager/epollin_task.cpp:56|]>identifier: 
+
+[2020-02-22 20:46:49,0757|INFO|src/thread_manager/epollin_task.cpp:57|]>pwd: 
+
+[2020-02-22 20:46:49,0757|INFO|src/thread_manager/epollin_task.cpp:66|]>139989942007616 epollin_task end...
+
+[2020-02-22 20:46:54,0767|INFO|src/main.cpp:113|]>client abnormal exit...
+
+[2020-02-22 20:46:54,1145|INFO|src/main.cpp:74|]>new connect...
+[2020-02-22 20:46:54,1146|INFO|src/main.cpp:82|]>>>47.103.33.128:37186<<
+
+[2020-02-22 20:46:54,1146|INFO|src/main.cpp:110|]>add new connect succ...
+
+[2020-02-22 20:46:54,1146|DEBUG|src/main.cpp:119|]>EPOLLIN event...
+
+[2020-02-22 20:46:54,1147|INFO|src/thread_manager/epollin_task.cpp:19|]>139989942007616 epollin_task begin...
+
+[2020-02-22 20:46:54,1147|DEBUG|src/operation/recvSocketData.cpp:25|]>EAGAIN...
+
+[2020-02-22 20:46:54,1147|INFO|src/operation/recvSocketData.cpp:55|]>recvSocketData succ...
+
+[2020-02-22 20:46:54,1147|INFO|src/thread_manager/epollin_task.cpp:34|]>idrn: 0
+
+[2020-02-22 20:46:54,1147|INFO|src/thread_manager/epollin_task.cpp:35|]>desc: 
+
+[2020-02-22 20:46:54,1147|INFO|src/thread_manager/epollin_task.cpp:36|]>id: 0
+
+[2020-02-22 20:46:54,1147|INFO|src/thread_manager/epollin_task.cpp:37|]>num: 0
+
+[2020-02-22 20:46:54,1148|DEBUG|src/thread_manager/epollin_task.cpp:51|]>------------------------------
+
+[2020-02-22 20:46:54,1148|INFO|src/thread_manager/epollin_task.cpp:55|]>uuid: 0
+
+[2020-02-22 20:46:54,1148|INFO|src/thread_manager/epollin_task.cpp:56|]>identifier: 
+
+[2020-02-22 20:46:54,1148|INFO|src/thread_manager/epollin_task.cpp:57|]>pwd: 
+
+[2020-02-22 20:46:54,1148|INFO|src/thread_manager/epollin_task.cpp:66|]>139989942007616 epollin_task end...
+
+[2020-02-22 20:46:59,1154|INFO|src/main.cpp:113|]>client abnormal exit...
+
+[2020-02-22 20:46:59,1495|INFO|src/main.cpp:74|]>new connect...
+[2020-02-22 20:46:59,1495|INFO|src/main.cpp:82|]>>>47.103.33.128:42754<<
+
+[2020-02-22 20:46:59,1496|INFO|src/main.cpp:110|]>add new connect succ...
+
+[2020-02-22 20:46:59,1496|DEBUG|src/main.cpp:119|]>EPOLLIN event...
+
+[2020-02-22 20:46:59,1497|INFO|src/thread_manager/epollin_task.cpp:19|]>139989942007616 epollin_task begin...
+
+[2020-02-22 20:46:59,1497|DEBUG|src/operation/recvSocketData.cpp:25|]>EAGAIN...
+
+[2020-02-22 20:46:59,1497|INFO|src/operation/recvSocketData.cpp:55|]>recvSocketData succ...
+
+[2020-02-22 20:46:59,1497|INFO|src/thread_manager/epollin_task.cpp:34|]>idrn: 0
+
+[2020-02-22 20:46:59,1498|INFO|src/thread_manager/epollin_task.cpp:35|]>desc: 
+
+[2020-02-22 20:46:59,1498|INFO|src/thread_manager/epollin_task.cpp:36|]>id: 0
+
+[2020-02-22 20:46:59,1498|INFO|src/thread_manager/epollin_task.cpp:37|]>num: 0
+
+[2020-02-22 20:46:59,1498|DEBUG|src/thread_manager/epollin_task.cpp:51|]>------------------------------
+
+[2020-02-22 20:46:59,1498|INFO|src/thread_manager/epollin_task.cpp:55|]>uuid: 0
+
+[2020-02-22 20:46:59,1498|INFO|src/thread_manager/epollin_task.cpp:56|]>identifier: 
+
+[2020-02-22 20:46:59,1499|INFO|src/thread_manager/epollin_task.cpp:57|]>pwd: 
+
+[2020-02-22 20:46:59,1499|INFO|src/thread_manager/epollin_task.cpp:66|]>139989942007616 epollin_task end...
+
+[2020-02-22 20:47:04,1512|INFO|src/main.cpp:113|]>client abnormal exit...
+
+[2020-02-22 20:47:04,1776|INFO|src/main.cpp:74|]>new connect...
+[2020-02-22 20:47:04,1777|INFO|src/main.cpp:82|]>>>47.103.33.128:46958<<
+
+[2020-02-22 20:47:04,1778|INFO|src/main.cpp:110|]>add new connect succ...
+
+[2020-02-22 20:47:04,1778|DEBUG|src/main.cpp:119|]>EPOLLIN event...
+
+[2020-02-22 20:47:04,1778|INFO|src/thread_manager/epollin_task.cpp:19|]>139989942007616 epollin_task begin...
+
+[2020-02-22 20:47:04,1779|DEBUG|src/operation/recvSocketData.cpp:25|]>EAGAIN...
+
+[2020-02-22 20:47:04,1779|INFO|src/operation/recvSocketData.cpp:55|]>recvSocketData succ...
+
+[2020-02-22 20:47:04,1779|INFO|src/thread_manager/epollin_task.cpp:34|]>idrn: 0
+
+[2020-02-22 20:47:04,1779|INFO|src/thread_manager/epollin_task.cpp:35|]>desc: 
+
+[2020-02-22 20:47:04,1779|INFO|src/thread_manager/epollin_task.cpp:36|]>id: 0
+
+[2020-02-22 20:47:04,1779|INFO|src/thread_manager/epollin_task.cpp:37|]>num: 0
+
+[2020-02-22 20:47:04,1780|DEBUG|src/thread_manager/epollin_task.cpp:51|]>------------------------------
+
+[2020-02-22 20:47:04,1780|INFO|src/thread_manager/epollin_task.cpp:55|]>uuid: 0
+
+[2020-02-22 20:47:04,1780|INFO|src/thread_manager/epollin_task.cpp:56|]>identifier: 
+
+[2020-02-22 20:47:04,1780|INFO|src/thread_manager/epollin_task.cpp:57|]>pwd: 
+
+[2020-02-22 20:47:04,1780|INFO|src/thread_manager/epollin_task.cpp:66|]>139989942007616 epollin_task end...
+
+[2020-02-22 20:47:09,1785|INFO|src/main.cpp:113|]>client abnormal exit...
+
+[2020-02-22 20:47:09,2110|INFO|src/main.cpp:74|]>new connect...
+[2020-02-22 20:47:09,2111|INFO|src/main.cpp:82|]>>>47.103.33.128:48500<<
+
+[2020-02-22 20:47:09,2111|INFO|src/main.cpp:110|]>add new connect succ...
+
+[2020-02-22 20:47:09,2111|DEBUG|src/main.cpp:119|]>EPOLLIN event...
+
+[2020-02-22 20:47:09,2112|INFO|src/thread_manager/epollin_task.cpp:19|]>139989942007616 epollin_task begin...
+
+[2020-02-22 20:47:09,2112|DEBUG|src/operation/recvSocketData.cpp:25|]>EAGAIN...
+
+[2020-02-22 20:47:09,2112|INFO|src/operation/recvSocketData.cpp:55|]>recvSocketData succ...
+
+[2020-02-22 20:47:09,2112|INFO|src/thread_manager/epollin_task.cpp:34|]>idrn: 0
+
+[2020-02-22 20:47:09,2112|INFO|src/thread_manager/epollin_task.cpp:35|]>desc: 
+
+[2020-02-22 20:47:09,2112|INFO|src/thread_manager/epollin_task.cpp:36|]>id: 0
+
+[2020-02-22 20:47:09,2112|INFO|src/thread_manager/epollin_task.cpp:37|]>num: 0
+
+[2020-02-22 20:47:09,2113|DEBUG|src/thread_manager/epollin_task.cpp:51|]>------------------------------
+
+[2020-02-22 20:47:09,2113|INFO|src/thread_manager/epollin_task.cpp:55|]>uuid: 0
+
+[2020-02-22 20:47:09,2113|INFO|src/thread_manager/epollin_task.cpp:56|]>identifier: 
+
+[2020-02-22 20:47:09,2113|INFO|src/thread_manager/epollin_task.cpp:57|]>pwd: 
+
+[2020-02-22 20:47:09,2113|INFO|src/thread_manager/epollin_task.cpp:66|]>139989942007616 epollin_task end...
+
+[2020-02-22 20:47:14,2113|INFO|src/main.cpp:113|]>client abnormal exit...
+
+[2020-02-22 20:47:14,2449|INFO|src/main.cpp:74|]>new connect...
+[2020-02-22 20:47:14,2451|INFO|src/main.cpp:82|]>>>47.103.33.128:57116<<
+
+[2020-02-22 20:47:14,2451|INFO|src/main.cpp:110|]>add new connect succ...
+
+[2020-02-22 20:47:14,2452|DEBUG|src/main.cpp:119|]>EPOLLIN event...
+
+[2020-02-22 20:47:14,2452|INFO|src/thread_manager/epollin_task.cpp:19|]>139989942007616 epollin_task begin...
+
+[2020-02-22 20:47:14,2452|DEBUG|src/operation/recvSocketData.cpp:25|]>EAGAIN...
+
+[2020-02-22 20:47:14,2452|INFO|src/operation/recvSocketData.cpp:55|]>recvSocketData succ...
+
+[2020-02-22 20:47:14,2452|INFO|src/thread_manager/epollin_task.cpp:34|]>idrn: 0
+
+[2020-02-22 20:47:14,2452|INFO|src/thread_manager/epollin_task.cpp:35|]>desc: 
+
+[2020-02-22 20:47:14,2452|INFO|src/thread_manager/epollin_task.cpp:36|]>id: 0
+
+[2020-02-22 20:47:14,2453|INFO|src/thread_manager/epollin_task.cpp:37|]>num: 0
+
+[2020-02-22 20:47:14,2453|DEBUG|src/thread_manager/epollin_task.cpp:51|]>------------------------------
+
+[2020-02-22 20:47:14,2453|INFO|src/thread_manager/epollin_task.cpp:55|]>uuid: 0
+
+[2020-02-22 20:47:14,2453|INFO|src/thread_manager/epollin_task.cpp:56|]>identifier: 
+
+[2020-02-22 20:47:14,2453|INFO|src/thread_manager/epollin_task.cpp:57|]>pwd: 
+
+[2020-02-22 20:47:14,2453|INFO|src/thread_manager/epollin_task.cpp:66|]>139989942007616 epollin_task end...
+
+[2020-02-22 20:47:19,2458|INFO|src/main.cpp:113|]>client abnormal exit...
+
+[2020-02-22 20:47:19,2776|INFO|src/main.cpp:74|]>new connect...
+[2020-02-22 20:47:19,2776|INFO|src/main.cpp:82|]>>>47.103.33.128:36594<<
+
+[2020-02-22 20:47:19,2777|INFO|src/main.cpp:110|]>add new connect succ...
+
+[2020-02-22 20:47:19,2777|DEBUG|src/main.cpp:119|]>EPOLLIN event...
+
+[2020-02-22 20:47:19,2777|INFO|src/thread_manager/epollin_task.cpp:19|]>139989942007616 epollin_task begin...
+
+[2020-02-22 20:47:19,2777|DEBUG|src/operation/recvSocketData.cpp:25|]>EAGAIN...
+
+[2020-02-22 20:47:19,2778|INFO|src/operation/recvSocketData.cpp:55|]>recvSocketData succ...
+
+[2020-02-22 20:47:19,2778|INFO|src/thread_manager/epollin_task.cpp:34|]>idrn: 0
+
+[2020-02-22 20:47:19,2778|INFO|src/thread_manager/epollin_task.cpp:35|]>desc: 
+
+[2020-02-22 20:47:19,2778|INFO|src/thread_manager/epollin_task.cpp:36|]>id: 0
+
+[2020-02-22 20:47:19,2778|INFO|src/thread_manager/epollin_task.cpp:37|]>num: 0
+
+[2020-02-22 20:47:19,2778|DEBUG|src/thread_manager/epollin_task.cpp:51|]>------------------------------
+
+[2020-02-22 20:47:19,2779|INFO|src/thread_manager/epollin_task.cpp:55|]>uuid: 0
+
+[2020-02-22 20:47:19,2779|INFO|src/thread_manager/epollin_task.cpp:56|]>identifier: 
+
+[2020-02-22 20:47:19,2779|INFO|src/thread_manager/epollin_task.cpp:57|]>pwd: 
+
+[2020-02-22 20:47:19,2779|INFO|src/thread_manager/epollin_task.cpp:66|]>139989942007616 epollin_task end...
+
+[2020-02-22 20:47:24,2781|INFO|src/main.cpp:113|]>client abnormal exit...
+
+[2020-02-22 20:47:24,3074|INFO|src/main.cpp:74|]>new connect...
+[2020-02-22 20:47:24,3075|INFO|src/main.cpp:82|]>>>47.103.33.128:41902<<
+
+[2020-02-22 20:47:24,3075|INFO|src/main.cpp:110|]>add new connect succ...
+
+[2020-02-22 20:47:24,3076|DEBUG|src/main.cpp:119|]>EPOLLIN event...
+
+[2020-02-22 20:47:24,3076|INFO|src/thread_manager/epollin_task.cpp:19|]>139989942007616 epollin_task begin...
+
+[2020-02-22 20:47:24,3076|DEBUG|src/operation/recvSocketData.cpp:25|]>EAGAIN...
+
+[2020-02-22 20:47:24,3076|INFO|src/operation/recvSocketData.cpp:55|]>recvSocketData succ...
+
+[2020-02-22 20:47:24,3076|INFO|src/thread_manager/epollin_task.cpp:34|]>idrn: 0
+
+[2020-02-22 20:47:24,3077|INFO|src/thread_manager/epollin_task.cpp:35|]>desc: 
+
+[2020-02-22 20:47:24,3077|INFO|src/thread_manager/epollin_task.cpp:36|]>id: 0
+
+[2020-02-22 20:47:24,3077|INFO|src/thread_manager/epollin_task.cpp:37|]>num: 0
+
+[2020-02-22 20:47:24,3077|DEBUG|src/thread_manager/epollin_task.cpp:51|]>------------------------------
+
+[2020-02-22 20:47:24,3078|INFO|src/thread_manager/epollin_task.cpp:55|]>uuid: 0
+
+[2020-02-22 20:47:24,3078|INFO|src/thread_manager/epollin_task.cpp:56|]>identifier: 
+
+[2020-02-22 20:47:24,3078|INFO|src/thread_manager/epollin_task.cpp:57|]>pwd: 
+
+[2020-02-22 20:47:24,3078|INFO|src/thread_manager/epollin_task.cpp:66|]>139989942007616 epollin_task end...
+
+[2020-02-22 20:47:29,3081|INFO|src/main.cpp:113|]>client abnormal exit...
+
+[2020-02-22 20:47:29,3340|INFO|src/main.cpp:74|]>new connect...
+[2020-02-22 20:47:29,3340|INFO|src/main.cpp:82|]>>>47.103.33.128:52894<<
+
+[2020-02-22 20:47:29,3341|INFO|src/main.cpp:110|]>add new connect succ...
+
+[2020-02-22 20:47:29,3341|DEBUG|src/main.cpp:119|]>EPOLLIN event...
+
+[2020-02-22 20:47:29,3341|INFO|src/thread_manager/epollin_task.cpp:19|]>139989942007616 epollin_task begin...
+
+[2020-02-22 20:47:29,3341|DEBUG|src/operation/recvSocketData.cpp:25|]>EAGAIN...
+
+[2020-02-22 20:47:29,3342|INFO|src/operation/recvSocketData.cpp:55|]>recvSocketData succ...
+
+[2020-02-22 20:47:29,3342|INFO|src/thread_manager/epollin_task.cpp:34|]>idrn: 0
+
+[2020-02-22 20:47:29,3342|INFO|src/thread_manager/epollin_task.cpp:35|]>desc: 
+
+[2020-02-22 20:47:29,3342|INFO|src/thread_manager/epollin_task.cpp:36|]>id: 0
+
+[2020-02-22 20:47:29,3342|INFO|src/thread_manager/epollin_task.cpp:37|]>num: 0
+
+[2020-02-22 20:47:29,3342|DEBUG|src/thread_manager/epollin_task.cpp:51|]>------------------------------
+
+[2020-02-22 20:47:29,3343|INFO|src/thread_manager/epollin_task.cpp:55|]>uuid: 0
+
+[2020-02-22 20:47:29,3343|INFO|src/thread_manager/epollin_task.cpp:56|]>identifier: 
+
+[2020-02-22 20:47:29,3343|INFO|src/thread_manager/epollin_task.cpp:57|]>pwd: 
+
+[2020-02-22 20:47:29,3343|INFO|src/thread_manager/epollin_task.cpp:66|]>139989942007616 epollin_task end...
+
+[2020-02-22 20:47:34,3349|INFO|src/main.cpp:113|]>client abnormal exit...
+
+[2020-02-22 20:47:34,3646|INFO|src/main.cpp:74|]>new connect...
+[2020-02-22 20:47:34,3647|INFO|src/main.cpp:82|]>>>47.103.33.128:56026<<
+
+[2020-02-22 20:47:34,3647|INFO|src/main.cpp:110|]>add new connect succ...
+
+[2020-02-22 20:47:34,3647|DEBUG|src/main.cpp:119|]>EPOLLIN event...
+
+[2020-02-22 20:47:34,3648|INFO|src/thread_manager/epollin_task.cpp:19|]>139989942007616 epollin_task begin...
+
+[2020-02-22 20:47:34,3648|DEBUG|src/operation/recvSocketData.cpp:25|]>EAGAIN...
+
+[2020-02-22 20:47:34,3648|INFO|src/operation/recvSocketData.cpp:55|]>recvSocketData succ...
+
+[2020-02-22 20:47:34,3648|INFO|src/thread_manager/epollin_task.cpp:34|]>idrn: 0
+
+[2020-02-22 20:47:34,3648|INFO|src/thread_manager/epollin_task.cpp:35|]>desc: 
+
+[2020-02-22 20:47:34,3648|INFO|src/thread_manager/epollin_task.cpp:36|]>id: 0
+
+[2020-02-22 20:47:34,3649|INFO|src/thread_manager/epollin_task.cpp:37|]>num: 0
+
+[2020-02-22 20:47:34,3649|DEBUG|src/thread_manager/epollin_task.cpp:51|]>------------------------------
+
+[2020-02-22 20:47:34,3649|INFO|src/thread_manager/epollin_task.cpp:55|]>uuid: 0
+
+[2020-02-22 20:47:34,3649|INFO|src/thread_manager/epollin_task.cpp:56|]>identifier: 
+
+[2020-02-22 20:47:34,3649|INFO|src/thread_manager/epollin_task.cpp:57|]>pwd: 
+
+[2020-02-22 20:47:34,3649|INFO|src/thread_manager/epollin_task.cpp:66|]>139989942007616 epollin_task end...
+
+[2020-02-22 20:47:39,3651|INFO|src/main.cpp:113|]>client abnormal exit...
+
+[2020-02-22 20:47:39,3960|INFO|src/main.cpp:74|]>new connect...
+[2020-02-22 20:47:39,3961|INFO|src/main.cpp:82|]>>>47.103.33.128:57682<<
+
+[2020-02-22 20:47:39,3961|INFO|src/main.cpp:110|]>add new connect succ...
+
+[2020-02-22 20:47:39,3962|DEBUG|src/main.cpp:119|]>EPOLLIN event...
+
+[2020-02-22 20:47:39,3962|INFO|src/thread_manager/epollin_task.cpp:19|]>139989942007616 epollin_task begin...
+
+[2020-02-22 20:47:39,3962|DEBUG|src/operation/recvSocketData.cpp:25|]>EAGAIN...
+
+[2020-02-22 20:47:39,3962|INFO|src/operation/recvSocketData.cpp:55|]>recvSocketData succ...
+
+[2020-02-22 20:47:39,3962|INFO|src/thread_manager/epollin_task.cpp:34|]>idrn: 0
+
+[2020-02-22 20:47:39,3963|INFO|src/thread_manager/epollin_task.cpp:35|]>desc: 
+
+[2020-02-22 20:47:39,3963|INFO|src/thread_manager/epollin_task.cpp:36|]>id: 0
+
+[2020-02-22 20:47:39,3963|INFO|src/thread_manager/epollin_task.cpp:37|]>num: 0
+
+[2020-02-22 20:47:39,3963|DEBUG|src/thread_manager/epollin_task.cpp:51|]>------------------------------
+
+[2020-02-22 20:47:39,3963|INFO|src/thread_manager/epollin_task.cpp:55|]>uuid: 0
+
+[2020-02-22 20:47:39,3963|INFO|src/thread_manager/epollin_task.cpp:56|]>identifier: 
+
+[2020-02-22 20:47:39,3964|INFO|src/thread_manager/epollin_task.cpp:57|]>pwd: 
+
+[2020-02-22 20:47:39,3964|INFO|src/thread_manager/epollin_task.cpp:66|]>139989942007616 epollin_task end...
+
+[2020-02-22 20:47:44,3969|INFO|src/main.cpp:113|]>client abnormal exit...
+
+[2020-02-22 20:47:44,4235|INFO|src/main.cpp:74|]>new connect...
+[2020-02-22 20:47:44,4236|INFO|src/main.cpp:82|]>>>47.103.33.128:39908<<
+
+[2020-02-22 20:47:44,4236|INFO|src/main.cpp:110|]>add new connect succ...
+
+[2020-02-22 20:47:44,4237|DEBUG|src/main.cpp:119|]>EPOLLIN event...
+
+[2020-02-22 20:47:44,4237|INFO|src/thread_manager/epollin_task.cpp:19|]>139989942007616 epollin_task begin...
+
+[2020-02-22 20:47:44,4237|DEBUG|src/operation/recvSocketData.cpp:25|]>EAGAIN...
+
+[2020-02-22 20:47:44,4237|INFO|src/operation/recvSocketData.cpp:55|]>recvSocketData succ...
+
+[2020-02-22 20:47:44,4237|INFO|src/thread_manager/epollin_task.cpp:34|]>idrn: 0
+
+[2020-02-22 20:47:44,4238|INFO|src/thread_manager/epollin_task.cpp:35|]>desc: 
+
+[2020-02-22 20:47:44,4238|INFO|src/thread_manager/epollin_task.cpp:36|]>id: 0
+
+[2020-02-22 20:47:44,4238|INFO|src/thread_manager/epollin_task.cpp:37|]>num: 0
+
+[2020-02-22 20:47:44,4238|DEBUG|src/thread_manager/epollin_task.cpp:51|]>------------------------------
+
+[2020-02-22 20:47:44,4238|INFO|src/thread_manager/epollin_task.cpp:55|]>uuid: 0
+
+[2020-02-22 20:47:44,4238|INFO|src/thread_manager/epollin_task.cpp:56|]>identifier: 
+
+[2020-02-22 20:47:44,4238|INFO|src/thread_manager/epollin_task.cpp:57|]>pwd: 
+
+[2020-02-22 20:47:44,4238|INFO|src/thread_manager/epollin_task.cpp:66|]>139989942007616 epollin_task end...
+
+[2020-02-22 20:47:49,4236|INFO|src/main.cpp:113|]>client abnormal exit...
+
+[2020-02-22 20:47:49,4548|INFO|src/main.cpp:74|]>new connect...
+[2020-02-22 20:47:49,4548|INFO|src/main.cpp:82|]>>>47.103.33.128:49618<<
+
+[2020-02-22 20:47:49,4549|INFO|src/main.cpp:110|]>add new connect succ...
+
+[2020-02-22 20:47:49,4549|DEBUG|src/main.cpp:119|]>EPOLLIN event...
+
+[2020-02-22 20:47:49,4549|INFO|src/thread_manager/epollin_task.cpp:19|]>139989942007616 epollin_task begin...
+
+[2020-02-22 20:47:49,4549|DEBUG|src/operation/recvSocketData.cpp:25|]>EAGAIN...
+
+[2020-02-22 20:47:49,4550|INFO|src/operation/recvSocketData.cpp:55|]>recvSocketData succ...
+
+[2020-02-22 20:47:49,4550|INFO|src/thread_manager/epollin_task.cpp:34|]>idrn: 0
+
+[2020-02-22 20:47:49,4550|INFO|src/thread_manager/epollin_task.cpp:35|]>desc: 
+
+[2020-02-22 20:47:49,4550|INFO|src/thread_manager/epollin_task.cpp:36|]>id: 0
+
+[2020-02-22 20:47:49,4550|INFO|src/thread_manager/epollin_task.cpp:37|]>num: 0
+
+[2020-02-22 20:47:49,4550|DEBUG|src/thread_manager/epollin_task.cpp:51|]>------------------------------
+
+[2020-02-22 20:47:49,4550|INFO|src/thread_manager/epollin_task.cpp:55|]>uuid: 0
+
+[2020-02-22 20:47:49,4551|INFO|src/thread_manager/epollin_task.cpp:56|]>identifier: 
+
+[2020-02-22 20:47:49,4551|INFO|src/thread_manager/epollin_task.cpp:57|]>pwd: 
+
+[2020-02-22 20:47:49,4551|INFO|src/thread_manager/epollin_task.cpp:66|]>139989942007616 epollin_task end...
+
+[2020-02-22 20:47:54,4552|INFO|src/main.cpp:113|]>client abnormal exit...
+
+[2020-02-22 20:47:54,4854|INFO|src/main.cpp:74|]>new connect...
+[2020-02-22 20:47:54,4854|INFO|src/main.cpp:82|]>>>47.103.33.128:54280<<
+
+[2020-02-22 20:47:54,4855|INFO|src/main.cpp:110|]>add new connect succ...
+
+[2020-02-22 20:47:54,4855|DEBUG|src/main.cpp:119|]>EPOLLIN event...
+
+[2020-02-22 20:47:54,4856|INFO|src/thread_manager/epollin_task.cpp:19|]>139989942007616 epollin_task begin...
+
+[2020-02-22 20:47:54,4856|DEBUG|src/operation/recvSocketData.cpp:25|]>EAGAIN...
+
+[2020-02-22 20:47:54,4856|INFO|src/operation/recvSocketData.cpp:55|]>recvSocketData succ...
+
+[2020-02-22 20:47:54,4856|INFO|src/thread_manager/epollin_task.cpp:34|]>idrn: 0
+
+[2020-02-22 20:47:54,4856|INFO|src/thread_manager/epollin_task.cpp:35|]>desc: 
+
+[2020-02-22 20:47:54,4856|INFO|src/thread_manager/epollin_task.cpp:36|]>id: 0
+
+[2020-02-22 20:47:54,4857|INFO|src/thread_manager/epollin_task.cpp:37|]>num: 0
+
+[2020-02-22 20:47:54,4857|DEBUG|src/thread_manager/epollin_task.cpp:51|]>------------------------------
+
+[2020-02-22 20:47:54,4857|INFO|src/thread_manager/epollin_task.cpp:55|]>uuid: 0
+
+[2020-02-22 20:47:54,4857|INFO|src/thread_manager/epollin_task.cpp:56|]>identifier: 
+
+[2020-02-22 20:47:54,4857|INFO|src/thread_manager/epollin_task.cpp:57|]>pwd: 
+
+[2020-02-22 20:47:54,4857|INFO|src/thread_manager/epollin_task.cpp:66|]>139989942007616 epollin_task end...
+
+[2020-02-22 20:47:59,4855|INFO|src/main.cpp:113|]>client abnormal exit...
+
+[2020-02-22 20:47:59,5153|INFO|src/main.cpp:74|]>new connect...
+[2020-02-22 20:47:59,5154|INFO|src/main.cpp:82|]>>>47.103.33.128:34404<<
+
+[2020-02-22 20:47:59,5154|INFO|src/main.cpp:110|]>add new connect succ...
+
+[2020-02-22 20:47:59,5155|DEBUG|src/main.cpp:119|]>EPOLLIN event...
+
+[2020-02-22 20:47:59,5155|INFO|src/thread_manager/epollin_task.cpp:19|]>139989942007616 epollin_task begin...
+
+[2020-02-22 20:47:59,5155|DEBUG|src/operation/recvSocketData.cpp:25|]>EAGAIN...
+
+[2020-02-22 20:47:59,5156|INFO|src/operation/recvSocketData.cpp:55|]>recvSocketData succ...
+
+[2020-02-22 20:47:59,5156|INFO|src/thread_manager/epollin_task.cpp:34|]>idrn: 0
+
+[2020-02-22 20:47:59,5156|INFO|src/thread_manager/epollin_task.cpp:35|]>desc: 
+
+[2020-02-22 20:47:59,5156|INFO|src/thread_manager/epollin_task.cpp:36|]>id: 0
+
+[2020-02-22 20:47:59,5156|INFO|src/thread_manager/epollin_task.cpp:37|]>num: 0
+
+[2020-02-22 20:47:59,5156|DEBUG|src/thread_manager/epollin_task.cpp:51|]>------------------------------
+
+[2020-02-22 20:47:59,5157|INFO|src/thread_manager/epollin_task.cpp:55|]>uuid: 0
+
+[2020-02-22 20:47:59,5157|INFO|src/thread_manager/epollin_task.cpp:56|]>identifier: 
+
+[2020-02-22 20:47:59,5157|INFO|src/thread_manager/epollin_task.cpp:57|]>pwd: 
+
+[2020-02-22 20:47:59,5157|INFO|src/thread_manager/epollin_task.cpp:66|]>139989942007616 epollin_task end...
+
+[2020-02-22 20:48:04,5163|INFO|src/main.cpp:113|]>client abnormal exit...
+
+[2020-02-22 20:48:04,5452|INFO|src/main.cpp:74|]>new connect...
+[2020-02-22 20:48:04,5452|INFO|src/main.cpp:82|]>>>47.103.33.128:55148<<
+
+[2020-02-22 20:48:04,5453|INFO|src/main.cpp:110|]>add new connect succ...
+
+[2020-02-22 20:48:04,5453|DEBUG|src/main.cpp:119|]>EPOLLIN event...
+
+[2020-02-22 20:48:04,5453|INFO|src/thread_manager/epollin_task.cpp:19|]>139989942007616 epollin_task begin...
+
+[2020-02-22 20:48:04,5453|DEBUG|src/operation/recvSocketData.cpp:25|]>EAGAIN...
+
+[2020-02-22 20:48:04,5454|INFO|src/operation/recvSocketData.cpp:55|]>recvSocketData succ...
+
+[2020-02-22 20:48:04,5454|INFO|src/thread_manager/epollin_task.cpp:34|]>idrn: 0
+
+[2020-02-22 20:48:04,5454|INFO|src/thread_manager/epollin_task.cpp:35|]>desc: 
+
+[2020-02-22 20:48:04,5454|INFO|src/thread_manager/epollin_task.cpp:36|]>id: 0
+
+[2020-02-22 20:48:04,5454|INFO|src/thread_manager/epollin_task.cpp:37|]>num: 0
+
+[2020-02-22 20:48:04,5454|DEBUG|src/thread_manager/epollin_task.cpp:51|]>------------------------------
+
+[2020-02-22 20:48:04,5454|INFO|src/thread_manager/epollin_task.cpp:55|]>uuid: 0
+
+[2020-02-22 20:48:04,5455|INFO|src/thread_manager/epollin_task.cpp:56|]>identifier: 
+
+[2020-02-22 20:48:04,5455|INFO|src/thread_manager/epollin_task.cpp:57|]>pwd: 
+
+[2020-02-22 20:48:04,5455|INFO|src/thread_manager/epollin_task.cpp:66|]>139989942007616 epollin_task end...
+
+[2020-02-22 20:48:09,5456|INFO|src/main.cpp:113|]>client abnormal exit...
+
+[2020-02-22 20:48:09,5712|INFO|src/main.cpp:74|]>new connect...
+[2020-02-22 20:48:09,5712|INFO|src/main.cpp:82|]>>>47.103.33.128:34552<<
+
+[2020-02-22 20:48:09,5713|INFO|src/main.cpp:110|]>add new connect succ...
+
+[2020-02-22 20:48:09,5713|DEBUG|src/main.cpp:119|]>EPOLLIN event...
+
+[2020-02-22 20:48:09,5713|INFO|src/thread_manager/epollin_task.cpp:19|]>139989942007616 epollin_task begin...
+
+[2020-02-22 20:48:09,5714|DEBUG|src/operation/recvSocketData.cpp:25|]>EAGAIN...
+
+[2020-02-22 20:48:09,5714|INFO|src/operation/recvSocketData.cpp:55|]>recvSocketData succ...
+
+[2020-02-22 20:48:09,5714|INFO|src/thread_manager/epollin_task.cpp:34|]>idrn: 0
+
+[2020-02-22 20:48:09,5715|INFO|src/thread_manager/epollin_task.cpp:35|]>desc: 
+
+[2020-02-22 20:48:09,5715|INFO|src/thread_manager/epollin_task.cpp:36|]>id: 0
+
+[2020-02-22 20:48:09,5715|INFO|src/thread_manager/epollin_task.cpp:37|]>num: 0
+
+[2020-02-22 20:48:09,5715|DEBUG|src/thread_manager/epollin_task.cpp:51|]>------------------------------
+
+[2020-02-22 20:48:09,5716|INFO|src/thread_manager/epollin_task.cpp:55|]>uuid: 0
+
+[2020-02-22 20:48:09,5716|INFO|src/thread_manager/epollin_task.cpp:56|]>identifier: 
+
+[2020-02-22 20:48:09,5716|INFO|src/thread_manager/epollin_task.cpp:57|]>pwd: 
+
+[2020-02-22 20:48:09,5716|INFO|src/thread_manager/epollin_task.cpp:66|]>139989942007616 epollin_task end...
+
+[2020-02-22 20:48:14,5718|INFO|src/main.cpp:113|]>client abnormal exit...
+
+[2020-02-22 20:48:14,6016|INFO|src/main.cpp:74|]>new connect...
+[2020-02-22 20:48:14,6017|INFO|src/main.cpp:82|]>>>47.103.33.128:47118<<
+
+[2020-02-22 20:48:14,6017|INFO|src/main.cpp:110|]>add new connect succ...
+
+[2020-02-22 20:48:14,6018|DEBUG|src/main.cpp:119|]>EPOLLIN event...
+
+[2020-02-22 20:48:14,6018|INFO|src/thread_manager/epollin_task.cpp:19|]>139989942007616 epollin_task begin...
+
+[2020-02-22 20:48:14,6018|DEBUG|src/operation/recvSocketData.cpp:25|]>EAGAIN...
+
+[2020-02-22 20:48:14,6018|INFO|src/operation/recvSocketData.cpp:55|]>recvSocketData succ...
+
+[2020-02-22 20:48:14,6018|INFO|src/thread_manager/epollin_task.cpp:34|]>idrn: 0
+
+[2020-02-22 20:48:14,6018|INFO|src/thread_manager/epollin_task.cpp:35|]>desc: 
+
+[2020-02-22 20:48:14,6019|INFO|src/thread_manager/epollin_task.cpp:36|]>id: 0
+
+[2020-02-22 20:48:14,6019|INFO|src/thread_manager/epollin_task.cpp:37|]>num: 0
+
+[2020-02-22 20:48:14,6019|DEBUG|src/thread_manager/epollin_task.cpp:51|]>------------------------------
+
+[2020-02-22 20:48:14,6019|INFO|src/thread_manager/epollin_task.cpp:55|]>uuid: 0
+
+[2020-02-22 20:48:14,6019|INFO|src/thread_manager/epollin_task.cpp:56|]>identifier: 
+
+[2020-02-22 20:48:14,6019|INFO|src/thread_manager/epollin_task.cpp:57|]>pwd: 
+
+[2020-02-22 20:48:14,6019|INFO|src/thread_manager/epollin_task.cpp:66|]>139989942007616 epollin_task end...
+
+[2020-02-22 20:48:19,6023|INFO|src/main.cpp:113|]>client abnormal exit...
+
+[2020-02-22 20:48:19,6358|INFO|src/main.cpp:74|]>new connect...
+[2020-02-22 20:48:19,6359|INFO|src/main.cpp:82|]>>>47.103.33.128:35676<<
+
+[2020-02-22 20:48:19,6359|INFO|src/main.cpp:110|]>add new connect succ...
+
+[2020-02-22 20:48:19,6359|DEBUG|src/main.cpp:119|]>EPOLLIN event...
+
+[2020-02-22 20:48:19,6359|INFO|src/thread_manager/epollin_task.cpp:19|]>139989942007616 epollin_task begin...
+
+[2020-02-22 20:48:19,6360|DEBUG|src/operation/recvSocketData.cpp:25|]>EAGAIN...
+
+[2020-02-22 20:48:19,6360|INFO|src/operation/recvSocketData.cpp:55|]>recvSocketData succ...
+
+[2020-02-22 20:48:19,6360|INFO|src/thread_manager/epollin_task.cpp:34|]>idrn: 0
+
+[2020-02-22 20:48:19,6360|INFO|src/thread_manager/epollin_task.cpp:35|]>desc: 
+
+[2020-02-22 20:48:19,6360|INFO|src/thread_manager/epollin_task.cpp:36|]>id: 0
+
+[2020-02-22 20:48:19,6360|INFO|src/thread_manager/epollin_task.cpp:37|]>num: 0
+
+[2020-02-22 20:48:19,6360|DEBUG|src/thread_manager/epollin_task.cpp:51|]>------------------------------
+
+[2020-02-22 20:48:19,6360|INFO|src/thread_manager/epollin_task.cpp:55|]>uuid: 0
+
+[2020-02-22 20:48:19,6361|INFO|src/thread_manager/epollin_task.cpp:56|]>identifier: 
+
+[2020-02-22 20:48:19,6361|INFO|src/thread_manager/epollin_task.cpp:57|]>pwd: 
+
+[2020-02-22 20:48:19,6361|INFO|src/thread_manager/epollin_task.cpp:66|]>139989942007616 epollin_task end...
+
+[2020-02-22 20:48:24,6361|INFO|src/main.cpp:113|]>client abnormal exit...
+
+[2020-02-22 20:48:24,6683|INFO|src/main.cpp:74|]>new connect...
+[2020-02-22 20:48:24,6683|INFO|src/main.cpp:82|]>>>47.103.33.128:42978<<
+
+[2020-02-22 20:48:24,6684|INFO|src/main.cpp:110|]>add new connect succ...
+
+[2020-02-22 20:48:24,6684|DEBUG|src/main.cpp:119|]>EPOLLIN event...
+
+[2020-02-22 20:48:24,6684|INFO|src/thread_manager/epollin_task.cpp:19|]>139989942007616 epollin_task begin...
+
+[2020-02-22 20:48:24,6685|DEBUG|src/operation/recvSocketData.cpp:25|]>EAGAIN...
+
+[2020-02-22 20:48:24,6685|INFO|src/operation/recvSocketData.cpp:55|]>recvSocketData succ...
+
+[2020-02-22 20:48:24,6685|INFO|src/thread_manager/epollin_task.cpp:34|]>idrn: 0
+
+[2020-02-22 20:48:24,6685|INFO|src/thread_manager/epollin_task.cpp:35|]>desc: 
+
+[2020-02-22 20:48:24,6685|INFO|src/thread_manager/epollin_task.cpp:36|]>id: 0
+
+[2020-02-22 20:48:24,6685|INFO|src/thread_manager/epollin_task.cpp:37|]>num: 0
+
+[2020-02-22 20:48:24,6686|DEBUG|src/thread_manager/epollin_task.cpp:51|]>------------------------------
+
+[2020-02-22 20:48:24,6686|INFO|src/thread_manager/epollin_task.cpp:55|]>uuid: 0
+
+[2020-02-22 20:48:24,6686|INFO|src/thread_manager/epollin_task.cpp:56|]>identifier: 
+
+[2020-02-22 20:48:24,6686|INFO|src/thread_manager/epollin_task.cpp:57|]>pwd: 
+
+[2020-02-22 20:48:24,6686|INFO|src/thread_manager/epollin_task.cpp:66|]>139989942007616 epollin_task end...
+
+[2020-02-22 20:48:29,6694|INFO|src/main.cpp:113|]>client abnormal exit...
+
+[2020-02-22 20:48:29,6988|INFO|src/main.cpp:74|]>new connect...
+[2020-02-22 20:48:29,6989|INFO|src/main.cpp:82|]>>>47.103.33.128:54924<<
+
+[2020-02-22 20:48:29,6990|INFO|src/main.cpp:110|]>add new connect succ...
+
+[2020-02-22 20:48:29,6990|DEBUG|src/main.cpp:119|]>EPOLLIN event...
+
+[2020-02-22 20:48:29,6990|INFO|src/thread_manager/epollin_task.cpp:19|]>139989942007616 epollin_task begin...
+
+[2020-02-22 20:48:29,6991|DEBUG|src/operation/recvSocketData.cpp:25|]>EAGAIN...
+
+[2020-02-22 20:48:29,6991|INFO|src/operation/recvSocketData.cpp:55|]>recvSocketData succ...
+
+[2020-02-22 20:48:29,6991|INFO|src/thread_manager/epollin_task.cpp:34|]>idrn: 0
+
+[2020-02-22 20:48:29,6991|INFO|src/thread_manager/epollin_task.cpp:35|]>desc: 
+
+[2020-02-22 20:48:29,6991|INFO|src/thread_manager/epollin_task.cpp:36|]>id: 0
+
+[2020-02-22 20:48:29,6991|INFO|src/thread_manager/epollin_task.cpp:37|]>num: 0
+
+[2020-02-22 20:48:29,6992|DEBUG|src/thread_manager/epollin_task.cpp:51|]>------------------------------
+
+[2020-02-22 20:48:29,6992|INFO|src/thread_manager/epollin_task.cpp:55|]>uuid: 0
+
+[2020-02-22 20:48:29,6992|INFO|src/thread_manager/epollin_task.cpp:56|]>identifier: 
+
+[2020-02-22 20:48:29,6992|INFO|src/thread_manager/epollin_task.cpp:57|]>pwd: 
+
+[2020-02-22 20:48:29,6992|INFO|src/thread_manager/epollin_task.cpp:66|]>139989942007616 epollin_task end...
+
+[2020-02-22 20:48:34,6993|INFO|src/main.cpp:113|]>client abnormal exit...
+
+[2020-02-22 20:48:34,7316|INFO|src/main.cpp:74|]>new connect...
+[2020-02-22 20:48:34,7317|INFO|src/main.cpp:82|]>>>47.103.33.128:34128<<
+
+[2020-02-22 20:48:34,7317|INFO|src/main.cpp:110|]>add new connect succ...
+
+[2020-02-22 20:48:34,7317|DEBUG|src/main.cpp:119|]>EPOLLIN event...
+
+[2020-02-22 20:48:34,7317|INFO|src/thread_manager/epollin_task.cpp:19|]>139989942007616 epollin_task begin...
+
+[2020-02-22 20:48:34,7318|DEBUG|src/operation/recvSocketData.cpp:25|]>EAGAIN...
+
+[2020-02-22 20:48:34,7318|INFO|src/operation/recvSocketData.cpp:55|]>recvSocketData succ...
+
+[2020-02-22 20:48:34,7318|INFO|src/thread_manager/epollin_task.cpp:34|]>idrn: 0
+
+[2020-02-22 20:48:34,7318|INFO|src/thread_manager/epollin_task.cpp:35|]>desc: 
+
+[2020-02-22 20:48:34,7318|INFO|src/thread_manager/epollin_task.cpp:36|]>id: 0
+
+[2020-02-22 20:48:34,7319|INFO|src/thread_manager/epollin_task.cpp:37|]>num: 0
+
+[2020-02-22 20:48:34,7319|DEBUG|src/thread_manager/epollin_task.cpp:51|]>------------------------------
+
+[2020-02-22 20:48:34,7319|INFO|src/thread_manager/epollin_task.cpp:55|]>uuid: 0
+
+[2020-02-22 20:48:34,7319|INFO|src/thread_manager/epollin_task.cpp:56|]>identifier: 
+
+[2020-02-22 20:48:34,7319|INFO|src/thread_manager/epollin_task.cpp:57|]>pwd: 
+
+[2020-02-22 20:48:34,7319|INFO|src/thread_manager/epollin_task.cpp:66|]>139989942007616 epollin_task end...
+
+[2020-02-22 20:48:39,7326|INFO|src/main.cpp:113|]>client abnormal exit...
+
+[2020-02-22 20:48:39,7596|INFO|src/main.cpp:74|]>new connect...
+[2020-02-22 20:48:39,7597|INFO|src/main.cpp:82|]>>>47.103.33.128:44688<<
+
+[2020-02-22 20:48:39,7598|INFO|src/main.cpp:110|]>add new connect succ...
+
+[2020-02-22 20:48:39,7598|DEBUG|src/main.cpp:119|]>EPOLLIN event...
+
+[2020-02-22 20:48:39,7598|INFO|src/thread_manager/epollin_task.cpp:19|]>139989942007616 epollin_task begin...
+
+[2020-02-22 20:48:39,7598|DEBUG|src/operation/recvSocketData.cpp:25|]>EAGAIN...
+
+[2020-02-22 20:48:39,7598|INFO|src/operation/recvSocketData.cpp:55|]>recvSocketData succ...
+
+[2020-02-22 20:48:39,7599|INFO|src/thread_manager/epollin_task.cpp:34|]>idrn: 0
+
+[2020-02-22 20:48:39,7599|INFO|src/thread_manager/epollin_task.cpp:35|]>desc: 
+
+[2020-02-22 20:48:39,7599|INFO|src/thread_manager/epollin_task.cpp:36|]>id: 0
+
+[2020-02-22 20:48:39,7599|INFO|src/thread_manager/epollin_task.cpp:37|]>num: 0
+
+[2020-02-22 20:48:39,7599|DEBUG|src/thread_manager/epollin_task.cpp:51|]>------------------------------
+
+[2020-02-22 20:48:39,7599|INFO|src/thread_manager/epollin_task.cpp:55|]>uuid: 0
+
+[2020-02-22 20:48:39,7599|INFO|src/thread_manager/epollin_task.cpp:56|]>identifier: 
+
+[2020-02-22 20:48:39,7600|INFO|src/thread_manager/epollin_task.cpp:57|]>pwd: 
+
+[2020-02-22 20:48:39,7600|INFO|src/thread_manager/epollin_task.cpp:66|]>139989942007616 epollin_task end...
+
+[2020-02-22 20:48:44,7599|INFO|src/main.cpp:113|]>client abnormal exit...
+
+[2020-02-22 20:48:44,7913|INFO|src/main.cpp:74|]>new connect...
+[2020-02-22 20:48:44,7913|INFO|src/main.cpp:82|]>>>47.103.33.128:51936<<
+
+[2020-02-22 20:48:44,7914|INFO|src/main.cpp:110|]>add new connect succ...
+
+[2020-02-22 20:48:44,7914|DEBUG|src/main.cpp:119|]>EPOLLIN event...
+
+[2020-02-22 20:48:44,7914|INFO|src/thread_manager/epollin_task.cpp:19|]>139989942007616 epollin_task begin...
+
+[2020-02-22 20:48:44,7914|DEBUG|src/operation/recvSocketData.cpp:25|]>EAGAIN...
+
+[2020-02-22 20:48:44,7914|INFO|src/operation/recvSocketData.cpp:55|]>recvSocketData succ...
+
+[2020-02-22 20:48:44,7915|INFO|src/thread_manager/epollin_task.cpp:34|]>idrn: 0
+
+[2020-02-22 20:48:44,7915|INFO|src/thread_manager/epollin_task.cpp:35|]>desc: 
+
+[2020-02-22 20:48:44,7915|INFO|src/thread_manager/epollin_task.cpp:36|]>id: 0
+
+[2020-02-22 20:48:44,7915|INFO|src/thread_manager/epollin_task.cpp:37|]>num: 0
+
+[2020-02-22 20:48:44,7915|DEBUG|src/thread_manager/epollin_task.cpp:51|]>------------------------------
+
+[2020-02-22 20:48:44,7915|INFO|src/thread_manager/epollin_task.cpp:55|]>uuid: 0
+
+[2020-02-22 20:48:44,7915|INFO|src/thread_manager/epollin_task.cpp:56|]>identifier: 
+
+[2020-02-22 20:48:44,7916|INFO|src/thread_manager/epollin_task.cpp:57|]>pwd: 
+
+[2020-02-22 20:48:44,7916|INFO|src/thread_manager/epollin_task.cpp:66|]>139989942007616 epollin_task end...
+
+[2020-02-22 20:48:49,7914|INFO|src/main.cpp:113|]>client abnormal exit...
+
+[2020-02-22 20:48:49,8258|INFO|src/main.cpp:74|]>new connect...
+[2020-02-22 20:48:49,8259|INFO|src/main.cpp:82|]>>>47.103.33.128:59936<<
+
+[2020-02-22 20:48:49,8259|INFO|src/main.cpp:110|]>add new connect succ...
+
+[2020-02-22 20:48:49,8260|DEBUG|src/main.cpp:119|]>EPOLLIN event...
+
+[2020-02-22 20:48:49,8260|INFO|src/thread_manager/epollin_task.cpp:19|]>139989942007616 epollin_task begin...
+
+[2020-02-22 20:48:49,8260|DEBUG|src/operation/recvSocketData.cpp:25|]>EAGAIN...
+
+[2020-02-22 20:48:49,8260|INFO|src/operation/recvSocketData.cpp:55|]>recvSocketData succ...
+
+[2020-02-22 20:48:49,8261|INFO|src/thread_manager/epollin_task.cpp:34|]>idrn: 0
+
+[2020-02-22 20:48:49,8261|INFO|src/thread_manager/epollin_task.cpp:35|]>desc: 
+
+[2020-02-22 20:48:49,8261|INFO|src/thread_manager/epollin_task.cpp:36|]>id: 0
+
+[2020-02-22 20:48:49,8261|INFO|src/thread_manager/epollin_task.cpp:37|]>num: 0
+
+[2020-02-22 20:48:49,8261|DEBUG|src/thread_manager/epollin_task.cpp:51|]>------------------------------
+
+[2020-02-22 20:48:49,8261|INFO|src/thread_manager/epollin_task.cpp:55|]>uuid: 0
+
+[2020-02-22 20:48:49,8261|INFO|src/thread_manager/epollin_task.cpp:56|]>identifier: 
+
+[2020-02-22 20:48:49,8262|INFO|src/thread_manager/epollin_task.cpp:57|]>pwd: 
+
+[2020-02-22 20:48:49,8262|INFO|src/thread_manager/epollin_task.cpp:66|]>139989942007616 epollin_task end...
+
+[2020-02-22 20:48:54,8265|INFO|src/main.cpp:113|]>client abnormal exit...
+
+[2020-02-22 20:48:54,8621|INFO|src/main.cpp:74|]>new connect...
+[2020-02-22 20:48:54,8622|INFO|src/main.cpp:82|]>>>47.103.33.128:39352<<
+
+[2020-02-22 20:48:54,8623|INFO|src/main.cpp:110|]>add new connect succ...
+
+[2020-02-22 20:48:54,8623|DEBUG|src/main.cpp:119|]>EPOLLIN event...
+
+[2020-02-22 20:48:54,8623|INFO|src/thread_manager/epollin_task.cpp:19|]>139989942007616 epollin_task begin...
+
+[2020-02-22 20:48:54,8623|DEBUG|src/operation/recvSocketData.cpp:25|]>EAGAIN...
+
+[2020-02-22 20:48:54,8623|INFO|src/operation/recvSocketData.cpp:55|]>recvSocketData succ...
+
+[2020-02-22 20:48:54,8623|INFO|src/thread_manager/epollin_task.cpp:34|]>idrn: 0
+
+[2020-02-22 20:48:54,8624|INFO|src/thread_manager/epollin_task.cpp:35|]>desc: 
+
+[2020-02-22 20:48:54,8624|INFO|src/thread_manager/epollin_task.cpp:36|]>id: 0
+
+[2020-02-22 20:48:54,8624|INFO|src/thread_manager/epollin_task.cpp:37|]>num: 0
+
+[2020-02-22 20:48:54,8624|DEBUG|src/thread_manager/epollin_task.cpp:51|]>------------------------------
+
+[2020-02-22 20:48:54,8624|INFO|src/thread_manager/epollin_task.cpp:55|]>uuid: 0
+
+[2020-02-22 20:48:54,8624|INFO|src/thread_manager/epollin_task.cpp:56|]>identifier: 
+
+[2020-02-22 20:48:54,8624|INFO|src/thread_manager/epollin_task.cpp:57|]>pwd: 
+
+[2020-02-22 20:48:54,8625|INFO|src/thread_manager/epollin_task.cpp:66|]>139989942007616 epollin_task end...
+
+[2020-02-22 20:48:59,8626|INFO|src/main.cpp:113|]>client abnormal exit...
+
+[2020-02-22 20:48:59,8940|INFO|src/main.cpp:74|]>new connect...
+[2020-02-22 20:48:59,8941|INFO|src/main.cpp:82|]>>>47.103.33.128:41724<<
+
+[2020-02-22 20:48:59,8941|INFO|src/main.cpp:110|]>add new connect succ...
+
+[2020-02-22 20:48:59,8941|DEBUG|src/main.cpp:119|]>EPOLLIN event...
+
+[2020-02-22 20:48:59,8942|INFO|src/thread_manager/epollin_task.cpp:19|]>139989942007616 epollin_task begin...
+
+[2020-02-22 20:48:59,8942|DEBUG|src/operation/recvSocketData.cpp:25|]>EAGAIN...
+
+[2020-02-22 20:48:59,8942|INFO|src/operation/recvSocketData.cpp:55|]>recvSocketData succ...
+
+[2020-02-22 20:48:59,8942|INFO|src/thread_manager/epollin_task.cpp:34|]>idrn: 0
+
+[2020-02-22 20:48:59,8942|INFO|src/thread_manager/epollin_task.cpp:35|]>desc: 
+
+[2020-02-22 20:48:59,8942|INFO|src/thread_manager/epollin_task.cpp:36|]>id: 0
+
+[2020-02-22 20:48:59,8942|INFO|src/thread_manager/epollin_task.cpp:37|]>num: 0
+
+[2020-02-22 20:48:59,8943|DEBUG|src/thread_manager/epollin_task.cpp:51|]>------------------------------
+
+[2020-02-22 20:48:59,8943|INFO|src/thread_manager/epollin_task.cpp:55|]>uuid: 0
+
+[2020-02-22 20:48:59,8943|INFO|src/thread_manager/epollin_task.cpp:56|]>identifier: 
+
+[2020-02-22 20:48:59,8943|INFO|src/thread_manager/epollin_task.cpp:57|]>pwd: 
+
+[2020-02-22 20:48:59,8943|INFO|src/thread_manager/epollin_task.cpp:66|]>139989942007616 epollin_task end...
+
+[2020-02-22 20:49:04,8949|INFO|src/main.cpp:113|]>client abnormal exit...
+
+[2020-02-22 20:49:04,9247|INFO|src/main.cpp:74|]>new connect...
+[2020-02-22 20:49:04,9247|INFO|src/main.cpp:82|]>>>47.103.33.128:44830<<
+
+[2020-02-22 20:49:04,9248|INFO|src/main.cpp:110|]>add new connect succ...
+
+[2020-02-22 20:49:04,9248|DEBUG|src/main.cpp:119|]>EPOLLIN event...
+
+[2020-02-22 20:49:04,9248|INFO|src/thread_manager/epollin_task.cpp:19|]>139989942007616 epollin_task begin...
+
+[2020-02-22 20:49:04,9248|DEBUG|src/operation/recvSocketData.cpp:25|]>EAGAIN...
+
+[2020-02-22 20:49:04,9248|INFO|src/operation/recvSocketData.cpp:55|]>recvSocketData succ...
+
+[2020-02-22 20:49:04,9248|INFO|src/thread_manager/epollin_task.cpp:34|]>idrn: 0
+
+[2020-02-22 20:49:04,9249|INFO|src/thread_manager/epollin_task.cpp:35|]>desc: 
+
+[2020-02-22 20:49:04,9249|INFO|src/thread_manager/epollin_task.cpp:36|]>id: 0
+
+[2020-02-22 20:49:04,9249|INFO|src/thread_manager/epollin_task.cpp:37|]>num: 0
+
+[2020-02-22 20:49:04,9249|DEBUG|src/thread_manager/epollin_task.cpp:51|]>------------------------------
+
+[2020-02-22 20:49:04,9249|INFO|src/thread_manager/epollin_task.cpp:55|]>uuid: 0
+
+[2020-02-22 20:49:04,9249|INFO|src/thread_manager/epollin_task.cpp:56|]>identifier: 
+
+[2020-02-22 20:49:04,9250|INFO|src/thread_manager/epollin_task.cpp:57|]>pwd: 
+
+[2020-02-22 20:49:04,9250|INFO|src/thread_manager/epollin_task.cpp:66|]>139989942007616 epollin_task end...
+
+[2020-02-22 20:49:09,9255|INFO|src/main.cpp:113|]>client abnormal exit...
+
+[2020-02-22 20:49:09,9573|INFO|src/main.cpp:74|]>new connect...
+[2020-02-22 20:49:09,9574|INFO|src/main.cpp:82|]>>>47.103.33.128:46352<<
+
+[2020-02-22 20:49:09,9575|INFO|src/main.cpp:110|]>add new connect succ...
+
+[2020-02-22 20:49:09,9575|DEBUG|src/main.cpp:119|]>EPOLLIN event...
+
+[2020-02-22 20:49:09,9575|INFO|src/thread_manager/epollin_task.cpp:19|]>139989942007616 epollin_task begin...
+
+[2020-02-22 20:49:09,9575|DEBUG|src/operation/recvSocketData.cpp:25|]>EAGAIN...
+
+[2020-02-22 20:49:09,9575|INFO|src/operation/recvSocketData.cpp:55|]>recvSocketData succ...
+
+[2020-02-22 20:49:09,9575|INFO|src/thread_manager/epollin_task.cpp:34|]>idrn: 0
+
+[2020-02-22 20:49:09,9576|INFO|src/thread_manager/epollin_task.cpp:35|]>desc: 
+
+[2020-02-22 20:49:09,9576|INFO|src/thread_manager/epollin_task.cpp:36|]>id: 0
+
+[2020-02-22 20:49:09,9576|INFO|src/thread_manager/epollin_task.cpp:37|]>num: 0
+
+[2020-02-22 20:49:09,9576|DEBUG|src/thread_manager/epollin_task.cpp:51|]>------------------------------
+
+[2020-02-22 20:49:09,9576|INFO|src/thread_manager/epollin_task.cpp:55|]>uuid: 0
+
+[2020-02-22 20:49:09,9576|INFO|src/thread_manager/epollin_task.cpp:56|]>identifier: 
+
+[2020-02-22 20:49:09,9576|INFO|src/thread_manager/epollin_task.cpp:57|]>pwd: 
+
+[2020-02-22 20:49:09,9576|INFO|src/thread_manager/epollin_task.cpp:66|]>139989942007616 epollin_task end...
+
+[2020-02-22 20:49:14,9584|INFO|src/main.cpp:113|]>client abnormal exit...
+
+[2020-02-22 20:49:14,9868|INFO|src/main.cpp:74|]>new connect...
+[2020-02-22 20:49:14,9869|INFO|src/main.cpp:82|]>>>47.103.33.128:51832<<
+
+[2020-02-22 20:49:14,9869|INFO|src/main.cpp:110|]>add new connect succ...
+
+[2020-02-22 20:49:14,9869|DEBUG|src/main.cpp:119|]>EPOLLIN event...
+
+[2020-02-22 20:49:14,9869|INFO|src/thread_manager/epollin_task.cpp:19|]>139989942007616 epollin_task begin...
+
+[2020-02-22 20:49:14,9870|DEBUG|src/operation/recvSocketData.cpp:25|]>EAGAIN...
+
+[2020-02-22 20:49:14,9870|INFO|src/operation/recvSocketData.cpp:55|]>recvSocketData succ...
+
+[2020-02-22 20:49:14,9870|INFO|src/thread_manager/epollin_task.cpp:34|]>idrn: 0
+
+[2020-02-22 20:49:14,9870|INFO|src/thread_manager/epollin_task.cpp:35|]>desc: 
+
+[2020-02-22 20:49:14,9870|INFO|src/thread_manager/epollin_task.cpp:36|]>id: 0
+
+[2020-02-22 20:49:14,9870|INFO|src/thread_manager/epollin_task.cpp:37|]>num: 0
+
+[2020-02-22 20:49:14,9870|DEBUG|src/thread_manager/epollin_task.cpp:51|]>------------------------------
+
+[2020-02-22 20:49:14,9871|INFO|src/thread_manager/epollin_task.cpp:55|]>uuid: 0
+
+[2020-02-22 20:49:14,9871|INFO|src/thread_manager/epollin_task.cpp:56|]>identifier: 
+
+[2020-02-22 20:49:14,9871|INFO|src/thread_manager/epollin_task.cpp:57|]>pwd: 
+
+[2020-02-22 20:49:14,9871|INFO|src/thread_manager/epollin_task.cpp:66|]>139989942007616 epollin_task end...
+
+[2020-02-22 20:49:19,9867|INFO|src/main.cpp:113|]>client abnormal exit...
+
+[2020-02-22 20:49:20,0187|INFO|src/main.cpp:74|]>new connect...
+[2020-02-22 20:49:20,0188|INFO|src/main.cpp:82|]>>>47.103.33.128:56274<<
+
+[2020-02-22 20:49:20,0188|INFO|src/main.cpp:110|]>add new connect succ...
+
+[2020-02-22 20:49:20,0189|DEBUG|src/main.cpp:119|]>EPOLLIN event...
+
+[2020-02-22 20:49:20,0189|INFO|src/thread_manager/epollin_task.cpp:19|]>139989942007616 epollin_task begin...
+
+[2020-02-22 20:49:20,0189|DEBUG|src/operation/recvSocketData.cpp:25|]>EAGAIN...
+
+[2020-02-22 20:49:20,0189|INFO|src/operation/recvSocketData.cpp:55|]>recvSocketData succ...
+
+[2020-02-22 20:49:20,0189|INFO|src/thread_manager/epollin_task.cpp:34|]>idrn: 0
+
+[2020-02-22 20:49:20,0189|INFO|src/thread_manager/epollin_task.cpp:35|]>desc: 
+
+[2020-02-22 20:49:20,0189|INFO|src/thread_manager/epollin_task.cpp:36|]>id: 0
+
+[2020-02-22 20:49:20,0190|INFO|src/thread_manager/epollin_task.cpp:37|]>num: 0
+
+[2020-02-22 20:49:20,0190|DEBUG|src/thread_manager/epollin_task.cpp:51|]>------------------------------
+
+[2020-02-22 20:49:20,0190|INFO|src/thread_manager/epollin_task.cpp:55|]>uuid: 0
+
+[2020-02-22 20:49:20,0190|INFO|src/thread_manager/epollin_task.cpp:56|]>identifier: 
+
+[2020-02-22 20:49:20,0190|INFO|src/thread_manager/epollin_task.cpp:57|]>pwd: 
+
+[2020-02-22 20:49:20,0190|INFO|src/thread_manager/epollin_task.cpp:66|]>139989942007616 epollin_task end...
+
+[2020-02-22 20:49:25,0197|INFO|src/main.cpp:113|]>client abnormal exit...
+
+[2020-02-22 20:49:25,0498|INFO|src/main.cpp:74|]>new connect...
+[2020-02-22 20:49:25,0498|INFO|src/main.cpp:82|]>>>47.103.33.128:58526<<
+
+[2020-02-22 20:49:25,0499|INFO|src/main.cpp:110|]>add new connect succ...
+
+[2020-02-22 20:49:25,0499|DEBUG|src/main.cpp:119|]>EPOLLIN event...
+
+[2020-02-22 20:49:25,0499|INFO|src/thread_manager/epollin_task.cpp:19|]>139989942007616 epollin_task begin...
+
+[2020-02-22 20:49:25,0499|DEBUG|src/operation/recvSocketData.cpp:25|]>EAGAIN...
+
+[2020-02-22 20:49:25,0499|INFO|src/operation/recvSocketData.cpp:55|]>recvSocketData succ...
+
+[2020-02-22 20:49:25,0500|INFO|src/thread_manager/epollin_task.cpp:34|]>idrn: 0
+
+[2020-02-22 20:49:25,0500|INFO|src/thread_manager/epollin_task.cpp:35|]>desc: 
+
+[2020-02-22 20:49:25,0500|INFO|src/thread_manager/epollin_task.cpp:36|]>id: 0
+
+[2020-02-22 20:49:25,0500|INFO|src/thread_manager/epollin_task.cpp:37|]>num: 0
+
+[2020-02-22 20:49:25,0500|DEBUG|src/thread_manager/epollin_task.cpp:51|]>------------------------------
+
+[2020-02-22 20:49:25,0500|INFO|src/thread_manager/epollin_task.cpp:55|]>uuid: 0
+
+[2020-02-22 20:49:25,0500|INFO|src/thread_manager/epollin_task.cpp:56|]>identifier: 
+
+[2020-02-22 20:49:25,0500|INFO|src/thread_manager/epollin_task.cpp:57|]>pwd: 
+
+[2020-02-22 20:49:25,0501|INFO|src/thread_manager/epollin_task.cpp:66|]>139989942007616 epollin_task end...
+
+[2020-02-22 20:49:30,0510|INFO|src/main.cpp:113|]>client abnormal exit...
+
+[2020-02-22 20:49:30,0843|INFO|src/main.cpp:74|]>new connect...
+[2020-02-22 20:49:30,0844|INFO|src/main.cpp:82|]>>>47.103.33.128:38180<<
+
+[2020-02-22 20:49:30,0844|INFO|src/main.cpp:110|]>add new connect succ...
+
+[2020-02-22 20:49:30,0844|DEBUG|src/main.cpp:119|]>EPOLLIN event...
+
+[2020-02-22 20:49:30,0844|INFO|src/thread_manager/epollin_task.cpp:19|]>139989942007616 epollin_task begin...
+
+[2020-02-22 20:49:30,0845|DEBUG|src/operation/recvSocketData.cpp:25|]>EAGAIN...
+
+[2020-02-22 20:49:30,0845|INFO|src/operation/recvSocketData.cpp:55|]>recvSocketData succ...
+
+[2020-02-22 20:49:30,0845|INFO|src/thread_manager/epollin_task.cpp:34|]>idrn: 0
+
+[2020-02-22 20:49:30,0845|INFO|src/thread_manager/epollin_task.cpp:35|]>desc: 
+
+[2020-02-22 20:49:30,0845|INFO|src/thread_manager/epollin_task.cpp:36|]>id: 0
+
+[2020-02-22 20:49:30,0845|INFO|src/thread_manager/epollin_task.cpp:37|]>num: 0
+
+[2020-02-22 20:49:30,0846|DEBUG|src/thread_manager/epollin_task.cpp:51|]>------------------------------
+
+[2020-02-22 20:49:30,0846|INFO|src/thread_manager/epollin_task.cpp:55|]>uuid: 0
+
+[2020-02-22 20:49:30,0846|INFO|src/thread_manager/epollin_task.cpp:56|]>identifier: 
+
+[2020-02-22 20:49:30,0846|INFO|src/thread_manager/epollin_task.cpp:57|]>pwd: 
+
+[2020-02-22 20:49:30,0846|INFO|src/thread_manager/epollin_task.cpp:66|]>139989942007616 epollin_task end...
+
+[2020-02-22 20:49:35,0858|INFO|src/main.cpp:113|]>client abnormal exit...
+
+[2020-02-22 20:49:35,1167|INFO|src/main.cpp:74|]>new connect...
+[2020-02-22 20:49:35,1168|INFO|src/main.cpp:82|]>>>47.103.33.128:41356<<
+
+[2020-02-22 20:49:35,1169|INFO|src/main.cpp:110|]>add new connect succ...
+
+[2020-02-22 20:49:35,1169|DEBUG|src/main.cpp:119|]>EPOLLIN event...
+
+[2020-02-22 20:49:35,1169|INFO|src/thread_manager/epollin_task.cpp:19|]>139989942007616 epollin_task begin...
+
+[2020-02-22 20:49:35,1170|DEBUG|src/operation/recvSocketData.cpp:25|]>EAGAIN...
+
+[2020-02-22 20:49:35,1170|INFO|src/operation/recvSocketData.cpp:55|]>recvSocketData succ...
+
+[2020-02-22 20:49:35,1170|INFO|src/thread_manager/epollin_task.cpp:34|]>idrn: 0
+
+[2020-02-22 20:49:35,1170|INFO|src/thread_manager/epollin_task.cpp:35|]>desc: 
+
+[2020-02-22 20:49:35,1170|INFO|src/thread_manager/epollin_task.cpp:36|]>id: 0
+
+[2020-02-22 20:49:35,1170|INFO|src/thread_manager/epollin_task.cpp:37|]>num: 0
+
+[2020-02-22 20:49:35,1171|DEBUG|src/thread_manager/epollin_task.cpp:51|]>------------------------------
+
+[2020-02-22 20:49:35,1171|INFO|src/thread_manager/epollin_task.cpp:55|]>uuid: 0
+
+[2020-02-22 20:49:35,1171|INFO|src/thread_manager/epollin_task.cpp:56|]>identifier: 
+
+[2020-02-22 20:49:35,1171|INFO|src/thread_manager/epollin_task.cpp:57|]>pwd: 
+
+[2020-02-22 20:49:35,1171|INFO|src/thread_manager/epollin_task.cpp:66|]>139989942007616 epollin_task end...
+
+[2020-02-22 20:49:40,1167|INFO|src/main.cpp:113|]>client abnormal exit...
+
+[2020-02-22 20:49:40,1438|INFO|src/main.cpp:74|]>new connect...
+[2020-02-22 20:49:40,1439|INFO|src/main.cpp:82|]>>>47.103.33.128:50670<<
+
+[2020-02-22 20:49:40,1439|INFO|src/main.cpp:110|]>add new connect succ...
+
+[2020-02-22 20:49:40,1440|DEBUG|src/main.cpp:119|]>EPOLLIN event...
+
+[2020-02-22 20:49:40,1440|INFO|src/thread_manager/epollin_task.cpp:19|]>139989942007616 epollin_task begin...
+
+[2020-02-22 20:49:40,1440|DEBUG|src/operation/recvSocketData.cpp:25|]>EAGAIN...
+
+[2020-02-22 20:49:40,1440|INFO|src/operation/recvSocketData.cpp:55|]>recvSocketData succ...
+
+[2020-02-22 20:49:40,1440|INFO|src/thread_manager/epollin_task.cpp:34|]>idrn: 0
+
+[2020-02-22 20:49:40,1441|INFO|src/thread_manager/epollin_task.cpp:35|]>desc: 
+
+[2020-02-22 20:49:40,1441|INFO|src/thread_manager/epollin_task.cpp:36|]>id: 0
+
+[2020-02-22 20:49:40,1441|INFO|src/thread_manager/epollin_task.cpp:37|]>num: 0
+
+[2020-02-22 20:49:40,1441|DEBUG|src/thread_manager/epollin_task.cpp:51|]>------------------------------
+
+[2020-02-22 20:49:40,1441|INFO|src/thread_manager/epollin_task.cpp:55|]>uuid: 0
+
+[2020-02-22 20:49:40,1441|INFO|src/thread_manager/epollin_task.cpp:56|]>identifier: 
+
+[2020-02-22 20:49:40,1441|INFO|src/thread_manager/epollin_task.cpp:57|]>pwd: 
+
+[2020-02-22 20:49:40,1442|INFO|src/thread_manager/epollin_task.cpp:66|]>139989942007616 epollin_task end...
+
+[2020-02-22 20:49:45,1444|INFO|src/main.cpp:113|]>client abnormal exit...
+
+[2020-02-22 20:49:45,1783|INFO|src/main.cpp:74|]>new connect...
+[2020-02-22 20:49:45,1783|INFO|src/main.cpp:82|]>>>47.103.33.128:59488<<
+
+[2020-02-22 20:49:45,1784|INFO|src/main.cpp:110|]>add new connect succ...
+
+[2020-02-22 20:49:45,1784|DEBUG|src/main.cpp:119|]>EPOLLIN event...
+
+[2020-02-22 20:49:45,1784|INFO|src/thread_manager/epollin_task.cpp:19|]>139989942007616 epollin_task begin...
+
+[2020-02-22 20:49:45,1784|DEBUG|src/operation/recvSocketData.cpp:25|]>EAGAIN...
+
+[2020-02-22 20:49:45,1785|INFO|src/operation/recvSocketData.cpp:55|]>recvSocketData succ...
+
+[2020-02-22 20:49:45,1785|INFO|src/thread_manager/epollin_task.cpp:34|]>idrn: 0
+
+[2020-02-22 20:49:45,1785|INFO|src/thread_manager/epollin_task.cpp:35|]>desc: 
+
+[2020-02-22 20:49:45,1785|INFO|src/thread_manager/epollin_task.cpp:36|]>id: 0
+
+[2020-02-22 20:49:45,1785|INFO|src/thread_manager/epollin_task.cpp:37|]>num: 0
+
+[2020-02-22 20:49:45,1785|DEBUG|src/thread_manager/epollin_task.cpp:51|]>------------------------------
+
+[2020-02-22 20:49:45,1786|INFO|src/thread_manager/epollin_task.cpp:55|]>uuid: 0
+
+[2020-02-22 20:49:45,1786|INFO|src/thread_manager/epollin_task.cpp:56|]>identifier: 
+
+[2020-02-22 20:49:45,1786|INFO|src/thread_manager/epollin_task.cpp:57|]>pwd: 
+
+[2020-02-22 20:49:45,1786|INFO|src/thread_manager/epollin_task.cpp:66|]>139989942007616 epollin_task end...
+
+[2020-02-22 20:49:50,1786|INFO|src/main.cpp:113|]>client abnormal exit...
+
+[2020-02-22 20:49:50,2082|INFO|src/main.cpp:74|]>new connect...
+[2020-02-22 20:49:50,2123|INFO|src/main.cpp:82|]>>>47.103.33.128:35018<<
+
+[2020-02-22 20:49:50,2124|INFO|src/main.cpp:110|]>add new connect succ...
+
+[2020-02-22 20:49:50,2124|DEBUG|src/main.cpp:119|]>EPOLLIN event...
+
+[2020-02-22 20:49:50,2124|INFO|src/thread_manager/epollin_task.cpp:19|]>139989942007616 epollin_task begin...
+
+[2020-02-22 20:49:50,2124|DEBUG|src/operation/recvSocketData.cpp:25|]>EAGAIN...
+
+[2020-02-22 20:49:50,2124|INFO|src/operation/recvSocketData.cpp:55|]>recvSocketData succ...
+
+[2020-02-22 20:49:50,2124|INFO|src/thread_manager/epollin_task.cpp:34|]>idrn: 0
+
+[2020-02-22 20:49:50,2125|INFO|src/thread_manager/epollin_task.cpp:35|]>desc: 
+
+[2020-02-22 20:49:50,2125|INFO|src/thread_manager/epollin_task.cpp:36|]>id: 0
+
+[2020-02-22 20:49:50,2125|INFO|src/thread_manager/epollin_task.cpp:37|]>num: 0
+
+[2020-02-22 20:49:50,2125|DEBUG|src/thread_manager/epollin_task.cpp:51|]>------------------------------
+
+[2020-02-22 20:49:50,2126|INFO|src/thread_manager/epollin_task.cpp:55|]>uuid: 0
+
+[2020-02-22 20:49:50,2126|INFO|src/thread_manager/epollin_task.cpp:56|]>identifier: 
+
+[2020-02-22 20:49:50,2126|INFO|src/thread_manager/epollin_task.cpp:57|]>pwd: 
+
+[2020-02-22 20:49:50,2126|INFO|src/thread_manager/epollin_task.cpp:66|]>139989942007616 epollin_task end...
+
+[2020-02-22 20:49:55,2084|INFO|src/main.cpp:113|]>client abnormal exit...
+
+[2020-02-22 20:49:55,2378|INFO|src/main.cpp:74|]>new connect...
+[2020-02-22 20:49:55,2379|INFO|src/main.cpp:82|]>>>47.103.33.128:45926<<
+
+[2020-02-22 20:49:55,2380|INFO|src/main.cpp:110|]>add new connect succ...
+
+[2020-02-22 20:49:55,2380|DEBUG|src/main.cpp:119|]>EPOLLIN event...
+
+[2020-02-22 20:49:55,2380|INFO|src/thread_manager/epollin_task.cpp:19|]>139989942007616 epollin_task begin...
+
+[2020-02-22 20:49:55,2380|DEBUG|src/operation/recvSocketData.cpp:25|]>EAGAIN...
+
+[2020-02-22 20:49:55,2380|INFO|src/operation/recvSocketData.cpp:55|]>recvSocketData succ...
+
+[2020-02-22 20:49:55,2381|INFO|src/thread_manager/epollin_task.cpp:34|]>idrn: 0
+
+[2020-02-22 20:49:55,2381|INFO|src/thread_manager/epollin_task.cpp:35|]>desc: 
+
+[2020-02-22 20:49:55,2381|INFO|src/thread_manager/epollin_task.cpp:36|]>id: 0
+
+[2020-02-22 20:49:55,2381|INFO|src/thread_manager/epollin_task.cpp:37|]>num: 0
+
+[2020-02-22 20:49:55,2381|DEBUG|src/thread_manager/epollin_task.cpp:51|]>------------------------------
+
+[2020-02-22 20:49:55,2381|INFO|src/thread_manager/epollin_task.cpp:55|]>uuid: 0
+
+[2020-02-22 20:49:55,2381|INFO|src/thread_manager/epollin_task.cpp:56|]>identifier: 
+
+[2020-02-22 20:49:55,2381|INFO|src/thread_manager/epollin_task.cpp:57|]>pwd: 
+
+[2020-02-22 20:49:55,2382|INFO|src/thread_manager/epollin_task.cpp:66|]>139989942007616 epollin_task end...
+
+[2020-02-22 20:50:00,2387|INFO|src/main.cpp:113|]>client abnormal exit...
+
+[2020-02-22 20:50:00,2702|INFO|src/main.cpp:74|]>new connect...
+[2020-02-22 20:50:00,2703|INFO|src/main.cpp:82|]>>>47.103.33.128:59910<<
+
+[2020-02-22 20:50:00,2703|INFO|src/main.cpp:110|]>add new connect succ...
+
+[2020-02-22 20:50:00,2703|DEBUG|src/main.cpp:119|]>EPOLLIN event...
+
+[2020-02-22 20:50:00,2703|INFO|src/thread_manager/epollin_task.cpp:19|]>139989942007616 epollin_task begin...
+
+[2020-02-22 20:50:00,2704|DEBUG|src/operation/recvSocketData.cpp:25|]>EAGAIN...
+
+[2020-02-22 20:50:00,2704|INFO|src/operation/recvSocketData.cpp:55|]>recvSocketData succ...
+
+[2020-02-22 20:50:00,2704|INFO|src/thread_manager/epollin_task.cpp:34|]>idrn: 0
+
+[2020-02-22 20:50:00,2704|INFO|src/thread_manager/epollin_task.cpp:35|]>desc: 
+
+[2020-02-22 20:50:00,2704|INFO|src/thread_manager/epollin_task.cpp:36|]>id: 0
+
+[2020-02-22 20:50:00,2705|INFO|src/thread_manager/epollin_task.cpp:37|]>num: 0
+
+[2020-02-22 20:50:00,2705|DEBUG|src/thread_manager/epollin_task.cpp:51|]>------------------------------
+
+[2020-02-22 20:50:00,2705|INFO|src/thread_manager/epollin_task.cpp:55|]>uuid: 0
+
+[2020-02-22 20:50:00,2705|INFO|src/thread_manager/epollin_task.cpp:56|]>identifier: 
+
+[2020-02-22 20:50:00,2705|INFO|src/thread_manager/epollin_task.cpp:57|]>pwd: 
+
+[2020-02-22 20:50:00,2705|INFO|src/thread_manager/epollin_task.cpp:66|]>139989942007616 epollin_task end...
+
+[2020-02-22 20:50:05,2702|INFO|src/main.cpp:113|]>client abnormal exit...
+
+[2020-02-22 20:50:05,3012|INFO|src/main.cpp:74|]>new connect...
+[2020-02-22 20:50:05,3013|INFO|src/main.cpp:82|]>>>47.103.33.128:34408<<
+
+[2020-02-22 20:50:05,3014|INFO|src/main.cpp:110|]>add new connect succ...
+
+[2020-02-22 20:50:05,3014|DEBUG|src/main.cpp:119|]>EPOLLIN event...
+
+[2020-02-22 20:50:05,3014|INFO|src/thread_manager/epollin_task.cpp:19|]>139989942007616 epollin_task begin...
+
+[2020-02-22 20:50:05,3014|DEBUG|src/operation/recvSocketData.cpp:25|]>EAGAIN...
+
+[2020-02-22 20:50:05,3015|INFO|src/operation/recvSocketData.cpp:55|]>recvSocketData succ...
+
+[2020-02-22 20:50:05,3015|INFO|src/thread_manager/epollin_task.cpp:34|]>idrn: 0
+
+[2020-02-22 20:50:05,3015|INFO|src/thread_manager/epollin_task.cpp:35|]>desc: 
+
+[2020-02-22 20:50:05,3015|INFO|src/thread_manager/epollin_task.cpp:36|]>id: 0
+
+[2020-02-22 20:50:05,3015|INFO|src/thread_manager/epollin_task.cpp:37|]>num: 0
+
+[2020-02-22 20:50:05,3015|DEBUG|src/thread_manager/epollin_task.cpp:51|]>------------------------------
+
+[2020-02-22 20:50:05,3016|INFO|src/thread_manager/epollin_task.cpp:55|]>uuid: 0
+
+[2020-02-22 20:50:05,3016|INFO|src/thread_manager/epollin_task.cpp:56|]>identifier: 
+
+[2020-02-22 20:50:05,3016|INFO|src/thread_manager/epollin_task.cpp:57|]>pwd: 
+
+[2020-02-22 20:50:05,3016|INFO|src/thread_manager/epollin_task.cpp:66|]>139989942007616 epollin_task end...
+
+[2020-02-22 20:50:10,3018|INFO|src/main.cpp:113|]>client abnormal exit...
+
+[2020-02-22 20:50:10,3312|INFO|src/main.cpp:74|]>new connect...
+[2020-02-22 20:50:10,3313|INFO|src/main.cpp:82|]>>>47.103.33.128:45356<<
+
+[2020-02-22 20:50:10,3313|INFO|src/main.cpp:110|]>add new connect succ...
+
+[2020-02-22 20:50:10,3314|DEBUG|src/main.cpp:119|]>EPOLLIN event...
+
+[2020-02-22 20:50:10,3314|INFO|src/thread_manager/epollin_task.cpp:19|]>139989942007616 epollin_task begin...
+
+[2020-02-22 20:50:10,3314|DEBUG|src/operation/recvSocketData.cpp:25|]>EAGAIN...
+
+[2020-02-22 20:50:10,3315|INFO|src/operation/recvSocketData.cpp:55|]>recvSocketData succ...
+
+[2020-02-22 20:50:10,3315|INFO|src/thread_manager/epollin_task.cpp:34|]>idrn: 0
+
+[2020-02-22 20:50:10,3315|INFO|src/thread_manager/epollin_task.cpp:35|]>desc: 
+
+[2020-02-22 20:50:10,3315|INFO|src/thread_manager/epollin_task.cpp:36|]>id: 0
+
+[2020-02-22 20:50:10,3315|INFO|src/thread_manager/epollin_task.cpp:37|]>num: 0
+
+[2020-02-22 20:50:10,3315|DEBUG|src/thread_manager/epollin_task.cpp:51|]>------------------------------
+
+[2020-02-22 20:50:10,3316|INFO|src/thread_manager/epollin_task.cpp:55|]>uuid: 0
+
+[2020-02-22 20:50:10,3316|INFO|src/thread_manager/epollin_task.cpp:56|]>identifier: 
+
+[2020-02-22 20:50:10,3316|INFO|src/thread_manager/epollin_task.cpp:57|]>pwd: 
+
+[2020-02-22 20:50:10,3316|INFO|src/thread_manager/epollin_task.cpp:66|]>139989942007616 epollin_task end...
+
+[2020-02-22 20:50:15,3321|INFO|src/main.cpp:113|]>client abnormal exit...
+
+[2020-02-22 20:50:15,3606|INFO|src/main.cpp:74|]>new connect...
+[2020-02-22 20:50:15,3607|INFO|src/main.cpp:82|]>>>47.103.33.128:52374<<
+
+[2020-02-22 20:50:15,3608|INFO|src/main.cpp:110|]>add new connect succ...
+
+[2020-02-22 20:50:15,3608|DEBUG|src/main.cpp:119|]>EPOLLIN event...
+
+[2020-02-22 20:50:15,3608|INFO|src/thread_manager/epollin_task.cpp:19|]>139989942007616 epollin_task begin...
+
+[2020-02-22 20:50:15,3609|DEBUG|src/operation/recvSocketData.cpp:25|]>EAGAIN...
+
+[2020-02-22 20:50:15,3609|INFO|src/operation/recvSocketData.cpp:55|]>recvSocketData succ...
+
+[2020-02-22 20:50:15,3609|INFO|src/thread_manager/epollin_task.cpp:34|]>idrn: 0
+
+[2020-02-22 20:50:15,3609|INFO|src/thread_manager/epollin_task.cpp:35|]>desc: 
+
+[2020-02-22 20:50:15,3609|INFO|src/thread_manager/epollin_task.cpp:36|]>id: 0
+
+[2020-02-22 20:50:15,3610|INFO|src/thread_manager/epollin_task.cpp:37|]>num: 0
+
+[2020-02-22 20:50:15,3610|DEBUG|src/thread_manager/epollin_task.cpp:51|]>------------------------------
+
+[2020-02-22 20:50:15,3610|INFO|src/thread_manager/epollin_task.cpp:55|]>uuid: 0
+
+[2020-02-22 20:50:15,3610|INFO|src/thread_manager/epollin_task.cpp:56|]>identifier: 
+
+[2020-02-22 20:50:15,3610|INFO|src/thread_manager/epollin_task.cpp:57|]>pwd: 
+
+[2020-02-22 20:50:15,3611|INFO|src/thread_manager/epollin_task.cpp:66|]>139989942007616 epollin_task end...
+
+[2020-02-22 20:50:20,3615|INFO|src/main.cpp:113|]>client abnormal exit...
+
+[2020-02-22 20:50:20,3945|INFO|src/main.cpp:74|]>new connect...
+[2020-02-22 20:50:20,3946|INFO|src/main.cpp:82|]>>>47.103.33.128:55078<<
+
+[2020-02-22 20:50:20,3946|INFO|src/main.cpp:110|]>add new connect succ...
+
+[2020-02-22 20:50:20,3947|DEBUG|src/main.cpp:119|]>EPOLLIN event...
+
+[2020-02-22 20:50:20,3947|INFO|src/thread_manager/epollin_task.cpp:19|]>139989942007616 epollin_task begin...
+
+[2020-02-22 20:50:20,3947|DEBUG|src/operation/recvSocketData.cpp:25|]>EAGAIN...
+
+[2020-02-22 20:50:20,3947|INFO|src/operation/recvSocketData.cpp:55|]>recvSocketData succ...
+
+[2020-02-22 20:50:20,3947|INFO|src/thread_manager/epollin_task.cpp:34|]>idrn: 0
+
+[2020-02-22 20:50:20,3948|INFO|src/thread_manager/epollin_task.cpp:35|]>desc: 
+
+[2020-02-22 20:50:20,3948|INFO|src/thread_manager/epollin_task.cpp:36|]>id: 0
+
+[2020-02-22 20:50:20,3948|INFO|src/thread_manager/epollin_task.cpp:37|]>num: 0
+
+[2020-02-22 20:50:20,3948|DEBUG|src/thread_manager/epollin_task.cpp:51|]>------------------------------
+
+[2020-02-22 20:50:20,3948|INFO|src/thread_manager/epollin_task.cpp:55|]>uuid: 0
+
+[2020-02-22 20:50:20,3948|INFO|src/thread_manager/epollin_task.cpp:56|]>identifier: 
+
+[2020-02-22 20:50:20,3948|INFO|src/thread_manager/epollin_task.cpp:57|]>pwd: 
+
+[2020-02-22 20:50:20,3948|INFO|src/thread_manager/epollin_task.cpp:66|]>139989942007616 epollin_task end...
+
+[2020-02-22 20:50:25,3949|INFO|src/main.cpp:113|]>client abnormal exit...
+
+[2020-02-22 20:50:25,4231|INFO|src/main.cpp:74|]>new connect...
+[2020-02-22 20:50:25,4232|INFO|src/main.cpp:82|]>>>47.103.33.128:36582<<
+
+[2020-02-22 20:50:25,4232|INFO|src/main.cpp:110|]>add new connect succ...
+
+[2020-02-22 20:50:25,4233|DEBUG|src/main.cpp:119|]>EPOLLIN event...
+
+[2020-02-22 20:50:25,4233|INFO|src/thread_manager/epollin_task.cpp:19|]>139989942007616 epollin_task begin...
+
+[2020-02-22 20:50:25,4233|DEBUG|src/operation/recvSocketData.cpp:25|]>EAGAIN...
+
+[2020-02-22 20:50:25,4233|INFO|src/operation/recvSocketData.cpp:55|]>recvSocketData succ...
+
+[2020-02-22 20:50:25,4233|INFO|src/thread_manager/epollin_task.cpp:34|]>idrn: 0
+
+[2020-02-22 20:50:25,4233|INFO|src/thread_manager/epollin_task.cpp:35|]>desc: 
+
+[2020-02-22 20:50:25,4233|INFO|src/thread_manager/epollin_task.cpp:36|]>id: 0
+
+[2020-02-22 20:50:25,4234|INFO|src/thread_manager/epollin_task.cpp:37|]>num: 0
+
+[2020-02-22 20:50:25,4234|DEBUG|src/thread_manager/epollin_task.cpp:51|]>------------------------------
+
+[2020-02-22 20:50:25,4234|INFO|src/thread_manager/epollin_task.cpp:55|]>uuid: 0
+
+[2020-02-22 20:50:25,4234|INFO|src/thread_manager/epollin_task.cpp:56|]>identifier: 
+
+[2020-02-22 20:50:25,4234|INFO|src/thread_manager/epollin_task.cpp:57|]>pwd: 
+
+[2020-02-22 20:50:25,4234|INFO|src/thread_manager/epollin_task.cpp:66|]>139989942007616 epollin_task end...
+
+[2020-02-22 20:50:30,4241|INFO|src/main.cpp:113|]>client abnormal exit...
+
+[2020-02-22 20:50:30,4554|INFO|src/main.cpp:74|]>new connect...
+[2020-02-22 20:50:30,4555|INFO|src/main.cpp:82|]>>>47.103.33.128:51988<<
+
+[2020-02-22 20:50:30,4556|INFO|src/main.cpp:110|]>add new connect succ...
+
+[2020-02-22 20:50:30,4556|DEBUG|src/main.cpp:119|]>EPOLLIN event...
+
+[2020-02-22 20:50:30,4556|INFO|src/thread_manager/epollin_task.cpp:19|]>139989942007616 epollin_task begin...
+
+[2020-02-22 20:50:30,4556|DEBUG|src/operation/recvSocketData.cpp:25|]>EAGAIN...
+
+[2020-02-22 20:50:30,4557|INFO|src/operation/recvSocketData.cpp:55|]>recvSocketData succ...
+
+[2020-02-22 20:50:30,4557|INFO|src/thread_manager/epollin_task.cpp:34|]>idrn: 0
+
+[2020-02-22 20:50:30,4557|INFO|src/thread_manager/epollin_task.cpp:35|]>desc: 
+
+[2020-02-22 20:50:30,4557|INFO|src/thread_manager/epollin_task.cpp:36|]>id: 0
+
+[2020-02-22 20:50:30,4558|INFO|src/thread_manager/epollin_task.cpp:37|]>num: 0
+
+[2020-02-22 20:50:30,4558|DEBUG|src/thread_manager/epollin_task.cpp:51|]>------------------------------
+
+[2020-02-22 20:50:30,4558|INFO|src/thread_manager/epollin_task.cpp:55|]>uuid: 0
+
+[2020-02-22 20:50:30,4558|INFO|src/thread_manager/epollin_task.cpp:56|]>identifier: 
+
+[2020-02-22 20:50:30,4558|INFO|src/thread_manager/epollin_task.cpp:57|]>pwd: 
+
+[2020-02-22 20:50:30,4558|INFO|src/thread_manager/epollin_task.cpp:66|]>139989942007616 epollin_task end...
+
+[2020-02-22 20:50:35,4563|INFO|src/main.cpp:113|]>client abnormal exit...
+
+[2020-02-22 20:50:35,4912|INFO|src/main.cpp:74|]>new connect...
+[2020-02-22 20:50:35,4913|INFO|src/main.cpp:82|]>>>47.103.33.128:55864<<
+
+[2020-02-22 20:50:35,4914|INFO|src/main.cpp:110|]>add new connect succ...
+
+[2020-02-22 20:50:35,4914|DEBUG|src/main.cpp:119|]>EPOLLIN event...
+
+[2020-02-22 20:50:35,4914|INFO|src/thread_manager/epollin_task.cpp:19|]>139989942007616 epollin_task begin...
+
+[2020-02-22 20:50:35,4914|DEBUG|src/operation/recvSocketData.cpp:25|]>EAGAIN...
+
+[2020-02-22 20:50:35,4914|INFO|src/operation/recvSocketData.cpp:55|]>recvSocketData succ...
+
+[2020-02-22 20:50:35,4915|INFO|src/thread_manager/epollin_task.cpp:34|]>idrn: 0
+
+[2020-02-22 20:50:35,4915|INFO|src/thread_manager/epollin_task.cpp:35|]>desc: 
+
+[2020-02-22 20:50:35,4915|INFO|src/thread_manager/epollin_task.cpp:36|]>id: 0
+
+[2020-02-22 20:50:35,4915|INFO|src/thread_manager/epollin_task.cpp:37|]>num: 0
+
+[2020-02-22 20:50:35,4915|DEBUG|src/thread_manager/epollin_task.cpp:51|]>------------------------------
+
+[2020-02-22 20:50:35,4915|INFO|src/thread_manager/epollin_task.cpp:55|]>uuid: 16
+
+[2020-02-22 20:50:35,4915|INFO|src/thread_manager/epollin_task.cpp:56|]>identifier: 
+
+[2020-02-22 20:50:35,4916|INFO|src/thread_manager/epollin_task.cpp:57|]>pwd: 
+
+[2020-02-22 20:50:35,4916|INFO|src/thread_manager/epollin_task.cpp:66|]>139989942007616 epollin_task end...
+
+[2020-02-22 20:50:40,4912|INFO|src/main.cpp:113|]>client abnormal exit...
+
+[2020-02-22 20:50:40,5192|INFO|src/main.cpp:74|]>new connect...
+[2020-02-22 20:50:40,5193|INFO|src/main.cpp:82|]>>>47.103.33.128:59908<<
+
+[2020-02-22 20:50:40,5193|INFO|src/main.cpp:110|]>add new connect succ...
+
+[2020-02-22 20:50:40,5193|DEBUG|src/main.cpp:119|]>EPOLLIN event...
+
+[2020-02-22 20:50:40,5194|INFO|src/thread_manager/epollin_task.cpp:19|]>139989942007616 epollin_task begin...
+
+[2020-02-22 20:50:40,5194|DEBUG|src/operation/recvSocketData.cpp:25|]>EAGAIN...
+
+[2020-02-22 20:50:40,5194|INFO|src/operation/recvSocketData.cpp:55|]>recvSocketData succ...
+
+[2020-02-22 20:50:40,5194|INFO|src/thread_manager/epollin_task.cpp:34|]>idrn: 0
+
+[2020-02-22 20:50:40,5194|INFO|src/thread_manager/epollin_task.cpp:35|]>desc: 
+
+[2020-02-22 20:50:40,5194|INFO|src/thread_manager/epollin_task.cpp:36|]>id: 0
+
+[2020-02-22 20:50:40,5195|INFO|src/thread_manager/epollin_task.cpp:37|]>num: 0
+
+[2020-02-22 20:50:40,5195|DEBUG|src/thread_manager/epollin_task.cpp:51|]>------------------------------
+
+[2020-02-22 20:50:40,5195|INFO|src/thread_manager/epollin_task.cpp:55|]>uuid: 0
+
+[2020-02-22 20:50:40,5195|INFO|src/thread_manager/epollin_task.cpp:56|]>identifier: 
+
+[2020-02-22 20:50:40,5195|INFO|src/thread_manager/epollin_task.cpp:57|]>pwd: 
+
+[2020-02-22 20:50:40,5195|INFO|src/thread_manager/epollin_task.cpp:66|]>139989942007616 epollin_task end...
+
+[2020-02-22 20:50:45,5200|INFO|src/main.cpp:113|]>client abnormal exit...
+
+[2020-02-22 20:50:45,5507|INFO|src/main.cpp:74|]>new connect...
+[2020-02-22 20:50:45,5508|INFO|src/main.cpp:82|]>>>47.103.33.128:38664<<
+
+[2020-02-22 20:50:45,5509|INFO|src/main.cpp:110|]>add new connect succ...
+
+[2020-02-22 20:50:45,5509|DEBUG|src/main.cpp:119|]>EPOLLIN event...
+
+[2020-02-22 20:50:45,5509|INFO|src/thread_manager/epollin_task.cpp:19|]>139989942007616 epollin_task begin...
+
+[2020-02-22 20:50:45,5509|DEBUG|src/operation/recvSocketData.cpp:25|]>EAGAIN...
+
+[2020-02-22 20:50:45,5509|INFO|src/operation/recvSocketData.cpp:55|]>recvSocketData succ...
+
+[2020-02-22 20:50:45,5510|INFO|src/thread_manager/epollin_task.cpp:34|]>idrn: 0
+
+[2020-02-22 20:50:45,5510|INFO|src/thread_manager/epollin_task.cpp:35|]>desc: 
+
+[2020-02-22 20:50:45,5510|INFO|src/thread_manager/epollin_task.cpp:36|]>id: 0
+
+[2020-02-22 20:50:45,5510|INFO|src/thread_manager/epollin_task.cpp:37|]>num: 0
+
+[2020-02-22 20:50:45,5510|DEBUG|src/thread_manager/epollin_task.cpp:51|]>------------------------------
+
+[2020-02-22 20:50:45,5510|INFO|src/thread_manager/epollin_task.cpp:55|]>uuid: 0
+
+[2020-02-22 20:50:45,5510|INFO|src/thread_manager/epollin_task.cpp:56|]>identifier: 
+
+[2020-02-22 20:50:45,5510|INFO|src/thread_manager/epollin_task.cpp:57|]>pwd: 
+
+[2020-02-22 20:50:45,5511|INFO|src/thread_manager/epollin_task.cpp:66|]>139989942007616 epollin_task end...
+
+[2020-02-22 20:50:50,5508|INFO|src/main.cpp:113|]>client abnormal exit...
+
+[2020-02-22 20:50:50,5779|INFO|src/main.cpp:74|]>new connect...
+[2020-02-22 20:50:50,5780|INFO|src/main.cpp:82|]>>>47.103.33.128:42606<<
+
+[2020-02-22 20:50:50,5780|INFO|src/main.cpp:110|]>add new connect succ...
+
+[2020-02-22 20:50:50,5780|DEBUG|src/main.cpp:119|]>EPOLLIN event...
+
+[2020-02-22 20:50:50,5781|INFO|src/thread_manager/epollin_task.cpp:19|]>139989942007616 epollin_task begin...
+
+[2020-02-22 20:50:50,5781|DEBUG|src/operation/recvSocketData.cpp:25|]>EAGAIN...
+
+[2020-02-22 20:50:50,5781|INFO|src/operation/recvSocketData.cpp:55|]>recvSocketData succ...
+
+[2020-02-22 20:50:50,5781|INFO|src/thread_manager/epollin_task.cpp:34|]>idrn: 0
+
+[2020-02-22 20:50:50,5781|INFO|src/thread_manager/epollin_task.cpp:35|]>desc: 
+
+[2020-02-22 20:50:50,5781|INFO|src/thread_manager/epollin_task.cpp:36|]>id: 0
+
+[2020-02-22 20:50:50,5782|INFO|src/thread_manager/epollin_task.cpp:37|]>num: 0
+
+[2020-02-22 20:50:50,5782|DEBUG|src/thread_manager/epollin_task.cpp:51|]>------------------------------
+
+[2020-02-22 20:50:50,5782|INFO|src/thread_manager/epollin_task.cpp:55|]>uuid: 0
+
+[2020-02-22 20:50:50,5782|INFO|src/thread_manager/epollin_task.cpp:56|]>identifier: 
+
+[2020-02-22 20:50:50,5782|INFO|src/thread_manager/epollin_task.cpp:57|]>pwd: 
+
+[2020-02-22 20:50:50,5782|INFO|src/thread_manager/epollin_task.cpp:66|]>139989942007616 epollin_task end...
+
+[2020-02-22 20:50:55,5780|INFO|src/main.cpp:113|]>client abnormal exit...
+
+[2020-02-22 20:50:55,6092|INFO|src/main.cpp:74|]>new connect...
+[2020-02-22 20:50:55,6093|INFO|src/main.cpp:82|]>>>47.103.33.128:48472<<
+
+[2020-02-22 20:50:55,6094|INFO|src/main.cpp:110|]>add new connect succ...
+
+[2020-02-22 20:50:55,6094|DEBUG|src/main.cpp:119|]>EPOLLIN event...
+
+[2020-02-22 20:50:55,6094|INFO|src/thread_manager/epollin_task.cpp:19|]>139989942007616 epollin_task begin...
+
+[2020-02-22 20:50:55,6095|DEBUG|src/operation/recvSocketData.cpp:25|]>EAGAIN...
+
+[2020-02-22 20:50:55,6095|INFO|src/operation/recvSocketData.cpp:55|]>recvSocketData succ...
+
+[2020-02-22 20:50:55,6095|INFO|src/thread_manager/epollin_task.cpp:34|]>idrn: 0
+
+[2020-02-22 20:50:55,6095|INFO|src/thread_manager/epollin_task.cpp:35|]>desc: 
+
+[2020-02-22 20:50:55,6096|INFO|src/thread_manager/epollin_task.cpp:36|]>id: 0
+
+[2020-02-22 20:50:55,6096|INFO|src/thread_manager/epollin_task.cpp:37|]>num: 0
+
+[2020-02-22 20:50:55,6096|DEBUG|src/thread_manager/epollin_task.cpp:51|]>------------------------------
+
+[2020-02-22 20:50:55,6097|INFO|src/thread_manager/epollin_task.cpp:55|]>uuid: 0
+
+[2020-02-22 20:50:55,6097|INFO|src/thread_manager/epollin_task.cpp:56|]>identifier: 
+
+[2020-02-22 20:50:55,6097|INFO|src/thread_manager/epollin_task.cpp:57|]>pwd: 
+
+[2020-02-22 20:50:55,6097|INFO|src/thread_manager/epollin_task.cpp:66|]>139989942007616 epollin_task end...
+
+[2020-02-22 20:51:00,6105|INFO|src/main.cpp:113|]>client abnormal exit...
+
+[2020-02-22 20:51:00,6397|INFO|src/main.cpp:74|]>new connect...
+[2020-02-22 20:51:00,6398|INFO|src/main.cpp:82|]>>>47.103.33.128:59282<<
+
+[2020-02-22 20:51:00,6398|INFO|src/main.cpp:110|]>add new connect succ...
+
+[2020-02-22 20:51:00,6398|DEBUG|src/main.cpp:119|]>EPOLLIN event...
+
+[2020-02-22 20:51:00,6399|INFO|src/thread_manager/epollin_task.cpp:19|]>139989942007616 epollin_task begin...
+
+[2020-02-22 20:51:00,6399|DEBUG|src/operation/recvSocketData.cpp:25|]>EAGAIN...
+
+[2020-02-22 20:51:00,6399|INFO|src/operation/recvSocketData.cpp:55|]>recvSocketData succ...
+
+[2020-02-22 20:51:00,6399|INFO|src/thread_manager/epollin_task.cpp:34|]>idrn: 0
+
+[2020-02-22 20:51:00,6399|INFO|src/thread_manager/epollin_task.cpp:35|]>desc: 
+
+[2020-02-22 20:51:00,6399|INFO|src/thread_manager/epollin_task.cpp:36|]>id: 0
+
+[2020-02-22 20:51:00,6399|INFO|src/thread_manager/epollin_task.cpp:37|]>num: 0
+
+[2020-02-22 20:51:00,6400|DEBUG|src/thread_manager/epollin_task.cpp:51|]>------------------------------
+
+[2020-02-22 20:51:00,6400|INFO|src/thread_manager/epollin_task.cpp:55|]>uuid: 0
+
+[2020-02-22 20:51:00,6400|INFO|src/thread_manager/epollin_task.cpp:56|]>identifier: 
+
+[2020-02-22 20:51:00,6400|INFO|src/thread_manager/epollin_task.cpp:57|]>pwd: 
+
+[2020-02-22 20:51:00,6400|INFO|src/thread_manager/epollin_task.cpp:66|]>139989942007616 epollin_task end...
+
+[2020-02-22 20:51:05,6404|INFO|src/main.cpp:113|]>client abnormal exit...
+
+[2020-02-22 20:51:05,6742|INFO|src/main.cpp:74|]>new connect...
+[2020-02-22 20:51:05,6743|INFO|src/main.cpp:82|]>>>47.103.33.128:42614<<
+
+[2020-02-22 20:51:05,6743|INFO|src/main.cpp:110|]>add new connect succ...
+
+[2020-02-22 20:51:05,6744|DEBUG|src/main.cpp:119|]>EPOLLIN event...
+
+[2020-02-22 20:51:05,6744|INFO|src/thread_manager/epollin_task.cpp:19|]>139989942007616 epollin_task begin...
+
+[2020-02-22 20:51:05,6744|DEBUG|src/operation/recvSocketData.cpp:25|]>EAGAIN...
+
+[2020-02-22 20:51:05,6744|INFO|src/operation/recvSocketData.cpp:55|]>recvSocketData succ...
+
+[2020-02-22 20:51:05,6744|INFO|src/thread_manager/epollin_task.cpp:34|]>idrn: 0
+
+[2020-02-22 20:51:05,6745|INFO|src/thread_manager/epollin_task.cpp:35|]>desc: 
+
+[2020-02-22 20:51:05,6745|INFO|src/thread_manager/epollin_task.cpp:36|]>id: 0
+
+[2020-02-22 20:51:05,6745|INFO|src/thread_manager/epollin_task.cpp:37|]>num: 0
+
+[2020-02-22 20:51:05,6745|DEBUG|src/thread_manager/epollin_task.cpp:51|]>------------------------------
+
+[2020-02-22 20:51:05,6745|INFO|src/thread_manager/epollin_task.cpp:55|]>uuid: 0
+
+[2020-02-22 20:51:05,6745|INFO|src/thread_manager/epollin_task.cpp:56|]>identifier: 
+
+[2020-02-22 20:51:05,6746|INFO|src/thread_manager/epollin_task.cpp:57|]>pwd: 
+
+[2020-02-22 20:51:05,6746|INFO|src/thread_manager/epollin_task.cpp:66|]>139989942007616 epollin_task end...
+
+[2020-02-22 20:51:10,6745|INFO|src/main.cpp:113|]>client abnormal exit...
+
+[2020-02-22 20:51:10,7050|INFO|src/main.cpp:74|]>new connect...
+[2020-02-22 20:51:10,7051|INFO|src/main.cpp:82|]>>>47.103.33.128:50238<<
+
+[2020-02-22 20:51:10,7052|INFO|src/main.cpp:110|]>add new connect succ...
+
+[2020-02-22 20:51:10,7052|DEBUG|src/main.cpp:119|]>EPOLLIN event...
+
+[2020-02-22 20:51:10,7052|INFO|src/thread_manager/epollin_task.cpp:19|]>139989942007616 epollin_task begin...
+
+[2020-02-22 20:51:10,7052|DEBUG|src/operation/recvSocketData.cpp:25|]>EAGAIN...
+
+[2020-02-22 20:51:10,7052|INFO|src/operation/recvSocketData.cpp:55|]>recvSocketData succ...
+
+[2020-02-22 20:51:10,7053|INFO|src/thread_manager/epollin_task.cpp:34|]>idrn: 0
+
+[2020-02-22 20:51:10,7053|INFO|src/thread_manager/epollin_task.cpp:35|]>desc: 
+
+[2020-02-22 20:51:10,7053|INFO|src/thread_manager/epollin_task.cpp:36|]>id: 0
+
+[2020-02-22 20:51:10,7053|INFO|src/thread_manager/epollin_task.cpp:37|]>num: 0
+
+[2020-02-22 20:51:10,7053|DEBUG|src/thread_manager/epollin_task.cpp:51|]>------------------------------
+
+[2020-02-22 20:51:10,7053|INFO|src/thread_manager/epollin_task.cpp:55|]>uuid: 0
+
+[2020-02-22 20:51:10,7053|INFO|src/thread_manager/epollin_task.cpp:56|]>identifier: 
+
+[2020-02-22 20:51:10,7053|INFO|src/thread_manager/epollin_task.cpp:57|]>pwd: 
+
+[2020-02-22 20:51:10,7054|INFO|src/thread_manager/epollin_task.cpp:66|]>139989942007616 epollin_task end...
+
+[2020-02-22 20:51:15,7056|INFO|src/main.cpp:113|]>client abnormal exit...
+
+[2020-02-22 20:51:15,7375|INFO|src/main.cpp:74|]>new connect...
+[2020-02-22 20:51:15,7376|INFO|src/main.cpp:82|]>>>47.103.33.128:57100<<
+
+[2020-02-22 20:51:15,7376|INFO|src/main.cpp:110|]>add new connect succ...
+
+[2020-02-22 20:51:15,7377|DEBUG|src/main.cpp:119|]>EPOLLIN event...
+
+[2020-02-22 20:51:15,7378|INFO|src/thread_manager/epollin_task.cpp:19|]>139989942007616 epollin_task begin...
+
+[2020-02-22 20:51:15,7378|DEBUG|src/operation/recvSocketData.cpp:25|]>EAGAIN...
+
+[2020-02-22 20:51:15,7378|INFO|src/operation/recvSocketData.cpp:55|]>recvSocketData succ...
+
+[2020-02-22 20:51:15,7378|INFO|src/thread_manager/epollin_task.cpp:34|]>idrn: 0
+
+[2020-02-22 20:51:15,7378|INFO|src/thread_manager/epollin_task.cpp:35|]>desc: 
+
+[2020-02-22 20:51:15,7378|INFO|src/thread_manager/epollin_task.cpp:36|]>id: 0
+
+[2020-02-22 20:51:15,7379|INFO|src/thread_manager/epollin_task.cpp:37|]>num: 0
+
+[2020-02-22 20:51:15,7379|DEBUG|src/thread_manager/epollin_task.cpp:51|]>------------------------------
+
+[2020-02-22 20:51:15,7379|INFO|src/thread_manager/epollin_task.cpp:55|]>uuid: 0
+
+[2020-02-22 20:51:15,7379|INFO|src/thread_manager/epollin_task.cpp:56|]>identifier: 
+
+[2020-02-22 20:51:15,7379|INFO|src/thread_manager/epollin_task.cpp:57|]>pwd: 
+
+[2020-02-22 20:51:15,7379|INFO|src/thread_manager/epollin_task.cpp:66|]>139989942007616 epollin_task end...
+
+[2020-02-22 20:51:20,7379|INFO|src/main.cpp:113|]>client abnormal exit...
+
+[2020-02-22 20:51:20,7703|INFO|src/main.cpp:74|]>new connect...
+[2020-02-22 20:51:20,7704|INFO|src/main.cpp:82|]>>>47.103.33.128:35248<<
+
+[2020-02-22 20:51:20,7704|INFO|src/main.cpp:110|]>add new connect succ...
+
+[2020-02-22 20:51:20,7704|DEBUG|src/main.cpp:119|]>EPOLLIN event...
+
+[2020-02-22 20:51:20,7705|INFO|src/thread_manager/epollin_task.cpp:19|]>139989942007616 epollin_task begin...
+
+[2020-02-22 20:51:20,7705|DEBUG|src/operation/recvSocketData.cpp:25|]>EAGAIN...
+
+[2020-02-22 20:51:20,7705|INFO|src/operation/recvSocketData.cpp:55|]>recvSocketData succ...
+
+[2020-02-22 20:51:20,7705|INFO|src/thread_manager/epollin_task.cpp:34|]>idrn: 0
+
+[2020-02-22 20:51:20,7705|INFO|src/thread_manager/epollin_task.cpp:35|]>desc: 
+
+[2020-02-22 20:51:20,7705|INFO|src/thread_manager/epollin_task.cpp:36|]>id: 0
+
+[2020-02-22 20:51:20,7706|INFO|src/thread_manager/epollin_task.cpp:37|]>num: 0
+
+[2020-02-22 20:51:20,7706|DEBUG|src/thread_manager/epollin_task.cpp:51|]>------------------------------
+
+[2020-02-22 20:51:20,7706|INFO|src/thread_manager/epollin_task.cpp:55|]>uuid: 0
+
+[2020-02-22 20:51:20,7706|INFO|src/thread_manager/epollin_task.cpp:56|]>identifier: 
+
+[2020-02-22 20:51:20,7706|INFO|src/thread_manager/epollin_task.cpp:57|]>pwd: 
+
+[2020-02-22 20:51:20,7706|INFO|src/thread_manager/epollin_task.cpp:66|]>139989942007616 epollin_task end...
+
+[2020-02-22 20:51:25,7706|INFO|src/main.cpp:113|]>client abnormal exit...
+
+[2020-02-22 20:51:25,7961|INFO|src/main.cpp:74|]>new connect...
+[2020-02-22 20:51:25,7962|INFO|src/main.cpp:82|]>>>47.103.33.128:38890<<
+
+[2020-02-22 20:51:25,7963|INFO|src/main.cpp:110|]>add new connect succ...
+
+[2020-02-22 20:51:25,7963|DEBUG|src/main.cpp:119|]>EPOLLIN event...
+
+[2020-02-22 20:51:25,7963|INFO|src/thread_manager/epollin_task.cpp:19|]>139989942007616 epollin_task begin...
+
+[2020-02-22 20:51:25,7963|DEBUG|src/operation/recvSocketData.cpp:25|]>EAGAIN...
+
+[2020-02-22 20:51:25,7963|INFO|src/operation/recvSocketData.cpp:55|]>recvSocketData succ...
+
+[2020-02-22 20:51:25,7964|INFO|src/thread_manager/epollin_task.cpp:34|]>idrn: 0
+
+[2020-02-22 20:51:25,7964|INFO|src/thread_manager/epollin_task.cpp:35|]>desc: 
+
+[2020-02-22 20:51:25,7964|INFO|src/thread_manager/epollin_task.cpp:36|]>id: 0
+
+[2020-02-22 20:51:25,7964|INFO|src/thread_manager/epollin_task.cpp:37|]>num: 0
+
+[2020-02-22 20:51:25,7964|DEBUG|src/thread_manager/epollin_task.cpp:51|]>------------------------------
+
+[2020-02-22 20:51:25,7964|INFO|src/thread_manager/epollin_task.cpp:55|]>uuid: 0
+
+[2020-02-22 20:51:25,7964|INFO|src/thread_manager/epollin_task.cpp:56|]>identifier: 
+
+[2020-02-22 20:51:25,7964|INFO|src/thread_manager/epollin_task.cpp:57|]>pwd: 
+
+[2020-02-22 20:51:25,7965|INFO|src/thread_manager/epollin_task.cpp:66|]>139989942007616 epollin_task end...
+
+[2020-02-22 20:51:30,7969|INFO|src/main.cpp:113|]>client abnormal exit...
+
+[2020-02-22 20:52:03,0103|INFO|src/main.cpp:74|]>new connect...
+[2020-02-22 20:52:03,0104|INFO|src/main.cpp:82|]>>>47.103.33.128:706<<
+
+[2020-02-22 20:52:03,0104|INFO|src/main.cpp:110|]>add new connect succ...
+
+[2020-02-22 20:52:03,0320|DEBUG|src/main.cpp:119|]>EPOLLIN event...
+
+[2020-02-22 20:52:03,0321|INFO|src/thread_manager/epollin_task.cpp:19|]>139989942007616 epollin_task begin...
+
+[2020-02-22 20:52:03,0321|DEBUG|src/operation/recvSocketData.cpp:25|]>EAGAIN...
+
+[2020-02-22 20:52:03,0321|INFO|src/operation/recvSocketData.cpp:55|]>recvSocketData succ...
+
+[2020-02-22 20:52:03,0321|INFO|src/thread_manager/epollin_task.cpp:34|]>idrn: 0
+
+[2020-02-22 20:52:03,0321|INFO|src/thread_manager/epollin_task.cpp:35|]>desc: 
+
+[2020-02-22 20:52:03,0321|INFO|src/thread_manager/epollin_task.cpp:36|]>id: 0
+
+[2020-02-22 20:52:03,0322|INFO|src/thread_manager/epollin_task.cpp:37|]>num: 0
+
+[2020-02-22 20:52:03,0322|DEBUG|src/thread_manager/epollin_task.cpp:51|]>------------------------------
+
+[2020-02-22 20:52:03,0322|INFO|src/thread_manager/epollin_task.cpp:55|]>uuid: 0
+
+[2020-02-22 20:52:03,0322|INFO|src/thread_manager/epollin_task.cpp:56|]>identifier: 
+
+[2020-02-22 20:52:03,0322|INFO|src/thread_manager/epollin_task.cpp:57|]>pwd: 
+
+[2020-02-22 20:52:03,0322|INFO|src/thread_manager/epollin_task.cpp:66|]>139989942007616 epollin_task end...
+
+[2020-02-22 20:52:04,1802|INFO|src/main.cpp:113|]>client abnormal exit...
+

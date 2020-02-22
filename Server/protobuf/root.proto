@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+message root {
+	enum AccessType {
+		blank = 0;
+		
+		login = 1001;
+		logout = 1002;
+		
+		textMessage = 2001;
+	}
+	AccessType _type = 1;
+}

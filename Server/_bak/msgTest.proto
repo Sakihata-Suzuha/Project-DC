@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+package msgTest;
+
+message testBody_a {
+	uint32 idrn = 1;
+	string desc = 2;
+}
